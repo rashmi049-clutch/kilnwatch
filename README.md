@@ -90,7 +90,8 @@ flowchart LR
 |---|---|
 | Every kiln within 800 m of a school (1,133), checked by eye on Esri imagery; older captures for hazy ones | **101 non-kilns removed** (parks, stadiums, yards, factories) |
 | Earth Engine heat record, 3 seasons: kilns away from schools firing in < 8 dry-season months (218), checked by eye | **65 more non-kilns removed** (fields, drying yards, quarries) |
-| Visual audit, 25 random kilns across the whole layer, dated Google Earth imagery | **Precision 0.91** (95% CI 0.73–0.98) |
+| Audit 1 by Rashmi Sinha: 25 random kilns, whole layer before cleaning, Google Earth history | **Precision 0.91** (95% CI 0.73–0.98) |
+| Audit 2 by Rashmi Sinha: 30 random kilns from the 1,904 not checked by eye, Google Earth history | **29 / 29 working kilns** (95% CI 0.88–1.00) |
 | Independent re-count of exposure in QGIS | Identical to the code (415 / 174 / 263) |
 | Firing calendar | Matches the known season: relight Oct–Nov, peak Feb–May, monsoon shutdown |
 | Sentinel-2C replaced 2A in Jan 2025 | Background heat at control points flat across the switch |

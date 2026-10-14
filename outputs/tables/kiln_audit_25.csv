@@ -1,26 +1,26 @@
-audit_no,det_index,lat,lon,conf,hot_frac,verdict,note
-1,2781,27.87576,77.18446,0.5291393399238586,0.217391304347826,active,"chimney shadow, brick-drying rows, pond; images 4/2022, 5/2024, 3/2025"
-2,958,28.23972,76.49073,0.5898029208183289,0.4736842105263157,unclear,"latest image 12/2022 (before season); grey dug pit + shed, no kiln features in 2022 - leans not_kiln"
-3,154,28.15994,76.13977,0.4809581339359283,0.2222222222222222,active,"chimney at pin with long shadow, elongated FCBK body, bare yard; image 3/2025; rechecked by analyst under strict rule: active"
-4,5053,28.44937,77.64278,0.4051258862018585,0.238095238095238,active,rechecked by analyst under strict rule (in-season or both sides): active; confirmed: working photo before 2025 (in-season or bracketed)
-5,1907,28.91714,76.88064,0.3215077221393585,0.25,unclear,active 12/2022; no 2023-24 image; 11/2025 vague/idle. (Heat data not used - would be circular.) Step 14 says stopped by 2025-26.
-6,1923,28.88564,76.84441,0.6861953139305115,0.7894736842105263,active,"working in 2022 and 2025, no 2023-24 image - bracketed, active under strict rule"
-7,190,28.93131,76.13723,0.426701009273529,0.2,relict,"kiln remains only, no activity - judged by analyst"
-8,4828,28.78365,77.55325,0.7246853709220886,0.3333333333333333,active,judged by analyst under strict rule; confirmed: working photo before 2025 (in-season or bracketed)
-9,5363,28.48586,77.74992,0.6361076831817627,0.1904761904761904,active,judged by analyst under strict rule; confirmed: working photo before 2025 (in-season or bracketed)
-10,5553,28.25406,77.92211,0.6104224324226379,0.1590909090909091,active,judged by analyst under strict rule; confirmed: working photo before 2025 (in-season or bracketed)
-11,3302,28.79493,77.31977,0.4534310698509216,0.3333333333333333,active,judged by analyst; kiln visible; confirmed: working photo before 2025 (in-season or bracketed)
-12,1416,28.36676,76.72696,0.4268791377544403,0.4210526315789473,active,"5/2025: chimney, fired-brick stacks, drying rows, coal pile; analyst confirmed active under strict rule; confirmed: working photo before 2025 (in-season or bracketed)"
-13,3968,28.94012,77.40212,0.6641979217529297,0.125,active,"3/2025: chimney, red kiln body, drying sheds, coal pile; analyst confirmed active under strict rule; confirmed: working photo before 2025 (in-season or bracketed)"
-14,3540,29.33896,77.33428,0.4705653190612793,0.7083333333333334,active,judged by analyst under strict rule; confirmed: working photo before 2025 (in-season or bracketed)
-15,4056,29.2067,77.38759,0.6113396286964417,0.5,active,judged by analyst under strict rule; confirmed: working photo before 2025 (in-season or bracketed)
-16,5721,29.45197,77.93574,0.2989198863506317,0.1458333333333333,active,bracketed: 6/2022 chimney + bare worked yard (no overgrowth); no 2023-24 image; 2025 working
-17,1164,28.52866,76.68542,0.5142979025840759,0.2631578947368421,active,judged by analyst under strict rule; confirmed: working photo before 2025 (in-season or bracketed)
-18,1561,28.62044,76.76896,0.4422786831855774,0.5789473684210527,active,judged by analyst under strict rule; confirmed: working photo before 2025 (in-season or bracketed)
-19,2551,28.89552,77.0459,0.2868836522102356,0.7692307692307693,active,6/2024 working kiln (in/at end of season); 3/2025 demolished; 2/2026 fields. Step 14 status: stopped
-20,5439,29.02153,77.82155,0.6301345229148865,0.375,active,"bracketed: working 2022, no 2023-24 image, working 2025"
-21,4483,28.99155,77.44481,0.5634694695472717,0.391304347826087,active,judged by analyst under strict rule
-22,3227,28.08207,77.27909,0.2743020951747894,0.3809523809523809,active,"in-season 3/2024 working kiln (chimney); pin ~100 m west of kiln, on clay yard - position offset"
-23,4809,28.84115,77.55154,0.364115446805954,0.2790697674418604,active,judged by analyst under strict rule
-24,3894,28.72798,77.41219,0.6563739776611328,0.238095238095238,active,judged by analyst under strict rule
-25,3279,28.83816,77.22217,0.2783352434635162,0.4222222222222222,not_kiln,"bare ground at every date incl. after 2023-24; conf 0.28, hot_frac 0.42 - false positive"
+audit_no,det_index,lat,lon,conf,hot_frac,verdict,note,audited_by,imagery
+1,2781,27.87576,77.18446,0.5291393399238586,0.217391304347826,active,"chimney shadow, brick-drying rows, pond; images 4/2022, 5/2024, 3/2025",Rashmi Sinha,Google Earth Pro historical imagery
+2,958,28.23972,76.49073,0.5898029208183289,0.4736842105263157,unclear,"latest image 12/2022 (before season); grey dug pit + shed, no kiln features in 2022 - leans not_kiln",Rashmi Sinha,Google Earth Pro historical imagery
+3,154,28.15994,76.13977,0.4809581339359283,0.2222222222222222,active,"chimney at pin with long shadow, elongated FCBK body, bare yard; image 3/2025; rechecked by analyst under strict rule: active",Rashmi Sinha,Google Earth Pro historical imagery
+4,5053,28.44937,77.64278,0.4051258862018585,0.238095238095238,active,rechecked by analyst under strict rule (in-season or both sides): active; confirmed: working photo before 2025 (in-season or bracketed),Rashmi Sinha,Google Earth Pro historical imagery
+5,1907,28.91714,76.88064,0.3215077221393585,0.25,unclear,active 12/2022; no 2023-24 image; 11/2025 vague/idle. (Heat data not used - would be circular.) Step 14 says stopped by 2025-26.,Rashmi Sinha,Google Earth Pro historical imagery
+6,1923,28.88564,76.84441,0.6861953139305115,0.7894736842105263,active,"working in 2022 and 2025, no 2023-24 image - bracketed, active under strict rule",Rashmi Sinha,Google Earth Pro historical imagery
+7,190,28.93131,76.13723,0.426701009273529,0.2,relict,"kiln remains only, no activity - judged by analyst",Rashmi Sinha,Google Earth Pro historical imagery
+8,4828,28.78365,77.55325,0.7246853709220886,0.3333333333333333,active,judged by analyst under strict rule; confirmed: working photo before 2025 (in-season or bracketed),Rashmi Sinha,Google Earth Pro historical imagery
+9,5363,28.48586,77.74992,0.6361076831817627,0.1904761904761904,active,judged by analyst under strict rule; confirmed: working photo before 2025 (in-season or bracketed),Rashmi Sinha,Google Earth Pro historical imagery
+10,5553,28.25406,77.92211,0.6104224324226379,0.1590909090909091,active,judged by analyst under strict rule; confirmed: working photo before 2025 (in-season or bracketed),Rashmi Sinha,Google Earth Pro historical imagery
+11,3302,28.79493,77.31977,0.4534310698509216,0.3333333333333333,active,judged by analyst; kiln visible; confirmed: working photo before 2025 (in-season or bracketed),Rashmi Sinha,Google Earth Pro historical imagery
+12,1416,28.36676,76.72696,0.4268791377544403,0.4210526315789473,active,"5/2025: chimney, fired-brick stacks, drying rows, coal pile; analyst confirmed active under strict rule; confirmed: working photo before 2025 (in-season or bracketed)",Rashmi Sinha,Google Earth Pro historical imagery
+13,3968,28.94012,77.40212,0.6641979217529297,0.125,active,"3/2025: chimney, red kiln body, drying sheds, coal pile; analyst confirmed active under strict rule; confirmed: working photo before 2025 (in-season or bracketed)",Rashmi Sinha,Google Earth Pro historical imagery
+14,3540,29.33896,77.33428,0.4705653190612793,0.7083333333333334,active,judged by analyst under strict rule; confirmed: working photo before 2025 (in-season or bracketed),Rashmi Sinha,Google Earth Pro historical imagery
+15,4056,29.2067,77.38759,0.6113396286964417,0.5,active,judged by analyst under strict rule; confirmed: working photo before 2025 (in-season or bracketed),Rashmi Sinha,Google Earth Pro historical imagery
+16,5721,29.45197,77.93574,0.2989198863506317,0.1458333333333333,active,bracketed: 6/2022 chimney + bare worked yard (no overgrowth); no 2023-24 image; 2025 working,Rashmi Sinha,Google Earth Pro historical imagery
+17,1164,28.52866,76.68542,0.5142979025840759,0.2631578947368421,active,judged by analyst under strict rule; confirmed: working photo before 2025 (in-season or bracketed),Rashmi Sinha,Google Earth Pro historical imagery
+18,1561,28.62044,76.76896,0.4422786831855774,0.5789473684210527,active,judged by analyst under strict rule; confirmed: working photo before 2025 (in-season or bracketed),Rashmi Sinha,Google Earth Pro historical imagery
+19,2551,28.89552,77.0459,0.2868836522102356,0.7692307692307693,active,6/2024 working kiln (in/at end of season); 3/2025 demolished; 2/2026 fields. Step 14 status: stopped,Rashmi Sinha,Google Earth Pro historical imagery
+20,5439,29.02153,77.82155,0.6301345229148865,0.375,active,"bracketed: working 2022, no 2023-24 image, working 2025",Rashmi Sinha,Google Earth Pro historical imagery
+21,4483,28.99155,77.44481,0.5634694695472717,0.391304347826087,active,judged by analyst under strict rule,Rashmi Sinha,Google Earth Pro historical imagery
+22,3227,28.08207,77.27909,0.2743020951747894,0.3809523809523809,active,"in-season 3/2024 working kiln (chimney); pin ~100 m west of kiln, on clay yard - position offset",Rashmi Sinha,Google Earth Pro historical imagery
+23,4809,28.84115,77.55154,0.364115446805954,0.2790697674418604,active,judged by analyst under strict rule,Rashmi Sinha,Google Earth Pro historical imagery
+24,3894,28.72798,77.41219,0.6563739776611328,0.238095238095238,active,judged by analyst under strict rule,Rashmi Sinha,Google Earth Pro historical imagery
+25,3279,28.83816,77.22217,0.2783352434635162,0.4222222222222222,not_kiln,"bare ground at every date incl. after 2023-24; conf 0.28, hot_frac 0.42 - false positive",Rashmi Sinha,Google Earth Pro historical imagery

@@ -110,9 +110,10 @@ Kheri (Shamli), has 12 within 800~m.
 \end{enumerate}
 
 \textbf{How far to trust it.} Every kiln near a school, and every weak-firing
-kiln, was checked by eye (Section~\ref{sec:fullcheck}); the remaining 1{,}904
-strong-firing kilns away from schools rest on the automated checks and a random
-audit (precision 0.91, 95\% CI 0.73--0.98).
+kiln, was checked by eye (Section~\ref{sec:fullcheck}); for the remaining 1{,}904
+strong-firing kilns away from schools, an independent Google Earth audit of 30
+random points by the analyst found every decided point a working kiln (29/29,
+95\% CI 0.88--1.00).
 An independent re-count in QGIS reproduced the exposure code's numbers exactly.
 The firing calendar matches the known season (relighting in Oct--Nov, a peak in
 Feb--May, shutdown in the monsoon). Counts are \emph{at least} figures: the
@@ -1078,8 +1079,17 @@ away from schools carry children (homes) but no schools.}
 In all, 166 non-kilns (5\% of the layer) were removed; exposed children fell by
 11\% and exposed schools by 30\%, because false kilns sat in towns and villages.
 What remains unchecked by eye is 1{,}904 strong-firing kilns away from schools;
-a random sample of 30 of them was given to the analyst for an independent check on
-dated Google Earth imagery (\texttt{outputs/kml/kiln\_audit2\_30.kml}).
+a random sample of 30 of them (seed 2027, \texttt{analysis/make\_audit2\_kml.py})
+was checked independently by the analyst, Rashmi Sinha, on dated Google Earth
+imagery --- different imagery and a different rater from the Esri checks above.
+\textbf{All 29 decided points were working kilns (precision 1.00, 95\% Wilson CI
+0.88--1.00)}; one was unclear (working in 2022, no later Google image). Every
+point and verdict is listed in Appendix~\ref{app:audits}.
+
+\textbf{Agreement between raters.} Two points of the analyst's first audit were
+later also checked by Claude on Esri imagery, without seeing her verdicts; both
+verdicts matched (one kiln, one bare ground). Small, but consistent with the two
+checks measuring the same thing.
 
 \subsection{Visual audit of 25 random kilns (measured precision)}
 \label{sec:audit}
@@ -1284,8 +1294,9 @@ by the visual audit (precision 0.91, Section~\ref{sec:audit}).
 \begin{itemize}[leftmargin=*]
 \item \emph{Precision.} Every kiln within 800~m of a school, and every
 weak-firing kiln, was checked by eye (one rater, Esri imagery, older captures for
-unclear cases); the remaining 1{,}904 strong-firing kilns away from schools rest
-on the random audit's 0.91 (95\% CI 0.73--0.98,
+unclear cases); the remaining 1{,}904 strong-firing kilns away from schools were
+audited by a random sample (29/29 working, 95\% CI 0.88--1.00, Google Earth,
+Rashmi Sinha); the first random audit, before cleaning, measured 0.91 (95\% CI 0.73--0.98,
 25 kilns, 18 of 21 ``active'' verdicts by bracketing). Visual checks confirm a
 kiln \emph{structure}; whether it fired in 2023--24 rests on the heat test.
 \item \emph{School locations.} Register coordinates; about half sit beside
@@ -1381,6 +1392,17 @@ Map classes & Jenks natural breaks, 5 classes \\
 \bottomrule
 \end{tabular}
 \end{table}
+
+\section{Google Earth audit records}\label{app:audits}
+Point-by-point record of the two independent audits carried out by the analyst,
+Rashmi Sinha, in Google Earth Pro historical imagery. Each point can be revisited at
+the coordinates given (WGS~84). Verdict rule, as in Section~\ref{sec:audit}:
+\emph{active} = activity visible in a 2023 or 2024 image, or working both before
+and after the 2023--24 season; \emph{relict} = kiln base or outline with no sign
+of use 2022--2025; \emph{not a kiln}; \emph{unclear}. Verdicts are from imagery
+only; the heat data were not consulted.
+
+\input{audit_tables.tex}
 
 \section{Glossary}
 {\small
