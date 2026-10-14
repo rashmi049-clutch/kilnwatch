@@ -19,9 +19,9 @@ key_h.attemptMove(QgsLayoutPoint(275, 223.5))
 key_b.attemptMove(QgsLayoutPoint(275, 229))
 key_b.attemptResize(QgsLayoutSize(135, 33))
 key_b.setText(
-    f"\u2248 4,700\u201312,300 t {PM} per season from 3,256 kilns (low: zigzag, 4 M bricks/kiln; high: fixed chimney, 6 M)\n"
-    "32% of it (1,500\u20133,900 t) comes from the 35% of kilns that have a school within 800 m\n"
-    "Baghpat: 300 t from kilns near schools (low case), 2.6\u00d7 the next district\n"
+    f"\u2248 4,600\u201311,900 t {PM} per season from 3,161 kilns (low: zigzag, 4 M bricks/kiln; high: fixed chimney, 6 M)\n"
+    "30% of it (1,400\u20133,500 t) comes from the 32% of kilns that have a school within 800 m\n"
+    "Baghpat: 270 t from kilns near schools (low case), 2.5\u00d7 the next district\n"
     f"Most-affected schools (kilns within 800 m \u00b7 t {PM}, low case):\n"
     "  1  JHS Rampur Kheri, Shamli \u2013 12 \u00b7 25 t        2  P.S. Matiyala, Ghaziabad \u2013 10 \u00b7 15 t\n"
     "  3  UPS Biharipur, Baghpat \u2013 7 \u00b7 15 t            4  N.K. Memorial Public School, Dahapa, Hapur \u2013 8 \u00b7 14 t\n"
@@ -30,7 +30,7 @@ method.setText(
     "Method: PM\u2082.\u2085 = bricks \u00d7 3 kg \u00d7 emission factor. Emission factors: World Bank (2020) Table 2.1 "
     "(zigzag 0.12, fixed chimney 0.21 g/kg fired brick). Bricks per kiln ASSUMED (4\u20136 million/season). "
     "Each kiln's share set by its 2023\u201324 Sentinel-2 firing frequency. Kilns: YOLO11 detector, firing-verified, "
-    "non-kilns removed, precision 0.91 (audit of 25). Schools: UDISE (DataMeet), location-checked.\n"
+    "non-kilns removed, every kiln near a school checked by eye. Schools: UDISE (DataMeet), location-checked, shared points removed.\n"
     "Data: Copernicus Sentinel-2 (ESA), SentinelKilnDB (IIT Gandhinagar, CC BY-NC 4.0), ESA WorldCover, UDISE/DataMeet, "
     "World Bank (CC BY 3.0 IGO), OpenStreetMap contributors, NCRPB boundaries (rebuilt).\n"
     "CRS: WGS 84 / UTM zone 43N (EPSG:32643)  \u00b7  Produced 13 October 2026  \u00b7  KilnWatch \u2013 Rashmi Sinha")

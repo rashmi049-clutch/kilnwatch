@@ -1,3 +1,3 @@
 near_school,kilns,stopped,stop_rate_pct,diff_pp,ci_low,ci_high,chi2_p
-no school within 800 m,2129,283,13.3,1.3,-1.2,3.9,0.3131
-school within 800 m,1127,165,14.6,1.3,-1.2,3.9,0.3131
+no school within 800 m,2157,285,13.2,-2.5,-4.8,-0.1,0.0587
+school within 800 m,1004,108,10.8,-2.5,-4.8,-0.1,0.0587

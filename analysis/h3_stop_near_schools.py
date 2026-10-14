@@ -14,9 +14,11 @@ from scipy.stats import chi2_contingency
 ROOT = Path(__file__).resolve().parents[1]
 k = gpd.read_file(ROOT / "data/kilns/kilns_change_32643.gpkg")
 k = k[k.status != "new"].reset_index(drop=True)
-# drop non-kiln heat sources (nonkiln_flag.py)
-rm = gpd.read_file(ROOT / "data/kilns/nonkiln_removed_32643.gpkg")
-k = k[gpd.sjoin_nearest(k, rm[["geometry"]], how="left", max_distance=1).index_right.isna().groupby(level=0).all()].reset_index(drop=True)
+# keep only kilns in the final layer (non-kiln heat sources, duplicates and the visual
+# check's non-kilns are all kiln_final = False in the master layer)
+det = gpd.read_file(ROOT / "data/kilns/detections_s2324_kiln_obb_ring_v1_best_filtered.gpkg")
+fin = det[det.kiln_final]
+k = k[cKDTree(np.c_[fin.geometry.x, fin.geometry.y]).query(np.c_[k.geometry.x, k.geometry.y])[0] < 1].reset_index(drop=True)
 d = gpd.read_file(ROOT / "data/boundaries/ncr_districts_32643.gpkg")
 k = gpd.sjoin(k, d[["district", "geometry"]], predicate="within")
 k = k[~k.district.str.contains("Delhi")].reset_index(drop=True)

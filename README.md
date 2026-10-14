@@ -1,12 +1,12 @@
 # KilnWatch — brick kilns and schoolchildren in Delhi-NCR
 
-**About 605,000 children aged 5–14 live within 800 m of a firing brick kiln in the
+**About 554,000 children aged 5–14 live within 800 m of a firing brick kiln in the
 National Capital Region.** That is inside the minimum siting distance the Central
 Pollution Control Board sets for schools and homes. In **Baghpat it is one child in three**.
 
 This project mapped every firing kiln in the 55,000 km² region from Sentinel-2
-imagery with an AI detector, checked each one in four ways, and joined the result
-to schools and children.
+imagery with an AI detector, checked each one in four automated ways, then checked
+every kiln near a school by eye, and joined the result to schools and children.
 
 ![Share of children aged 5–14 within 800 m of a firing brick kiln, by district](outputs/maps/kiln_exposure_map_A3_web.png)
 
@@ -19,30 +19,32 @@ click any kiln or school · **Full report (PDF):** [`report/build/ncr_kilns_repo
 
 | | Result |
 |---|---|
-| Children aged 5–14 within 800 m of a firing kiln | **≈ 605,000 (7.3%)** |
-| Worst district | **Baghpat, 32.8%** of its children |
-| Schools within 800 m of a kiln | **1,708** |
-| Kilns with a school within 800 m | **34.6%** of 3,256 |
-| Kilns that stopped firing by 2025–26 | 13.9%; **no more often near schools** (14.6% vs 13.3%, p = 0.31) |
-| Kilns near schools still firing in 2025–26 | **962** |
+| Children aged 5–14 within 800 m of a firing kiln | **≈ 554,000 (6.7%)** |
+| Worst district | **Baghpat, 32.4%** of its children |
+| Schools within 800 m of a kiln | **1,191** |
+| Kilns with a school within 800 m | **31.8%** of 3,161 |
+| Kilns that stopped firing by 2025–26 | 12.4%; **less often near schools** (10.8% vs 13.2%, p = 0.06) |
+| Kilns near schools still firing in 2025–26 | **896** |
 | Firing on air-quality emergency (GRAP III/IV) days | **Yes**; the GRAP schedules do not close kilns |
-| PM₂.₅ emitted by kilns, one season | **≈ 4,700–12,300 t** (estimate), about a third from kilns near schools |
+| PM₂.₅ emitted by kilns, one season | **≈ 4,600–11,900 t** (estimate), about 30% from kilns near schools |
 
 **Hypotheses** were written down before any data was analysed:
 
 | | Hypothesis | Result |
 |---|---|---|
-| H1 | ≥ 25% of kilns have a school within 800 m | **Confirmed**: 34.6% |
-| H2 | The top 3 districts hold > 50% of exposed children | **Rejected**: 37%. Exposure is spread across the region |
-| H3 | Enforcement does not target kilns near schools | **Confirmed**: closure rates are the same |
+| H1 | ≥ 25% of kilns have a school within 800 m | **Confirmed**: 31.8% |
+| H2 | The top 3 districts hold > 50% of exposed children | **Rejected**: 40%. Exposure is spread across the region |
+| H3 | Enforcement does not target kilns near schools | **Confirmed**: kilns near schools closed *less* often |
 
 **What should happen:**
-1. Check the 962 kilns still firing near schools against their consent-to-operate
+1. Check the 896 kilns still firing near schools against their consent-to-operate
    records, starting with Baghpat, Shamli and Muzaffarnagar.
 2. Consider adding kilns to the GRAP Stage III/IV closure list, as stone crushers
    and mines already are.
 3. Put PM₂.₅ monitors at the most-affected schools. JHS Rampur Kheri in Shamli
    has 12 kilns within 800 m.
+4. Fix the school register: about 3,100 NCR schools share a point with schools
+   from other villages.
 
 ![PM2.5 from kilns within 800 m of a school, by district](outputs/maps/kiln_emissions_map_A3_web.png)
 
@@ -57,8 +59,9 @@ flowchart LR
     C --> D[Firing check<br>SWIR heat in season]
     D --> E[Remove non-kilns<br>airports, plants,<br>year-round heat]
     E --> F[Remove<br>duplicates]
-    F --> G[3,265 kilns]
-    G --> H[Join: 36,738 schools<br>+ WorldPop children]
+    F --> V[Eye check of every<br>kiln near a school]
+    V --> G[3,164 kilns]
+    G --> H[Join: 33,648 schools<br>+ WorldPop children]
     H --> I[Exposure · change ·<br>emissions · maps]
 ```
 
@@ -76,7 +79,8 @@ flowchart LR
 - **Exposure.** Children aged 5–14 from WorldPop are counted inside the union of
   800 m buffers, so overlapping zones count each child once. School points from
   UDISE were checked: points whose district didn't match their location, or that
-  lay far from any buildings, were dropped.
+  lay far from any buildings, were dropped, and so were 3,090 points shared by
+  schools from different villages (default coordinates, not school locations).
 - **Change.** Each kiln is re-tested *at the same spot* in 2025–26, so detector
   misses can't pose as closures.
 
@@ -84,7 +88,8 @@ flowchart LR
 
 | Check | Result |
 |---|---|
-| Visual audit, 25 random kilns, dated Google Earth imagery | **Precision 0.91** (95% CI 0.73–0.98) |
+| Every kiln within 800 m of a school (1,133), checked by eye on Esri imagery; older captures for hazy ones | **101 non-kilns removed** (parks, stadiums, yards, factories) |
+| Visual audit, 25 random kilns across the whole layer, dated Google Earth imagery | **Precision 0.91** (95% CI 0.73–0.98) |
 | Independent re-count of exposure in QGIS | Identical to the code (415 / 174 / 263) |
 | Firing calendar | Matches the known season: relight Oct–Nov, peak Feb–May, monsoon shutdown |
 | Sentinel-2C replaced 2A in Jan 2025 | Background heat at control points flat across the switch |
@@ -110,6 +115,9 @@ Each is kept in the code and documented in the report.
   test is inconclusive.
 - **Correcting the closure rate for the firing test's miss rate.** It gave a
   negative rate, which showed the correction was wrong.
+- **Trusting automated checks alone near schools.** A full eye check found 9% of
+  near-school "kilns" were town sites. They had made kilns near schools look *more*
+  often closed; removed, the sign of H3's difference flipped.
 
 ## Repository
 
@@ -135,7 +143,7 @@ Main pipeline, in order: `fetch_ncr_boundary` → `prepare_ncr_boundary` →
 `prepare_schools` → `school_builtup_check` → `prepare_training` → `train_detector`
 → `fetch_s2_tiles` → `scan_ncr` → `landcover_filter` → `firing_verify` →
 `monsoon_heat` → `heat_source_check` → `nonkiln_flag` → `dedupe_kilns` →
-`exposure` → `kiln_change` → `h3_stop_near_schools` → `monthly_firing` →
+`apply_visual_check` → `exposure` → `exposure_excl_delhi` → `kiln_change` → `h3_stop_near_schools` → `monthly_firing` →
 `grap_firing_daily` → `emissions` → `map_exposure_data`. The report is built
 with `python report/build_report.py`.
 
