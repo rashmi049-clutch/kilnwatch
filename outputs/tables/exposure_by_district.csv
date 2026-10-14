@@ -1,51 +1,51 @@
 ,kilns,kilns_with_school_800m,schools_within_800m,children_5_14_within_800m,layer
-Muzaffarnagar,295,60,83,92931,lower: firing-verified
-Baghpat,408,159,181,74632,lower: firing-verified
-Bulandshahr,149,84,123,51279,lower: firing-verified
-Ghaziabad,216,79,47,45868,lower: firing-verified
-Meerut,146,55,82,43658,lower: firing-verified
-Shamli,141,64,64,41117,lower: firing-verified
-Hapur,82,53,75,27067,lower: firing-verified
-Palwal,143,39,50,20939,lower: firing-verified
-Nuh,90,41,41,20573,lower: firing-verified
-Alwar,108,56,73,17415,lower: firing-verified
-Sonipat,199,35,50,15039,lower: firing-verified
-Jhajjar,298,42,38,14744,lower: firing-verified
-Karnal,89,22,36,10694,lower: firing-verified
-Panipat,93,15,24,10461,lower: firing-verified
-Gautam Buddha Nagar,68,49,57,9544,lower: firing-verified
-Bharatpur,82,46,37,9438,lower: firing-verified
-Bhiwani,120,17,16,9187,lower: firing-verified
-Faridabad,99,27,35,8765,lower: firing-verified
-Rohtak,89,9,16,7830,lower: firing-verified
-Jind,99,11,15,7519,lower: firing-verified
-Delhi NCT,3,0,0,6270,lower: firing-verified
+Muzaffarnagar,287,60,83,91460,lower: firing-verified
+Baghpat,404,159,181,74334,lower: firing-verified
+Bulandshahr,148,84,123,50846,lower: firing-verified
+Meerut,145,55,82,43389,lower: firing-verified
+Shamli,141,64,64,41118,lower: firing-verified
+Ghaziabad,210,79,47,40757,lower: firing-verified
+Hapur,81,53,75,26695,lower: firing-verified
+Palwal,143,39,50,20936,lower: firing-verified
+Nuh,89,41,41,20421,lower: firing-verified
+Alwar,107,56,73,17232,lower: firing-verified
+Sonipat,194,35,50,14512,lower: firing-verified
+Jhajjar,291,42,38,14216,lower: firing-verified
+Karnal,82,22,36,9959,lower: firing-verified
+Panipat,88,15,24,9856,lower: firing-verified
+Gautam Buddha Nagar,67,49,57,9171,lower: firing-verified
+Bhiwani,118,17,16,9014,lower: firing-verified
+Bharatpur,79,46,37,8950,lower: firing-verified
+Faridabad,98,27,35,8451,lower: firing-verified
+Jind,97,11,15,7220,lower: firing-verified
+Rohtak,84,9,16,6784,lower: firing-verified
+Delhi NCT,3,0,0,6191,lower: firing-verified
 Rewari,71,25,29,5805,lower: firing-verified
-Mahendragarh,43,13,16,3593,lower: firing-verified
-Gurugram,11,0,0,3528,lower: firing-verified
-Charkhi Dadri,22,3,3,1948,lower: firing-verified
-Bulandshahr,518,310,455,165275,upper: all filtered
-Muzaffarnagar,438,94,148,147140,upper: all filtered
-Meerut,275,121,198,95338,upper: all filtered
-Alwar,608,359,651,92826,upper: all filtered
-Baghpat,461,190,234,85090,upper: all filtered
-Ghaziabad,264,102,116,76399,upper: all filtered
-Hapur,179,112,166,65714,upper: all filtered
-Delhi NCT,38,21,82,64830,upper: all filtered
-Bharatpur,374,218,335,60889,upper: all filtered
-Shamli,187,79,82,56091,upper: all filtered
-Nuh,181,82,131,50831,upper: all filtered
-Palwal,233,88,179,46888,upper: all filtered
-Gautam Buddha Nagar,192,117,210,45365,upper: all filtered
-Sonipat,270,78,141,34131,upper: all filtered
-Panipat,178,54,103,33314,upper: all filtered
-Karnal,169,64,129,29407,upper: all filtered
-Jind,205,68,124,28169,upper: all filtered
-Jhajjar,366,72,89,22153,upper: all filtered
-Gurugram,43,19,48,20726,upper: all filtered
-Rohtak,143,32,72,20523,upper: all filtered
-Bhiwani,181,46,68,20457,upper: all filtered
-Faridabad,136,49,91,16263,upper: all filtered
-Rewari,97,40,54,9965,upper: all filtered
-Mahendragarh,68,25,36,6644,upper: all filtered
-Charkhi Dadri,53,11,21,5072,upper: all filtered
+Mahendragarh,42,13,16,3585,lower: firing-verified
+Gurugram,9,0,0,2944,lower: firing-verified
+Charkhi Dadri,21,3,3,1803,lower: firing-verified
+Bulandshahr,517,310,455,164875,upper: all filtered
+Muzaffarnagar,430,94,148,146001,upper: all filtered
+Meerut,274,121,198,95235,upper: all filtered
+Alwar,607,359,651,92664,upper: all filtered
+Baghpat,457,190,234,84816,upper: all filtered
+Ghaziabad,258,102,116,72093,upper: all filtered
+Hapur,178,112,166,65414,upper: all filtered
+Delhi NCT,38,21,82,64739,upper: all filtered
+Bharatpur,371,218,335,60785,upper: all filtered
+Shamli,187,79,82,56086,upper: all filtered
+Nuh,180,82,131,50634,upper: all filtered
+Palwal,233,88,179,46883,upper: all filtered
+Gautam Buddha Nagar,191,117,210,44994,upper: all filtered
+Sonipat,265,78,141,33602,upper: all filtered
+Panipat,173,54,103,32719,upper: all filtered
+Karnal,162,64,129,28678,upper: all filtered
+Jind,203,68,124,27879,upper: all filtered
+Jhajjar,359,72,89,21821,upper: all filtered
+Bhiwani,179,46,68,20279,upper: all filtered
+Gurugram,41,19,48,20136,upper: all filtered
+Rohtak,138,32,72,19643,upper: all filtered
+Faridabad,135,49,91,15952,upper: all filtered
+Rewari,97,40,54,9968,upper: all filtered
+Mahendragarh,67,25,36,6637,upper: all filtered
+Charkhi Dadri,52,11,21,5068,upper: all filtered

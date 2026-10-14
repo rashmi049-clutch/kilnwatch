@@ -19,8 +19,8 @@ key_h.attemptMove(QgsLayoutPoint(275, 223.5))
 key_b.attemptMove(QgsLayoutPoint(275, 229))
 key_b.attemptResize(QgsLayoutSize(135, 33))
 key_b.setText(
-    f"\u2248 4,600\u201311,900 t {PM} per season from 3,161 kilns (low: zigzag, 4 M bricks/kiln; high: fixed chimney, 6 M)\n"
-    "30% of it (1,400\u20133,500 t) comes from the 32% of kilns that have a school within 800 m\n"
+    f"\u2248 4,500\u201311,700 t {PM} per season from 3,096 kilns (low: zigzag, 4 M bricks/kiln; high: fixed chimney, 6 M)\n"
+    "30% of it (1,300\u20133,500 t) comes from the 32% of kilns that have a school within 800 m\n"
     "Baghpat: 270 t from kilns near schools (low case), 2.5\u00d7 the next district\n"
     f"Most-affected schools (kilns within 800 m \u00b7 t {PM}, low case):\n"
     "  1  JHS Rampur Kheri, Shamli \u2013 12 \u00b7 25 t        2  P.S. Matiyala, Ghaziabad \u2013 10 \u00b7 15 t\n"

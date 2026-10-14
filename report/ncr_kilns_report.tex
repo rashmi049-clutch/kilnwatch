@@ -81,37 +81,38 @@ the region on Sentinel-2 imagery. Detections were kept only if they passed four
 checks: land cover (brick-yard ground), firing (shortwave-infrared heat in the
 2023--24 season), not a non-kiln heat source (airports, power plants, factories,
 year-round heat), and not a duplicate. Every kiln with a school within 800~m
-(1{,}133) was then checked by eye on high-resolution Esri imagery, using older
-captures where the latest was hazy, and 101 non-kilns were removed. The result was
+(1{,}133), and every kiln whose Earth Engine heat record showed weak firing
+(218), was then checked by eye on high-resolution Esri imagery, using older
+captures where the latest was hazy; 166 non-kilns were removed. The result was
 joined to 33{,}648 location-checked UDISE schools and WorldPop counts of children
 aged 5--14. Delhi NCT is excluded because kilns are not permitted there.
 
 \textbf{Main findings} (2023--24 season, NCR excluding Delhi):
 \begin{enumerate}[leftmargin=*]
-\item \textbf{About 554{,}000 children aged 5--14 (6.7\%) live within 800~m of
+\item \textbf{About 539{,}000 children aged 5--14 (6.5\%) live within 800~m of
 a firing brick kiln}, and \textbf{1{,}191 schools} stand inside that distance.
 \item \textbf{Baghpat is the worst-affected district: one child in three
-(32.4\%)} lives within 800~m of a kiln. It also has the most kiln smoke near
+(32.3\%)} lives within 800~m of a kiln. It also has the most kiln smoke near
 schools (about 270~t PM$_{2.5}$ a season, low case).
-\item \textbf{Almost a third of kilns (31.8\% of 3{,}161) have a school within
+\item \textbf{About a third of kilns (32.4\% of 3{,}096) have a school within
 800~m}, so siting violations near schools are common (H1 confirmed).
-\item \textbf{Enforcement does not target schools.} 12.4\% of kilns stopped
-firing by 2025--26. Kilns near schools stopped \emph{less} often (10.8\%) than
-kilns elsewhere (13.2\%; difference $-2.5$ points, 95\% CI $-4.8$ to $-0.1$,
-$\chi^2$ $p = 0.06$; H3 confirmed). 896 kilns near schools were still firing in
-2025--26.
+\item \textbf{Enforcement does not target schools.} 10.9\% of kilns stopped
+firing by 2025--26, and kilns near schools stopped exactly as often (10.8\%) as
+kilns elsewhere (10.9\%; difference $-0.1$ points, 95\% CI $-2.5$ to $+2.2$;
+H3 confirmed). 896 kilns near schools were still firing in 2025--26.
 \item \textbf{Kilns keep firing on air-quality emergency days}, because the GRAP
 emergency schedules do not order them to close. Whether they cut back on those
 days could not be measured with Sentinel-2.
-\item \textbf{Kilns emit roughly 4{,}600--11{,}900~t of PM$_{2.5}$ a season};
+\item \textbf{Kilns emit roughly 4{,}500--11{,}700~t of PM$_{2.5}$ a season};
 about 30\% comes from kilns near schools. This is an estimate built on assumed
 production, not a measurement. The school with the most kilns nearby, JHS Rampur
 Kheri (Shamli), has 12 within 800~m.
 \end{enumerate}
 
-\textbf{How far to trust it.} Every kiln that counts towards a school or child
-figure was checked by eye (Section~\ref{sec:fullcheck}); an earlier random audit
-of 25 kilns across the whole layer measured precision 0.91 (95\% CI 0.73--0.98).
+\textbf{How far to trust it.} Every kiln near a school, and every weak-firing
+kiln, was checked by eye (Section~\ref{sec:fullcheck}); the remaining 1{,}904
+strong-firing kilns away from schools rest on the automated checks and a random
+audit (precision 0.91, 95\% CI 0.73--0.98).
 An independent re-count in QGIS reproduced the exposure code's numbers exactly.
 The firing calendar matches the known season (relighting in Oct--Nov, a peak in
 Feb--May, shutdown in the monsoon). Counts are \emph{at least} figures: the
@@ -515,14 +516,14 @@ children and 27 schools to the lower estimate.
 \toprule
 NCR excluding Delhi NCT & Lower: firing-verified & Upper: all filtered \\
 \midrule
-Kilns                                  & 3{,}161   & 5{,}819 \\
-Kilns with a school within 800~m       & 31.8\%    & 41.8\% \\
+Kilns                                  & 3{,}096   & 5{,}754 \\
+Kilns with a school within 800~m       & 32.4\%    & 42.2\% \\
 Schools within 800~m of a kiln         & 1{,}191   & 3{,}881 \\
-Children aged 5--14 within 800~m       & 553{,}574 & 1{,}234{,}670 \\
-Share in Uttar Pradesh districts       & 69.7\%    & 59.6\% \\
-Share in Haryana districts             & 25.4\%    & 28.0\% \\
-Share in Rajasthan districts           &  4.9\%    & 12.4\% \\
-Share in the top 3 districts           & 39.5\%    & 33.0\% \\
+Children aged 5--14 within 800~m       & 539{,}458 & 1{,}222{,}862 \\
+Share in Uttar Pradesh districts       & 70.0\%    & 59.7\% \\
+Share in Haryana districts             & 25.1\%    & 27.8\% \\
+Share in Rajasthan districts           &  4.9\%    & 12.5\% \\
+Share in the top 3 districts           & 40.2\%    & 33.2\% \\
 \midrule
 \emph{Before visual check / shared points:} children & 605{,}292 & 1{,}279{,}426 \\
 \emph{Before visual check / shared points:} schools  & 1{,}708   & 4{,}542 \\
@@ -531,19 +532,19 @@ Share in the top 3 districts           & 39.5\%    & 33.0\% \\
 \bottomrule
 \end{tabular}
 \caption{Exposure, 2023--24, after removing non-kiln heat sources, duplicates,
-the 101 non-kilns found by the full visual check and the stacked school points
+the 166 non-kilns found by the visual checks and the stacked school points
 (\texttt{analysis/exposure\_excl\_delhi.py}). The lower estimate is the
 headline; every kiln in it that lies within 800~m of a school was checked by eye.}
 \end{table}
 
-\textbf{Headline.} About 554{,}000 children aged 5--14 --- 6.7\% of the
+\textbf{Headline.} About 539{,}000 children aged 5--14 --- 6.5\% of the
 NCR's children outside Delhi --- live within 800~m of a firing brick kiln, and
 1{,}191 schools stand within that distance.
 Two-thirds of the exposed children are in the eight Uttar Pradesh districts of
 the NCR; the top three by number are Muzaffarnagar, Baghpat and Bulandshahr.
-\textbf{By share, Baghpat stands out: 32.4\% of its children --- one in three
+\textbf{By share, Baghpat stands out: 32.3\% of its children --- one in three
 --- live within 800~m of a firing kiln}, followed by Shamli (16.3\%) and
-Muzaffarnagar (15.1\%) (Figure~\ref{fig:exposuremap}). Removing non-kiln heat
+Muzaffarnagar (14.9\%) (Figure~\ref{fig:exposuremap}). Removing non-kiln heat
 sources cut the estimate by 9\% (60{,}180 children, 183 schools): industrial
 sites sit near dense settlement, so each false kiln carried more exposure than a
 real one.
@@ -565,10 +566,10 @@ people, 18.1\% aged 5--14, consistent with the 2011 Census (about 46~million)
 plus a decade of rapid growth.
 
 \textbf{H1 --- confirmed.} Predicted $\geq$ 25\% of kilns with a school within
-800~m; measured 31.8\% (lower) to 41.8\% (upper).
+800~m; measured 32.4\% (lower) to 42.2\% (upper).
 
 \textbf{H2 --- rejected as stated.} Predicted that the top three districts hold
-more than half the exposed children; they hold 39.5\%. Exposure is regional
+more than half the exposed children; they hold 40.2\%. Exposure is regional
 rather than concentrated in a few districts: 70\% lies across the eight western
 Uttar Pradesh districts of the NCR.
 
@@ -576,7 +577,7 @@ Uttar Pradesh districts of the NCR.
 Of 3{,}447 kilns firing in 2023--24, \textbf{2{,}983 were still firing in
 2025--26 and 464 (13.5\%) were not}; 71 new firing kilns appeared. After
 removing non-kiln heat sources and duplicate detections, 453 of 3{,}265 kilns
-(13.9\%) stopped; after the full visual check, 393 of 3{,}161 outside Delhi (12.4\%).
+(13.9\%) stopped; after the visual checks, 336 of 3{,}096 outside Delhi (10.9\%).
 
 \textbf{Rejected correction.} The plan was to correct the stop rate for the
 firing test's miss rate: an active reference kiln fails the test 24.4\% of the
@@ -606,33 +607,37 @@ would stop more often than other kilns. Delhi NCT excluded
 2023--24 firing kilns & Kilns & Stopped by 2025--26 & Stop rate \\
 \midrule
 School within 800~m    & 1{,}004 & 108 & 10.8\% \\
-No school within 800~m & 2{,}157 & 285 & 13.2\% \\
+No school within 800~m & 2{,}092 & 228 & 10.9\% \\
 \midrule
-Difference & \multicolumn{3}{r}{$-$2.5 points (95\% CI $-$4.8 to $-$0.1), $\chi^2$ $p$ = 0.06} \\
+Difference & \multicolumn{3}{r}{$-$0.1 points (95\% CI $-$2.5 to +2.2), $\chi^2$ $p$ = 0.95} \\
 \bottomrule
 \end{tabular}
-\caption{Stop rates by proximity to a school, after the full visual check.
-Before it: 14.6\% vs 13.3\%, +1.3 points ($p$ = 0.31); before non-kiln removal:
+\caption{Stop rates by proximity to a school, after both visual checks. With
+only near-school kilns checked: 10.8\% vs 13.2\% ($-2.5$, $p$ = 0.06); before any
+visual check: 14.6\% vs 13.3\%, +1.3 points ($p$ = 0.31); before non-kiln removal:
 14.1\% vs 12.9\% ($p$ = 0.35). The firing test's
 error applies equally to both groups, so it shifts both rates, not their
 difference.}
 \end{table}
 
-\textbf{H3 --- confirmed, and the direction changed.} Before the full visual
-check, kilns near schools looked slightly \emph{more} likely to stop (+1.3
-points). That came from false kilns: 60 of the 101 non-kilns removed were
-recorded as ``stopped'' (a stadium or parking lot does not fire steadily), and
-they sat near schools by construction. With them removed, kilns near schools
-stop \emph{less} often than kilns elsewhere ($-2.5$ points, 95\% CI $-4.8$ to
-$-0.1$; $\chi^2$ $p = 0.06$, so the sign is borderline). By state: Haryana
-12.7\% near vs 15.4\% far, Uttar Pradesh 10.4\% vs 9.9\%, Rajasthan 6.9\% vs
-18.2\% (small numbers). Nowhere do near-school kilns close more. Two seasons
-after the baseline, 896 kilns near schools are still firing.
+\textbf{H3 --- confirmed.} Kilns near schools stop as often as kilns elsewhere
+(10.8\% vs 10.9\%; 95\% CI $-2.5$ to $+2.2$ points, so any real difference is
+small). The estimate moved twice while the layer was being cleaned, and the moves
+are instructive. Before any visual check, near-school kilns looked slightly
+\emph{more} likely to stop (+1.3): 60 of the 101 near-school non-kilns were
+recorded as ``stopped'' (a stadium does not fire steadily). With only the
+near-school group cleaned, they looked \emph{less} likely to stop ($-2.5$,
+$p = 0.06$) --- but the far group still held its own false kilns, which also look
+like closures. Once the weak-firing kilns away from schools were checked too (65
+non-kilns removed), the difference vanished. By state: Haryana 12.7\% near vs
+13.1\% far, Uttar Pradesh 10.4\% vs 7.7\%, Rajasthan 6.9\% vs 14.3\% (small
+numbers). Two seasons after the baseline, 896 kilns near schools are still firing.
 
-\textbf{Lesson recorded.} Errors in the kiln layer were not random with respect
-to the question: false kilns cluster in towns, near schools, and they look like
-closures. A hypothesis about kilns near schools is exactly where unchecked
-detections bias the answer, which is why every near-school kiln was checked.
+\textbf{Lesson recorded.} Errors in the kiln layer were not random with respect to
+the question: false kilns look like closures, and they cluster in towns, near
+schools. Cleaning one group only would have produced a borderline ``finding''
+($p = 0.06$) that was an artefact; a comparison is only as fair as the checking
+of both groups.
 
 \subsection{Can Sentinel-2 see kilns firing? (Phase 3 go/no-go)}
 The Normalized Hot-spot Index, NHI$_{SWIR}$ = (B12 $-$ B11)/(B12 + B11)
@@ -794,7 +799,7 @@ fine dust each kilogram of brick releases. The result is a range, not a
 measurement.
 
 \textbf{Method} (\texttt{analysis/emissions.py}). One season (2023--24), the
-3,161 cleaned kilns outside Delhi:
+3,096 cleaned kilns outside Delhi:
 \[
 \text{PM}_{2.5}\ (\text{t}) = \text{bricks} \times 3\ \text{kg} \times
 \text{EF}\ (\text{g/kg fired brick}) / 10^{6}.
@@ -805,12 +810,12 @@ In numbers:
 \toprule
 Bricks baked & $\times$ & Weight of a brick & $\times$ & Dust per kg of brick & $=$ & Dust released \\
 \midrule
-13--19 billion & & 3 kg & & 0.12--0.21 g & & 4,600--11,900 t \\
+12--19 billion & & 3 kg & & 0.12--0.21 g & & 4,500--11,700 t \\
 \bottomrule
 \end{tabular}
 \end{center}
-Low case: $12.6\times10^{9} \times 3 \times 0.12 / 10^{6} = 4{,}600$~t.
-High case: $19.0\times10^{9} \times 3 \times 0.21 / 10^{6} = 11{,}900$~t.
+Low case: $12.4\times10^{9} \times 3 \times 0.12 / 10^{6} = 4{,}500$~t.
+High case: $18.6\times10^{9} \times 3 \times 0.21 / 10^{6} = 11{,}700$~t.
 \begin{itemize}[leftmargin=*]
 \item \emph{Emission factors} come from World Bank (2020) Table~2.1, averaged
 from Weyant et al.\ (2014), Greentech (2012) and others~\cite{worldbank2020,weyant2014}.
@@ -831,8 +836,8 @@ not depend on this choice; the split between districts and schools does.
 \end{itemize}
 
 \textbf{Cross-check.} Weyant et al.'s South Asian totals (0.19~Tg PM$_{2.5}$
-from 260~billion bricks) imply 0.73~g per brick. Applied to our 13--19~billion
-bricks, that gives 9,200--13,900~t. This falls inside our range, at the upper
+from 260~billion bricks) imply 0.73~g per brick. Applied to our 12--19~billion
+bricks, that gives 9,000--13,600~t. This falls inside our range, at the upper
 end. It shows our numbers are the right order of magnitude, not that they are
 correct.
 
@@ -842,11 +847,11 @@ correct.
 \toprule
  & Low (zigzag) & High (fixed chimney) \\
 \midrule
-Bricks fired, season & 12.6 bn & 19.0 bn \\
-PM$_{2.5}$, all kilns & 4,600 t & 11,900 t \\
-Black carbon, all kilns & 1,300 t & 9,700 t \\
-PM$_{2.5}$ from kilns with a school within 800 m & 1,400 t & 3,500 t \\
-\quad share of total & \multicolumn{2}{c}{29.7\% (31.8\% of kilns)} \\
+Bricks fired, season & 12.4 bn & 18.6 bn \\
+PM$_{2.5}$, all kilns & 4,500 t & 11,700 t \\
+Black carbon, all kilns & 1,300 t & 9,500 t \\
+PM$_{2.5}$ from kilns with a school within 800 m & 1,300 t & 3,500 t \\
+\quad share of total & \multicolumn{2}{c}{30.0\% (32.4\% of kilns)} \\
 \bottomrule
 \end{tabular}
 \caption{Kiln emissions, 2023--24 season, NCR excluding Delhi. Rounded;
@@ -860,12 +865,12 @@ the range reflects assumptions, not a statistical interval.}
 \toprule
 District & Kilns & Near a school & PM$_{2.5}$ (t, low--high) & of which near schools (low) \\
 \midrule
-Baghpat & 408 & 159 & 710--1,870 & 270 \\
-Muzaffarnagar & 295 & 60 & 450--1,180 & 87 \\
-Jhajjar & 298 & 42 & 440--1,140 & 61 \\
-Sonipat & 199 & 35 & 370--970 & 65 \\
-Ghaziabad & 216 & 79 & 260--680 & 89 \\
-Shamli & 141 & 64 & 230--590 & 111 \\
+Baghpat & 404 & 159 & 700--1,840 & 270 \\
+Muzaffarnagar & 287 & 60 & 440--1,160 & 86 \\
+Jhajjar & 291 & 42 & 430--1,120 & 60 \\
+Sonipat & 194 & 35 & 360--950 & 65 \\
+Ghaziabad & 210 & 79 & 250--660 & 88 \\
+Shamli & 141 & 64 & 220--590 & 109 \\
 \bottomrule
 \end{tabular}
 \caption{Top six districts by kiln PM$_{2.5}$
@@ -874,12 +879,12 @@ Shamli & 141 & 64 & 230--590 & 111 \\
 
 \textbf{What it shows.}
 \begin{itemize}[leftmargin=*]
-\item The NCR's kilns emit roughly \textbf{4,600--11,900~t of PM$_{2.5}$} in
+\item The NCR's kilns emit roughly \textbf{4,500--11,700~t of PM$_{2.5}$} in
 a season. About \textbf{30\%} comes from kilns within 800~m of a school.
-\item Kilns near schools fire slightly \emph{less} often than average: 31.8\% of
-kilns produce 29.7\% of emissions.
+\item Kilns near schools fire slightly \emph{less} often than average: 32.4\% of
+kilns produce 30.0\% of emissions.
 \item \textbf{Baghpat} again stands out. It emits the most of any district,
-and 38\% of its kiln emissions (270 of 710~t, low case) come from kilns near
+and 38\% of its kiln emissions (270 of 700~t, low case) come from kilns near
 schools.
 \item Most exposed schools have \textbf{one} kiln within 800~m. The worst
 case, JHS Rampur Kheri in Shamli, has \textbf{12}, emitting about 25~t of
@@ -1035,29 +1040,46 @@ the same village sharing a point (a primary and an upper-primary school on one
 campus) were kept. Earlier location checks did not catch this because each point
 passed individually.
 
+\textbf{Second pass: Earth Engine heat record for kilns away from schools.} At the
+analyst's request, the remaining kilns were re-checked with Earth Engine. Every
+kiln has a monthly Sentinel-2 heat record for three seasons (Nov 2023 -- Jun 2026,
+\texttt{analysis/monthly\_firing.py}). A ``fired month'' is a dry-season month with
+at least two clear scenes and heat in $\geq$ 30\% of them. On the 1{,}133
+eye-checked kilns, real kilns fired in a median of 16.5 months, non-kilns in 5.
+The cut-off was read from that answer key, not assumed: below 8 fired months flags
+64\% of non-kilns but only 12\% of real kilns (Youden's J near its plateau, 0.53).
+Applied to the 2{,}157 kilns away from schools, it flagged 218; all were checked by
+eye, with older Esri captures for the 30 unclear ones. \textbf{65 were not kilns}
+--- farm fields, brick drying yards with no kiln on any date, clay pits, quarries,
+grain silos, factories, a highway --- and 153 were real kilns that fire less
+often. The GEE record cannot confirm a kiln on its own (a kiln's fire is not
+distinguishable from other heat at 20~m), but it is an efficient way to find the
+points worth looking at.
+
 \textbf{Effect.}
 \begin{table}[H]
 \centering\small
 \begin{tabular}{@{}lrrrr@{}}
 \toprule
-NCR excl.\ Delhi & Before & Kiln fix only & School fix only & Both \\
+NCR excl.\ Delhi & Before & Near-school check & + school fix & + GEE pass \\
 \midrule
-Kilns                         & 3{,}256   & 3{,}161 & 3{,}256 & 3{,}161 \\
-Schools within 800~m          & 1{,}708   & 1{,}371 & 1{,}432 & 1{,}191 \\
-Children 5--14 within 800~m   & 605{,}292 & 553{,}574 & 605{,}292 & 553{,}574 \\
-Kilns near a school           & 34.6\%    & ---     & ---     & 31.8\% \\
-H3 difference (near $-$ far)   & +1.3      & ---     & ---     & $-2.5$ \\
+Kilns                         & 3{,}256   & 3{,}161   & 3{,}161   & 3{,}096 \\
+Schools within 800~m          & 1{,}708   & 1{,}371   & 1{,}191   & 1{,}191 \\
+Children 5--14 within 800~m   & 605{,}292 & 553{,}574 & 553{,}574 & 539{,}458 \\
+Kilns near a school           & 34.6\%    & ---       & 31.8\%    & 32.4\% \\
+H3 difference (near $-$ far)   & +1.3      & ---       & $-2.5$    & $-0.1$ \\
 \bottomrule
 \end{tabular}
-\caption{Before and after the full check. Children depend only on the kiln layer
-(WorldPop, not school points), so the school fix does not change them.}
+\caption{Effect of each correction. Children depend only on the kiln layer
+(WorldPop, not school points), so the school fix does not change them; kilns
+away from schools carry children (homes) but no schools.}
 \end{table}
 
-Removing 3\% of kilns cut exposed children by 8.5\% and exposed schools by 30\%:
-each false kiln sat in a town and carried several times the exposure of a real
-one. The H3 conclusion survives and is strengthened (Section on H3). The random
-audit's precision (0.91) remains the estimate for kilns \emph{away} from schools,
-which affect only the kiln count and the emissions total.
+In all, 166 non-kilns (5\% of the layer) were removed; exposed children fell by
+11\% and exposed schools by 30\%, because false kilns sat in towns and villages.
+What remains unchecked by eye is 1{,}904 strong-firing kilns away from schools;
+a random sample of 30 of them was given to the analyst for an independent check on
+dated Google Earth imagery (\texttt{outputs/kml/kiln\_audit2\_30.kml}).
 
 \subsection{Visual audit of 25 random kilns (measured precision)}
 \label{sec:audit}
@@ -1260,9 +1282,10 @@ by the visual audit (precision 0.91, Section~\ref{sec:audit}).
 % ------------------------------------------------------------ 8
 \section{Limitations}
 \begin{itemize}[leftmargin=*]
-\item \emph{Precision.} Every kiln within 800~m of a school was checked by eye
-(one rater, Esri imagery, older captures for unclear cases); the remaining
-kilns, away from schools, rest on the random audit's 0.91 (95\% CI 0.73--0.98,
+\item \emph{Precision.} Every kiln within 800~m of a school, and every
+weak-firing kiln, was checked by eye (one rater, Esri imagery, older captures for
+unclear cases); the remaining 1{,}904 strong-firing kilns away from schools rest
+on the random audit's 0.91 (95\% CI 0.73--0.98,
 25 kilns, 18 of 21 ``active'' verdicts by bracketing). Visual checks confirm a
 kiln \emph{structure}; whether it fired in 2023--24 rests on the heat test.
 \item \emph{School locations.} Register coordinates; about half sit beside

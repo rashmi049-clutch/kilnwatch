@@ -1,12 +1,16 @@
 """
 Apply the full visual check of near-school kilns, and remove misplaced school points.
 
-1. Kilns. Every firing-verified kiln with a school within 800 m (1,133) was checked
+1. Kilns. (a) Every firing-verified kiln with a school within 800 m (1,133) was checked
    on Esri World Imagery; points unclear on the current image (haze, cloud, possible
    relict) were re-checked on up to five older Esri Wayback captures
    (analysis/wayback_check.py). 101 are not kilns (parks, stadiums, factories, truck
    and container yards, open town plots, quarries, ponds). They are set to
    kiln_final = False with reason "visual check: not a kiln".
+   (b) GEE re-check: kilns away from schools that fired in fewer than 8 dry-season
+   months, Nov 2023 - Jun 2026 (monthly_firing.py; threshold from the eye-checked
+   kilns, where it flags 64% of non-kilns and 12% of kilns), were all checked by eye
+   too: 65 of 218 were not kilns.
    Verdicts: outputs/tables/visual_check_near_schools.csv
 
 2. Schools. Points shared by schools from DIFFERENT villages (rounded to 1 m) are
@@ -31,11 +35,14 @@ SCH = ROOT / "data/schools/ncr_schools_32643.gpkg"
 det = gpd.read_file(DET)
 vc = pd.read_csv(ROOT / "outputs/tables/visual_check_near_schools.csv")
 bad = vc.loc[vc.verdict == "not_kiln", "det_index"].to_numpy()
-assert det.loc[bad, "kiln_final"].all(), "visual check covers only kilns still in the final layer"
+already = det.nonkiln_reason.fillna("").str.startswith("visual check")
+assert (det.loc[bad, "kiln_final"] | already.loc[bad]).all(), "visual check covers only kilns in the final layer"
 det["visual_check"] = ""
 det.loc[vc.det_index, "visual_check"] = vc.set_index("det_index").verdict
 det.loc[bad, "kiln_final"] = False
 det.loc[bad, "nonkiln_reason"] = "visual check: not a kiln"
+weak = vc.loc[(vc.verdict == "not_kiln") & vc.group.str.contains("GEE"), "det_index"]
+det.loc[weak, "nonkiln_reason"] = "visual check: not a kiln (GEE weak firing)"
 det.to_file(DET, driver="GPKG")
 print(f"kilns: removed {len(bad)}; final layer now {int(det.kiln_final.sum())}")
 

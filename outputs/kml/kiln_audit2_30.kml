@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>KilnWatch audit 2 - 30 random unchecked kilns</name>
+<Placemark><name>1</name>
+<description>Detection 3433. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.31009</longitude><latitude>29.07697</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.31009,29.07697,0</coordinates></Point></Placemark><Placemark><name>2</name>
+<description>Detection 3396. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.23911</longitude><latitude>28.98748</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.23911,28.98748,0</coordinates></Point></Placemark><Placemark><name>3</name>
+<description>Detection 3839. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.34666</longitude><latitude>28.76371</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.34666,28.76371,0</coordinates></Point></Placemark><Placemark><name>4</name>
+<description>Detection 4476. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.54051</longitude><latitude>29.0189</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.54051,29.0189,0</coordinates></Point></Placemark><Placemark><name>5</name>
+<description>Detection 3332. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.32415</longitude><latitude>28.91261</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.32415,28.91261,0</coordinates></Point></Placemark><Placemark><name>6</name>
+<description>Detection 1511. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>76.70509</longitude><latitude>28.66145</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.70509,28.66145,0</coordinates></Point></Placemark><Placemark><name>7</name>
+<description>Detection 2239. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>76.93603</longitude><latitude>29.09665</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.93603,29.09665,0</coordinates></Point></Placemark><Placemark><name>8</name>
+<description>Detection 4431. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.53374</longitude><latitude>28.83146</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.53374,28.83146,0</coordinates></Point></Placemark><Placemark><name>9</name>
+<description>Detection 728. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>76.42262</longitude><latitude>28.77296</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.42262,28.77296,0</coordinates></Point></Placemark><Placemark><name>10</name>
+<description>Detection 51. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>75.93986</longitude><latitude>28.92631</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>75.93986,28.92631,0</coordinates></Point></Placemark><Placemark><name>11</name>
+<description>Detection 3356. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.31272</longitude><latitude>28.86838</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.31272,28.86838,0</coordinates></Point></Placemark><Placemark><name>12</name>
+<description>Detection 1278. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>76.6797</longitude><latitude>29.51272</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.6797,29.51272,0</coordinates></Point></Placemark><Placemark><name>13</name>
+<description>Detection 4394. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.44407</longitude><latitude>28.75251</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.44407,28.75251,0</coordinates></Point></Placemark><Placemark><name>14</name>
+<description>Detection 1469. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>76.79647</longitude><latitude>28.56328</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.79647,28.56328,0</coordinates></Point></Placemark><Placemark><name>15</name>
+<description>Detection 4178. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.44451</longitude><latitude>29.53114</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.44451,29.53114,0</coordinates></Point></Placemark><Placemark><name>16</name>
+<description>Detection 2189. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>76.91329</longitude><latitude>28.95187</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.91329,28.95187,0</coordinates></Point></Placemark><Placemark><name>17</name>
+<description>Detection 4042. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.35709</longitude><latitude>29.0617</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.35709,29.0617,0</coordinates></Point></Placemark><Placemark><name>18</name>
+<description>Detection 3250. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.27268</longitude><latitude>28.28852</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.27268,28.28852,0</coordinates></Point></Placemark><Placemark><name>19</name>
+<description>Detection 3209. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.27392</longitude><latitude>27.97259</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.27392,27.97259,0</coordinates></Point></Placemark><Placemark><name>20</name>
+<description>Detection 377. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>76.1743</longitude><latitude>28.696</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.1743,28.696,0</coordinates></Point></Placemark><Placemark><name>21</name>
+<description>Detection 4175. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.38322</longitude><latitude>29.53217</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.38322,29.53217,0</coordinates></Point></Placemark><Placemark><name>22</name>
+<description>Detection 1209. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>76.68553</longitude><latitude>28.71095</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.68553,28.71095,0</coordinates></Point></Placemark><Placemark><name>23</name>
+<description>Detection 5072. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.65924</longitude><latitude>28.55825</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.65924,28.55825,0</coordinates></Point></Placemark><Placemark><name>24</name>
+<description>Detection 5219. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.65955</longitude><latitude>29.35459</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.65955,29.35459,0</coordinates></Point></Placemark><Placemark><name>25</name>
+<description>Detection 2608. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.09305</longitude><latitude>29.24081</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.09305,29.24081,0</coordinates></Point></Placemark><Placemark><name>26</name>
+<description>Detection 4584. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.45616</longitude><latitude>29.3796</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.45616,29.3796,0</coordinates></Point></Placemark><Placemark><name>27</name>
+<description>Detection 21. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>75.59609</longitude><latitude>28.88072</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>75.59609,28.88072,0</coordinates></Point></Placemark><Placemark><name>28</name>
+<description>Detection 2703. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.16289</longitude><latitude>27.13432</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.16289,27.13432,0</coordinates></Point></Placemark><Placemark><name>29</name>
+<description>Detection 1814. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>76.80419</longitude><latitude>28.63689</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.80419,28.63689,0</coordinates></Point></Placemark><Placemark><name>30</name>
+<description>Detection 4276. Use the history slider (2022-2025): active / relict / not a kiln / unclear.</description>
+<LookAt><longitude>77.45158</longitude><latitude>27.96711</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.45158,27.96711,0</coordinates></Point></Placemark>
+</Document></kml>

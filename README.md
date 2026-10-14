@@ -1,12 +1,12 @@
 # KilnWatch — brick kilns and schoolchildren in Delhi-NCR
 
-**About 554,000 children aged 5–14 live within 800 m of a firing brick kiln in the
+**About 539,000 children aged 5–14 live within 800 m of a firing brick kiln in the
 National Capital Region.** That is inside the minimum siting distance the Central
 Pollution Control Board sets for schools and homes. In **Baghpat it is one child in three**.
 
 This project mapped every firing kiln in the 55,000 km² region from Sentinel-2
 imagery with an AI detector, checked each one in four automated ways, then checked
-every kiln near a school by eye, and joined the result to schools and children.
+every kiln near a school, and every weak-firing kiln, by eye, and joined the result to schools and children.
 
 ![Share of children aged 5–14 within 800 m of a firing brick kiln, by district](outputs/maps/kiln_exposure_map_A3_web.png)
 
@@ -19,22 +19,22 @@ click any kiln or school · **Full report (PDF):** [`report/build/ncr_kilns_repo
 
 | | Result |
 |---|---|
-| Children aged 5–14 within 800 m of a firing kiln | **≈ 554,000 (6.7%)** |
-| Worst district | **Baghpat, 32.4%** of its children |
+| Children aged 5–14 within 800 m of a firing kiln | **≈ 539,000 (6.5%)** |
+| Worst district | **Baghpat, 32.3%** of its children |
 | Schools within 800 m of a kiln | **1,191** |
-| Kilns with a school within 800 m | **31.8%** of 3,161 |
-| Kilns that stopped firing by 2025–26 | 12.4%; **less often near schools** (10.8% vs 13.2%, p = 0.06) |
+| Kilns with a school within 800 m | **32.4%** of 3,096 |
+| Kilns that stopped firing by 2025–26 | 10.9%; **no more often near schools** (10.8% vs 10.9%) |
 | Kilns near schools still firing in 2025–26 | **896** |
 | Firing on air-quality emergency (GRAP III/IV) days | **Yes**; the GRAP schedules do not close kilns |
-| PM₂.₅ emitted by kilns, one season | **≈ 4,600–11,900 t** (estimate), about 30% from kilns near schools |
+| PM₂.₅ emitted by kilns, one season | **≈ 4,500–11,700 t** (estimate), about 30% from kilns near schools |
 
 **Hypotheses** were written down before any data was analysed:
 
 | | Hypothesis | Result |
 |---|---|---|
-| H1 | ≥ 25% of kilns have a school within 800 m | **Confirmed**: 31.8% |
+| H1 | ≥ 25% of kilns have a school within 800 m | **Confirmed**: 32.4% |
 | H2 | The top 3 districts hold > 50% of exposed children | **Rejected**: 40%. Exposure is spread across the region |
-| H3 | Enforcement does not target kilns near schools | **Confirmed**: kilns near schools closed *less* often |
+| H3 | Enforcement does not target kilns near schools | **Confirmed**: kilns near schools closed no more often |
 
 **What should happen:**
 1. Check the 896 kilns still firing near schools against their consent-to-operate
@@ -59,8 +59,8 @@ flowchart LR
     C --> D[Firing check<br>SWIR heat in season]
     D --> E[Remove non-kilns<br>airports, plants,<br>year-round heat]
     E --> F[Remove<br>duplicates]
-    F --> V[Eye check of every<br>kiln near a school]
-    V --> G[3,164 kilns]
+    F --> V[Eye check: every kiln near<br>a school + weak firers in GEE]
+    V --> G[3,099 kilns]
     G --> H[Join: 33,648 schools<br>+ WorldPop children]
     H --> I[Exposure · change ·<br>emissions · maps]
 ```
@@ -89,6 +89,7 @@ flowchart LR
 | Check | Result |
 |---|---|
 | Every kiln within 800 m of a school (1,133), checked by eye on Esri imagery; older captures for hazy ones | **101 non-kilns removed** (parks, stadiums, yards, factories) |
+| Earth Engine heat record, 3 seasons: kilns away from schools firing in < 8 dry-season months (218), checked by eye | **65 more non-kilns removed** (fields, drying yards, quarries) |
 | Visual audit, 25 random kilns across the whole layer, dated Google Earth imagery | **Precision 0.91** (95% CI 0.73–0.98) |
 | Independent re-count of exposure in QGIS | Identical to the code (415 / 174 / 263) |
 | Firing calendar | Matches the known season: relight Oct–Nov, peak Feb–May, monsoon shutdown |
@@ -116,8 +117,9 @@ Each is kept in the code and documented in the report.
 - **Correcting the closure rate for the firing test's miss rate.** It gave a
   negative rate, which showed the correction was wrong.
 - **Trusting automated checks alone near schools.** A full eye check found 9% of
-  near-school "kilns" were town sites. They had made kilns near schools look *more*
-  often closed; removed, the sign of H3's difference flipped.
+  near-school "kilns" were town sites, and they look like closures. Cleaning only the
+  near-school group produced a borderline "finding" (p = 0.06) that vanished once
+  the far group was checked too: a comparison is only as fair as the checking of both groups.
 
 ## Repository
 

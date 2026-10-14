@@ -111,10 +111,10 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
       <p class="dek">Kilns found by AI on Sentinel-2 imagery and confirmed by their heat. The CPCB sets 800 m as the minimum siting distance from schools and homes.</p>
     </header>
     <div class="stats" aria-label="Headline numbers, NCR excluding Delhi">
-      <div class="stat hl"><b>≈554,000</b><span>children aged 5–14 within 800 m (6.7%)</span></div>
+      <div class="stat hl"><b>≈539,000</b><span>children aged 5–14 within 800 m (6.5%)</span></div>
       <div class="stat hl"><b>1 in 3</b><span>children in Baghpat district</span></div>
       <div class="stat"><b>1,191</b><span>schools within 800 m of a kiln</span></div>
-      <div class="stat"><b>3,161</b><span>firing kilns, 32% with a school nearby</span></div>
+      <div class="stat"><b>3,096</b><span>firing kilns, 32% with a school nearby</span></div>
     </div>
     <section class="search">
       <h2><label for="q">Find a school, village or district</label></h2>
@@ -142,7 +142,7 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
         <div>Share of district's children aged 5–14 within 800 m of a kiln</div>
         <div class="ramp" aria-hidden="true">
           <i style="background:var(--c1)"></i><i style="background:var(--c2)"></i><i style="background:var(--c3)"></i><i style="background:var(--c4)"></i><i style="background:var(--c5)"></i>
-          <span>1.0%</span><span>2.6</span><span>4.9</span><span>10.8</span><span>16.3–32.4</span>
+          <span>0.9%</span><span>2.6</span><span>5.8</span><span>10.4</span><span>16.3–32.3</span>
         </div>
         <div class="row"><span class="sw" style="background:repeating-linear-gradient(45deg,var(--excl) 0 3px,transparent 3px 6px)"></span>Delhi NCT, excluded (kilns not permitted)</div>
         <div class="row"><span class="dot" style="background:var(--kiln);border:1px solid #5a0f0b"></span>Firing brick kiln (click for details)</div>
@@ -152,7 +152,7 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
       </div>
     </section>
     <footer class="foot">
-      <div><b>How the kilns were found.</b> YOLO11 detector on Sentinel-2 winter composites, filtered by land cover, kept only if hot in ≥12% of clear images, with airports, refineries and year-round heat sources removed. Every kiln within 800 m of a school (1,133) was then checked by eye on Esri imagery, with older captures for hazy ones; 101 non-kilns were removed. School points shared by schools of different villages (3,090) were dropped as misplaced.</div>
+      <div><b>How the kilns were found.</b> YOLO11 detector on Sentinel-2 winter composites, filtered by land cover, kept only if hot in ≥12% of clear images, with airports, refineries and year-round heat sources removed. Every kiln within 800 m of a school (1,133) was then checked by eye on Esri imagery, with older captures for hazy ones, and so was every kiln whose Earth Engine heat record showed weak firing; 166 non-kilns were removed. School points shared by schools of different villages (3,090) were dropped as misplaced.</div>
       <div><b>Data.</b> Copernicus Sentinel-2 (ESA); SentinelKilnDB (IIT Gandhinagar, CC BY-NC 4.0); ESA WorldCover; WorldPop 2020; UDISE school locations via DataMeet; OpenStreetMap contributors; NCRPB districts (pre-2023, rebuilt).</div>
       <div><b>Map.</b> Displayed in Web Mercator; all distances and areas computed in WGS 84 / UTM 43N (EPSG:32643). Produced 14 October 2026 · KilnWatch, Rashmi Sinha.</div>
     </footer>
@@ -166,7 +166,7 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
   const D = JSON.parse(document.getElementById("data").textContent);
   const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
   const fmt = (n) => n.toLocaleString("en-US");
-  const breaks = [2.6, 4.9, 10.8, 16.3];
+  const breaks = [2.6, 5.8, 10.4, 16.3];
   const fill = (p) => p == null ? null : css(p < breaks[0] ? "--c1" : p < breaks[1] ? "--c2" : p < breaks[2] ? "--c3" : p < breaks[3] ? "--c4" : "--c5");
 
   const map = L.map("map", { preferCanvas: true, zoomSnap: 0.25, attributionControl: true, minZoom: 7, maxZoom: 16 });
