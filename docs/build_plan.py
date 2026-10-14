@@ -137,8 +137,9 @@ PHASES = [
         (28, "README for GitHub", ME, "done", "Opens with the headline number and main map.",
          "Interviewers spend about 30 seconds on it.", "Every number re-read from outputs/tables or the report (H2 top-3 share computed: 37%).",
          "README: headline, map, findings table, hypotheses, recommendations, pipeline diagram, trust checks, rejected methods, reproduce steps, licences. Added requirements.txt (pinned) and .gitignore (raw data, logs, and commercial basemap screenshots excluded). Web-size map PNGs made for the README. At step 29 the web-map link becomes the GitHub Pages URL."),
-        (29, "Read through and publish", YOU, "todo", "Read the README and report, push to your GitHub; host the web map on GitHub Pages.",
-         "Your project, your sign-off.", "20 minutes, plus a free Esri developer key for the sharp satellite basemap and per-kiln satellite mini-map (live tiles with credit, not copied images).", ""),
+        (29, "Read through and publish", YOU, "done", "Read the README and report, push to your GitHub; host the web map on GitHub Pages.",
+         "Your project, your sign-off.", "Checked live: repo shows 3 commits signed with the hidden GitHub email; Pages returns 200 for both the short address and /webmap/. Optional later: free Esri developer key for a sharp satellite basemap.",
+         "Published 14 Oct 2026: github.com/rashmi049-clutch/kilnwatch (MIT code, CC BY-NC data). Live map: rashmi049-clutch.github.io/kilnwatch/webmap/. Topics and website set in About."),
     ]),
 ]
 
