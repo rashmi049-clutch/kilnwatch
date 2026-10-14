@@ -881,7 +881,7 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
     const m = L.circleMarker([lat, lon], { renderer, radius: 1.6, weight: 0.4, color: "#5a0f0b", fillColor: css("--kiln"), fillOpacity: 0.95 });
     const status = st === 1 ? '<span class="pill on">still firing</span>' : st === 0 ? '<span class="pill off">stopped</span>' : "not measured";
     const chk = audit ? `<dt>Checked by eye</dt><dd><span class="pill chk">${audit === "not_kiln" ? "not a kiln" : audit}</span> (Google Earth audit)</dd>` : "";
-    const sat = `<a class="satbtn" href="https://www.google.com/maps/@${lat},${lon},300m/data=!3m1!1e3" target="_blank" rel="noopener">See this kiln in satellite view ↗</a>`;
+    const sat = `<a class="satbtn" href="https://www.bing.com/maps?cp=${lat}~${lon}&lvl=18&style=a&sp=point.${lat}_${lon}_${encodeURIComponent("Brick kiln")}" target="_blank" rel="noopener">See this kiln in satellite view ↗</a>`;
     m.bindPopup(`<div class="pop"><h3>Brick kiln${dist ? " · " + dist : ""}</h3><dl>
       <dt>Hot in 2023–24</dt><dd>${hot}% of clear images</dd>
       <dt>2025–26</dt><dd>${status}</dd>
@@ -919,7 +919,7 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
   function schoolPopup(s) {
     const [lat, lon, , near, name, vil, nk, cat, mg, typ, urban, dist] = s;
     const kind = [D.lut.cat[cat], D.lut.typ[typ]].filter(Boolean).join(" · ");
-    const sat = `https://www.google.com/maps/@${lat},${lon},300m/data=!3m1!1e3`;
+    const sat = `https://www.bing.com/maps?cp=${lat}~${lon}&lvl=18&style=a&sp=point.${lat}_${lon}_${encodeURIComponent(name)}`;
     return `<div class="pop"><h3>${name}</h3><dl>
       <dt>Place</dt><dd>${vil}${D.lut.dist[dist] ? ", " + D.lut.dist[dist] : ""} (${urban ? "urban" : "rural"})</dd>
       <dt>School</dt><dd>${kind || "–"}</dd>
