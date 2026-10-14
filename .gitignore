@@ -1,0 +1,23 @@
+# Raw and intermediate data: large, and re-creatable with the scripts
+data/
+runs/
+*.log
+__pycache__/
+*.gpkg-shm
+*.gpkg-wal
+
+# LaTeX build by-products (the PDF is kept)
+report/build/*
+!report/build/ncr_kilns_report.pdf
+
+# Screenshots of commercial basemap imagery (Esri / Google): viewing only, not redistributable
+outputs/figures/_tile_*
+outputs/figures/_qgis_check.png
+outputs/figures/kiln_review*
+outputs/figures/kiln_examples.png
+outputs/figures/school_check*
+
+# Experiments not used in the results
+docs/webmap/chips.json
+docs/webmap/chip_points.csv
+models/yolo11n-obb.pt

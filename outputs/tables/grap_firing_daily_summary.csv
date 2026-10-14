@@ -1,0 +1,10 @@
+,value
+days_used,23.0
+emergency_days,10.0
+ordinary_days,13.0
+net_firing_emergency_mean_pp,42.11
+net_firing_ordinary_mean_pp,51.65
+effect_within_month_pp,-5.49
+ci_low_pp,-21.64
+ci_high_pp,10.03
+p_permutation,0.6248

@@ -1,0 +1,300 @@
+<meta charset="utf-8">
+<title>KilnWatch NCR</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/*LEAFLET_CSS*/
+</style>
+<style>
+/* Layout: map-first instrument view - map fills the screen, a narrow field-notebook panel on the right (stacks below on phones) */
+:root {
+  --bg: #f3f4f1; --panel: #fbfbf9; --fg: #1c2220; --muted: #5d6763; --line: #d9ddd8;
+  --accent: #0e5a57; --accent-soft: #dcebe9;
+  --kiln: #b3261e; --zone: #e8913a; --sch-hot: #f2c230; --sch: #4f7cac;
+  --map-bg: #e9ebe6; --dist-line: #ffffff; --ncr-line: #1c2220; --excl: #d6d8d4;
+  --c1: #fee5d9; --c2: #fcae91; --c3: #fb6a4a; --c4: #de2d26; --c5: #a50f15;
+  --display: "Archivo", "Arial Narrow", Arial, sans-serif;
+  --body: "Public Sans", "Segoe UI", Arial, sans-serif;
+  --mono: "JetBrains Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #151a19; --panel: #1b2120; --fg: #e6ebe8; --muted: #9aa5a1; --line: #2e3735;
+  --accent: #6cc3bd; --accent-soft: #1f3533;
+  --map-bg: #1f2625; --dist-line: #151a19; --ncr-line: #e6ebe8; --excl: #343c3a; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #151a19; --panel: #1b2120; --fg: #e6ebe8; --muted: #9aa5a1; --line: #2e3735;
+  --accent: #6cc3bd; --accent-soft: #1f3533;
+  --map-bg: #1f2625; --dist-line: #151a19; --ncr-line: #e6ebe8; --excl: #343c3a; color-scheme: dark }
+
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--fg); font: 14px/1.5 var(--body); }
+.app { display: grid; grid-template-columns: minmax(0, 1fr) 360px; height: 100%; }
+#map { height: 100%; background: var(--map-bg); }
+.panel { background: var(--panel); border-left: 1px solid var(--line); overflow-y: auto; padding: 20px 20px 28px; display: flex; flex-direction: column; gap: 18px; }
+.eyebrow { font: 600 11px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { font: 800 26px/1.08 var(--display); margin: 6px 0 6px; text-wrap: balance; letter-spacing: -.01em; }
+.dek { color: var(--muted); margin: 0; }
+.stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); }
+.stat { background: var(--panel); padding: 10px 12px; }
+.stat b { display: block; font: 700 22px/1.1 var(--display); font-variant-numeric: tabular-nums; }
+.stat span { font-size: 12px; color: var(--muted); }
+.stat.hl b { color: var(--kiln); }
+h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; }
+.search { position: relative; }
+.search input { width: 100%; box-sizing: border-box; padding: 9px 11px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); font: inherit; }
+.search input:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.results { list-style: none; margin: 6px 0 0; padding: 0; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; }
+.results li button { width: 100%; text-align: left; background: var(--panel); border: 0; border-bottom: 1px solid var(--line); padding: 7px 10px; color: var(--fg); font: inherit; cursor: pointer; display: flex; justify-content: space-between; gap: 8px; }
+.results li:last-child button { border-bottom: 0; }
+.results li button:hover { background: var(--accent-soft); }
+.results small { color: var(--muted); white-space: nowrap; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.chip { border: 1px solid var(--line); background: var(--panel); color: var(--fg); border-radius: 999px; padding: 4px 10px; font: 500 12px var(--body); cursor: pointer; }
+.chip:hover { border-color: var(--accent); color: var(--accent); }
+.toggles { display: grid; gap: 6px; }
+.toggles label { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+.toggles input { accent-color: var(--accent); width: 16px; height: 16px; }
+.toggles .note { font-size: 12px; color: var(--muted); margin-left: auto; }
+.legend { display: grid; gap: 5px; font-size: 12.5px; }
+.legend .row { display: flex; align-items: center; gap: 8px; }
+.sw { width: 18px; height: 12px; border: 1px solid var(--line); flex: none; }
+.ramp { display: grid; grid-template-columns: repeat(5, 1fr); font: 11px var(--mono); color: var(--muted); }
+.ramp i { height: 10px; display: block; }
+.ramp span { padding-top: 3px; }
+.dot { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.tri { width: 0; height: 0; border-left: 6px solid transparent; border-right: 6px solid transparent; border-bottom: 10px solid var(--kiln); flex: none; }
+.foot { font-size: 11.5px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 12px; display: grid; gap: 6px; }
+.foot b { color: var(--fg); font-weight: 600; }
+.dlabel { background: transparent; border: 0; box-shadow: none; padding: 0; font: 700 12px/1 var(--display); color: var(--fg); text-shadow: 0 0 3px var(--bg), 0 0 3px var(--bg), 0 0 2px var(--bg); white-space: nowrap; }
+.dlabel::before { display: none; }
+.zlow .dlabel { font-size: 9.5px; }
+.hint { background: var(--panel); color: var(--fg); border: 1px solid var(--line); border-radius: 4px; padding: 4px 8px; font: 500 11.5px var(--body); }
+.northarrow { background: var(--panel); color: var(--fg); border: 1px solid var(--line); border-radius: 4px; font: 700 12px/1 var(--display); padding: 5px 7px; text-align: center; }
+.leaflet-container { font: 13px/1.4 var(--body); }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--panel); color: var(--fg); }
+.leaflet-popup-content { margin: 12px 14px; min-width: 200px; }
+.pop h3 { font: 700 15px/1.2 var(--display); margin: 0 0 6px; }
+.pop dl { display: grid; grid-template-columns: auto 1fr; gap: 3px 10px; margin: 0; font-size: 12.5px; }
+.pop dt { color: var(--muted); }
+.pop dd { margin: 0; font-variant-numeric: tabular-nums; }
+.chipwrap { position: relative; width: 128px; height: 128px; margin: 2px 0 8px; border: 1px solid var(--line); }
+.chipwrap img { width: 128px; height: 128px; display: block; image-rendering: pixelated; }
+.chipwrap::after { content: ""; position: absolute; left: 50%; top: 50%; width: 34px; height: 34px; margin: -17px 0 0 -17px; border: 1.5px solid #fff; border-radius: 50%; box-shadow: 0 0 0 1px rgba(0,0,0,.5); }
+.satbtn { display: block; margin-top: 10px; text-align: center; padding: 7px 10px; border-radius: 6px; background: var(--accent); color: var(--panel) !important; font: 600 12.5px var(--body); text-decoration: none; }
+.satbtn:hover { filter: brightness(1.1); }
+.chipnote { font-size: 11px; color: var(--muted); margin: 0 0 8px; }
+.pop a { color: var(--accent); }
+.pill { display: inline-block; padding: 1px 7px; border-radius: 999px; font: 600 11px/1.5 var(--body); }
+.pill.on { background: #f6d5d2; color: #8a1c15; }
+.pill.off { background: #dfe7e4; color: #2f4a43; }
+.pill.chk { background: var(--accent-soft); color: var(--accent); }
+.leaflet-control-attribution { background: color-mix(in srgb, var(--panel) 85%, transparent) !important; color: var(--muted); font-size: 10.5px; }
+.leaflet-control-attribution a { color: var(--accent); }
+.leaflet-control-scale-line { background: color-mix(in srgb, var(--panel) 80%, transparent); color: var(--fg); border-color: var(--fg); }
+.leaflet-bar a { background: var(--panel); color: var(--fg); border-color: var(--line); }
+@media (max-width: 760px) {
+  .app { grid-template-columns: 1fr; grid-template-rows: 62svh auto; height: auto; }
+  #map { height: 62svh; }
+  .panel { border-left: 0; border-top: 1px solid var(--line); overflow: visible; padding-inline: 16px; }
+}
+@media (prefers-reduced-motion: reduce) { .leaflet-zoom-anim .leaflet-zoom-animated { transition: none !important; } }
+</style>
+
+<div class="app">
+  <div id="map" role="application" aria-label="Map of brick kilns, schools and districts in the National Capital Region"></div>
+  <aside class="panel">
+    <header>
+      <div class="eyebrow">KilnWatch · NCR · 2023–24 firing season</div>
+      <h1>Brick kilns within 800 m of schools</h1>
+      <p class="dek">Kilns found by AI on Sentinel-2 imagery and confirmed by their heat. The CPCB sets 800 m as the minimum siting distance from schools and homes.</p>
+    </header>
+    <div class="stats" aria-label="Headline numbers, NCR excluding Delhi">
+      <div class="stat hl"><b>≈605,000</b><span>children aged 5–14 within 800 m (7.3%)</span></div>
+      <div class="stat hl"><b>1 in 3</b><span>children in Baghpat district</span></div>
+      <div class="stat"><b>1,708</b><span>schools within 800 m of a kiln</span></div>
+      <div class="stat"><b>3,256</b><span>firing kilns, 35% with a school nearby</span></div>
+    </div>
+    <section class="search">
+      <h2><label for="q">Find a school, village or district</label></h2>
+      <input id="q" type="search" placeholder="e.g. Baghpat, Govt PS Basora" autocomplete="off">
+      <ul class="results" id="results" hidden></ul>
+      <div class="chips" aria-label="Places to start">
+        <button class="chip" data-go="corridor">Yamuna corridor</button>
+        <button class="chip" data-go="Baghpat">Baghpat</button>
+        <button class="chip" data-go="Muzaffarnagar">Muzaffarnagar</button>
+        <button class="chip" data-go="ncr">Whole NCR</button>
+      </div>
+    </section>
+    <section>
+      <h2>Layers</h2>
+      <div class="toggles">
+        <label><input type="checkbox" id="t-dist" checked> District shading</label>
+        <label><input type="checkbox" id="t-kiln" checked> Firing kilns</label>
+        <label><input type="checkbox" id="t-zone" checked> 800 m zones <span class="note">zoom in</span></label>
+        <label><input type="checkbox" id="t-sch" checked> Schools <span class="note">zoom in</span></label>
+      </div>
+    </section>
+    <section>
+      <h2>Legend</h2>
+      <div class="legend">
+        <div>Share of district's children aged 5–14 within 800 m of a kiln</div>
+        <div class="ramp" aria-hidden="true">
+          <i style="background:var(--c1)"></i><i style="background:var(--c2)"></i><i style="background:var(--c3)"></i><i style="background:var(--c4)"></i><i style="background:var(--c5)"></i>
+          <span>1.6%</span><span>3.3</span><span>5.0</span><span>11.1</span><span>16.5–32.8</span>
+        </div>
+        <div class="row"><span class="sw" style="background:repeating-linear-gradient(45deg,var(--excl) 0 3px,transparent 3px 6px)"></span>Delhi NCT, excluded (kilns not permitted)</div>
+        <div class="row"><span class="dot" style="background:var(--kiln);border:1px solid #5a0f0b"></span>Firing brick kiln (click for details)</div>
+        <div class="row"><span class="sw" style="background:color-mix(in srgb,var(--zone) 35%,transparent);border-color:var(--zone)"></span>800 m zone around a kiln</div>
+        <div class="row"><span class="dot" style="background:var(--sch-hot);border:1px solid #333"></span>School within 800 m of a kiln</div>
+        <div class="row"><span class="dot" style="background:var(--sch)"></span>Other school</div>
+      </div>
+    </section>
+    <footer class="foot">
+      <div><b>How the kilns were found.</b> YOLO11 detector on Sentinel-2 winter composites, filtered by land cover, kept only if hot in ≥12% of clear images, with airports, refineries and year-round heat sources removed. A visual check of 25 random kilns found 21 of 23 working (precision 0.91, 95% CI 0.73–0.98).</div>
+      <div><b>Data.</b> Copernicus Sentinel-2 (ESA); SentinelKilnDB (IIT Gandhinagar, CC BY-NC 4.0); ESA WorldCover; WorldPop 2020; UDISE school locations via DataMeet; OpenStreetMap contributors; NCRPB districts (pre-2023, rebuilt).</div>
+      <div><b>Map.</b> Displayed in Web Mercator; all distances and areas computed in WGS 84 / UTM 43N (EPSG:32643). Produced 14 October 2026 · KilnWatch, Rashmi Sinha.</div>
+    </footer>
+  </aside>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function () {
+  const D = JSON.parse(document.getElementById("data").textContent);
+  const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+  const fmt = (n) => n.toLocaleString("en-US");
+  const breaks = [3.3, 5.0, 11.1, 16.5];
+  const fill = (p) => p == null ? null : css(p < breaks[0] ? "--c1" : p < breaks[1] ? "--c2" : p < breaks[2] ? "--c3" : p < breaks[3] ? "--c4" : "--c5");
+
+  const map = L.map("map", { preferCanvas: true, zoomSnap: 0.25, attributionControl: true, minZoom: 7, maxZoom: 16 });
+  map.attributionControl.setPrefix(false);
+  map.attributionControl.addAttribution("Sentinel-2 (ESA) · SentinelKilnDB · WorldCover · WorldPop · UDISE/DataMeet · © OpenStreetMap contributors");
+  L.control.scale({ metric: true, imperial: false, position: "bottomleft" }).addTo(map);
+  const North = L.Control.extend({ options: { position: "topright" }, onAdd() { const d = L.DomUtil.create("div", "northarrow"); d.innerHTML = "N<br>↑"; d.title = "North"; return d; } });
+  new North().addTo(map);
+  const Hint = L.Control.extend({ options: { position: "topleft" }, onAdd() { const d = L.DomUtil.create("div", "hint"); d.textContent = "Zoom in to see schools and 800 m zones"; return d; } });
+  const hint = new Hint().addTo(map);
+  const renderer = L.canvas({ padding: 0.3 });
+
+  // districts
+  let distLayer;
+  function drawDistricts() {
+    if (distLayer) map.removeLayer(distLayer);
+    distLayer = L.geoJSON(D.districts, {
+      renderer,
+      style: (f) => ({ color: css("--dist-line"), weight: 1, fillColor: f.properties.x ? css("--excl") : fill(f.properties.pct), fillOpacity: f.properties.x ? 0.8 : 0.82 }),
+      onEachFeature: (f, l) => {
+        const p = f.properties;
+        l.bindPopup(p.x
+          ? `<div class="pop"><h3>${p.n}</h3><p style="margin:0">Excluded from the analysis: brick kilns are not permitted in Delhi. The heat sources detected here were judged to be furnaces or other industry.</p></div>`
+          : `<div class="pop"><h3>${p.n}</h3><dl><dt>Children 5–14 within 800 m</dt><dd><b>${fmt(p.kids)}</b> (${p.pct}%)</dd><dt>All children 5–14</dt><dd>${fmt(p.tot)}</dd><dt>Firing kilns</dt><dd>${fmt(p.k)}</dd><dt>Schools within 800 m</dt><dd>${fmt(p.s)}</dd></dl></div>`);
+      }
+    });
+    if (document.getElementById("t-dist").checked) distLayer.addTo(map);
+    distLayer.bringToBack();
+  }
+  drawDistricts();
+  // district names, placed at a point inside each district
+  const labelLayer = L.layerGroup().addTo(map);
+  D.districts.features.forEach((f) => {
+    L.tooltip({ permanent: true, direction: "center", className: "dlabel", interactive: false })
+      .setLatLng(f.properties.lp).setContent(f.properties.n).addTo(labelLayer);
+  });
+  const ncrBounds = distLayer.getBounds();
+  map.fitBounds(ncrBounds, { padding: [10, 10] });
+
+  // kilns
+  const kilnLayer = L.layerGroup().addTo(map);
+  const kilnMarkers = D.kilns.map((k, idx) => {
+    const [lat, lon, hot, st, nsch, near, dist, audit] = k;
+    const m = L.circleMarker([lat, lon], { renderer, radius: 1.6, weight: 0.4, color: "#5a0f0b", fillColor: css("--kiln"), fillOpacity: 0.95 });
+    const status = st === 1 ? '<span class="pill on">still firing</span>' : st === 0 ? '<span class="pill off">stopped</span>' : "not measured";
+    const chk = audit ? `<dt>Checked by eye</dt><dd><span class="pill chk">${audit === "not_kiln" ? "not a kiln" : audit}</span> (Google Earth audit)</dd>` : "";
+    const sat = `<a class="satbtn" href="https://www.google.com/maps/@${lat},${lon},300m/data=!3m1!1e3" target="_blank" rel="noopener">See this kiln in satellite view ↗</a>`;
+    m.bindPopup(`<div class="pop"><h3>Brick kiln${dist ? " · " + dist : ""}</h3><dl>
+      <dt>Hot in 2023–24</dt><dd>${hot}% of clear images</dd>
+      <dt>2025–26</dt><dd>${status}</dd>
+      <dt>Schools ≤ 800 m</dt><dd><b>${nsch}</b>${nsch ? "" : " (nearest " + fmt(near) + " m)"}</dd>
+      ${nsch ? `<dt>Nearest school</dt><dd>${fmt(near)} m</dd>` : ""}${chk}
+      <dt>Location</dt><dd>${lat.toFixed(4)}° N, ${lon.toFixed(4)}° E</dd></dl>${sat}</div>`, { maxHeight: Math.max(240, Math.round(map.getSize().y * 0.8)), autoPanPadding: [12, 12] });
+    m.addTo(kilnLayer);
+    return m;
+  });
+
+  // zones and schools: drawn only when zoomed in, only in view
+  const zoneLayer = L.layerGroup().addTo(map), schLayer = L.layerGroup().addTo(map);
+  const DETAIL = 11;
+  function drawDetail() {
+    zoneLayer.clearLayers(); schLayer.clearLayers();
+    const z = map.getZoom(), b = map.getBounds().pad(0.15);
+    kilnMarkers.forEach((m) => m.setRadius(z >= 13 ? 6 : z >= DETAIL ? 4.5 : z >= 9.5 ? 2.6 : 1.6));
+    distLayer.setStyle((f) => ({ fillOpacity: z >= DETAIL ? 0.28 : f.properties.x ? 0.8 : 0.82 }));   // fade shading up close
+    hint.getContainer().hidden = z >= DETAIL;
+    map.getContainer().classList.toggle("zlow", z < 8.5);
+    if (z < DETAIL) return;
+    if (document.getElementById("t-zone").checked) {
+      D.kilns.forEach((k) => { if (b.contains([k[0], k[1]])) L.circle([k[0], k[1]], { renderer, radius: 800, weight: 0.8, color: css("--zone"), fillColor: css("--zone"), fillOpacity: 0.16, interactive: false }).addTo(zoneLayer); });
+    }
+    if (document.getElementById("t-sch").checked) {
+      D.schools.forEach((s, i) => {
+        if (!b.contains([s[0], s[1]])) return;
+        const hot = s[2] === 1;
+        L.circleMarker([s[0], s[1]], { renderer, radius: hot ? 4.5 : 3, weight: hot ? 0.8 : 0, color: "#222", fillColor: css(hot ? "--sch-hot" : "--sch"), fillOpacity: 0.95 })
+          .bindPopup(schoolPopup(s)).addTo(schLayer);
+      });
+    }
+    kilnLayer.eachLayer((m) => m.bringToFront && m.bringToFront());
+  }
+  function schoolPopup(s) {
+    return `<div class="pop"><h3>${s[4]}</h3><dl><dt>Village</dt><dd>${s[5]}</dd><dt>Nearest firing kiln</dt><dd>${fmt(s[3])} m ${s[2] ? '<span class="pill on">within 800 m</span>' : ""}</dd></dl></div>`;
+  }
+  map.on("zoomend moveend", drawDetail);
+  drawDetail();
+
+  // toggles
+  document.getElementById("t-dist").addEventListener("change", (e) => e.target.checked ? distLayer.addTo(map).bringToBack() : map.removeLayer(distLayer));
+  document.getElementById("t-kiln").addEventListener("change", (e) => e.target.checked ? kilnLayer.addTo(map) : map.removeLayer(kilnLayer));
+  ["t-zone", "t-sch"].forEach((id) => document.getElementById(id).addEventListener("change", drawDetail));
+
+  // places
+  const distByName = {};
+  distLayer.eachLayer((l) => { distByName[l.feature.properties.n] = l; });
+  function goDistrict(name) { const l = distByName[name]; if (!l) return; map.fitBounds(l.getBounds(), { padding: [20, 20] }); setTimeout(() => l.openPopup(), 350); }
+  document.querySelectorAll("[data-go]").forEach((b) => b.addEventListener("click", () => {
+    const g = b.dataset.go;
+    if (g === "ncr") map.fitBounds(ncrBounds, { padding: [10, 10] });
+    else if (g === "corridor") map.setView([28.96, 77.22], 12);
+    else goDistrict(g);
+  }));
+
+  // search
+  const q = document.getElementById("q"), out = document.getElementById("results");
+  const lc = D.schools.map((s) => (s[4] + " " + s[5]).toLowerCase());
+  let t;
+  q.addEventListener("input", () => { clearTimeout(t); t = setTimeout(search, 120); });
+  function search() {
+    const v = q.value.trim().toLowerCase();
+    out.innerHTML = "";
+    if (v.length < 3) { out.hidden = true; return; }
+    const hits = [];
+    Object.keys(distByName).forEach((n) => { if (n.toLowerCase().includes(v)) hits.push({ label: n, sub: "district", go: () => goDistrict(n) }); });
+    for (let i = 0; i < lc.length && hits.length < 8; i++) {
+      if (lc[i].includes(v)) { const s = D.schools[i]; hits.push({ label: s[4], sub: s[5] + (s[2] ? " · kiln ≤ 800 m" : ""), go: () => { map.setView([s[0], s[1]], 14); setTimeout(() => L.popup().setLatLng([s[0], s[1]]).setContent(schoolPopup(s)).openOn(map), 400); } }); }
+    }
+    if (!hits.length) { out.innerHTML = '<li><button disabled>No match. Try a district or a village name.</button></li>'; out.hidden = false; return; }
+    hits.forEach((h) => {
+      const li = document.createElement("li"), b = document.createElement("button");
+      b.innerHTML = `<span>${h.label}</span><small>${h.sub}</small>`;
+      b.addEventListener("click", () => { h.go(); out.hidden = true; });
+      li.appendChild(b); out.appendChild(li);
+    });
+    out.hidden = false;
+  }
+
+  // follow theme changes
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { drawDistricts(); drawDetail(); kilnMarkers.forEach((m) => m.setStyle({ fillColor: css("--kiln") })); });
+  new MutationObserver(() => { drawDistricts(); drawDetail(); }).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+})();
+</script>

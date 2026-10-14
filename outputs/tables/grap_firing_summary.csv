@@ -1,0 +1,16 @@
+,value
+control_n,1000.0
+control_hot_on_emergency_days_pct,2.7
+control_hot_on_ordinary_days_pct,2.8
+control_diff_pp,-0.07
+control_wilcoxon_p,0.7711253808090522
+kiln_n,3290.0
+kiln_hot_on_emergency_days_pct,37.0
+kiln_hot_on_ordinary_days_pct,45.3
+kiln_diff_pp,-8.27
+kiln_wilcoxon_p,1.1813830208725196e-180
+did_pp,-8.21
+did_ci_low_pp,-8.78
+did_ci_high_pp,-7.58
+kilns_hot_on_at_least_one_emergency_scene_pct,89.5
+kiln_median_emergency_scenes,9.0

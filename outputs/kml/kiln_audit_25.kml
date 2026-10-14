@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>KilnWatch audit - 25 random kilns</name>
+<Placemark><name>1</name>
+<description>Detection 2781. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.18446</longitude><latitude>27.87576</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.18446,27.87576,0</coordinates></Point></Placemark><Placemark><name>2</name>
+<description>Detection 958. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>76.49073</longitude><latitude>28.23972</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.49073,28.23972,0</coordinates></Point></Placemark><Placemark><name>3</name>
+<description>Detection 154. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>76.13977</longitude><latitude>28.15994</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.13977,28.15994,0</coordinates></Point></Placemark><Placemark><name>4</name>
+<description>Detection 5053. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.64278</longitude><latitude>28.44937</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.64278,28.44937,0</coordinates></Point></Placemark><Placemark><name>5</name>
+<description>Detection 1907. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>76.88064</longitude><latitude>28.91714</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.88064,28.91714,0</coordinates></Point></Placemark><Placemark><name>6</name>
+<description>Detection 1923. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>76.84441</longitude><latitude>28.88564</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.84441,28.88564,0</coordinates></Point></Placemark><Placemark><name>7</name>
+<description>Detection 190. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>76.13723</longitude><latitude>28.93131</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.13723,28.93131,0</coordinates></Point></Placemark><Placemark><name>8</name>
+<description>Detection 4828. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.55325</longitude><latitude>28.78365</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.55325,28.78365,0</coordinates></Point></Placemark><Placemark><name>9</name>
+<description>Detection 5363. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.74992</longitude><latitude>28.48586</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.74992,28.48586,0</coordinates></Point></Placemark><Placemark><name>10</name>
+<description>Detection 5553. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.92211</longitude><latitude>28.25406</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.92211,28.25406,0</coordinates></Point></Placemark><Placemark><name>11</name>
+<description>Detection 3302. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.31977</longitude><latitude>28.79493</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.31977,28.79493,0</coordinates></Point></Placemark><Placemark><name>12</name>
+<description>Detection 1416. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>76.72696</longitude><latitude>28.36676</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.72696,28.36676,0</coordinates></Point></Placemark><Placemark><name>13</name>
+<description>Detection 3968. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.40212</longitude><latitude>28.94012</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.40212,28.94012,0</coordinates></Point></Placemark><Placemark><name>14</name>
+<description>Detection 3540. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.33428</longitude><latitude>29.33896</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.33428,29.33896,0</coordinates></Point></Placemark><Placemark><name>15</name>
+<description>Detection 4056. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.38759</longitude><latitude>29.2067</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.38759,29.2067,0</coordinates></Point></Placemark><Placemark><name>16</name>
+<description>Detection 5721. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.93574</longitude><latitude>29.45197</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.93574,29.45197,0</coordinates></Point></Placemark><Placemark><name>17</name>
+<description>Detection 1164. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>76.68542</longitude><latitude>28.52866</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.68542,28.52866,0</coordinates></Point></Placemark><Placemark><name>18</name>
+<description>Detection 1561. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>76.76896</longitude><latitude>28.62044</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>76.76896,28.62044,0</coordinates></Point></Placemark><Placemark><name>19</name>
+<description>Detection 2551. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.0459</longitude><latitude>28.89552</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.0459,28.89552,0</coordinates></Point></Placemark><Placemark><name>20</name>
+<description>Detection 5439. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.82155</longitude><latitude>29.02153</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.82155,29.02153,0</coordinates></Point></Placemark><Placemark><name>21</name>
+<description>Detection 4483. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.44481</longitude><latitude>28.99155</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.44481,28.99155,0</coordinates></Point></Placemark><Placemark><name>22</name>
+<description>Detection 3227. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.27909</longitude><latitude>28.08207</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.27909,28.08207,0</coordinates></Point></Placemark><Placemark><name>23</name>
+<description>Detection 4809. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.55154</longitude><latitude>28.84115</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.55154,28.84115,0</coordinates></Point></Placemark><Placemark><name>24</name>
+<description>Detection 3894. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.41219</longitude><latitude>28.72798</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.41219,28.72798,0</coordinates></Point></Placemark><Placemark><name>25</name>
+<description>Detection 3279. Check dated imagery Nov 2023 - 2025: active / relict / not a kiln.</description>
+<LookAt><longitude>77.22217</longitude><latitude>28.83816</latitude><range>700</range><tilt>0</tilt><heading>0</heading></LookAt>
+<Point><coordinates>77.22217,28.83816,0</coordinates></Point></Placemark>
+</Document></kml>

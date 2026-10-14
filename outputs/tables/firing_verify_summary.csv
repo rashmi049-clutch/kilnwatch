@@ -1,0 +1,11 @@
+,value
+threshold_hot_frac,0.12
+reference_kilns_firing_pct,75.62
+control_points_firing_pct,8.4
+detections_firing_pct,56.14
+implied_precision_of_filtered_map,0.71
+osm_kilns_found_within_100m_pct,78.212
+osm_kilns_n,179.0
+median_hot_frac_reference,0.333
+median_hot_frac_control,0.0
+median_hot_frac_detections,0.208

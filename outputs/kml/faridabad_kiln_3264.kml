@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Placemark>
+  <name>Kiln 3264 (Faridabad) - check 2023-24 vs later</name>
+  <description>Firing-verified 2023-24, stopped by 2025-26. Use the clock icon (historical imagery).</description>
+  <LookAt><longitude>77.27105</longitude><latitude>28.31022</latitude><range>900</range><tilt>0</tilt><heading>0</heading></LookAt>
+  <Point><coordinates>77.27105,28.31022,0</coordinates></Point>
+</Placemark>
+</kml>
