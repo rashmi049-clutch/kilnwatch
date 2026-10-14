@@ -204,6 +204,13 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
   });
   const ncrBounds = distLayer.getBounds();
   map.fitBounds(ncrBounds, { padding: [10, 10] });
+  // if the page opened before its size was known (hidden tab, narrow pane), re-fit once it has one
+  let fitted = map.getSize().x > 0 && map.getSize().y > 0;
+  new ResizeObserver(() => {
+    map.invalidateSize();
+    if (!fitted && map.getSize().x > 0 && map.getSize().y > 0) { map.fitBounds(ncrBounds, { padding: [10, 10] }); fitted = true; }
+  }).observe(map.getContainer());
+  window.addEventListener("load", () => { map.invalidateSize(); if (map.getZoom() > 12) map.fitBounds(ncrBounds, { padding: [10, 10] }); });
 
   // kilns
   const kilnLayer = L.layerGroup().addTo(map);

@@ -10,7 +10,7 @@ to schools and children.
 
 ![Share of children aged 5–14 within 800 m of a firing brick kiln, by district](outputs/maps/kiln_exposure_map_A3_web.png)
 
-**Interactive map:** [`docs/webmap/`](docs/webmap/index.html) — search a district,
+**[▶ Open the interactive map](https://rashmi049-clutch.github.io/kilnwatch/webmap/)** — search a district,
 click any kiln or school · **Full report (PDF):** [`report/build/ncr_kilns_report.pdf`](report/build/ncr_kilns_report.pdf)
 
 ---
