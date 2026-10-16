@@ -75,7 +75,16 @@ for r in d4.itertuples():
                                  "x": int(r.excluded),
                                  "lp": [round(r.geometry.representative_point().y, 4), round(r.geometry.representative_point().x, 4)]}})
 # Sentinel-2 chips (make_chips_qgis.py) were tried and removed: at 10 m a kiln is a blur.
-data = {"kilns": kilns, "schools": schools, "lut": lut, "districts": {"type": "FeatureCollection", "features": feats}}
+# Esri World Imagery Wayback: the latest release of each year, for the satellite year slider
+import requests
+cfg = requests.get("https://s3-us-west-2.amazonaws.com/config.maptiles.arcgis.com/waybackconfig.json", timeout=60).json()
+byyear = {}
+for v in cfg.values():
+    d = v["itemTitle"].split("Wayback ")[-1].rstrip(")")
+    if d[:4].isdigit() and int(d[:4]) >= 2017 and d > byyear.get(d[:4], ("", ""))[0]:
+        byyear[d[:4]] = (d, v["itemURL"].replace("{level}", "{z}").replace("{row}", "{y}").replace("{col}", "{x}"))
+wayback = [[y, d, u] for y, (d, u) in sorted(byyear.items())]
+data = {"wayback": wayback, "kilns": kilns, "schools": schools, "lut": lut, "districts": {"type": "FeatureCollection", "features": feats}}
 blob = json.dumps(data, separators=(",", ":"), ensure_ascii=False)
 
 css = (HERE / "leaflet-1.9.4.css").read_text(encoding="utf-8")

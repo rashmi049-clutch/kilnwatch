@@ -1,0 +1,183 @@
+det_index,verdict,note
+4,not_kiln,open farmland - no kiln structure
+15,not_kiln,field with trees - no kiln structure
+53,not_kiln,stone crusher / aggregate yard
+177,not_kiln,expressway toll plaza
+713,not_kiln,bare plot beside industrial yard
+714,not_kiln,cement plant / large factory
+894,unclear,long sheds - could be kiln or poultry/warehouse
+958,not_kiln,dark coal or ash yard - no kiln structure
+978,not_kiln,village road junction
+1017,not_kiln,large warehouse / industrial shed
+1080,not_kiln,temple / institution campus with red court
+1142,unclear,faint kiln outline - possible relict
+1151,not_kiln,factory compound
+1180,unclear,cloud over site
+1183,unclear,cloud over site
+1268,not_kiln,bare plot beside factory sheds
+1269,not_kiln,warehouse sheds in fields
+1367,unclear,faint outline among drying rows
+1375,unclear,bare yard - kiln outline unclear
+1425,unclear,hazy image
+1428,unclear,hazy image
+1430,unclear,hazy image
+1431,unclear,hazy image
+1434,unclear,hazy image
+1440,unclear,hazy image
+1441,unclear,hazy image
+1442,unclear,hazy image
+1443,unclear,hazy image
+1444,unclear,hazy image
+1450,not_kiln,large shed in fields
+1471,not_kiln,water works / treatment plant with tanks
+1445,unclear,hazy image
+1451,unclear,hazy image
+1453,unclear,hazy image
+1454,unclear,hazy image
+1455,unclear,hazy image
+1468,unclear,hazy image
+1495,unclear,cloud over site
+1510,unclear,cloud over site
+1511,unclear,cloud over site
+1513,unclear,cloud over site
+1522,unclear,hazy image
+1535,unclear,hazy image
+1537,unclear,hazy image
+1541,unclear,hazy image
+1543,unclear,hazy image
+1547,unclear,hazy image
+1550,unclear,hazy image
+1557,unclear,hazy image
+1564,unclear,hazy - no clear outline
+1585,unclear,hazy - no clear outline
+1588,unclear,hazy image
+1591,unclear,hazy image
+1592,unclear,hazy image
+1605,unclear,cloud over site
+1607,unclear,cloud over site
+1626,not_kiln,institution campus with white buildings
+1630,unclear,dark yard among sheds
+1687,unclear,large roofed shed with chimney shadow - covered kiln or factory
+1704,not_kiln,blue-roofed shed in fields
+1705,not_kiln,industrial yard with warehouse
+1751,not_kiln,factory compound with long sheds
+1798,not_kiln,factory sheds by road
+1789,unclear,cloud over site
+1782,unclear,hazy image
+1785,unclear,hazy image
+1801,unclear,hazy image
+1806,unclear,hazy image
+1807,unclear,hazy image
+1812,unclear,hazy image
+1814,unclear,hazy image
+1817,unclear,hazy image
+1818,unclear,hazy image
+1819,unclear,hazy image
+1823,unclear,hazy image
+1828,unclear,hazy image
+1830,unclear,hazy image
+1851,unclear,small yard by expressway with greenhouse - kiln unclear
+1864,unclear,overgrown kiln outline - possible relict
+1870,unclear,yard among sheds - kiln not clear
+1878,unclear,bare yard - kiln outline faint
+1899,unclear,cloud or smoke over site
+1904,unclear,cloud or smoke over site
+1906,unclear,cloud or smoke over site
+1907,unclear,cloud or smoke over site
+1914,unclear,cloud or smoke over site
+1898,unclear,dark walled yard - kiln unclear
+1911,unclear,village buildings - kiln unclear
+1935,unclear,faint outline in drying field
+1943,unclear,large walled bare compound - kiln not clear at point
+1992,not_kiln,factory roofs with solar panels
+2008,unclear,industrial yard with chimney - kiln or factory
+2061,unclear,hazy image
+2064,unclear,hazy image
+2125,not_kiln,high-rise apartment tower
+2132,not_kiln,high-rise apartments and houses
+2136,not_kiln,construction site with sheds
+2137,not_kiln,truck/container parking yard
+2148,unclear,dark walled yard - kiln unclear
+2153,unclear,village buildings - kiln unclear
+2205,unclear,faint kiln outline - possible relict
+2209,unclear,dark industrial yard - kiln outline faint
+2210,not_kiln,village houses and bare plot
+2304,unclear,yard with sheds - kiln outline faint
+2359,unclear,large shed over yard - kiln partly visible
+2519,unclear,cloud over site
+2526,not_kiln,construction site in town
+2529,not_kiln,industrial estate - factories and sheds
+2542,not_kiln,dense town buildings and factories
+2551,unclear,bare rectangle in fields - possible relict
+2555,not_kiln,fields and bare plot
+2563,not_kiln,farmyard with trees
+2598,not_kiln,institution / school building
+2625,not_kiln,factory building in fields
+2661,not_kiln,factory sheds and yard
+2667,unclear,large roofed shed over kiln-like yard
+2672,not_kiln,factory building in fields
+2681,not_kiln,industrial yard with sheds
+2819,unclear,faded kiln outline in scrub - possible relict
+2893,unclear,faint outline among drying rows
+2894,unclear,bare yard - kiln outline faint
+3148,unclear,dark smudge in drying field - kiln outline faint
+3161,unclear,walled yard with trees - kiln outline faint
+3179,unclear,hazy image
+3259,unclear,small yard beside factory sheds - kiln unclear
+3280,unclear,overgrown yard - kiln outline faint
+3314,unclear,bare reddish plot - kiln outline faint
+3362,unclear,bare yard with chimney shadow - kiln outline faint
+3384,unclear,smoke over site
+3401,unclear,dark yard among trees - kiln unclear
+3403,unclear,faint outline in field - possible relict
+3484,unclear,faint outline in scrub - possible relict
+3496,unclear,reddish rectangle in fields - possible relict
+3591,unclear,kiln outline overgrown with trees - possible relict
+3666,unclear,large building at kiln site - kiln or factory
+3741,unclear,faint outline in bare ground
+3751,unclear,faint outline among drying rows
+3754,unclear,faint outline among drying rows
+3778,unclear,faint outline - possible relict
+3781,not_kiln,cleared construction plot in fields
+3882,unclear,red bare ground - kiln dismantled? no structure
+3889,unclear,point beside kiln in bare yard
+4104,unclear,point on edge of kiln yard - between two kilns
+4446,not_kiln,industrial estate - factory sheds and buildings
+4475,unclear,walled plot with trees by village - kiln faint
+4497,unclear,red bare yard - kiln dismantled?
+4502,not_kiln,factory building with sheds
+4519,unclear,dark yard with smoke - kiln outline faint
+4545,unclear,hazy - faint outline by highway
+4571,unclear,small bare plot - kiln outline faint
+4576,unclear,faint outline among drying rows - possible relict
+4602,unclear,point beside kiln in tree patch
+4686,unclear,reddish yard among sheds - kiln outline faint
+4718,unclear,faded kiln outline - possible relict
+4726,unclear,faded kiln outline - possible relict
+4885,unclear,hazy image
+4901,unclear,faint outline - point between yard and road
+4904,unclear,yard among trees - kiln outline faint
+4909,unclear,point beside kiln in yard
+4933,not_kiln,walled factory / institution compound
+4972,not_kiln,farmhouse compound with trees
+4983,unclear,faint kiln outline overgrown - possible relict
+5060,unclear,bare yard among drying rows - kiln outline faint
+5063,unclear,yard with sheds and smoke - kiln unclear
+5079,unclear,cloud over site
+5082,unclear,faded kiln outline - possible relict
+5134,unclear,faint outline in bare yard
+5163,not_kiln,walled factory compound with buildings
+5165,unclear,empty kiln foundation - possible relict or new build
+5166,unclear,bare yard - kiln outline faint
+5195,not_kiln,factory shed with grey roof
+5427,unclear,smoke over town yard - kiln unclear
+5428,unclear,faded outline in fields - possible relict
+5430,unclear,faded outline - possible relict
+5485,unclear,yard with buildings - kiln outline faint
+5526,not_kiln,long shed and bare yard by road
+5538,not_kiln,factory / institution building complex
+5738,unclear,faint outline beside yard
+5745,unclear,yard among buildings - kiln outline faint
+5878,not_kiln,farm compound in fields - no kiln
+5984,not_kiln,scrub / bare field - no kiln structure
+6122,unclear,faint outline in drying field - possible relict

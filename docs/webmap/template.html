@@ -5,6 +5,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Public+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
 <style>
 /*LEAFLET_CSS*/
+.satyear{display:flex;flex-direction:column;gap:6px;margin-top:10px}
+.satyear input[type=range]{width:100%}
 </style>
 <style>
 /* Layout: map-first instrument view - map fills the screen, a narrow field-notebook panel on the right (stacks below on phones) */
@@ -111,10 +113,10 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
       <p class="dek">Kilns found by AI on Sentinel-2 imagery and confirmed by their heat. The CPCB sets 800 m as the minimum siting distance from schools and homes.</p>
     </header>
     <div class="stats" aria-label="Headline numbers, NCR excluding Delhi">
-      <div class="stat hl"><b>≈539,000</b><span>children aged 5–14 within 800 m (6.5%)</span></div>
+      <div class="stat hl"><b>≈528,000</b><span>children aged 5–14 within 800 m (6.4%)</span></div>
       <div class="stat hl"><b>1 in 3</b><span>children in Baghpat district</span></div>
-      <div class="stat"><b>1,191</b><span>schools within 800 m of a kiln</span></div>
-      <div class="stat"><b>3,096</b><span>firing kilns, 32% with a school nearby</span></div>
+      <div class="stat"><b>1,194</b><span>schools within 800 m of a kiln</span></div>
+      <div class="stat"><b>3,057</b><span>firing kilns, 33% with a school nearby</span></div>
     </div>
     <section class="search">
       <h2><label for="q">Find a school, village or district</label></h2>
@@ -134,6 +136,12 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
         <label><input type="checkbox" id="t-kiln" checked> Firing kilns</label>
         <label><input type="checkbox" id="t-zone" checked> 800 m zones <span class="note">zoom in</span></label>
         <label><input type="checkbox" id="t-sch" checked> Schools <span class="note">zoom in</span></label>
+        <label><input type="checkbox" id="t-sat"> Satellite imagery <span class="note">Esri Wayback</span></label>
+      </div>
+      <div class="satyear" id="satbox" hidden>
+        <label for="t-year">Imagery year: <b id="t-yearlabel"></b></label>
+        <input type="range" id="t-year" min="0" max="0" step="1">
+        <p class="note">Each year shows Esri's last imagery release of that year; the photo itself can be older. The kilns were mapped in the 2023&ndash;24 season, so a kiln missing in a later year may have closed since.</p>
       </div>
     </section>
     <section>
@@ -142,7 +150,7 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
         <div>Share of district's children aged 5–14 within 800 m of a kiln</div>
         <div class="ramp" aria-hidden="true">
           <i style="background:var(--c1)"></i><i style="background:var(--c2)"></i><i style="background:var(--c3)"></i><i style="background:var(--c4)"></i><i style="background:var(--c5)"></i>
-          <span>0.9%</span><span>2.6</span><span>5.8</span><span>10.4</span><span>16.3–32.3</span>
+          <span>0.3%</span><span>2.6</span><span>5.5</span><span>9.7</span><span>16.3–32.3</span>
         </div>
         <div class="row"><span class="sw" style="background:repeating-linear-gradient(45deg,var(--excl) 0 3px,transparent 3px 6px)"></span>Delhi NCT, excluded (kilns not permitted)</div>
         <div class="row"><span class="dot" style="background:var(--kiln);border:1px solid #5a0f0b"></span>Firing brick kiln (click for details)</div>
@@ -152,9 +160,9 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
       </div>
     </section>
     <footer class="foot">
-      <div><b>How the kilns were found.</b> YOLO11 detector on Sentinel-2 winter composites, filtered by land cover, kept only if hot in ≥12% of clear images, with airports, refineries and year-round heat sources removed. Every kiln within 800 m of a school (1,133) was then checked by eye on Esri imagery, with older captures for hazy ones, and so was every kiln whose Earth Engine heat record showed weak firing; 166 non-kilns were removed. School points shared by schools of different villages (3,090) were dropped as misplaced.</div>
+      <div><b>How the kilns were found.</b> YOLO11 detector on Sentinel-2 winter composites, filtered by land cover, kept only if hot in ≥12% of clear images, with airports, refineries and year-round heat sources removed. Every kiln within 800 m of a school (1,133) was then checked by eye on Esri imagery, with older captures for hazy ones, and so was every other kiln, with the doubtful ones decided by Rashmi Sinha; 208 non-kilns were removed in all (150 of them on Claude's judgement alone; with those restored the headline would be about 586,000 children). School points shared by schools of different villages (3,090) were dropped as misplaced.</div>
       <div><b>Data.</b> Copernicus Sentinel-2 (ESA); SentinelKilnDB (IIT Gandhinagar, CC BY-NC 4.0); ESA WorldCover; WorldPop 2020; UDISE school locations via DataMeet; OpenStreetMap contributors; NCRPB districts (pre-2023, rebuilt).</div>
-      <div><b>Map.</b> Displayed in Web Mercator; all distances and areas computed in WGS 84 / UTM 43N (EPSG:32643). Produced 14 October 2026 · KilnWatch, Rashmi Sinha.</div>
+      <div><b>Map.</b> Displayed in Web Mercator; all distances and areas computed in WGS 84 / UTM 43N (EPSG:32643). Produced 16 October 2026 · KilnWatch, Rashmi Sinha.</div>
     </footer>
   </aside>
 </div>
@@ -166,10 +174,10 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
   const D = JSON.parse(document.getElementById("data").textContent);
   const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
   const fmt = (n) => n.toLocaleString("en-US");
-  const breaks = [2.6, 5.8, 10.4, 16.3];
+  const breaks = [2.6, 5.5, 9.7, 16.3];
   const fill = (p) => p == null ? null : css(p < breaks[0] ? "--c1" : p < breaks[1] ? "--c2" : p < breaks[2] ? "--c3" : p < breaks[3] ? "--c4" : "--c5");
 
-  const map = L.map("map", { preferCanvas: true, zoomSnap: 0.25, attributionControl: true, minZoom: 7, maxZoom: 16 });
+  const map = L.map("map", { preferCanvas: true, zoomSnap: 0.25, attributionControl: true, minZoom: 7, maxZoom: 18 });
   map.attributionControl.setPrefix(false);
   map.attributionControl.addAttribution("Sentinel-2 (ESA) · SentinelKilnDB · WorldCover · WorldPop · UDISE/DataMeet · © OpenStreetMap contributors");
   L.control.scale({ metric: true, imperial: false, position: "bottomleft" }).addTo(map);
@@ -178,6 +186,29 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
   const Hint = L.Control.extend({ options: { position: "topleft" }, onAdd() { const d = L.DomUtil.create("div", "hint"); d.textContent = "Zoom in to see schools and 800 m zones"; return d; } });
   const hint = new Hint().addTo(map);
   const renderer = L.canvas({ padding: 0.3 });
+
+  // satellite imagery by year (Esri World Imagery Wayback), under every other layer
+  const WB = D.wayback || [];
+  let satLayer = null;
+  const yr = document.getElementById("t-year"), yl = document.getElementById("t-yearlabel");
+  yr.max = Math.max(0, WB.length - 1);
+  yr.value = Math.max(0, WB.findIndex((w) => w[0] === "2024"));
+  function setSat() {
+    const on = document.getElementById("t-sat").checked;
+    document.getElementById("satbox").hidden = !on;
+    if (satLayer) { map.removeLayer(satLayer); satLayer = null; }
+    if (!on || !WB.length) return;
+    const w = WB[+yr.value];
+    yl.textContent = w[0] + " (release " + w[1] + ")";
+    satLayer = L.tileLayer(w[2], { maxNativeZoom: 19, maxZoom: 19, attribution: "Imagery © Esri World Imagery Wayback (Maxar, Earthstar Geographics and the GIS user community)" }).addTo(map);
+    satLayer.bringToBack();
+  }
+  document.getElementById("t-sat").addEventListener("change", (e) => {
+    const d = document.getElementById("t-dist");
+    if (e.target.checked && d.checked) { d.checked = false; d.dispatchEvent(new Event("change")); }  // shading would hide the imagery
+    setSat();
+  });
+  yr.addEventListener("input", setSat);
 
   // districts
   let distLayer;

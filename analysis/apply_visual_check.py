@@ -39,12 +39,16 @@ already = det.nonkiln_reason.fillna("").str.startswith("visual check")
 assert (det.loc[bad, "kiln_final"] | already.loc[bad]).all(), "visual check covers only kilns in the final layer"
 det["visual_check"] = ""
 det.loc[vc.det_index, "visual_check"] = vc.set_index("det_index").verdict
+# points the analyst overturned (removed earlier, then confirmed as kilns) go back in
+back = vc.loc[(vc.verdict != "not_kiln") & vc.det_index.isin(det.index[already]), "det_index"].to_numpy()
+det.loc[back, "kiln_final"] = True
+det.loc[back, "nonkiln_reason"] = ""
 det.loc[bad, "kiln_final"] = False
 det.loc[bad, "nonkiln_reason"] = "visual check: not a kiln"
 weak = vc.loc[(vc.verdict == "not_kiln") & vc.group.str.contains("GEE"), "det_index"]
 det.loc[weak, "nonkiln_reason"] = "visual check: not a kiln (GEE weak firing)"
 det.to_file(DET, driver="GPKG")
-print(f"kilns: removed {len(bad)}; final layer now {int(det.kiln_final.sum())}")
+print(f"kilns: removed {len(bad)}, restored {len(back)}; final layer now {int(det.kiln_final.sum())}")
 
 sch = gpd.read_file(SCH)
 if "use_strict_v1" not in sch:

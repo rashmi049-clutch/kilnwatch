@@ -21,3 +21,6 @@ outputs/figures/school_check*
 docs/webmap/chips.json
 docs/webmap/chip_points.csv
 models/yolo11n-obb.pt
+
+# Annotation page lives as a private Claude artifact (saves answers there), not on GitHub Pages
+docs/kiln_check/

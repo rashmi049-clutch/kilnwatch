@@ -1,17 +1,17 @@
 # KilnWatch — brick kilns and schoolchildren in Delhi-NCR
 
-**About 539,000 children aged 5–14 live within 800 m of a firing brick kiln in the
+**About 528,000 children aged 5–14 live within 800 m of a firing brick kiln in the
 National Capital Region.** That is inside the minimum siting distance the Central
 Pollution Control Board sets for schools and homes. In **Baghpat it is one child in three**.
 
 This project mapped every firing kiln in the 55,000 km² region from Sentinel-2
 imagery with an AI detector, checked each one in four automated ways, then checked
-every kiln near a school, and every weak-firing kiln, by eye, and joined the result to schools and children.
+every kiln by eye (the doubtful ones by the author), and joined the result to schools and children.
 
 ![Share of children aged 5–14 within 800 m of a firing brick kiln, by district](outputs/maps/kiln_exposure_map_A3_web.png)
 
 **[▶ Open the interactive map](https://rashmi049-clutch.github.io/kilnwatch/webmap/)** — search a district,
-click any kiln or school · **Full report (PDF):** [`report/build/ncr_kilns_report.pdf`](report/build/ncr_kilns_report.pdf)
+click any kiln or school, switch on satellite imagery and slide through the years (2017–2026) · **Full report (PDF):** [`report/build/ncr_kilns_report.pdf`](report/build/ncr_kilns_report.pdf)
 
 ---
 
@@ -19,20 +19,20 @@ click any kiln or school · **Full report (PDF):** [`report/build/ncr_kilns_repo
 
 | | Result |
 |---|---|
-| Children aged 5–14 within 800 m of a firing kiln | **≈ 539,000 (6.5%)** |
+| Children aged 5–14 within 800 m of a firing kiln | **≈ 528,000 (6.4%)**; range 528,000–586,000 |
 | Worst district | **Baghpat, 32.3%** of its children |
-| Schools within 800 m of a kiln | **1,191** |
-| Kilns with a school within 800 m | **32.4%** of 3,096 |
-| Kilns that stopped firing by 2025–26 | 10.9%; **no more often near schools** (10.8% vs 10.9%) |
+| Schools within 800 m of a kiln | **1,194** (range 1,194–1,414) |
+| Kilns with a school within 800 m | **32.9%** of 3,057 |
+| Kilns that stopped firing by 2025–26 | 10.6%; **no more often near schools** (10.7% vs 10.5%) |
 | Kilns near schools still firing in 2025–26 | **896** |
 | Firing on air-quality emergency (GRAP III/IV) days | **Yes**; the GRAP schedules do not close kilns |
-| PM₂.₅ emitted by kilns, one season | **≈ 4,500–11,700 t** (estimate), about 30% from kilns near schools |
+| PM₂.₅ emitted by kilns, one season | **≈ 4,400–11,600 t** (estimate), about 30% from kilns near schools |
 
 **Hypotheses** were written down before any data was analysed:
 
 | | Hypothesis | Result |
 |---|---|---|
-| H1 | ≥ 25% of kilns have a school within 800 m | **Confirmed**: 32.4% |
+| H1 | ≥ 25% of kilns have a school within 800 m | **Confirmed**: 32.9% |
 | H2 | The top 3 districts hold > 50% of exposed children | **Rejected**: 40%. Exposure is spread across the region |
 | H3 | Enforcement does not target kilns near schools | **Confirmed**: kilns near schools closed no more often |
 
@@ -60,7 +60,7 @@ flowchart LR
     D --> E[Remove non-kilns<br>airports, plants,<br>year-round heat]
     E --> F[Remove<br>duplicates]
     F --> V[Eye check: every kiln near<br>a school + weak firers in GEE]
-    V --> G[3,099 kilns]
+    V --> G[3,057 kilns, all eye-checked]
     G --> H[Join: 33,648 schools<br>+ WorldPop children]
     H --> I[Exposure · change ·<br>emissions · maps]
 ```
@@ -90,6 +90,8 @@ flowchart LR
 |---|---|
 | Every kiln within 800 m of a school (1,133), checked by eye on Esri imagery; older captures for hazy ones | **101 non-kilns removed** (parks, stadiums, yards, factories) |
 | Earth Engine heat record, 3 seasons: kilns away from schools firing in < 8 dry-season months (218), checked by eye | **65 more non-kilns removed** (fields, drying yards, quarries) |
+| All remaining 1,913 kilns: clear ones by Claude, the 182 doubtful ones decided by Rashmi Sinha on an annotation page | **43 more non-kilns removed**; 208 in total |
+| 166 earlier removals were Claude's alone: 16 reviewed by Rashmi Sinha (2 restored), 150 unreviewed | Reported as a range: 528,000–586,000 children, best estimate ≈ 537,000 |
 | Audit 1 by Rashmi Sinha: 25 random kilns, whole layer before cleaning, Google Earth history | **Precision 0.91** (95% CI 0.73–0.98) |
 | Audit 2 by Rashmi Sinha: 30 random kilns from the 1,904 not checked by eye, Google Earth history | **29 / 29 working kilns** (95% CI 0.88–1.00) |
 | Independent re-count of exposure in QGIS | Identical to the code (415 / 174 / 263) |
