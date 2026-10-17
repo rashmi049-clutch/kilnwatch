@@ -7,13 +7,16 @@
 /*LEAFLET_CSS*/
 .satyear{display:flex;flex-direction:column;gap:6px;margin-top:10px}
 .satyear input[type=range]{width:100%}
+.seg{display:flex;gap:4px;margin:2px 0 4px 24px;flex-wrap:wrap}
+.segb{font-size:12px;font-weight:500;font-family:inherit;padding:4px 10px;border:1px solid var(--line, #888);border-radius:999px;background:transparent;color:inherit;cursor:pointer}
+.segb[aria-pressed="true"]{background:var(--kiln);border-color:var(--kiln);color:#fff}
 </style>
 <style>
 /* Layout: map-first instrument view - map fills the screen, a narrow field-notebook panel on the right (stacks below on phones) */
 :root {
   --bg: #f3f4f1; --panel: #fbfbf9; --fg: #1c2220; --muted: #5d6763; --line: #d9ddd8;
   --accent: #0e5a57; --accent-soft: #dcebe9;
-  --kiln: #b3261e; --zone: #e8913a; --sch-hot: #f2c230; --sch: #4f7cac;
+  --kiln: #b3261e; --stopped: #8a8f98; --zone: #e8913a; --sch-hot: #f2c230; --sch: #4f7cac;
   --map-bg: #e9ebe6; --dist-line: #ffffff; --ncr-line: #1c2220; --excl: #d6d8d4;
   --c1: #fee5d9; --c2: #fcae91; --c3: #fb6a4a; --c4: #de2d26; --c5: #a50f15;
   --display: "Archivo", "Arial Narrow", Arial, sans-serif;
@@ -133,7 +136,12 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
       <h2>Layers</h2>
       <div class="toggles">
         <label><input type="checkbox" id="t-dist" checked> District shading</label>
-        <label><input type="checkbox" id="t-kiln" checked> Firing kilns</label>
+        <label><input type="checkbox" id="t-kiln" checked> Kilns</label>
+        <div class="seg" role="group" aria-label="Which kilns">
+          <button type="button" class="segb" data-k="all" aria-pressed="true">All</button>
+          <button type="button" class="segb" data-k="firing" aria-pressed="false">Still firing</button>
+          <button type="button" class="segb" data-k="stopped" aria-pressed="false">Stopped</button>
+        </div>
         <label><input type="checkbox" id="t-zone" checked> 800 m zones <span class="note">zoom in</span></label>
         <label><input type="checkbox" id="t-sch" checked> Schools <span class="note">zoom in</span></label>
         <label><input type="checkbox" id="t-sat"> Satellite imagery <span class="note">Esri Wayback</span></label>
@@ -153,7 +161,8 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
           <span>0.3%</span><span>2.6</span><span>5.5</span><span>9.7</span><span>16.3–32.3</span>
         </div>
         <div class="row"><span class="sw" style="background:repeating-linear-gradient(45deg,var(--excl) 0 3px,transparent 3px 6px)"></span>Delhi NCT, excluded (kilns not permitted)</div>
-        <div class="row"><span class="dot" style="background:var(--kiln);border:1px solid #5a0f0b"></span>Firing brick kiln (click for details)</div>
+        <div class="row"><span class="dot" style="background:var(--kiln);border:1px solid #5a0f0b"></span>Brick kiln, still firing in 2025&ndash;26 (click for details)</div>
+        <div class="row"><span class="dot" style="background:transparent;border:2px solid var(--stopped)"></span>Fired in 2023&ndash;24, stopped by 2025&ndash;26</div>
         <div class="row"><span class="sw" style="background:color-mix(in srgb,var(--zone) 35%,transparent);border-color:var(--zone)"></span>800 m zone around a kiln</div>
         <div class="row"><span class="dot" style="background:var(--sch-hot);border:1px solid #333"></span>School within 800 m of a kiln</div>
         <div class="row"><span class="dot" style="background:var(--sch)"></span>Other school</div>
@@ -248,7 +257,11 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
   const kilnLayer = L.layerGroup().addTo(map);
   const kilnMarkers = D.kilns.map((k, idx) => {
     const [lat, lon, hot, st, nsch, near, dist, audit] = k;
-    const m = L.circleMarker([lat, lon], { renderer, radius: 1.6, weight: 0.4, color: "#5a0f0b", fillColor: css("--kiln"), fillOpacity: 0.95 });
+    const stopped = st === 0;
+    const m = L.circleMarker([lat, lon], stopped
+      ? { renderer, radius: 1.6, weight: 1.2, color: css("--stopped"), fillColor: css("--stopped"), fillOpacity: 0.12 }
+      : { renderer, radius: 1.6, weight: 0.4, color: "#5a0f0b", fillColor: css("--kiln"), fillOpacity: 0.95 });
+    m.kstatus = stopped ? "stopped" : "firing";
     const status = st === 1 ? '<span class="pill on">still firing</span>' : st === 0 ? '<span class="pill off">stopped</span>' : "not measured";
     const chk = audit ? `<dt>Checked by eye</dt><dd><span class="pill chk">${audit === "not_kiln" ? "not a kiln" : audit}</span> (Google Earth audit)</dd>` : "";
     const sat = `<a class="satbtn" href="https://www.google.com/maps/place/${lat},${lon}/@${lat},${lon},150m/data=!3m1!1e3" target="_blank" rel="noopener">See this kiln in satellite view ↗</a>`;
@@ -305,6 +318,13 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
   // toggles
   document.getElementById("t-dist").addEventListener("change", (e) => e.target.checked ? distLayer.addTo(map).bringToBack() : map.removeLayer(distLayer));
   document.getElementById("t-kiln").addEventListener("change", (e) => e.target.checked ? kilnLayer.addTo(map) : map.removeLayer(kilnLayer));
+  // which kilns: all / still firing / stopped (2025-26 heat re-test)
+  document.querySelectorAll(".segb").forEach((b) => b.addEventListener("click", () => {
+    document.querySelectorAll(".segb").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+    const k = b.dataset.k;
+    kilnMarkers.forEach((m) => { const show = k === "all" || m.kstatus === k;
+      if (show && !kilnLayer.hasLayer(m)) kilnLayer.addLayer(m); if (!show && kilnLayer.hasLayer(m)) kilnLayer.removeLayer(m); });
+  }));
   ["t-zone", "t-sch"].forEach((id) => document.getElementById(id).addEventListener("change", drawDetail));
 
   // places
