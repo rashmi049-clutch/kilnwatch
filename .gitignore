@@ -24,3 +24,6 @@ models/yolo11n-obb.pt
 
 # Annotation page lives as a private Claude artifact (saves answers there), not on GitHub Pages
 docs/kiln_check/
+
+# Personal drafts (CV / LinkedIn), not part of the project
+docs/portfolio_writeup.md
