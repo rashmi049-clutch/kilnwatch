@@ -1023,6 +1023,16 @@ line than just inside it (1{,}290 schools lie 600--1{,}000~m from a kiln), so
 position error is unlikely to have inflated the headline. The children figure does
 not depend on school points at all (WorldPop residents).
 
+\textbf{Rejected: correcting school positions from OpenStreetMap.} The analyst asked
+for an accurate school list, so register schools were matched by name and distance
+to OpenStreetMap schools (\texttt{analysis/school\_osm\_match.py}). OSM holds about
+2{,}400 schools in the NCR against 44{,}000 in the register; only 824 matched, mostly
+in urban Delhi, and just 9 of the 4{,}158 register schools within 1.5~km of a kiln.
+Loose name matching also produced false pairs. The register points are kept. A
+school-by-school correction of the 1{,}194 schools near kilns would need a person
+placing each point on its building (field visits or high-resolution imagery); no
+open dataset provides it.
+
 \subsection{Full visual check of every kiln near a school, and stacked school points}
 \label{sec:fullcheck}
 \textbf{Why.} Spot checks by the analyst on the web map kept finding points that
