@@ -992,6 +992,37 @@ Schools more than 300~m from any built-up land (6.4\%) are treated as
 unreliable and excluded from the main count; results are reported with and
 without them.
 
+\textbf{How much do position errors move the school count?} The analyst noticed
+that many school points do not fall on a school in Google Maps. Rather than
+re-locate 33{,}648 schools by hand, every point was moved in a random direction
+by a random distance (Rayleigh-distributed, i.e.\ the radial error of a 2-D normal)
+and the schools within 800~m of a kiln recounted, 500 times per scenario
+(\texttt{analysis/school\_position\_sensitivity.py}).
+
+\begin{table}[H]
+\centering\small
+\begin{tabular}{@{}lrr@{}}
+\toprule
+Typical (median) position error & Mean count & 95\% of runs \\
+\midrule
+none (as recorded)  & 1{,}194 & --- \\
+50~m                & 1{,}192 & 1{,}175--1{,}209 \\
+100~m               & 1{,}190 & 1{,}168--1{,}212 \\
+200~m               & 1{,}214 & 1{,}184--1{,}243 \\
+300~m (pessimistic) & 1{,}258 & 1{,}217--1{,}293 \\
+\bottomrule
+\end{tabular}
+\caption{Schools within 800~m of a kiln under simulated position error, NCR
+excluding Delhi. The realistic range, from the 30-point check and the built-up
+distances above, is 100--200~m.}
+\end{table}
+
+At realistic errors the count stays within about 4\% of 1{,}194 (1{,}168--1{,}243).
+Larger errors \emph{raise} it, because more schools sit just outside the 800~m
+line than just inside it (1{,}290 schools lie 600--1{,}000~m from a kiln), so
+position error is unlikely to have inflated the headline. The children figure does
+not depend on school points at all (WorldPop residents).
+
 \subsection{Full visual check of every kiln near a school, and stacked school points}
 \label{sec:fullcheck}
 \textbf{Why.} Spot checks by the analyst on the web map kept finding points that
@@ -1358,7 +1389,8 @@ Earth); the first random audit, before cleaning, measured 0.91 (95\% CI 0.73--0.
 kiln \emph{structure}; whether it fired in 2023--24 rests on the heat test.
 \item \emph{School locations.} Register coordinates; about half sit beside
 rather than on the school building, and 3{,}090 stacked points were dropped, so
-some real schools are missing from the counts.
+some real schools are missing from the counts. Simulated position errors of
+100--200~m move the count of schools within 800~m by about 4\% (1{,}168--1{,}243).
 \item \emph{Relict kilns.} Abandoned kiln outlines with marginal heat readings
 pass both the detector and the firing test; no automatic filter yet removes
 them.
