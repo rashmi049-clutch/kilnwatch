@@ -1023,6 +1023,18 @@ line than just inside it (1{,}290 schools lie 600--1{,}000~m from a kiln), so
 position error is unlikely to have inflated the headline. The children figure does
 not depend on school points at all (WorldPop residents).
 
+\textbf{Visual check of the borderline schools.} Only schools close to the 800~m
+line can change the count, so the 292 schools 750--850~m from a kiln were looked at
+on current Esri imagery (by Claude, at the analyst's request;
+\texttt{outputs/tables/school\_position\_check\_borderline.csv}). The point fell
+inside the village built-up area at 126, on a distinct compound (a likely school
+campus) at 34, at the village edge at 57, in an open field or on a road at 59, and
+16 were hidden by haze or cloud. So about one point in five (20\%) is clearly not
+on a building --- consistent with the earlier 30-point check. The misplaced points
+are split evenly across the line (33 inside 800~m, 26 outside), so correcting them
+would move schools both ways and leave the count roughly unchanged. Imagery cannot
+say \emph{which} building is the school, so the points were flagged, not moved.
+
 \textbf{Rejected: correcting school positions from OpenStreetMap.} The analyst asked
 for an accurate school list, so register schools were matched by name and distance
 to OpenStreetMap schools (\texttt{analysis/school\_osm\_match.py}). OSM holds about
