@@ -21,10 +21,10 @@ click any kiln or school, switch on satellite imagery and slide through the year
 |---|---|
 | Children aged 5–14 within 800 m of a firing kiln | **≈ 528,000 (6.4%)**; range 528,000–586,000 |
 | Worst district | **Baghpat, 32.3%** of its children |
-| Schools within 800 m of a kiln | **1,194** (range 1,194–1,414) |
-| Kilns with a school within 800 m | **32.9%** of 3,057 |
-| Kilns that stopped firing by 2025–26 | 10.6%; **no more often near schools** (10.7% vs 10.5%) |
-| Kilns near schools still firing in 2025–26 | **896** |
+| Schools within 800 m of a kiln | **837** with reliably placed points (1,194 counting register points in fields) |
+| Kilns with a school within 800 m | **22.8%** of 3,057 (32.9% counting all register points) |
+| Kilns that stopped firing by 2025–26 | 10.6%; **no more often near schools** (10.2% vs 10.7%) |
+| Kilns near schools still firing in 2025–26 | **627** |
 | Firing on air-quality emergency (GRAP III/IV) days | **Yes**; the GRAP schedules do not close kilns |
 | PM₂.₅ emitted by kilns, one season | **≈ 4,400–11,600 t** (estimate), about 30% from kilns near schools |
 
@@ -32,19 +32,19 @@ click any kiln or school, switch on satellite imagery and slide through the year
 
 | | Hypothesis | Result |
 |---|---|---|
-| H1 | ≥ 25% of kilns have a school within 800 m | **Confirmed**: 32.9% |
+| H1 | ≥ 25% of kilns have a school within 800 m | **Not rejected**: 22.8% strict (just under the predicted 25%), 32.9% with all register points |
 | H2 | The top 3 districts hold > 50% of exposed children | **Rejected**: 40%. Exposure is spread across the region |
 | H3 | Enforcement does not target kilns near schools | **Confirmed**: kilns near schools closed no more often |
 
 **What should happen:**
-1. Check the 896 kilns still firing near schools against their consent-to-operate
+1. Check the 627 kilns still firing near schools against their consent-to-operate
    records, starting with Baghpat, Shamli and Muzaffarnagar.
 2. Consider adding kilns to the GRAP Stage III/IV closure list, as stone crushers
    and mines already are.
-3. Put PM₂.₅ monitors at the most-affected schools. JHS Rampur Kheri in Shamli
-   has 12 kilns within 800 m.
+3. Put PM₂.₅ monitors at the most-affected schools. P.S. Matiyala in Ghaziabad
+   has 10 kilns within 800 m.
 4. Fix the school register: about 3,100 NCR schools share a point with schools
-   from other villages.
+   from other villages, and about 1 point in 5 lies in open fields.
 
 ![PM2.5 from kilns within 800 m of a school, by district](outputs/maps/kiln_emissions_map_A3_web.png)
 
@@ -61,7 +61,7 @@ flowchart LR
     E --> F[Remove<br>duplicates]
     F --> V[Eye check: every kiln near<br>a school + weak firers in GEE]
     V --> G[3,057 kilns, all eye-checked]
-    G --> H[Join: 33,648 schools<br>+ WorldPop children]
+    G --> H[Join: 29,172 schools<br>+ WorldPop children]
     H --> I[Exposure · change ·<br>emissions · maps]
 ```
 
@@ -80,7 +80,8 @@ flowchart LR
   800 m buffers, so overlapping zones count each child once. School points from
   UDISE were checked: points whose district didn't match their location, or that
   lay far from any buildings, were dropped, and so were 3,090 points shared by
-  schools from different villages (default coordinates, not school locations).
+  schools from different villages (default coordinates, not school locations),
+  and 4,476 points lying more than 50 m from any building (mostly in fields).
 - **Change.** Each kiln is re-tested *at the same spot* in 2025–26, so detector
   misses can't pose as closures.
 

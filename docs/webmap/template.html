@@ -118,8 +118,8 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
     <div class="stats" aria-label="Headline numbers, NCR excluding Delhi">
       <div class="stat hl"><b>≈528,000</b><span>children aged 5–14 within 800 m (6.4%)</span></div>
       <div class="stat hl"><b>1 in 3</b><span>children in Baghpat district</span></div>
-      <div class="stat"><b>1,194</b><span>schools within 800 m of a kiln</span></div>
-      <div class="stat"><b>3,057</b><span>firing kilns, 33% with a school nearby</span></div>
+      <div class="stat"><b>837</b><span>schools within 800 m of a kiln</span></div>
+      <div class="stat"><b>3,057</b><span>firing kilns, 23% with a school nearby</span></div>
     </div>
     <section class="search">
       <h2><label for="q">Find a school, village or district</label></h2>
@@ -169,9 +169,9 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
       </div>
     </section>
     <footer class="foot">
-      <div><b>How the kilns were found.</b> YOLO11 detector on Sentinel-2 winter composites, filtered by land cover, kept only if hot in ≥12% of clear images, with airports, refineries and year-round heat sources removed. Every kiln within 800 m of a school (1,133) was then checked by eye on Esri imagery, with older captures for hazy ones, and so was every other kiln, with the doubtful ones decided by Rashmi Sinha; 208 non-kilns were removed in all (150 of them on Claude's judgement alone; with those restored the headline would be about 586,000 children). School points shared by schools of different villages (3,090) were dropped as misplaced.</div>
+      <div><b>How the kilns were found.</b> YOLO11 detector on Sentinel-2 winter composites, filtered by land cover, kept only if hot in ≥12% of clear images, with airports, refineries and year-round heat sources removed. Every kiln within 800 m of a school (1,133) was then checked by eye on Esri imagery, with older captures for hazy ones, and so was every other kiln, with the doubtful ones decided by Rashmi Sinha; 208 non-kilns were removed in all (150 of them on Claude's judgement alone; with those restored the headline would be about 586,000 children). School points shared by schools of different villages (3,090), or lying more than 50 m from any building (4,476, mostly in fields), were dropped as misplaced; real schools are therefore undercounted.</div>
       <div><b>Data.</b> Copernicus Sentinel-2 (ESA); SentinelKilnDB (IIT Gandhinagar, CC BY-NC 4.0); ESA WorldCover; WorldPop 2020; UDISE school locations via DataMeet; OpenStreetMap contributors; NCRPB districts (pre-2023, rebuilt).</div>
-      <div><b>Map.</b> Displayed in Web Mercator; all distances and areas computed in WGS 84 / UTM 43N (EPSG:32643). Produced 16 October 2026 · KilnWatch, Rashmi Sinha.</div>
+      <div><b>Map.</b> Displayed in Web Mercator; all distances and areas computed in WGS 84 / UTM 43N (EPSG:32643). Produced 20 October 2026 · KilnWatch, Rashmi Sinha.</div>
     </footer>
   </aside>
 </div>

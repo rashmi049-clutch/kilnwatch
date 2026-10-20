@@ -18,6 +18,8 @@ Apply the full visual check of near-school kilns, and remove misplaced school po
    villages on one spot). They are dropped from use_strict; a primary and an upper
    primary school of the same village on one point (shared campus) are kept.
    The previous flag is kept as use_strict_v1.
+   Points more than 50 m from built-up land (far_from_buildings) are also dropped:
+   threshold read from the borderline-school visual check (see section 3 below).
 
 Also rewrites the map layers that QGIS styles (kilns_final, schools_map, 800 m zones).
 """
@@ -56,7 +58,11 @@ if "use_strict_v1" not in sch:
 key = sch.geometry.x.round(0).astype(int).astype(str) + "_" + sch.geometry.y.round(0).astype(int).astype(str)
 nvil = sch[sch.use_strict_v1].groupby(key[sch.use_strict_v1]).vilname.nunique()
 sch["stacked_multivillage"] = key.map(nvil).fillna(1).gt(1) & sch.use_strict_v1
-sch["use_strict"] = sch.use_strict_v1 & ~sch.stacked_multivillage
+# 3. Points more than 50 m from WorldCover built-up land: in the visual check of the 292
+#    borderline schools (outputs/tables/school_position_check_borderline.csv) this flags
+#    48 of 59 points lying in fields and only 11 of 233 points on or near buildings.
+sch["far_from_buildings"] = sch.dist_built_m > 50
+sch["use_strict"] = sch.use_strict_v1 & ~sch.stacked_multivillage & ~sch.far_from_buildings
 sch.to_file(SCH, driver="GPKG")
 print(f"schools: dropped {int(sch.stacked_multivillage.sum())} stacked multi-village points; "
       f"use_strict now {int(sch.use_strict.sum())} (was {int(sch.use_strict_v1.sum())})")

@@ -1,3 +1,3 @@
 layer,kilns,H1_pct,schools,children,top3_pct,UP_pct,Rajasthan_pct,Haryana_pct
-lower: firing-verified,3057,32.9,1194,528161,40.9,70.9,4.9,24.2
-upper: all filtered,5715,42.6,3883,1213026,33.4,60.0,12.6,27.4
+lower: firing-verified,3057,22.8,837,528161,40.9,70.9,4.9,24.2
+upper: all filtered,5715,33.2,3060,1213026,33.4,60.0,12.6,27.4
