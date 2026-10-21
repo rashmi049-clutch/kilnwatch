@@ -7,7 +7,7 @@ for i in [x for x in L.items() if isinstance(x, QgsLayoutItemLabel)]:
     t = i.text()
     if t.startswith("\u2248"):
         i.setText("\u2248 528,000 children aged 5\u201314 (6.4%) live within 800 m of a firing kiln\n"
-                  "837 schools stand within 800 m  \u00b7  23% of 3,057 kilns have a school within 800 m\n"
+                  "836 schools stand within 800 m  \u00b7  23% of 3,057 kilns have a school within 800 m\n"
                   "Kilns near schools were no more likely to stop firing by 2025\u201326 (10.2% vs 10.7%)")
     elif t.startswith("Method:"):
         i.setText(t.replace("non-kiln heat sources removed. Precision 0.91 by visual audit of 25 random kilns (95% CI 0.73\u20130.98).",

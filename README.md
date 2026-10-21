@@ -21,10 +21,10 @@ click any kiln or school, switch on satellite imagery and slide through the year
 |---|---|
 | Children aged 5–14 within 800 m of a firing kiln | **≈ 528,000 (6.4%)**; range 528,000–586,000 |
 | Worst district | **Baghpat, 32.3%** of its children |
-| Schools within 800 m of a kiln | **837** with reliably placed points (1,194 counting register points in fields) |
+| Schools within 800 m of a kiln | **836** with reliably placed points (1,194 counting register points in fields) |
 | Kilns with a school within 800 m | **22.8%** of 3,057 (32.9% counting all register points) |
 | Kilns that stopped firing by 2025–26 | 10.6%; **no more often near schools** (10.2% vs 10.7%) |
-| Kilns near schools still firing in 2025–26 | **627** |
+| Kilns near schools still firing in 2025–26 | **626** |
 | Firing on air-quality emergency (GRAP III/IV) days | **Yes**; the GRAP schedules do not close kilns |
 | PM₂.₅ emitted by kilns, one season | **≈ 4,400–11,600 t** (estimate), about 30% from kilns near schools |
 
@@ -37,7 +37,7 @@ click any kiln or school, switch on satellite imagery and slide through the year
 | H3 | Enforcement does not target kilns near schools | **Confirmed**: kilns near schools closed no more often |
 
 **What should happen:**
-1. Check the 627 kilns still firing near schools against their consent-to-operate
+1. Check the 626 kilns still firing near schools against their consent-to-operate
    records, starting with Baghpat, Shamli and Muzaffarnagar.
 2. Consider adding kilns to the GRAP Stage III/IV closure list, as stone crushers
    and mines already are.

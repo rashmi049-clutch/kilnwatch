@@ -62,7 +62,10 @@ sch["stacked_multivillage"] = key.map(nvil).fillna(1).gt(1) & sch.use_strict_v1
 #    borderline schools (outputs/tables/school_position_check_borderline.csv) this flags
 #    48 of 59 points lying in fields and only 11 of 233 points on or near buildings.
 sch["far_from_buildings"] = sch.dist_built_m > 50
-sch["use_strict"] = sch.use_strict_v1 & ~sch.stacked_multivillage & ~sch.far_from_buildings
+# 4. Points the analyst found to be wrong on imagery (outputs/tables/school_points_reported_wrong.csv)
+bad_sch = pd.read_csv(ROOT / "outputs/tables/school_points_reported_wrong.csv", dtype={"schcd": str})
+sch["reported_wrong"] = sch.schcd.astype(str).isin(bad_sch.schcd)
+sch["use_strict"] = sch.use_strict_v1 & ~sch.stacked_multivillage & ~sch.far_from_buildings & ~sch.reported_wrong
 sch.to_file(SCH, driver="GPKG")
 print(f"schools: dropped {int(sch.stacked_multivillage.sum())} stacked multi-village points; "
       f"use_strict now {int(sch.use_strict.sum())} (was {int(sch.use_strict_v1.sum())})")
