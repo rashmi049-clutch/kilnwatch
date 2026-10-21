@@ -1,0 +1,837 @@
+﻿schcd,schname,school_cat,management,vilname,district,state,lat,lon,nearest_kiln_m,kilns_800m,status,source
+8060314004,ADARSH BAL BHARTI BASNI,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),BASNI,Alwar (pre-2023),Rajasthan,27.967929,76.628126,752.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060314006,ADARSH PUB BASNI,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),BASNI,Alwar (pre-2023),Rajasthan,27.968441,76.628388,774.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060419001,AKASH PUBLIC SCHOOL KHIRGACHI,Primary with Upper Primary,Private Unaided (Recognized),NP KAIRTHAL_WARD NO.17,Alwar (pre-2023),Rajasthan,27.803443,76.664445,533.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060710109,AMAN PUBLIC SCHOOL GOLETA,Primary with Upper Primary,Private Unaided (Recognized),GOLETA,Alwar (pre-2023),Rajasthan,27.532579,76.708128,734.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060414274,AXIS ACADEMY SR.SEC. SCHOOL KHAIRTHAL,Upper Pri. Secondary and Higher Sec,Private Unaided (Recognized),KHAIRTHAL,Alwar (pre-2023),Rajasthan,27.802017,76.656115,401.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060300103,BABA BHAGWANDAS SHSS JAT BEHROR,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),JAT BEHRORE,Alwar (pre-2023),Rajasthan,27.955675,76.430641,684.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060809905,EKTA PUBLIC SCHOOL KHAREDA TIBARA,Primary with Upper Primary,Private Unaided (Recognized),KHAREDA,Alwar (pre-2023),Rajasthan,27.372797,76.577783,421.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060709501,GOVT. ADARSH SHSS BAHALA,Pri. with Upper Pri. Sec. and H.Sec.,Department of Education,BAHALA,Alwar (pre-2023),Rajasthan,27.533374,76.724856,464.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060814911,GOVT. ADARSH SHSS BURJA,Pri. with Upper Pri. Sec. and H.Sec.,Department of Education,BURJA,Alwar (pre-2023),Rajasthan,27.495499,76.599772,767.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060511201,GOVT. ADARSH SHSS GHEEKAKA,Pri. with Upper Pri. Sec. and H.Sec.,Department of Education,GHEEKAKA,Alwar (pre-2023),Rajasthan,27.997098,76.717249,648.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060102701,GOVT. ADARSH SHSS JAGU WAS,Pri. with Upper Pri. Sec. and H.Sec.,Department of Education,JAGU WAS,Alwar (pre-2023),Rajasthan,27.873564,76.309178,563.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060406601,GOVT. ADARSH SS BALLBH GRAM,Pri. with Upper Pri. Sec. and H.Sec.,Department of Education,BALLBH GRAM,Alwar (pre-2023),Rajasthan,27.776067,76.644956,243.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060706901,GOVT. ADARSH SSS NANGALI MEGHA,Pri. with Upper Pri. Sec. and H.Sec.,Department of Education,NANGALI MEGHA,Alwar (pre-2023),Rajasthan,27.501883,76.764498,613.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060500701,GOVT. PRAVESHIKA SANSKRIT ALAMPUR,Pri. Upper Pri. and Secondary Only,Department of Education,ALAMPUR,Alwar (pre-2023),Rajasthan,28.044546,76.703191,404.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8061107509,GOVT. PS BANI  KA BAS SAKAT,Primary,Local body,SAKAT,Alwar (pre-2023),Rajasthan,27.145025,76.534968,792.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060406702,GOVT. PS CHALI KA BAS,Primary,Local body,NANGALA DUNGAR,Alwar (pre-2023),Rajasthan,27.776716,76.665362,655.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060606701,GOVT. PS CHAPAR,Primary,Local body,CHAPAR,Alwar (pre-2023),Rajasthan,28.136426,76.846256,395.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060709502,GOVT. PS INDRA COLONY,Primary,Local body,BAHALA,Alwar (pre-2023),Rajasthan,27.524089,76.715195,630.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8061405405,GOVT. PS JATAV BASTI KHEDA MEDA,Primary,Local body,KHEDA MEDA,Alwar (pre-2023),Rajasthan,27.300861,77.001323,734.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060606501,GOVT. PS KHATIBAS,Primary,Local body,KHATIBAS,Alwar (pre-2023),Rajasthan,28.135811,76.849687,460.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060901501,GOVT. PS KHATOTI,Primary,Local body,KHATOTI,Alwar (pre-2023),Rajasthan,27.77737,76.402332,672.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060414213,GOVT. PS KIRGICHI,Primary,Department of Education,KHAIRTHAL,Alwar (pre-2023),Rajasthan,27.803639,76.664574,556.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060511101,GOVT. PS LISANI,Primary,Local body,LISANI,Alwar (pre-2023),Rajasthan,27.837707,76.660332,679.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8061313301,GOVT. PS MASTPUR,Primary,Local body,MASTPUR,Alwar (pre-2023),Rajasthan,27.503489,76.981052,328.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060814910,GOVT. PS MEDI BAS BURJA,Primary,Local body,BURJA,Alwar (pre-2023),Rajasthan,27.495253,76.606237,788.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060203104,GOVT. PS RODWAL,Primary,Local body,RODWAL,Alwar (pre-2023),Rajasthan,28.004363,76.352736,540.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060816317,GOVT. PS SAHAB JOHADA,Primary,Department of Education,NP ALWAR_WARD NO. 50,Alwar (pre-2023),Rajasthan,27.495401,76.59966,759.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060814906,GOVT. PS SAPERA BAS,Primary,Local body,BURJA,Alwar (pre-2023),Rajasthan,27.495351,76.606349,790.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060814801,GOVT. SS DADAR,Pri. Upper Pri. and Secondary Only,Department of Education,DADAR,Alwar (pre-2023),Rajasthan,27.487357,76.603774,261.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8061004101,GOVT. SS DHIGARIA,Pri. Upper Pri. and Secondary Only,Department of Education,DHIGARIA,Alwar (pre-2023),Rajasthan,27.410422,76.267799,796.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060313601,GOVT. SS NAREDI,Pri. Upper Pri. and Secondary Only,Department of Education,NAREDI,Alwar (pre-2023),Rajasthan,27.772078,76.564084,668.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8061210317,GOVT. UPS AHEER BAS,Primary with Upper Primary,Department of Education,GARHI SAWAIRAM,Alwar (pre-2023),Rajasthan,27.23213,76.823321,511.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060311302,GOVT. UPS BADLI KI DHANI,Primary with Upper Primary,Department of Education,BADLI,Alwar (pre-2023),Rajasthan,27.780731,76.540979,286.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060203301,GOVT. UPS BHEEM SINGH PURA,Primary with Upper Primary,Department of Education,BHEEM SINGH PURA,Alwar (pre-2023),Rajasthan,28.027361,76.350908,566.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060312806,GOVT. UPS CHITAR KA BAS,Primary with Upper Primary,Department of Education,MATOR,Alwar (pre-2023),Rajasthan,27.776122,76.612739,331.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060403901,GOVT. UPS DADAR HEDA,Primary with Upper Primary,Department of Education,DADAR HEDA,Alwar (pre-2023),Rajasthan,27.791366,76.66595,700.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060509001,GOVT. UPS DOULAT NAGAR MAJRA,Primary with Upper Primary,Department of Education,DOULAT NAGAR MAJRA,Alwar (pre-2023),Rajasthan,27.880597,76.632221,710.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060313506,GOVT. UPS KHUSHALBAS,Primary with Upper Primary,Department of Education,KUSHALBAS,Alwar (pre-2023),Rajasthan,27.764107,76.546539,527.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8061007501,GOVT. UPS LEELA MANDA,Primary with Upper Primary,Department of Education,LEELA MANDHA,Alwar (pre-2023),Rajasthan,27.487622,76.306477,763.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060403701,GOVT. UPS NANGAL MOJIA,Primary with Upper Primary,Department of Education,NANGAL MOJIYA,Alwar (pre-2023),Rajasthan,27.80909,76.669834,777.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8061403404,GOVT. UPS NANGLA LAKKHI,Primary with Upper Primary,Department of Education,TASAI,Alwar (pre-2023),Rajasthan,27.37473,77.091166,483.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060406504,GOVT. UPS PAHADI PATAN,Primary with Upper Primary,Department of Education,PATAN MEWAN,Alwar (pre-2023),Rajasthan,27.782398,76.6491,569.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060709801,GOVT. UPS SANKHALA,Primary with Upper Primary,Department of Education,SANKHALA,Alwar (pre-2023),Rajasthan,27.516927,76.72218,761.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8061107201,GOVT. UPS THAMAWLI,Primary with Upper Primary,Department of Education,THAMAWLI,Alwar (pre-2023),Rajasthan,27.136152,76.548941,714.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8061007601,GOVT. UPS TURKIYA WAS,Primary with Upper Primary,Department of Education,TURKIYA WAS,Alwar (pre-2023),Rajasthan,27.502021,76.31685,763.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060709702,HARIKISHAN MEMORIAL SHSS DHADHOLI,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),DHADHOLI,Alwar (pre-2023),Rajasthan,27.525299,76.712966,656.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060809903,HARISH PUBLIC SCHOOL KHAREDA,Primary with Upper Primary,Private Unaided (Recognized),KHAREDA,Alwar (pre-2023),Rajasthan,27.372904,76.577087,425.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060414250,IDEAL ACADEMY SR.SEC. SCHOOL KHAIRTHAL,Secondary with Higher Secondary,Private Unaided (Recognized),KHAIRTHAL,Alwar (pre-2023),Rajasthan,27.800886,76.657133,277.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060709506,KOSHIK PUB. BAHALA,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),BAHALA,Alwar (pre-2023),Rajasthan,27.533409,76.727115,478.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060709908,MADARSA ISLAMIA SEBULAR RASAD KESROLI MOD ALWAR,Primary,Madarsa recognized (by Wakf board/Madarsa Board),KESROLI,Alwar (pre-2023),Rajasthan,27.538484,76.709364,490.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060814805,MADARSA ISLAMIYA MOINUL DADAR,Primary,Madarsa recognized (by Wakf board/Madarsa Board),DADAR,Alwar (pre-2023),Rajasthan,27.483792,76.603732,590.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060709508,MADRASA HAJRAT MOLANA ABDUL QADIR ACEDEMY BAHALA,Primary,Madarsa recognized (by Wakf board/Madarsa Board),BAHALA,Alwar (pre-2023),Rajasthan,27.538748,76.718005,429.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060805212,MAPLE WOOD PUBLIC SCHOOL CHANDOLI,Primary with Upper Primary,Private Unaided (Recognized),CHANDOLI,Alwar (pre-2023),Rajasthan,27.691348,76.577128,473.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060414003,MOUNT LITERA ZEE SCHOOL JHARKHERA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),JHARKHEDA,Alwar (pre-2023),Rajasthan,27.639622,76.643143,539.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060805214,NEW SUNRISE PUBLIC SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),CHANDOLI,Alwar (pre-2023),Rajasthan,27.691037,76.577478,434.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060203502,OM SHRI KRISHAN PUBLIC SCHOOL VIJAYSINGHPURA,Primary with Upper Primary,Private Unaided (Recognized),VIJAY SINGH PURA,Alwar (pre-2023),Rajasthan,27.995069,76.342394,553.0,5,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060710409,PURSHOTAM PUBLIC SCHOOL BAGAD RAJPUT,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),BAGAR RAJPUT,Alwar (pre-2023),Rajasthan,27.510116,76.762929,526.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060709507,RAJASTHAN PUBLIC SS SCHOOL BAHALA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),BAHALA,Alwar (pre-2023),Rajasthan,27.528916,76.716779,120.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060107425,RAO DALIP SINGH PUB.SCH.GANDALA,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),GANDALA,Alwar (pre-2023),Rajasthan,27.983281,76.316165,290.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060809904,ROYALS ACADEMY UPS KHAREDA,Primary with Upper Primary,Private Unaided (Recognized),KHAREDA,Alwar (pre-2023),Rajasthan,27.373807,76.577919,533.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060814912,SARASWATI PUBLIC SECONDARY SCHOOL BURJA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),BURJA,Alwar (pre-2023),Rajasthan,27.495855,76.601751,783.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060603310,SARMEEN ACADMY SAMITI JHIWANA,Primary with Upper Primary,Private Unaided (Recognized),JHIWANA,Alwar (pre-2023),Rajasthan,28.137801,76.846616,244.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060403704,SARSWATI  UPS VIDHA MANDIR NANGAL MOJIYA,Primary with Upper Primary,Private Unaided (Recognized),NANGAL MOJIYA,Alwar (pre-2023),Rajasthan,27.806315,76.667975,685.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060709505,SATYA PUB SCH. BAHALA,Primary with Upper Primary,Private Unaided (Recognized),BAHALA,Alwar (pre-2023),Rajasthan,27.533598,76.727168,460.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060403706,STAR PUBLIC SCHOOL KHAIRTHAL,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),NANGAL MOJIYA,Alwar (pre-2023),Rajasthan,27.805873,76.667907,666.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8060406610,SWAMI LILA SAHA PUB.SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),BALLBH GRAM,Alwar (pre-2023),Rajasthan,27.77468,76.64392,427.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080101412,AADIVYA PUBLIC SCHOOK,Primary with Upper Primary,Private Unaided (Recognized),SAROORPUR KALA,Baghpat,Uttar Pradesh,29.03489,77.2356,462.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080702306,ABC I.C DATTNAGAR,Upper Pri. Secondary and Higher Sec,Government Aided,DUTTA NAGAR,Baghpat,Uttar Pradesh,28.9182,77.4043,698.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080604136,ARVACHIN BHARTI BHAWAN H S KHAKRA,Primary with Upper Primary,Private Unaided (Recognized),KHEKRA,Baghpat,Uttar Pradesh,28.8639,77.2889,709.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080101204,ARYA BAL PS,Primary,Private Unaided (Recognized),NINANA,Baghpat,Uttar Pradesh,29.02502,77.20407,681.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080101413,ARYAN PUBLIC JHS,Primary with Upper Primary,Private Unaided (Recognized),SAROORPUR KALA,Baghpat,Uttar Pradesh,29.03296,77.22923,555.0,6,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080600111,ASHOK SMARAK H.S KHATA (PALI),Upper Pri. and Secondary,Private Unaided (Recognized),KATHA,Baghpat,Uttar Pradesh,28.89623,77.24449,291.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080301805,B.P.INTER COLLEGE BIJWARA,Upper Pri. Secondary and Higher Sec,Government Aided,BIJWARA,Baghpat,Uttar Pradesh,29.069861,77.35143,643.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080402101,CAMBRIDGE PUBLIC SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),WARD NO-12,Baghpat,Uttar Pradesh,29.1073,77.255145,728.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080306220,CH. AJAB SINGH MAMORIAL TIKRI,Primary with Upper Primary,Private Unaided (Recognized),TEEKRI,Baghpat,Uttar Pradesh,29.23413,77.35421,564.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080305308,CH. BSM PUBLIC JHS,Primary with Upper Primary,Private Unaided (Recognized),NIRPURA,Baghpat,Uttar Pradesh,29.22645,77.4298,485.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080701002,COMPOSITE SCHOOL BARISIYA,Primary with Upper Primary,Department of Education,BARSIA,Baghpat,Uttar Pradesh,29.016843,77.341601,675.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080702902,COMPOSITE SCHOOL DAULATPUR,Primary with Upper Primary,Department of Education,DAULATPUR,Baghpat,Uttar Pradesh,28.935104,77.387724,614.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080105204,DR. B.R. A. PUBLIC SCHOOL JHS,Primary with Upper Primary,Private Unaided (Recognized),TATEERI  TOWN,Baghpat,Uttar Pradesh,28.948932,77.257578,542.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080601905,DR.B.A.J.H.S.  FAKHERPUR,Primary with Upper Primary,Private Unaided (Recognized),FAKHERPUR,Baghpat,Uttar Pradesh,28.84066,77.295033,695.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080500202,FAIJ A AAM PUBLIC SCHOOL,Primary,Madarsa unrecognized,ASARA,Baghpat,Uttar Pradesh,29.243313,77.305638,730.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080104207,G.H.S AHERA,Secondary Only,Department of Education,AHAIDA,Baghpat,Uttar Pradesh,28.9317,77.2667,477.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080203606,G.J.H.S. LUHARI,Upper Primary only,Department of Education,LUHARI,Baghpat,Uttar Pradesh,29.075605,77.18953,704.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080100307,"GATEWAY INTERNATIONAL SCHOOL, KHANDWARI BANGER, BARAUT ROAD BAGHPAT",Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),SISANA,Baghpat,Uttar Pradesh,28.959647,77.216449,618.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080201106,GOLDEN FUTURE PUBLIC SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),KANDERA,Baghpat,Uttar Pradesh,29.160689,77.322965,726.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080301002,GREEN JHS,Primary with Upper Primary,Private Unaided (Recognized),PICHOKRA,Baghpat,Uttar Pradesh,29.093989,77.396876,528.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080305405,GUPS BHADAL,Upper Primary only,Department of Education,BHADAL,Baghpat,Uttar Pradesh,29.222933,77.43063,646.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080201605,GURU KIRPA PUBLIC SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),BIJRAUL,Baghpat,Uttar Pradesh,29.123943,77.314528,707.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080100404,GYAN DEEP JHS Gauripur Jawaharnagar,Primary with Upper Primary,Private Unaided (Recognized),GAURIPUR JAWAHAR NGR,Baghpat,Uttar Pradesh,28.988955,77.219196,634.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080303703,GYAN SAGAR PUB SCHOOL,Primary,Private Unaided (Recognized),KAHANAD,Baghpat,Uttar Pradesh,29.187467,77.392125,667.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080602003,GYANDEEP PUBLIC SCHOOL,Primary,Private Unaided (Recognized),GOTHARA,Baghpat,Uttar Pradesh,28.897866,77.242,592.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080302904,Ganga public School Chirchita,Primary with Upper Primary,Private Unaided (Recognized),CHIRCHITA,Baghpat,Uttar Pradesh,29.04966,77.43716,622.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080602007,HRS ACADEMY GOTHARA,Primary with Upper Primary,Private Unaided (Recognized),GOTHARA,Baghpat,Uttar Pradesh,28.8161,77.2964,591.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080603606,INDERJEET MEMORIAL JHS,Primary with Upper Primary,Private Unaided (Recognized),GADIKALANJARI,Baghpat,Uttar Pradesh,28.786587,77.392466,759.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080603605,INDIA PUBLIC SCHOOL,Primary,Private Unaided (Recognized),GADIKALANJARI,Baghpat,Uttar Pradesh,28.805145,77.356765,742.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080105215,INDIRA GANDHI MEMORIAL PUBLIC SCHOOL,Primary,Private Unaided (Recognized),TATEERI  TOWN,Baghpat,Uttar Pradesh,28.951142,77.269255,798.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080101410,INTER COLLEGE SAROORPUR KHEDKI,Upper Pri. Secondary and Higher Sec,Government Aided,SAROORPUR KALA,Baghpat,Uttar Pradesh,29.02903,77.231312,582.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080205002,J.H.S ALAWALPUR,Upper Primary only,Department of Education,ALAWALPUR,Baghpat,Uttar Pradesh,29.025341,77.20384,717.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080500207,J.H.S ASRA,Upper Primary only,Department of Education,ASARA,Baghpat,Uttar Pradesh,29.242995,77.305372,687.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080502303,J.H.S BADARKHA,Upper Primary only,Department of Education,BADARKHA,Baghpat,Uttar Pradesh,29.189891,77.15816,618.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080300108,J.H.S BINAULI,Upper Primary only,Department of Education,BINAULI,Baghpat,Uttar Pradesh,29.092661,77.404428,674.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080202302,J.H.S BOHLA,Upper Primary only,Department of Education,BOHLA,Baghpat,Uttar Pradesh,29.094972,77.204511,648.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080502202,J.H.S CHANDAN HEDI,Upper Primary only,Department of Education,CHANDAN HEDI,Baghpat,Uttar Pradesh,29.175334,77.194822,699.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080104502,J.H.S CHAUHALDA,Upper Primary only,Department of Education,CHAUHALDA,Baghpat,Uttar Pradesh,28.938544,77.284758,757.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080603003,J.H.S DAGARPUR,Upper Primary only,Department of Education,DAGARPUR,Baghpat,Uttar Pradesh,28.801,77.3428,721.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080202103,J.H.S DHIKANA,Upper Primary only,Department of Education,DHIKANA,Baghpat,Uttar Pradesh,29.078897,77.21842,417.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080100403,J.H.S GAURIPUR JAWAHARNAGAR,Upper Primary only,Department of Education,GAURIPUR JAWAHAR NGR,Baghpat,Uttar Pradesh,29.022189,77.204926,528.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080500903,J.H.S HALALPUR,Upper Primary only,Department of Education,HALALPUR,Baghpat,Uttar Pradesh,29.194067,77.190159,660.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080202203,J.H.S JAUNMANA,Upper Primary only,Department of Education,JAUNMANA,Baghpat,Uttar Pradesh,29.090359,77.226339,695.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080201105,J.H.S KANDERA,Upper Primary only,Department of Education,KANDERA,Baghpat,Uttar Pradesh,29.15654,77.323648,264.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080203802,J.H.S RUSTAMPUR,Upper Primary only,Department of Education,RUSTAMPUR,Baghpat,Uttar Pradesh,29.125556,77.2975,752.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080303903,J.H.S. AZAMPUR MULSAM (1 to 8 COMPOSITE),Primary with Upper Primary,Department of Education,MOONSUM,Baghpat,Uttar Pradesh,29.164763,77.42062,492.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080305102,J.H.S.BOPURA (1 to 8 COMPOSITE),Primary with Upper Primary,Department of Education,BOPURA,Baghpat,Uttar Pradesh,29.185579,77.437909,728.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080604110,JAIN BAL ACAD.KHEKRA,Primary with Upper Primary,Private Unaided (Recognized),KHEKRA,Baghpat,Uttar Pradesh,28.8635,77.28727,662.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080500208,JAMIYA MINUL ISHLAM,Primary with Upper Primary,Madarsa unrecognized,ASARA,Baghpat,Uttar Pradesh,29.243913,77.303176,717.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080702304,JANTA PUBLIC SCHOOL,Primary,Private Unaided (Recognized),DUTTA NAGAR,Baghpat,Uttar Pradesh,28.9182,77.4043,698.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080100104,JANTA VAIDIC I.COLLEGE N. GURJAR,Upper Pri. Secondary and Higher Sec,Government Aided,NOROJPUR GURJER,Baghpat,Uttar Pradesh,28.991021,77.251058,649.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080105401,K D R PUBLIC SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),WARD-2,Baghpat,Uttar Pradesh,28.94864,77.21682,667.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080303206,KAMLA NEHRU GIRLS.J.H.S.,Upper Pri. and Secondary,Private Unaided (Recognized),BAMNOLI,Baghpat,Uttar Pradesh,29.14254,77.34462,738.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080600109,KASTURBA KANYA INTER COLLEGE,Upper Pri. Secondary and Higher Sec,Government Aided,KATHA,Baghpat,Uttar Pradesh,28.89638,77.24389,351.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080604143,KONARK VIDYAPEETH,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),KHEKRA,Baghpat,Uttar Pradesh,28.8694,77.2979,375.0,4,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080101503,KUNDAN JAIN J.H.S. FAIJULLAPUR,Upper Primary only,Private Unaided (Recognized),FAIZULLAPUR,Baghpat,Uttar Pradesh,29.02043,77.20468,453.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080701808,L.K.I AMIPUR BALANI P JHS,Primary with Upper Primary,Private Unaided (Recognized),BALAINI,Baghpat,Uttar Pradesh,28.955,77.4483,326.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080604115,M. M.I.COLLEGE KHEKRA,Upper Pri. Secondary and Higher Sec,Government Aided,KHEKRA,Baghpat,Uttar Pradesh,28.8721,77.2888,516.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080302503,M.D. BAL VIDYALYA MAVIKALA,Primary,Private Unaided (Recognized),MAVIKALA,Baghpat,Uttar Pradesh,29.021346,77.440145,322.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080305204,MADARSHA ARIBIA TALIMUL KURAN FOLADNAGAR,Primary,Madarsa recognized (by Wakf board/Madarsa Board),FOLADNAGAR,Baghpat,Uttar Pradesh,29.1859,77.43573,750.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080300115,MADARSHA C.B.S.E BINOLI,Primary,Madarsa recognized (by Wakf board/Madarsa Board),BINAULI,Baghpat,Uttar Pradesh,29.09463,77.39627,607.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080305203,MADARSHA MOTHER TARISHA FOLADNAGAR,Primary,Madarsa recognized (by Wakf board/Madarsa Board),FOLADNAGAR,Baghpat,Uttar Pradesh,29.18489,77.43673,637.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080305103,MADARSHA VEER ABDUL HAMID BOPURA,Primary,Madarsa recognized (by Wakf board/Madarsa Board),BOPURA,Baghpat,Uttar Pradesh,29.19673,77.44274,569.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080105213,MAHARANA PRATAP PUBLIC SCHOOL,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),TATEERI  TOWN,Baghpat,Uttar Pradesh,28.948668,77.258147,504.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080305803,MAL DEV KANYA JHS,Upper Primary only,Private Unaided (Recognized),BHAGWANPUR,Baghpat,Uttar Pradesh,29.184736,77.34063,766.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080502706,MINARVA PUBLIC SCHOOL,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),NANGLA,Baghpat,Uttar Pradesh,29.158983,77.199411,605.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080302507,MOTHER PUBLIC SCHOOL,Primary,Private Unaided (Recognized),MAVIKALA,Baghpat,Uttar Pradesh,29.02295,77.44014,497.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080101411,NAIMINATH JAIN PUBLIC SCHOOL,Primary,Private Unaided (Recognized),SAROORPUR KALA,Baghpat,Uttar Pradesh,29.02903,77.236412,654.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080600113,"NARAYAN SAVITRI PUBLIC SCHOOL, KATHA",Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),KATHA,Baghpat,Uttar Pradesh,28.895859,77.24765,107.0,5,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080302005,"OMEGA WORLD JUNIOR HIGH SCHOOL, TITRODA BAGHPAT",Pri. Upper Pri. and Secondary Only,Local body,TITRODA,Baghpat,Uttar Pradesh,29.0477,77.36436,439.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080701807,P.S BALANI-3,Primary,Department of Education,BALAINI,Baghpat,Uttar Pradesh,28.955,77.4483,326.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080500201,P.S. ASARA-1,Primary,Department of Education,ASARA,Baghpat,Uttar Pradesh,29.242718,77.30545,663.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080502601,P.S. BACHAUR-1,Primary,Department of Education,BACHAUR,Baghpat,Uttar Pradesh,29.166632,77.180084,747.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080502302,P.S. BADARKHA-2,Primary,Department of Education,BADARKHA,Baghpat,Uttar Pradesh,29.189904,77.158702,566.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080204501,P.S. BADKA-1,Primary,Department of Education,BADKA,Baghpat,Uttar Pradesh,29.07629,77.27566,677.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080100701,P.S. BAGHOO,Primary,Department of Education,BAGHOO,Baghpat,Uttar Pradesh,28.971521,77.255098,675.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080305402,P.S. BHADAL-2,Primary,Department of Education,BHADAL,Baghpat,Uttar Pradesh,29.22555,77.4275,728.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080201603,P.S. BIJRAUL-3,Primary,Department of Education,BIJRAUL,Baghpat,Uttar Pradesh,29.124796,77.313685,618.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080300101,P.S. BINAULI-1,Primary,Department of Education,BINAULI,Baghpat,Uttar Pradesh,29.093322,77.403049,701.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080502201,P.S. CHANDAN HEDI,Primary,Department of Education,CHANDAN HEDI,Baghpat,Uttar Pradesh,29.175432,77.194379,674.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080304701,P.S. CHITTAM KHERI,Primary,Department of Education,CHITTAM KHERI,Baghpat,Uttar Pradesh,29.203898,77.390861,444.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080202901,P.S. CHOBHLI,Primary,Department of Education,CHOBHLI,Baghpat,Uttar Pradesh,29.123383,77.296115,589.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080300301,P.S. DARKAVDA-1,Primary,Department of Education,DARKAWADA,Baghpat,Uttar Pradesh,29.071054,77.385899,577.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080305501,P.S. DHANAURA TEEKRI-1,Primary,Department of Education,DHANAURA,Baghpat,Uttar Pradesh,29.21894,77.45642,797.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080702301,P.S. DUTTANAGAR,Primary,Department of Education,DUTTA NAGAR,Baghpat,Uttar Pradesh,28.9182,77.4043,698.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080305201,P.S. FOLADNAGAR,Primary,Department of Education,FOLADNAGAR,Baghpat,Uttar Pradesh,29.185055,77.439693,730.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080602001,P.S. GOTHARA-1,Primary,Department of Education,GOTHARA,Baghpat,Uttar Pradesh,28.81546,77.2941,439.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080602002,P.S. GOTHARA-2,Primary,Department of Education,GOTHARA,Baghpat,Uttar Pradesh,28.81566,77.29432,441.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080201402,P.S. JIWANA-2,Primary,Department of Education,JIWANA,Baghpat,Uttar Pradesh,29.16523,77.28884,625.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080204102,P.S. JOHDI-2,Primary,Department of Education,JOHDI,Baghpat,Uttar Pradesh,29.07573,77.18966,699.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080701602,P.S. KANSA PUTTHI,Primary,Department of Education,MAVI KHURD,Baghpat,Uttar Pradesh,29.004592,77.435916,798.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080101701,P.S. KHERKEE,Primary,Department of Education,KHERKEE,Baghpat,Uttar Pradesh,29.03571,77.237417,527.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080203601,P.S. LUHARI-1,Primary,Department of Education,LUHARI,Baghpat,Uttar Pradesh,29.07697,77.19343,523.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080300401,P.S. MUKEEMPURA,Primary,Department of Education,MUKEEMPUR,Baghpat,Uttar Pradesh,29.071154,77.385899,579.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080604501,P.S. NAGLA BEHLOLPUR,Primary,Department of Education,NAGLA BEHLOLPUR,Baghpat,Uttar Pradesh,28.90289,77.24237,338.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080100203,P.S. NOROJPUR GURJER-1,Primary,Department of Education,PALI,Baghpat,Uttar Pradesh,28.994675,77.248867,682.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080301001,P.S. PICHOKRA,Primary,Department of Education,PICHOKRA,Baghpat,Uttar Pradesh,29.092763,77.394582,482.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080306601,P.S. RAMGADH,Primary,Department of Education,RAMGADH,Baghpat,Uttar Pradesh,29.13511,77.33971,291.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080501002,P.S. SILANA-2,Primary,Department of Education,SILANA,Baghpat,Uttar Pradesh,29.191587,77.16345,112.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080101801,P.S. TAYODI,Primary,Department of Education,TAYODI,Baghpat,Uttar Pradesh,29.051441,77.239777,740.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080301909,PEARL GLOBAL ACC FAJALPUR,Primary,Private Unaided (Recognized),FAJALPUR,Baghpat,Uttar Pradesh,29.02375,77.44248,602.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080600102,PS Katha (Composite),Primary,Department of Education,KATHA,Baghpat,Uttar Pradesh,28.89623,77.24449,291.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080103903,PT. MOOLCHAND PUBLIC  SCHOOL MEETLI,Primary with Upper Primary,Private Unaided (Recognized),MEETLI,Baghpat,Uttar Pradesh,28.96195,77.29994,676.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080101602,R.N Memoriyal JHS Naithla,Primary with Upper Primary,Private Unaided (Recognized),NAITHLA,Baghpat,Uttar Pradesh,29.00423,77.203198,612.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080101408,S.C BOSE PUBLIC SCHOOL SARURPUR KALAN,Primary with Upper Primary,Private Unaided (Recognized),SAROORPUR KALA,Baghpat,Uttar Pradesh,29.02759,77.23115,551.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080300107,S.H. INTER COLLEGE BINAULI,Upper Pri. Secondary and Higher Sec,Government Aided,BINAULI,Baghpat,Uttar Pradesh,29.092081,77.403903,657.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080305002,S.V PUBLIC SCHOOL,Primary,Private Unaided (Recognized),GEDBRA,Baghpat,Uttar Pradesh,29.204532,77.441558,653.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080306221,SANSAKAR VIDYA DEEP TITARI,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),TEEKRI,Baghpat,Uttar Pradesh,29.23971,77.35356,121.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080302803,SANTOSH PUBLIC SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),KAIDWA,Baghpat,Uttar Pradesh,29.03215,77.407497,624.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080303802,SARSWETI SHISHU MANDIR ADAMPUR,Primary,Private Unaided (Recognized),ADAMPUR,Baghpat,Uttar Pradesh,29.187568,77.392227,652.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080302505,SARV HITKARI ADARSH KANYA INTER COLLEGE MAVIKALA,Upper Pri. Secondary and Higher Sec,Private Unaided (Recognized),MAVIKALA,Baghpat,Uttar Pradesh,29.022377,77.445011,589.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080103906,SARVHITKARI I.C MEETLI GORIPUR,Upper Pri. Secondary and Higher Sec,Government Aided,MEETLI,Baghpat,Uttar Pradesh,28.96195,77.29692,689.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080104304,SARVODAY H. S. SCHOOL PAWALA,Upper Pri. Secondary and Higher Sec,Private Unaided (Recognized),PAWALA,Baghpat,Uttar Pradesh,28.916251,77.302174,584.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080306207,SARVODAYA PUBLIC J.H.S.,Primary with Upper Primary,Private Unaided (Recognized),TEEKRI,Baghpat,Uttar Pradesh,28.9487,77.261932,595.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080306205,SARVODAYA PUBLIC SCHOOL,Primary,Private Unaided (Recognized),TEEKRI,Baghpat,Uttar Pradesh,28.9487,77.261932,595.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080101409,SHIV GANGA KISHAN MODEL JHS SARURPUR KALAN,Primary with Upper Primary,Private Unaided (Recognized),SAROORPUR KALA,Baghpat,Uttar Pradesh,29.034838,77.232317,298.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080502403,SHIV MANDIR JHS KAKAUR KHURD,Upper Primary only,Government Aided,KAKAUR,Baghpat,Uttar Pradesh,29.190012,77.159481,489.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080104205,SHREE GOPICHAND BHARTRI INTER COLLEGE AHERA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),AHAIDA,Baghpat,Uttar Pradesh,28.9307,77.2667,576.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080101604,SHREE MOOLCHAND JHS NAITHLA,Primary with Upper Primary,Private Unaided (Recognized),NAITHLA,Baghpat,Uttar Pradesh,29.00367,77.20527,620.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080202606,SHRI DHARMSINGH,Primary,Private Unaided (Recognized),SINOLI,Baghpat,Uttar Pradesh,29.145228,77.210135,652.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080604127,SULBHA GIRLS HIGH SCHOOL,Secondary Only,Private Unaided (Recognized),KHEKRA,Baghpat,Uttar Pradesh,28.8721,77.2888,516.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080202607,SWAMI VIVEKANAND P. SCHOOL,Primary,Private Unaided (Recognized),SINOLI,Baghpat,Uttar Pradesh,29.144646,77.211356,558.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080303210,Silver valley School Bamnauli,Primary with Upper Primary,Private Unaided (Recognized),BAMNOLI,Baghpat,Uttar Pradesh,29.13781,77.33797,138.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080502703,U.P.S.ADRASH NAGLA,Upper Primary only,Department of Education,NANGLA,Baghpat,Uttar Pradesh,29.156382,77.201879,649.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080604302,UPS Dunda Heda (Composite 1 to 8),Primary with Upper Primary,Department of Education,DUNDA HEDA,Baghpat,Uttar Pradesh,28.868839,77.286121,670.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080601903,UPS Fakharpur (Composite 1 to 8),Primary with Upper Primary,Department of Education,FAKHERPUR,Baghpat,Uttar Pradesh,28.871323,77.291695,262.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080100602,UPS LADHWARI Composite,Primary with Upper Primary,Department of Education,LADWARI,Baghpat,Uttar Pradesh,29.025507,77.203994,713.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080604106,UPS No. 2 Khekra (Composite 1 to 8),Primary with Upper Primary,Department of Education,KHEKRA,Baghpat,Uttar Pradesh,28.863172,77.286171,646.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080104402,UPS SURAJPUR MAHANWA Composite,Primary with Upper Primary,Department of Education,MAHANWA,Baghpat,Uttar Pradesh,28.940363,77.274936,688.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080602803,UPS Sehwanpur (Composite 1 to 8),Primary with Upper Primary,Department of Education,SAHBANPUR,Baghpat,Uttar Pradesh,28.8461,77.3902,749.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080603102,UPS Tigri (Composite 1 to 8),Primary with Upper Primary,Department of Education,TIGRI,Baghpat,Uttar Pradesh,28.806752,77.304342,593.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080101802,VIDYA MANDIR JHS Tyodhi,Upper Primary only,Private Unaided (Recognized),TAYODI,Baghpat,Uttar Pradesh,29.059535,77.244955,319.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9080602004,VIVEKANAND H.S. GOTHARA,Upper Pri. and Secondary,Government Aided,GOTHARA,Baghpat,Uttar Pradesh,28.818083,77.29917,731.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070607607,AVDHESH VIDHYA MANDIR LUHASA,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),LUHASA(N),Bharatpur (pre-2023),Rajasthan,27.231874,77.21299,448.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070211307,BHANU P.U.P. SCHOOL PALKA,Primary with Upper Primary,Private Unaided (Recognized),PALKA,Bharatpur (pre-2023),Rajasthan,27.520167,77.10868,783.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070705422,BHARTI BAL VIDHYA NIKETAN SAMITI SARSENA ROAD HALENA,Primary with Upper Primary,Private Unaided (Recognized),HALENA,Bharatpur (pre-2023),Rajasthan,27.118828,77.137046,257.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070603604,CHAUDHARY SR.SEC.SCH. HANTRA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),HANTRA,Bharatpur (pre-2023),Rajasthan,27.133388,77.233641,531.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070700911,D.P.M. PUBLIC SEC. SARSENA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),SARSENA,Bharatpur (pre-2023),Rajasthan,27.123741,77.130906,728.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070215201,GOVT PS CHKCHAILUA,Primary,Local body,CHKCHAILUA,Bharatpur (pre-2023),Rajasthan,27.396266,77.082532,787.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070603606,GOVT SR- SEC. HANTRA,Pri. with Upper Pri. Sec. and H.Sec.,Department of Education,HANTRA,Bharatpur (pre-2023),Rajasthan,27.129762,77.228435,674.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070712001,GOVT UPS IRANIYA,Primary with Upper Primary,Department of Education,IRANIYA,Bharatpur (pre-2023),Rajasthan,27.1169,77.130302,657.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070403601,GOVT UPS PACHORA,Primary with Upper Primary,Department of Education,PACHOURA,Bharatpur (pre-2023),Rajasthan,27.295893,77.224875,623.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070607606,GOVT. GIRLS UPS LUHASA,Primary with Upper Primary,Department of Education,LUHASA(N),Bharatpur (pre-2023),Rajasthan,27.240977,77.206295,662.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070702301,GOVT. P S RAMNAGAR,Primary,Local body,RAMNAGAR,Bharatpur (pre-2023),Rajasthan,27.115575,77.193501,745.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070217001,GOVT. PS.MAGTU KA BAS,Primary,Local body,MORAKA,Bharatpur (pre-2023),Rajasthan,27.426554,77.017381,244.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070607802,GOVT. SEN. SEC. DAHRA,Pri. with Upper Pri. Sec. and H.Sec.,Department of Education,DAHRA,Bharatpur (pre-2023),Rajasthan,27.142441,77.261137,741.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070706301,GOVT. UP S BERI,Primary with Upper Primary,Department of Education,BERI,Bharatpur (pre-2023),Rajasthan,27.124324,77.198443,234.0,5,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070604101,GOVT. UPS BUDHWARI  KALAN,Primary with Upper Primary,Department of Education,BUDHWARI KALAN,Bharatpur (pre-2023),Rajasthan,27.16544,77.240564,607.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070602001,GOVT. UPS CALP SIRSAI,Primary with Upper Primary,Department of Education,SIRSAI,Bharatpur (pre-2023),Rajasthan,27.247772,77.226249,754.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070603001,GOVT. UPS USER,Primary with Upper Primary,Department of Education,USER,Bharatpur (pre-2023),Rajasthan,27.309558,77.204821,624.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070610101,GOVT.P.S. GUBRAUAA,Primary,Local body,GUBRAUAA,Bharatpur (pre-2023),Rajasthan,27.239801,77.165442,704.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070607605,GOVT.SEN. SEC. LUHASA,Pri. with Upper Pri. Sec. and H.Sec.,Department of Education,LUHASA(N),Bharatpur (pre-2023),Rajasthan,27.240132,77.20435,489.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070613603,GURUKUL  INTARNATIONAL NADBAI  WARD 2,Primary with Upper Primary,Private Unaided (Recognized),NP NADBAI_WARD NO-02,Bharatpur (pre-2023),Rajasthan,27.221213,77.198304,744.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070611954,GURUKUL VIDH. ASHRA.SEN.SEC. NADBAI,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),NP NADBAI_WARD NO 1,Bharatpur (pre-2023),Rajasthan,27.22131,77.198417,737.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070604002,MAHARSHI MANU UPS BUDWARI KHURD,Primary with Upper Primary,Private Unaided (Recognized),BUDHWARI KHURD,Bharatpur (pre-2023),Rajasthan,27.170792,77.246221,606.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070706303,MAHESH EDU.CO.PRI.SCH. BERI,Primary with Upper Primary,Private Unaided (Recognized),BERI,Bharatpur (pre-2023),Rajasthan,27.123775,77.200601,434.0,4,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070203805,"MAMTA PUBLIC SCHOOL, JHANJHAR",Primary,Private Unaided (Recognized),JHANJHAR,Bharatpur (pre-2023),Rajasthan,27.576513,77.046718,407.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070603609,MAMTA SHIKSHAN SHANSTHAN HANTRA,Primary with Upper Primary,Private Unaided (Recognized),HANTRA,Bharatpur (pre-2023),Rajasthan,27.136268,77.238797,679.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070603701,NITU A.SS. U.P.S. ARODA,Primary with Upper Primary,Private Unaided (Recognized),ARODA(N),Bharatpur (pre-2023),Rajasthan,27.131844,77.216019,741.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070607603,RAJOURIYA M. SR. SEC. SCHOOL LUHASA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),LUHASA(N),Bharatpur (pre-2023),Rajasthan,27.240904,77.204577,493.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070611958,S.R. INTERNENATIONAL NADBAI,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),NP NADBAI_WARD NO 1,Bharatpur (pre-2023),Rajasthan,27.2265,77.1889,695.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070211306,SEC LOKENDRA VM  PALKA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),PALKA,Bharatpur (pre-2023),Rajasthan,27.521703,77.109165,774.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+8070611959,SHRI RADHE SEN SEC  SCHOOL NADBAI,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),NP NADBAI_WARD NO 1,Bharatpur (pre-2023),Rajasthan,27.226616,77.18897,681.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6130301004,ADARSH Gramin SSS  MILAKPUR,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),MILAKPUR,Bhiwani,Haryana,29.04506,75.985784,403.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6130500906,B.S. INTERNATIONAL SCHOOL,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),SANGA,Bhiwani,Haryana,28.772627,76.219544,135.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6130301002,GGPS MILAKPUR,Primary,Department of Education,MILAKPUR,Bhiwani,Haryana,29.04207,75.987677,700.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6130302901,GPS ALAKHPURA,Primary,Department of Education,ALAKHPURA,Bhiwani,Haryana,29.022642,76.052063,749.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6130300301,GPS CHORTAPUR,Primary,Department of Education,CHORTAPUR,Bhiwani,Haryana,29.051293,75.994975,725.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6130301001,GPS MILAKPUR,Primary,Department of Education,MILAKPUR,Bhiwani,Haryana,29.041863,75.98895,723.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6130504301,GPS NIMRIWALI,Primary,Department of Education,NIMRIWALI,Bhiwani,Haryana,28.716536,76.139465,797.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6130500905,H N MODEL SSS SANGA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),SANGA,Bhiwani,Haryana,28.772663,76.225876,714.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6130500397,KCM  ARMY SSS BHIWANI,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),BHIWANI,Bhiwani,Haryana,28.842425,76.113574,721.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6130505508,SSG HIGH SCHOOL BAMLA,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),BAMLA,Bhiwani,Haryana,28.820422,76.240761,714.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111203802, JHS SHYORAM PUR,Primary with Upper Primary,Department of Education,SHYAURAM PUR,Bulandshahr,Uttar Pradesh,28.492684,78.034176,534.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9112602504,BHARAT VIKAS PARISHAD PS UPS KHURJA,Primary with Upper Primary,Private Unaided (Recognized),WARD23,Bulandshahr,Uttar Pradesh,28.371285,78.129831,776.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110100905,DEVAN KAUR PUBLIC SCHOOL SHAKARI NAGAR,Primary with Upper Primary,Private Unaided (Recognized),SAHKARI NAGAR,Bulandshahr,Uttar Pradesh,28.403769,77.943382,599.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110104102,J H S NAUSANA,Upper Primary only,Department of Education,NAUSENA,Bulandshahr,Uttar Pradesh,28.316505,77.866335,614.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9112602118,JAINEYATH PUBLIC SCHOOL  P S KHURJA,Primary with Upper Primary,Private Unaided (Recognized),WARD14,Bulandshahr,Uttar Pradesh,28.377613,78.11867,603.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111505003,JHS .CHANDARU,Primary with Upper Primary,Department of Education,CHANDRAU,Bulandshahr,Uttar Pradesh,28.430466,77.781531,633.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110403703,JHS AUGORA,Primary with Upper Primary,Department of Education,AUGORA,Bulandshahr,Uttar Pradesh,28.221007,77.910854,554.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111303102,JHS BAHIPUR,Primary with Upper Primary,Department of Education,BHAYEE PUR,Bulandshahr,Uttar Pradesh,28.379066,78.127347,375.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111502502,JHS CHOLA,Primary with Upper Primary,Department of Education,CHOLA,Bulandshahr,Uttar Pradesh,28.344626,77.773015,753.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110102802,JHS DADDUPUR,Primary with Upper Primary,Department of Education,DADDU PUR,Bulandshahr,Uttar Pradesh,28.316646,77.866347,626.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110202802,JHS JANIPURKALAN,Primary with Upper Primary,Department of Education,JANIPUR KALAN,Bulandshahr,Uttar Pradesh,28.255972,77.985673,672.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111301702,JHS LACHHIMPUR,Upper Primary only,Department of Education,LACHHAMAN PUR,Bulandshahr,Uttar Pradesh,28.335667,78.254742,286.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111001401,JHS MAHAULI,Upper Primary only,Department of Education,MAHAULI,Bulandshahr,Uttar Pradesh,28.512104,77.830257,400.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111505902,JHS MASUTA,Upper Primary only,Department of Education,MASAUTA,Bulandshahr,Uttar Pradesh,28.422227,77.69253,290.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110101802,JHS MIRZAPUR,Primary with Upper Primary,Department of Education,MIRZAPUR,Bulandshahr,Uttar Pradesh,28.388484,77.890437,798.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111104602,JHS NAGAL MUHIUDDINPUR,Upper Primary only,Department of Education,NAGALAMUHIUDDINPUR,Bulandshahr,Uttar Pradesh,28.28819,77.824935,414.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110200705,JHS PAROLI,Upper Primary only,Department of Education,SURAJAWALI,Bulandshahr,Uttar Pradesh,28.410443,77.909452,324.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110408603,JHS SALEMPUR PAHARGARHI,Primary with Upper Primary,Department of Education,SALEMPUR PAHARGARHI,Bulandshahr,Uttar Pradesh,28.204357,77.940685,332.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111106805,JHS SANATA SHAFIPUR,Primary with Upper Primary,Department of Education,SANAITA  SHAFI PUR,Bulandshahr,Uttar Pradesh,28.255401,77.752411,612.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111008102,JHS. ISAPUR,Upper Primary only,Department of Education,ISAPUR,Bulandshahr,Uttar Pradesh,28.513381,77.782123,750.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111105403,JHS. RAMGIRHI,Upper Primary only,Department of Education,RAMGARHI,Bulandshahr,Uttar Pradesh,28.164091,77.773196,695.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110107402,JHS. SABDALPUR,Primary with Upper Primary,Department of Education,SABDALPUR,Bulandshahr,Uttar Pradesh,28.357446,77.787939,185.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110110102,KANTI DEVI VIDHY AMANDIR,Primary,Private Unaided (Recognized),NAYAGAON,Bulandshahr,Uttar Pradesh,28.388319,77.888204,645.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110500110,M.A.V.V. HIGH SCHOOL,Secondary with Higher Secondary,Private Unaided (Recognized),THANA GAZRAULA,Bulandshahr,Uttar Pradesh,28.236782,78.224468,696.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110300112,M.K.I.C.,Upper Pri. Secondary and Higher Sec,Government Aided,KHUDADIA,Bulandshahr,Uttar Pradesh,28.257588,77.983776,497.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110906501,MADRASA DARUL KURAN ARABIA,Primary with Upper Primary,Private Unaided (Recognized),WARD 8,Bulandshahr,Uttar Pradesh,28.608564,77.840501,661.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9113104608,MEHABUB GOD PS,Upper Primary only,Private Unaided (Recognized),PIPALA,Bulandshahr,Uttar Pradesh,28.45159,77.76051,800.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110300110,MORAJPUR GRAMODAY H.S.,Upper Pri. Secondary and Higher Sec,Private Unaided (Recognized),KHUDADIA,Bulandshahr,Uttar Pradesh,28.25767,77.983592,492.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9112902202,NARENDRA DEV BAL SADAN,Primary,Private Unaided (Recognized),WARD15,Bulandshahr,Uttar Pradesh,28.22952,78.03933,500.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9113105804,P S  PAVARA KI MADHIA,Primary,Department of Education,PAVSARA,Bulandshahr,Uttar Pradesh,28.4541,77.6536,515.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111100118,P S SHEDAURA,Primary,Department of Education,MIRPUR,Bulandshahr,Uttar Pradesh,28.12374,78.381972,708.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110902601,P.S  RASOOL PUR  TELIA,Primary,Department of Education,RASOOL PUR  TALIA,Bulandshahr,Uttar Pradesh,28.365965,78.01818,773.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110902402,P.S  SHIWALI--2,Primary,Department of Education,SHIWALI,Bulandshahr,Uttar Pradesh,28.396439,77.99368,386.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110902401,P.S.  SHIWALI,Primary,Department of Education,SHIWALI,Bulandshahr,Uttar Pradesh,28.396672,77.991199,144.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111408701,P.S. ANAUNA,Primary,Department of Education,ANAUNA,Bulandshahr,Uttar Pradesh,28.222671,78.043577,371.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110505101,P.S. BANBHAURA,Primary,Department of Education,BAN BHAURA,Bulandshahr,Uttar Pradesh,28.220875,77.911274,598.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111305002,P.S. BIRAULI--2,Primary,Department of Education,BIRAULI,Bulandshahr,Uttar Pradesh,28.56999,77.7724,635.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111503601,P.S. BORA,Primary,Department of Education,BORA,Bulandshahr,Uttar Pradesh,28.25343,77.833855,609.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111408801,P.S. BRAJGARHI,Primary,Department of Education,BRAJGARHI,Bulandshahr,Uttar Pradesh,28.10304,78.177352,448.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110206301,P.S. DHATUREE,Primary,Department of Education,DHATUREE,Bulandshahr,Uttar Pradesh,28.369485,77.905183,496.0,4,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110104001,P.S. DOSTPPUR,Primary,Department of Education,DOSTPUR,Bulandshahr,Uttar Pradesh,28.309942,77.882878,559.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111303201,P.S. DUNGARA JAT,Primary,Department of Education,DUNGARAJAT,Bulandshahr,Uttar Pradesh,28.556483,78.001837,165.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111511001,P.S. GAFFARGARHI,Primary,Department of Education,GAFFARGARHI,Bulandshahr,Uttar Pradesh,28.430632,77.781375,630.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111201101,P.S. JADAULI,Primary,Department of Education,JADAULI,Bulandshahr,Uttar Pradesh,28.108948,78.423157,725.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111208401,P.S. KAKRAEE,Primary,Department of Education,KAKRAEE,Bulandshahr,Uttar Pradesh,28.39656,77.990998,123.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111301501,P.S. KHUSHHAL GARH,Primary,Department of Education,KHUSHHAL GARH,Bulandshahr,Uttar Pradesh,28.518962,77.914576,790.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111408901,P.S. KISHANPUR,Primary,Department of Education,KISHANPUR,Bulandshahr,Uttar Pradesh,28.102298,78.166261,657.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111000102,P.S. KURLI--2,Primary,Department of Education,KURLI,Bulandshahr,Uttar Pradesh,28.548481,77.747934,707.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111000101,P.S. KURLI-1,Primary,Department of Education,KURLI,Bulandshahr,Uttar Pradesh,28.548281,77.747804,732.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111304501,P.S. MOHAMMEDPUR BANGER,Primary,Department of Education,MAHOMMED PUR BANGER,Bulandshahr,Uttar Pradesh,28.548197,77.747733,743.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111410101,P.S. NAGALA BANJARAN,Primary,Department of Education,NAGALA BANJARAN,Bulandshahr,Uttar Pradesh,28.06512,78.13763,427.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111100401,P.S. NAGALA SHAIKHU,Primary,Department of Education,NAGALASHAIKHU,Bulandshahr,Uttar Pradesh,28.126145,78.386552,280.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110104101,P.S. NAUSANA,Primary,Department of Education,NAUSENA,Bulandshahr,Uttar Pradesh,28.310111,77.882985,564.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110203301,P.S. NAWADA,Primary,Department of Education,NAWADA,Bulandshahr,Uttar Pradesh,28.243751,78.028719,523.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110204201,P.S. SAMAN PUR,Primary,Department of Education,SAMAN PUR,Bulandshahr,Uttar Pradesh,28.387587,77.878258,775.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111510902,P.S. VEERAKHERA--2,Primary,Department of Education,VEERKHERA,Bulandshahr,Uttar Pradesh,28.428475,77.788155,510.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9113001601,PRIMEROSE SCHOOL SIKANDRABAD NAGER,Primary with Upper Primary,Private Unaided (Recognized),WARD8,Bulandshahr,Uttar Pradesh,28.22192,78.04364,444.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9113105701,PS. BISUNDRA-1,Primary,Department of Education,BISUNDRA,Bulandshahr,Uttar Pradesh,28.4761,77.6759,632.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111008301,PS. KYAMPUR,Primary,Department of Education,KYAMPUR,Bulandshahr,Uttar Pradesh,28.122628,78.424857,682.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111007502,PS. MOHANA-2,Primary,Department of Education,MOHANA,Bulandshahr,Uttar Pradesh,28.253537,78.328647,765.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110807502,PS. NAGLA JATAV,Primary,Department of Education,GHOSIPURA,Bulandshahr,Uttar Pradesh,28.122543,78.424772,673.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111300106,PS. NAGLA LODHI,Primary,Department of Education,BIBIYANA,Bulandshahr,Uttar Pradesh,28.366092,78.018209,783.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111007601,PS. PITOBAS,Primary,Department of Education,PITOBAS,Bulandshahr,Uttar Pradesh,28.253625,78.329589,718.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110501607,ROYAL EDUCATION ACADEMY   PS,Primary,Private Unaided (Recognized),AMARPUR,Bulandshahr,Uttar Pradesh,28.20972,77.94219,385.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111102003,S.G.S.OM PUBLIC SCHOOL KAMALPUR NAYSAR,Primary,Private Unaided (Recognized),KAMALPURNEYSAR,Bulandshahr,Uttar Pradesh,28.251668,78.326771,774.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111100204,S.R.R. PS BALRAU,Primary,Private Unaided (Recognized),BALRAU,Bulandshahr,Uttar Pradesh,28.12633,78.385295,287.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9112602116,SHERSWATI GEYAN MANDER KHURJA,Primary with Upper Primary,Private Unaided (Recognized),WARD14,Bulandshahr,Uttar Pradesh,28.37761,78.118388,630.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111305003,SHIKSHA SADAN SCHOOL,Primary,Private Unaided (Recognized),BIRAULI,Bulandshahr,Uttar Pradesh,28.5706,77.77259,700.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9112601905,SHRI GURU NANAK VIDHYA P S KHURJA,Primary,Private Unaided (Recognized),WARD7,Bulandshahr,Uttar Pradesh,28.440992,78.188405,722.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9112601909,SHRIMAEI PRAMWATI PUBLIC   PS KHURJA,Primary,Private Unaided (Recognized),WARD7,Bulandshahr,Uttar Pradesh,28.441089,78.188387,728.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110408802,U P S RAMBAS,Primary with Upper Primary,Department of Education,RAMBAS,Bulandshahr,Uttar Pradesh,28.28848,78.175802,703.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111301502,U.P.S. KHUSHHAL GARH,Upper Primary only,Department of Education,KHUSHHAL GARH,Bulandshahr,Uttar Pradesh,28.518779,77.914944,750.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110110105,UDAY SHIV PUBLIC SCHOOL NAYA GAON,Primary,Private Unaided (Recognized),NAYAGAON,Bulandshahr,Uttar Pradesh,28.39177,77.883306,102.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110102002,UPS BHAIPUR,Primary with Upper Primary,Department of Education,BHAIPUR,Bulandshahr,Uttar Pradesh,28.411787,77.910307,370.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9111111101,UPS BHUTGARHI,Upper Primary only,Department of Education,BHUTGARHI,Bulandshahr,Uttar Pradesh,28.166901,77.73657,651.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110803502,UPS HARIDWARPUR,Primary with Upper Primary,Department of Education,HARIDWAR PUR,Bulandshahr,Uttar Pradesh,28.307429,78.285843,778.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110101902,UPS HAZRATPUR,Primary with Upper Primary,Department of Education,HAZRATPUR,Bulandshahr,Uttar Pradesh,28.420549,77.888241,426.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9110806302,UPS NIBARI BANGAR,Upper Primary only,Department of Education,NIWARI BANGER,Bulandshahr,Uttar Pradesh,28.174081,78.386581,387.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6220200905,VIBHA SR SEC SCHOOL SANWAR,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),SANWAR,Charkhi Dadri,Haryana,28.710261,76.299262,545.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6190105504,"DIVINE ACADEMY, NAWADA",Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),NAWADA,Faridabad,Haryana,28.349155,77.377258,654.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6190103502,GMS BUKHARPUR,Upper Primary only,Department of Education,BUKHARPUR,Faridabad,Haryana,28.32594,77.386261,764.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6191605802,GMS NACHOLI,Upper Primary only,Department of Education,NACHOLI,Faridabad,Haryana,28.413317,77.396967,728.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6190107201,GPS AHAMADPUR,Primary,Department of Education,AHAMADPUR,Faridabad,Haryana,28.254717,77.4249,563.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6190103501,GPS BUKHARPUR,Primary,Department of Education,BUKHARPUR,Faridabad,Haryana,28.32594,77.386261,764.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6190105904,GPS DAYALPUR,Primary,Department of Education,DAYALPUR,Faridabad,Haryana,28.292467,77.387417,507.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6191603101,GPS FAIZPUR,Primary,Department of Education,FAIZPUR,Faridabad,Haryana,28.381283,77.396017,606.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6191603301,GPS FATUPURA,Primary,Department of Education,FATUPURA,Faridabad,Haryana,28.382033,77.396717,691.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6191612201,GPS KABULPUR PATTI,Primary,Department of Education,KABULPUR PATTI,Faridabad,Haryana,28.39475,77.433183,747.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6191604101,GPS KANWARA,Primary,Department of Education,KANWARA,Faridabad,Haryana,28.410167,77.410067,645.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6191605801,GPS NACHOLI,Primary,Department of Education,NACHOLI,Faridabad,Haryana,28.413317,77.396967,728.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6190107301,GPS NARHAWALI,Primary,Department of Education,NARHAWALI,Faridabad,Haryana,28.267967,77.420467,663.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6191606201,GPS NEEMKA,Primary,Department of Education,NEEMKA,Faridabad,Haryana,28.34965,77.376717,730.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6191607701,GPS SHEHRAWAK,Primary,Department of Education,SHEHRAWAK,Faridabad,Haryana,28.394667,77.4326,690.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6191608101,GPS TIGAON,Primary,Department of Education,TIGAON,Faridabad,Haryana,28.343733,77.375383,655.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6191608103,GSSS TIGAON,Upper Pri. Secondary and Higher Sec,Department of Education,TIGAON,Faridabad,Haryana,28.351245,77.385814,796.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6190107504,"HIND KESRI PUBLIC SCHOOL, PANHERA KHURD",Primary,Private Unaided (Recognized),PENHDA KHURD,Faridabad,Haryana,28.269203,77.400013,715.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6190107505,"JCM INTERNATIONAL SCHOOL, PANHERA KHURD",Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),PENHDA KHURD,Faridabad,Haryana,28.271938,77.398154,389.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6190101203,JEEVAN JYOTI PUBLIC SCHOOL PANHERA KALAN,Primary with Upper Primary,Private Unaided (Recognized),PANHERA KALAN,Faridabad,Haryana,28.268966,77.399937,728.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6190107503,M V HIGH SCHOOL PANHERA KHURD,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),PENHDA KHURD,Faridabad,Haryana,28.269413,77.397962,564.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6190101007,"MAHAVIR PUBLIC SR SEC SCHOOL, FATEHPUR BILLOCH",Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),FATEHPUR BILLOCH,Faridabad,Haryana,28.296773,77.372326,98.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6190101202,"OM SHANTI PUBLIC SCHOOL, PANHERA KALAN",Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),PANHERA KALAN,Faridabad,Haryana,28.257972,77.397783,769.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6191604305,"RAM VIDYA MANDIR SCHOOL, KHERI KALAN",Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),KHERI KALAN,Faridabad,Haryana,28.40439,77.37411,601.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6190108513,"S.R. CONVENT SCHOOL, MOHNA",Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),MOHNA,Faridabad,Haryana,28.231901,77.440331,479.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6190107105,"ST. BHARDWAJ PUBLIC SCHOOL, NARIYALA",Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),NARIYALA,Faridabad,Haryana,28.2526,77.413948,636.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6191605704,"V.J INTERNATIONAL SCHOOL, MAWAI, KHERI KALAN",Primary with Upper Primary,Private Unaided (Recognized),MAWAI,Faridabad,Haryana,28.401337,77.375574,782.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6190100504,"VRINDAVAN VALLEY PUBLIC SCHOOL, DEEG",Primary with Upper Primary,Private Unaided (Recognized),DEEG,Faridabad,Haryana,28.26015,77.324529,208.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100306703,ADARSH VIDYA PUBLIC SCHOOL,Primary,Private Unaided (Recognized),CHACHULA,Gautam Buddha Nagar,Uttar Pradesh,28.3551,77.5916,667.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100314302,AYS SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),AZAMPUR GARHI,Gautam Buddha Nagar,Uttar Pradesh,28.398198,77.638313,709.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100300118,CAPTAIN S ACADMEY DANKAUR,Primary with Upper Primary,Private Unaided (Recognized),DANKAUR - DEHAT,Gautam Buddha Nagar,Uttar Pradesh,28.3464,77.5576,654.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100309806,CH RATANLAL SMARAK VIDHALAYA,Primary with Upper Primary,Private Unaided (Recognized),GHANGHOLA,Gautam Buddha Nagar,Uttar Pradesh,28.4297,77.6055,582.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100203607,COMPOSITE SCHOOL DHOOM MANIKPUR,Primary with Upper Primary,Department of Education,DHOOM MANIKPUR,Gautam Buddha Nagar,Uttar Pradesh,28.587892,77.534644,479.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100205005,COMPOSITE SCHOOL LUHARALI,Primary with Upper Primary,Department of Education,LUHARALI,Gautam Buddha Nagar,Uttar Pradesh,28.49202,77.625296,540.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100302502,COMPOSITE SCHOOL USMANPUR,Primary with Upper Primary,Department of Education,USMANPUR,Gautam Buddha Nagar,Uttar Pradesh,28.329096,77.586517,691.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100307109,DEFODILL PUBLIC SCHOOL,Primary,Private Unaided (Recognized),NAVADA,Gautam Buddha Nagar,Uttar Pradesh,28.38324,77.57925,388.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100308003,DHRUV PUBLIC SCHOOL,Primary,Private Unaided (Recognized),TALADA,Gautam Buddha Nagar,Uttar Pradesh,28.4001,77.6319,100.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100315320,EASTERN DELHI PUBLIC SCHOOL,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),DANKAUR,Gautam Buddha Nagar,Uttar Pradesh,28.3478,77.5643,278.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100400702,INTER COLLEGE NAGLA KAROULI,Upper Pri. Secondary and Higher Sec,Government Aided,NAGALIA,Gautam Buddha Nagar,Uttar Pradesh,28.358435,77.561404,383.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100203608,J H S DERI MACHHA,Upper Primary only,Department of Education,DHOOM MANIKPUR,Gautam Buddha Nagar,Uttar Pradesh,28.586059,77.536478,749.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100203609,J H S DERI SKUNNER,Upper Primary only,Department of Education,DHOOM MANIKPUR,Gautam Buddha Nagar,Uttar Pradesh,28.590892,77.535811,469.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100204604,JAI SINGH PUBLIC ANANDPUR,Primary with Upper Primary,Private Unaided (Recognized),ANANDPUR,Gautam Buddha Nagar,Uttar Pradesh,28.52857,77.61062,88.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100308403,JANTA PUBLIC SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),GIRDHARPUR,Gautam Buddha Nagar,Uttar Pradesh,28.4141,77.6214,334.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100205011,KALA SINGH MEMORIAL SCHOOL,Upper Pri. and Secondary,Private Unaided (Recognized),LUHARALI,Gautam Buddha Nagar,Uttar Pradesh,28.488403,77.622032,612.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100300109,KISAN ADARSH INTER COLLEGE,Upper Pri. Secondary and Higher Sec,Private Unaided (Recognized),DANKAUR - DEHAT,Gautam Buddha Nagar,Uttar Pradesh,28.3581,77.562,412.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100300127,KISAN ADARSH JUNIOR HIGH SCHOOL,Upper Primary only,Government Aided,DANKAUR - DEHAT,Gautam Buddha Nagar,Uttar Pradesh,28.3581,77.562,412.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100308203,KNOWLWDGE VALLEY PUBLIC SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),RONI,Gautam Buddha Nagar,Uttar Pradesh,28.414201,77.615978,465.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100315316,LAKSHYA CONVENT SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),DANKAUR,Gautam Buddha Nagar,Uttar Pradesh,28.344163,77.559541,724.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100204503,LAXMI CHAND SHARMA PHOOLPUR,Primary with Upper Primary,Private Unaided (Recognized),PHOOLPUR,Gautam Buddha Nagar,Uttar Pradesh,28.541144,77.607255,374.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100404411,LEELAVATI PUBLIC JUNIOR HIGH SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),KARAULI BANGAR,Gautam Buddha Nagar,Uttar Pradesh,28.20288,77.56772,567.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100309404,MADARASA FLAHE AAM EDUCATION VILLAGE MANDAPA,Primary,Madarsa recognized (by Wakf board/Madarsa Board),MANDAPA,Gautam Buddha Nagar,Uttar Pradesh,28.4553,77.6371,521.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100402304,MADARSA MUNNA MUSLIM EDUCATION,Primary,Private Unaided (Recognized),MEHANDIPUR BANGAR,Gautam Buddha Nagar,Uttar Pradesh,28.241308,77.556548,655.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100308204,NEHA PUBLIC SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),RONI,Gautam Buddha Nagar,Uttar Pradesh,28.403955,77.610958,517.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100205303,P S  NAI BEEL,Primary,Department of Education,BEEL AKBARPUR,Gautam Buddha Nagar,Uttar Pradesh,28.521293,77.596268,478.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100204601,P S ANANDPUR,Primary,Department of Education,ANANDPUR,Gautam Buddha Nagar,Uttar Pradesh,28.527223,77.607034,344.0,5,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100316301,P S BAGPUR,Primary,Department of Education,BAGPUR,Gautam Buddha Nagar,Uttar Pradesh,28.39658,77.59425,515.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100405801,P S BEGMABAD,Primary,Department of Education,BEMABAD,Gautam Buddha Nagar,Uttar Pradesh,28.1825,77.5523,376.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100307202,P S HATEVA 2,Primary,Department of Education,HATEVA,Gautam Buddha Nagar,Uttar Pradesh,28.383125,77.586848,382.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100306901,P S KANARSI,Primary,Department of Education,KANARSI,Gautam Buddha Nagar,Uttar Pradesh,28.37317,77.58832,609.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100305803,P S MILAK DHANAURI,Primary,Department of Education,DHANAURI,Gautam Buddha Nagar,Uttar Pradesh,28.336268,77.590488,326.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100306702,P S MOHAMMADPUR DERIN,Primary,Department of Education,CHACHULA,Gautam Buddha Nagar,Uttar Pradesh,28.346436,77.575194,527.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100317001,P S MUNH PHAD,Primary,Department of Education,MUNH PHAD,Gautam Buddha Nagar,Uttar Pradesh,28.352022,77.575191,500.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100404402,P S NAGLA KARAULI,Primary,Department of Education,KARAULI BANGAR,Gautam Buddha Nagar,Uttar Pradesh,28.2033,77.5677,613.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100306002,P S PATLA KHERA,Primary,Department of Education,BILASPUR - DEHAT,Gautam Buddha Nagar,Uttar Pradesh,28.398437,77.63477,365.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100307001,P S SAMASPUR,Primary,Department of Education,SAMASPUR,Gautam Buddha Nagar,Uttar Pradesh,28.366329,77.581335,276.0,8,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100203616,R.S. PUBLIC SCHOOL,Primary,Private Unaided (Recognized),DHOOM MANIKPUR,Gautam Buddha Nagar,Uttar Pradesh,28.589265,77.53415,350.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100207707,R.S.M. JHS KEMRALA,Upper Primary only,Private Unaided (Recognized),KEMRALA CHAKRASENPUR,Gautam Buddha Nagar,Uttar Pradesh,28.487668,77.596789,662.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100207708,R.S.M.P.S KAMERALA,Primary,Private Unaided (Recognized),KEMRALA CHAKRASENPUR,Gautam Buddha Nagar,Uttar Pradesh,28.487668,77.596789,662.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100307501,S.H.D. PUBLIC SCHOOL,Primary,Private Unaided (Recognized),BAGPUR,Gautam Buddha Nagar,Uttar Pradesh,28.3959,77.5898,503.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100307203,SARVA NIKETAN PUBLIC SCHOOL,Primary,Private Unaided (Recognized),HATEVA,Gautam Buddha Nagar,Uttar Pradesh,28.3838,77.5872,403.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100315508,SHIV RAJ SHARMA INTER COLLEGE,Upper Pri. Secondary and Higher Sec,Private Unaided (Recognized),BILASPUR,Gautam Buddha Nagar,Uttar Pradesh,28.395354,77.627123,604.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100206003,SHRI GANDHI HIGHER SECONDARY,Upper Pri. Secondary and Higher Sec,Government Aided,GHORI BACHHERA,Gautam Buddha Nagar,Uttar Pradesh,28.480597,77.5691,602.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100204504,SIDDH BABA PUBLIC SCHOOL,Primary,Private Unaided (Recognized),PHOOLPUR,Gautam Buddha Nagar,Uttar Pradesh,28.541441,77.606636,349.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100315902,ST GEORGE SCHOOL,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),PACHYATAN INAYATPUR,Gautam Buddha Nagar,Uttar Pradesh,28.4163,77.6182,547.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9100205004,VIJAY SINGH PUBLIC SCHOOL,Primary,Private Unaided (Recognized),LUHARALI,Gautam Buddha Nagar,Uttar Pradesh,28.492918,77.623055,753.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090204804,B.D.MEMORIAL PUBLIC SCHOOL,Primary with Upper Primary,Local body,INDRA GARHI,Ghaziabad,Uttar Pradesh,28.748611,77.46,615.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090203903,COLUMBIA CONVENT INSTITUTE MORTA GHAZIABAD,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),MORTA (TA),Ghaziabad,Uttar Pradesh,28.725278,77.411389,171.0,4,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090303202,COMPOSITE SCHOOL DABANA,Primary with Upper Primary,Department of Education,DABANA,Ghaziabad,Uttar Pradesh,28.8416,77.5029,759.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090204803,DR. AMBEDKAR MODEL PRIMARY SCHOOL,Primary,Local body,INDRA GARHI,Ghaziabad,Uttar Pradesh,28.750833,77.454722,475.0,6,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090202506,GUTAM PUBLIC SENIOR SEC SCHOOL,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),RAZAPUR (TA),Ghaziabad,Uttar Pradesh,28.740833,77.405833,727.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090200205,HAPPY MODEL JUNIOR HIGH SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),KANAUJA,Ghaziabad,Uttar Pradesh,28.730636,77.513555,680.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090205107,HAPPY MODEL PUBLIC SCHOOL BHIKKANPUR,Primary with Upper Primary,Private Unaided (Recognized),BHIKANPUR,Ghaziabad,Uttar Pradesh,28.75103,77.456504,621.0,5,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090101007,HINDON PUBLIC SCHOOL,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),LONI,Ghaziabad,Uttar Pradesh,28.75023,77.367053,785.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090105270,J.D. SASHTRI PUBLIC JR.H. SCHOOL,Upper Primary only,Private Unaided (Recognized),LONI,Ghaziabad,Uttar Pradesh,28.838889,77.523611,323.0,4,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090200914,JAMIA ARBIA TALIMUL QURAN,Primary,Private Unaided (Recognized),NAHAL,Ghaziabad,Uttar Pradesh,28.715507,77.557874,772.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090202602,JAMIA SIDDIQIA LILBANAT,Primary with Upper Primary,Madarsa recognized (by Wakf board/Madarsa Board),NAYFAL (TA),Ghaziabad,Uttar Pradesh,28.716862,77.558523,715.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090400504,"LAL BAHADUR SHASTRI,J.H.",Primary with Upper Primary,Government Aided,TIBADA,Ghaziabad,Uttar Pradesh,28.836389,77.525,431.0,4,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090202505,LOKMANYA TILAK JANTA INTER COLLEGE MORTA,Upper Pri. Secondary and Higher Sec,Government Aided,RAZAPUR (TA),Ghaziabad,Uttar Pradesh,28.741111,77.406111,718.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090204802,MAHANAND MISSION PRIMAY SCHOOL,Primary,Government Aided,INDRA GARHI,Ghaziabad,Uttar Pradesh,28.751667,77.457778,735.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090100129,MAQTAB NATIONAL ISLAMIYA COLLEGE,Pri. Upper Pri. and Secondary Only,Madarsa recognized (by Wakf board/Madarsa Board),CHIRAURI,Ghaziabad,Uttar Pradesh,28.78176,77.3355,733.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090100126,MAQTAB NATIONAL PUBLIC SCHOOL CHIRAURI,Primary,Madarsa recognized (by Wakf board/Madarsa Board),CHIRAURI,Ghaziabad,Uttar Pradesh,28.78178,77.33589,768.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090108301,NAV CHETNA HIGHER SEC SCHOOL,Secondary Only,Private Unaided (Recognized),LONI,Ghaziabad,Uttar Pradesh,28.78075,77.3382,754.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090102298,NEW CROWN PUBLIC SCHOOL,Primary,Private Unaided (Recognized),LONI,Ghaziabad,Uttar Pradesh,28.78075,77.3382,754.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090400201,P.S. BUDANA,Primary,Department of Education,BUDANA,Ghaziabad,Uttar Pradesh,28.84152,77.55812,644.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090201701,P.S. GOOJAR GARHI,Primary,Department of Education,GOOJAR GARHI,Ghaziabad,Uttar Pradesh,28.752778,77.434167,222.0,5,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090201901,P.S. MATIYALA,Primary,Department of Education,MATIYALA,Ghaziabad,Uttar Pradesh,28.761111,77.447778,216.0,10,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090204201,P.S. NAGLA FIROZPUR MOHANPUR,Primary,Department of Education,NANGLA,Ghaziabad,Uttar Pradesh,28.748056,77.411111,688.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090204503,U.P.S. ATAUR,Upper Primary only,Department of Education,ATAUR,Ghaziabad,Uttar Pradesh,28.7378,77.4053,699.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090101802,U.P.S. SHARIFABAD RAJPUR,Upper Primary only,Department of Education,LONI,Ghaziabad,Uttar Pradesh,28.739853,77.355158,309.0,6,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090406102,U.P.S. TYODI-7,Upper Primary only,Department of Education,TYODI,Ghaziabad,Uttar Pradesh,28.797947,77.690141,553.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9090205108,WISDOM INTERNATIONAL SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),BHIKANPUR,Ghaziabad,Uttar Pradesh,28.7514,77.4566,661.0,4,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750600906,.P.S. KOLER BASTI SAMANA,Primary,Department of Education,SAMANA,Hapur,Uttar Pradesh,28.59478,77.694265,534.0,4,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750601906,ARZOO ISLAMIK  PUBLIC  SCHOOL,Primary,Madarsa recognized (by Wakf board/Madarsa Board),AJAMPUR,Hapur,Uttar Pradesh,28.679438,77.682777,507.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750602208,DAIMOND PUBLIC SCHOOL,Primary,Private Unaided (Recognized),SAPNAWAT,Hapur,Uttar Pradesh,28.62404,77.72884,667.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750806927,DEV MEMORIAL SCHOOL GARHMUKTESHWAR,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),GARH MUKTESWAR (TA),Hapur,Uttar Pradesh,28.794255,78.071827,662.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750602217,DIAMOND PUBLIC SCHOOL,Primary,Private Unaided (Recognized),SAPNAWAT,Hapur,Uttar Pradesh,28.62404,77.72884,667.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750804203,FAZAL ALOOM PRIMARY SCHOOL,Primary,Madarsa recognized (by Wakf board/Madarsa Board),PAUPAI HIRANPURA,Hapur,Uttar Pradesh,28.827435,78.017624,190.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750506205,FLORA DAYS PUBLIC SCHOOL BANKHANDA,Primary,Private Unaided (Recognized),BANKHANDA,Hapur,Uttar Pradesh,28.72488,77.931108,556.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750602206,GYAN BHARTI PUBLIC SCHOOL,Primary,Private Unaided (Recognized),SAPNAWAT,Hapur,Uttar Pradesh,28.62404,77.72881,667.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750803705,IMDADUL ULOOM JH SCHOOL,Upper Primary only,Local body,DAUTAI,Hapur,Uttar Pradesh,28.798991,78.061092,183.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750806912,JANTA INTER COLLEGE,Pri. with Upper Pri. Sec. and H.Sec.,Government Aided,GARH MUKTESWAR (TA),Hapur,Uttar Pradesh,28.792167,78.072119,774.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9751001201,LAXMI GIRLS UPPER PRIMARY SCHO,Upper Primary only,Department of Education,WARD NO. 1,Hapur,Uttar Pradesh,28.727137,77.795398,610.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750803703,MADARSA IMDADUL ULOOM,Primary,Madarsa recognized (by Wakf board/Madarsa Board),DAUTAI,Hapur,Uttar Pradesh,28.798991,78.061092,183.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750503206,MADARSA MAULANA A. KALAM AZAD,Primary with Upper Primary,Madarsa recognized (by Wakf board/Madarsa Board),SALAI,Hapur,Uttar Pradesh,28.684507,77.806965,734.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750602104,MADRASA T.QURAN MEDIUM PRIMARY,Primary,Private Unaided (Recognized),SIKHERA,Hapur,Uttar Pradesh,28.679433,77.682565,507.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750502803,MADRSA JADID SCHOOL,Primary with Upper Primary,Local body,AKROLI,Hapur,Uttar Pradesh,28.682612,77.813224,638.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750803706,MADRSA SMD ISLAMIC JHS,Upper Primary only,Private Unaided (Recognized),DAUTAI,Hapur,Uttar Pradesh,28.798991,78.061092,183.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750601803,N.K. MEMORIAL PUB. SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),DAHAPA,Hapur,Uttar Pradesh,28.684732,77.692874,295.0,8,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750504601,P.S WAJHEELPUR,Primary,Department of Education,VAGHILPUR,Hapur,Uttar Pradesh,28.770127,77.815233,609.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750601902,P.S. AZAMPUR,Primary,Department of Education,AJAMPUR,Hapur,Uttar Pradesh,28.679042,77.684742,458.0,6,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750503002,P.S. CHATOLI-II,Primary,Department of Education,CHATOLI,Hapur,Uttar Pradesh,28.69183,77.76463,743.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750601801,P.S. DAHAPA,Primary,Department of Education,DAHAPA,Hapur,Uttar Pradesh,28.6804,77.6836,603.0,4,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750500301,P.S. DHANORA,Primary,Department of Education,DHANORA,Hapur,Uttar Pradesh,28.760288,77.807435,723.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750508801,P.S. DHARAMPUR 15 BISWA,Primary,Department of Education,DHARAMPUR 15 BISWA,Hapur,Uttar Pradesh,28.692312,77.786412,477.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750503301,P.S. GONDI,Primary,Department of Education,GONDI,Hapur,Uttar Pradesh,28.69548,77.8033,405.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750504201,P.S. KAMALPUR,Primary,Department of Education,KAMALPUR,Hapur,Uttar Pradesh,28.680715,77.70099,772.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750601101,P.S. KAMRUDDIN NAGAR,Primary,Department of Education,KAMARUDDIN NAGAR,Hapur,Uttar Pradesh,28.59897,77.67871,694.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750504701,P.S. KHAR KHARI,Primary,Department of Education,KHAR-KHARI,Hapur,Uttar Pradesh,28.68623,77.81458,279.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750502001,P.S. MAHMOODPUR,Primary,Department of Education,MAHMOODPUR,Hapur,Uttar Pradesh,28.650572,77.804172,755.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750604203,P.S. MUBARIKPUR BADARKHA,Primary,Department of Education,KANDAULA,Hapur,Uttar Pradesh,28.68214,77.654865,312.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750601001,P.S. NAGLA KASHI,Primary,Department of Education,NAGNLA KASHI,Hapur,Uttar Pradesh,28.586,77.6764,673.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750601102,P.S. NANGLA  CHHAJJU,Primary,Department of Education,KAMARUDDIN NAGAR,Hapur,Uttar Pradesh,28.59276,77.6698,749.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750601403,P.S. PARPA KI MADAIYA,Primary,Department of Education,PARPA,Hapur,Uttar Pradesh,28.5617,77.68125,770.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750502901,P.S. SADIQPUR,Primary,Department of Education,SADIQPUR IMTORI,Hapur,Uttar Pradesh,28.693364,77.784524,685.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750503201,P.S. SALAI,Primary,Department of Education,SALAI,Hapur,Uttar Pradesh,28.682219,77.808906,793.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750602201,P.S. SAPNAWAT NO. 1,Primary,Department of Education,SAPNAWAT,Hapur,Uttar Pradesh,28.62364,77.7288,712.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750601201,P.S. SUKHDEVPUR,Primary,Department of Education,SUKHDEVPUR,Hapur,Uttar Pradesh,28.59463,77.69436,543.0,4,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750503603,P.S. TUMRAIL,Primary,Department of Education,GIRDHERPUR TUMRAIL,Hapur,Uttar Pradesh,28.686765,77.742347,729.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750503602,P.S.GIRDHERPUR-II,Primary,Department of Education,GIRDHERPUR TUMRAIL,Hapur,Uttar Pradesh,28.686765,77.742347,729.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750507501,P.S.SHAHBUDDIN NAGAR,Primary,Department of Education,SHAHBUDDIN NAGAR,Hapur,Uttar Pradesh,28.692473,77.786137,508.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750506404,PS MEERPUR KURANA,Primary,Department of Education,DAHANA,Hapur,Uttar Pradesh,28.624644,77.764441,791.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9751000210,SMT BRAHMA DEVI BALIKA VIDYA MANDIR,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),WARD NO.5,Hapur,Uttar Pradesh,28.73614,77.753664,695.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750506204,U.P.S. BANKHANDA,Upper Primary only,Department of Education,BANKHANDA,Hapur,Uttar Pradesh,28.727192,77.932602,618.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750503604,U.P.S. GIRDHERPUR composite,Primary with Upper Primary,Department of Education,GIRDHERPUR TUMRAIL,Hapur,Uttar Pradesh,28.686765,77.740149,704.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750500703,U.P.S. GOYNA,Primary with Upper Primary,Department of Education,GOYNA AB.PUR BAS.PUR,Hapur,Uttar Pradesh,28.74227,77.740149,794.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750602002,U.P.S. HIMMAT NAGAR,Primary with Upper Primary,Department of Education,HIMMAT NAGAR,Hapur,Uttar Pradesh,28.6788,77.6864,294.0,7,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750602602,U.P.S. KAPOORPUR,Primary with Upper Primary,Department of Education,KAPOORPUR,Hapur,Uttar Pradesh,28.62067,77.69783,666.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750602302,U.P.S. NARAINA,Upper Primary only,Department of Education,NARAINA,Hapur,Uttar Pradesh,28.62087,77.69776,642.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750804205,U.P.S. PAUPAI,Upper Primary only,Department of Education,PAUPAI HIRANPURA,Hapur,Uttar Pradesh,28.827431,78.017636,189.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750507203,U.P.S. SALEHPUR KOTLA,Upper Primary only,Department of Education,SALEHPUR KOTLA,Hapur,Uttar Pradesh,28.627289,77.750489,555.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750600903,U.P.S. SAMANA,Primary with Upper Primary,Department of Education,SAMANA,Hapur,Uttar Pradesh,28.59301,77.68036,737.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750605601,UPS KHAIRPUR,Primary with Upper Primary,Department of Education,KHAIRPUR,Hapur,Uttar Pradesh,28.687251,77.672427,766.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9750600905,VARDAN PUBLIC J.H.S.,Primary with Upper Primary,Private Unaided (Recognized),SAMANA,Hapur,Uttar Pradesh,28.5894,77.67465,627.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150100804,CAMBRIDGE INTER SCH BHADHANA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),BHADANA,Jhajjar,Haryana,28.620717,76.724983,337.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150102005,"DEEP CHAND PUBLIC SCHOOL, GUDHA",Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),GUDHA,Jhajjar,Haryana,28.632811,76.636108,378.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150102505,GANGA INTERNATIONAL SCHOOL KABLANA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),KABLANA,Jhajjar,Haryana,28.6238,76.74161,463.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150100902,GGPS BHADANI,Primary,Department of Education,BHADANI,Jhajjar,Haryana,28.638322,76.727425,764.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150201005,GGPS BUPANIA,Primary,Department of Education,BHUPANIA,Jhajjar,Haryana,28.63768,76.81281,368.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150201002,GGSSS BUPANIA,Upper Pri. Secondary and Higher Sec,Department of Education,BHUPANIA,Jhajjar,Haryana,28.63768,76.81281,368.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150102102,GHS GIRAWAR,Upper Pri. and Secondary,Department of Education,GIRAWAR,Jhajjar,Haryana,28.654234,76.687931,709.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150104202,GHS LADPUR,Upper Pri. and Secondary,Department of Education,LADPUR,Jhajjar,Haryana,28.5527,76.781767,701.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150108801,GMS RAIYA,Upper Primary only,Department of Education,RAIYA,Jhajjar,Haryana,28.55815,76.615883,503.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150100801,GPS BHADANA,Primary,Department of Education,BHADANA,Jhajjar,Haryana,28.624367,76.7229,790.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150501301,GPS DIMANA,Primary,Department of Education,DIMANA,Jhajjar,Haryana,28.77322,76.67839,324.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150102101,GPS GIRAWAR,Primary,Department of Education,GIRAWAR,Jhajjar,Haryana,28.654271,76.687931,707.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150102501,GPS KABLANA,Primary,Department of Education,KABLANA,Jhajjar,Haryana,28.6226,76.740183,604.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150102901,GPS KHAJPUR,Primary,Department of Education,KHAJPUR,Jhajjar,Haryana,28.580605,76.633657,686.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150103201,GPS KHERI ASRA,Primary,Department of Education,KHERI ASRA,Jhajjar,Haryana,28.660051,76.721636,711.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150104001,GPS KULANA,Primary,Department of Education,KULANA,Jhajjar,Haryana,28.421733,76.657717,734.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150203601,GPS LADRAWAN,Primary,Department of Education,LADRAWAN,Jhajjar,Haryana,28.784277,76.933326,700.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150204701,GPS MOHMMADPUR MAJRA,Primary,Department of Education,MOHMMADPUR MAJRA,Jhajjar,Haryana,28.573824,76.793233,530.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150104801,GPS NIMANA,Primary,Department of Education,NIMANA,Jhajjar,Haryana,28.525817,76.78435,768.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150108803,GPS RAIYA,Primary,Department of Education,RAIYA,Jhajjar,Haryana,28.558183,76.615883,504.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150108203,GPS SURKHPUR,Primary,Department of Education,SURKHPUR,Jhajjar,Haryana,28.645785,76.704289,737.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150102503,GSSS KABLANA,Upper Pri. Secondary and Higher Sec,Department of Education,KABLANA,Jhajjar,Haryana,28.622667,76.739983,601.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150203603,GSSS LADRAWAN,Upper Pri. Secondary and Higher Sec,Department of Education,LADRAWAN,Jhajjar,Haryana,28.784277,76.933326,700.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150108504,GSSS SILANI,Upper Pri. Secondary and Higher Sec,Department of Education,SILANI,Jhajjar,Haryana,28.555404,76.669897,798.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150105805,HAPPY SSS SILANA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),SILANA,Jhajjar,Haryana,28.549833,76.6723,535.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150200805,RADIANT PUBLIC SCHOOL BARAHI,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),BARAHI,Jhajjar,Haryana,28.7367,76.8897,194.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150201603,RANBIR SINGH MODEL SCHOOL DARIYAPUR,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),DARIYAPUR,Jhajjar,Haryana,28.563788,76.840287,124.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150104307,RAO NIHAL SINGH SSS LOHARI,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),LOHARI,Jhajjar,Haryana,28.368833,76.727117,230.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150103203,SAHEED LT. RAVINDER CHHIKARA GSSS KHERI ASRA,Upper Pri. Secondary and Higher Sec,Department of Education,KHERI ASRA,Jhajjar,Haryana,28.660373,76.722152,773.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150206361,SARASWATI VIDYA MANDIR H/S B.GARH,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),BAHADURGARH,Jhajjar,Haryana,28.78615,76.932067,482.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6150200409,T.R.H. PUBLIC SCHOOL BADLI,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),BADLI,Jhajjar,Haryana,28.568304,76.825662,250.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6090201803,DELHI PUBLIC SCHOOL GOSIAN KHERA,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),GOSAIN KHERA,Jind,Haryana,29.213568,76.356519,728.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6090603902,GGSSS UCHANA MANDI,Upper Pri. Secondary and Higher Sec,Department of Education,UCHANA MANDI,Jind,Haryana,29.483056,76.189722,799.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6090201802,GMS GOSIAN KHERA,Upper Primary only,Department of Education,GOSAIN KHERA,Jind,Haryana,29.211667,76.3675,595.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6090201801,GPS GOSIAN KHERA,Primary,Department of Education,GOSAIN KHERA,Jind,Haryana,29.211667,76.367778,569.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6090101807,Little Rose Convent School,Primary with Upper Primary,Private Unaided (Recognized),IGRAH,Jind,Haryana,29.216111,76.245111,162.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060605010,ADARSH PUBLIC SCHOOL SALWAN,Primary with Upper Primary,Unrecognized,SALWAN,Karnal,Haryana,29.50101,76.725201,583.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060309602,ARJUN SINGH MEMORIAL SR. SEC. SCHOOL,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),NARAINA,Karnal,Haryana,29.764344,76.86577,635.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060102202,GGPS FARIDPUR,Primary,Department of Education,FARIDPUR,Karnal,Haryana,29.480983,77.0456,387.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060409102,GGPS SANGOHA,Primary,Department of Education,SANGOHA,Karnal,Haryana,29.78655,77.03487,784.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060105402,GHS PUNDRI,Upper Pri. and Secondary,Department of Education,PUNDRI,Karnal,Haryana,29.480657,77.028339,556.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060502401,GMS GORGARH,Upper Primary only,Department of Education,GORGARH,Karnal,Haryana,29.8498,77.029999,443.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060104602,GMS MUBARKABAD,Upper Primary only,Department of Education,MUBARKABAD,Karnal,Haryana,29.5804,77.00846,672.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060408202,GMS RANWAR,Upper Primary only,Department of Education,RANWAR,Karnal,Haryana,29.643352,77.016597,693.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060102201,GPS FARIDPUR,Primary,Department of Education,FARIDPUR,Karnal,Haryana,29.483205,77.049263,649.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060502402,GPS GORGARH,Primary,Department of Education,GORGARH,Karnal,Haryana,29.8498,77.029999,443.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060103101,GPS JAMALPUR,Primary,Department of Education,JAMAL PUR,Karnal,Haryana,29.527038,77.031403,728.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060104601,GPS MUBARKABAD,Primary,Department of Education,MUBARKABAD,Karnal,Haryana,29.5804,77.0084,669.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060300203,GPS PADHANA,Primary,Department of Education,PADHANA,Karnal,Haryana,29.817945,76.953786,727.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060105401,GPS PUNDRI,Primary,Department of Education,PUNDRI,Karnal,Haryana,29.478758,77.024329,625.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060408201,GPS RANWAR,Primary,Department of Education,RANWAR,Karnal,Haryana,29.64325,77.01725,753.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060102203,GSSS FARIDPUR,Upper Pri. Secondary and Higher Sec,Department of Education,FARIDPUR,Karnal,Haryana,29.481365,77.050232,772.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060400702,GURUNANAK SR SEC SCHOOL SANGOHA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),BARAGAON,Karnal,Haryana,29.790901,77.033117,294.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060105403,HIND MODERN PUBLIC SCHOOL,Primary,Unrecognized,PUNDRI,Karnal,Haryana,29.48192,77.030585,461.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060102205,LITTLE BIRDS PUBLIC  SCHOOL,Primary,Unrecognized,FARIDPUR,Karnal,Haryana,29.480753,77.048828,667.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6064100432,MOUNT SINAI SCHOOL,Primary with Upper Primary,Unrecognized,BASTARA,Karnal,Haryana,29.571877,76.976596,688.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060605008,NEW ADRASH PUBLIC SCH. SALWAN,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),SALWAN,Karnal,Haryana,29.500267,76.725617,498.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6060101203,SHIV SHAKTI PUBLIC SR SEC SCHOOL BEEJNA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),BIZNA,Karnal,Haryana,29.602867,76.921667,145.0,6,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6160309007,B.L. SHIKSHA NIKETAN SS SCHOOL PALI,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),PALI,Mahendragarh,Haryana,28.32501,76.14722,745.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6160705206,GALAXY SR. SEC. SCHOOL BAWANIA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),BAWANIA,Mahendragarh,Haryana,28.25805,76.22277,729.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6160402403,GMS DHARSON,Upper Primary only,Department of Education,DHARSON,Mahendragarh,Haryana,28.112204,76.076672,650.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6160402401,GPS DHARSON,Primary,Department of Education,DHARSON,Mahendragarh,Haryana,28.112204,76.076672,650.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6160500102,GSSS AKBARPUR,Upper Pri. Secondary and Higher Sec,Department of Education,AKBERPUR,Mahendragarh,Haryana,27.93778,76.12917,291.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6160800704,M.D. VIDYA NIKETAN H/S DUBLANA,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),DUBLANA,Mahendragarh,Haryana,28.11534,76.163015,438.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6160309006,"SANSKAR BHARTI KANVENT SCHOOL, PALI",Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),PALI,Mahendragarh,Haryana,28.32501,76.14722,745.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071200105,ADRASH BAL VIKAS,Primary,Private Unaided (Recognized),GANESHPUR,Meerut,Uttar Pradesh,29.1418,77.9599,434.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070804703,AMAR JYOTI PUBLIC SCHOOL MAITHANA INDER SINGH,Primary with Upper Primary,Private Unaided (Recognized),MAITHNA INDRA SINGH,Meerut,Uttar Pradesh,29.056976,77.767916,752.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070502005,BAJAJ PUBLIC SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),KINAUNI.,Meerut,Uttar Pradesh,29.052845,77.473962,98.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070401910,CHAUDHARY ILAM SINGH ACADEMY SATWAI,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),SATWAI,Meerut,Uttar Pradesh,29.007067,77.549824,722.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071201312,D P M PUBLIC SCHOOL,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),BAHESUMA,Meerut,Uttar Pradesh,29.1883,77.9665,486.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071209901,DE MONTFORT ACADEMY SAIFPUR,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),SAIFPUR KARAMCHANDRAPUR,Meerut,Uttar Pradesh,29.1445,77.9603,642.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070901104,FAIZ-E- AM HR. SEC. SCHOOL,Secondary with Higher Secondary,Private Unaided (Recognized),NANGLA HARERU,Meerut,Uttar Pradesh,29.16204,77.85727,784.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070604907,GOOD LIFE ARABIC SCHOOL KAILI,Primary,Madarsa recognized (by Wakf board/Madarsa Board),KAILI,Meerut,Uttar Pradesh,29.21706,77.69786,665.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071204603,GYAN VERSHA P SCHOOL,Primary,Private Unaided (Recognized),MEEWA,Meerut,Uttar Pradesh,29.076589,77.957407,652.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071200107,HASTINAPUR PUBLIC SCHOOL,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),GANESHPUR,Meerut,Uttar Pradesh,29.146955,77.969855,538.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070901709,ISLAM MEMORIAL ACADEMY,Primary,Private Unaided (Recognized),PILONA,Meerut,Uttar Pradesh,29.16536,77.85678,687.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070803304,J.B. P.P/ JUNIOR HIGH SCHOOL SIWAYA,Primary with Upper Primary,Private Unaided (Recognized),SIWAYA,Meerut,Uttar Pradesh,29.0917,77.7143,746.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070903002,JN H.S AKBAR PUR SADAT,Primary with Upper Primary,Department of Education,AKBARPUR SADAT,Meerut,Uttar Pradesh,29.192862,77.928609,358.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071200103,JN H.S GANESHPUR,Upper Primary only,Department of Education,GANESHPUR,Meerut,Uttar Pradesh,29.1439,77.96142,679.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071200902,JN H.S IKWARA,Primary with Upper Primary,Department of Education,BADHUA IKWARA,Meerut,Uttar Pradesh,29.13856,77.9565,201.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070502403,JN H.S KALYANPUR,Upper Primary only,Department of Education,KALYANPUR,Meerut,Uttar Pradesh,29.011085,77.484825,632.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070501602,JN H.S MEERPUR,Upper Primary only,Department of Education,MEERPUR,Meerut,Uttar Pradesh,29.052847,77.51943,480.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071204602,JN H.S MEEWA,Upper Primary only,Department of Education,MEEWA,Meerut,Uttar Pradesh,29.07942,77.96179,195.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071201402,JN H.S SAMASPUR,Primary with Upper Primary,Department of Education,SAMASPUR,Meerut,Uttar Pradesh,29.184474,77.966278,659.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070604402,JN. H. S. (COMPOSITE) BHARAUTA,Primary with Upper Primary,Department of Education,BHARAUTA,Meerut,Uttar Pradesh,29.179937,77.732692,375.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070805102,JN.H.S (composite) ULAKHPUR,Primary with Upper Primary,Department of Education,ULAKHPUR,Meerut,Uttar Pradesh,29.063246,77.769831,270.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070303906,JN.H.S. PEPLI KHEDA,Upper Primary only,Department of Education,PIPLI KHEDA,Meerut,Uttar Pradesh,28.880848,77.769319,532.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071201705,MAA SARSWATI GYAN MANDIR MORE KHURD,Primary,Private Unaided (Recognized),MODE KHURD,Meerut,Uttar Pradesh,29.22527,77.9837,404.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070101903,MADARSA LITIL ARABIC SCHOOL ALIPUR JIJMANA,Primary,Madarsa recognized (by Wakf board/Madarsa Board),ALIPUR JIJMANA,Meerut,Uttar Pradesh,29.0505,77.7658,460.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070901707,MADARSA MEHNDI NANGLA HARERU,Primary,Madarsa recognized (by Wakf board/Madarsa Board),PILONA,Meerut,Uttar Pradesh,29.16519,77.85582,782.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070604905,MADRSA HUSENIYA ISLAMIYA ARBIYA KAILI,Primary,Madarsa recognized (by Wakf board/Madarsa Board),KAILI,Meerut,Uttar Pradesh,29.21701,77.69599,556.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071200106,NEW BLOOMS PUBLIC SCHOOL,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),GANESHPUR,Meerut,Uttar Pradesh,29.148457,77.973267,297.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070805103,NEW SAINI HR. SEC. SCHOOL,Secondary with Higher Secondary,Private Unaided (Recognized),ULAKHPUR,Meerut,Uttar Pradesh,29.063234,77.7698,274.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070800205,NEW SAINI P. SCHOOL ULAKHPUR,Primary with Upper Primary,Private Unaided (Recognized),ULAKHPUR,Meerut,Uttar Pradesh,29.063234,77.7698,274.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070206301,P.P BHAWANPUR,Primary,Department of Education,BHAWANPUR,Meerut,Uttar Pradesh,28.977267,77.807862,792.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070302201,"P.P, AJRARA",Primary,Department of Education,AJRARA,Meerut,Uttar Pradesh,28.837568,77.816893,752.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070203401,"P.P, BADHALA 1",Primary,Department of Education,BADHALA,Meerut,Uttar Pradesh,28.916578,77.802953,761.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070501501,"P.P, BARAM",Primary,Department of Education,BARAM,Meerut,Uttar Pradesh,29.06224,77.56786,540.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070203001,"P.P, BHAGWAN PUR 1",Primary,Department of Education,BHAGWAN PUR,Meerut,Uttar Pradesh,28.920821,77.809905,514.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070801301,"P.P, BHARALA",Primary,Department of Education,BHARALA,Meerut,Uttar Pradesh,29.098244,77.719088,735.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070202501,"P.P, GAONDI JAM",Primary,Department of Education,GAONDI JAM,Meerut,Uttar Pradesh,28.979561,77.813935,491.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070202301,"P.P, GYANPUR",Primary,Department of Education,GYAN PUR,Meerut,Uttar Pradesh,29.024861,77.815546,692.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070901901,"P.P, JHIJHADPUR",Primary,Department of Education,JHIJHADHPUR,Meerut,Uttar Pradesh,29.143635,77.85059,451.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070502402,"P.P, KALYANPUR 2",Primary,Department of Education,KALYANPUR,Meerut,Uttar Pradesh,29.01103,77.48485,637.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070804001,"P.P, MAHEL",Primary,Department of Education,MAHEL,Meerut,Uttar Pradesh,29.093231,77.798443,646.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070501601,"P.P, MEERPUR",Primary,Department of Education,MEERPUR,Meerut,Uttar Pradesh,29.05461,77.51727,763.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071204601,"P.P, MEEWA",Primary,Department of Education,MEEWA,Meerut,Uttar Pradesh,29.076197,77.955911,782.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071201701,"P.P, MODE KHURD 1",Primary,Department of Education,MODE KHURD,Meerut,Uttar Pradesh,29.153401,77.982924,590.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071201702,"P.P, MODE KHURD 2",Primary,Department of Education,MODE KHURD,Meerut,Uttar Pradesh,29.22692,77.98204,604.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070302402,"P.P, MUNDALI 2",Primary,Department of Education,MUNDALI,Meerut,Uttar Pradesh,28.872548,77.825341,556.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071200401,"P.P, RAHEMAPUR",Primary,Department of Education,RAHEMAPUR,Meerut,Uttar Pradesh,29.144104,77.96151,700.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071105601,"P.P, RAMPUR SADHO NAGLI",Primary,Department of Education,RAMPUR SADHO NAGLI,Meerut,Uttar Pradesh,29.045358,77.865252,88.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070402401,"P.P, RAWA 1",Primary,Department of Education,RAWA,Meerut,Uttar Pradesh,28.96757,77.49108,725.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071202501,"P.P, SADARPUR",Primary,Department of Education,SADARPUR,Meerut,Uttar Pradesh,29.218734,77.977722,649.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070202802,"P.P, SISOLI 2",Primary,Department of Education,SISOLI,Meerut,Uttar Pradesh,28.917318,77.807127,372.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070902501,"P.P, TIGRI 1",Primary,Department of Education,TIGRI,Meerut,Uttar Pradesh,29.140465,77.895372,768.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070903001,P.P. AKBARPUR SADAT - 1,Primary,Department of Education,AKBARPUR SADAT,Meerut,Uttar Pradesh,29.19238,77.92745,476.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071207720,RAJKIYA ASHRAM PADTI VIDYALAYA HASTINAPUR,Pri. with Upper Pri. Sec. and H.Sec.,Department of Education,HASTINAPUR,Meerut,Uttar Pradesh,29.152978,77.981652,481.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071204605,SANSKAAR ACADEMY P.P,Primary,Private Unaided (Recognized),MEEWA,Meerut,Uttar Pradesh,29.07794,77.95928,424.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071204604,SANSKAR ACADEMY INTER COLLEGE,Upper Pri. Secondary and Higher Sec,Private Unaided (Recognized),MEEWA,Meerut,Uttar Pradesh,29.07794,77.95928,424.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070800206,SRI MALHU SINGH ARYA KANYA I.COLLEG,Pri. with Upper Pri. Sec. and H.Sec.,Government Aided,MATAUR,Meerut,Uttar Pradesh,29.110531,77.66122,673.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071200108,SWAMI KALYAN DEV PUBLIC SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),GANESHPUR,Meerut,Uttar Pradesh,29.1465,77.9598,794.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9071201704,SWAMI VIVEKANAND HIDH SCHOOL SADARPUR,Upper Pri. and Secondary,Private Unaided (Recognized),MODE KHURD,Meerut,Uttar Pradesh,29.225277,77.983708,405.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070801410,VED INTERNATIONAL SCHOOL,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),SIWAYA,Meerut,Uttar Pradesh,29.0982,77.7191,730.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9070804006,VIDHYA ARPAN PUBLIC SCHOOL MAIL,Primary with Upper Primary,Private Unaided (Recognized),MAHEL,Meerut,Uttar Pradesh,29.093221,77.798435,645.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020203706,AAR KE PUBLIC SCHOOL TAWLI,Primary with Upper Primary,Private Unaided (Recognized),TAWALI,Muzaffarnagar,Uttar Pradesh,29.416797,77.624602,692.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021406801,ANTWADA-1,Primary,Department of Education,ANTWADA,Muzaffarnagar,Uttar Pradesh,29.320331,77.805908,778.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021406802,ANTWADA-2,Primary,Department of Education,ANTWADA,Muzaffarnagar,Uttar Pradesh,29.320331,77.805908,778.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021500403,ARPIT PUBLIC SCHOOL JANAKPURI,Primary,Private Unaided (Recognized),MUZAFFARNAGAR,Muzaffarnagar,Uttar Pradesh,29.491523,77.692321,420.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020204209,ARYA VAIDIK KANYA INTER COLLEGE DHIDHAWALI,Secondary with Higher Secondary,Private Unaided (Recognized),DHINDHAWALI,Muzaffarnagar,Uttar Pradesh,29.424436,77.524648,540.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020204213,BALBEER  SINGH  MEMORIAL JHS  SCHOOL DHINDHAWALI,Upper Primary only,Private Unaided (Recognized),DHINDHAWALI,Muzaffarnagar,Uttar Pradesh,29.424976,77.524207,576.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020204215,BALBEER  SINGH  MEMORIAL PUBLIC SCHOOL DHINDHAWALI,Primary,Private Unaided (Recognized),DHINDHAWALI,Muzaffarnagar,Uttar Pradesh,29.424976,77.524207,576.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020200404,BALJOR SINGH MEMORIAL PUBLIC SCHOOL CHAROLI NIWADA,Primary,Private Unaided (Recognized),CHARAULI,Muzaffarnagar,Uttar Pradesh,29.435424,77.493342,454.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021500501,BHAGWANTI SARSWATI VIDYA MANDIR,Upper Pri. Secondary and Higher Sec,Private Unaided (Recognized),MUZAFFARNAGAR,Muzaffarnagar,Uttar Pradesh,29.4852,77.71483,677.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021400202,BHAINSI-2,Primary,Department of Education,BHAINSI,Muzaffarnagar,Uttar Pradesh,29.3,77.34,637.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021500330,BHARTIYA SANSKAR ACADMY EKTA VIHAR,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),MUZAFFARNAGAR,Muzaffarnagar,Uttar Pradesh,29.497283,77.697852,481.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021407502,BUADA KHURD,Primary,Department of Education,BUDHA KALAN,Muzaffarnagar,Uttar Pradesh,29.260085,77.76764,662.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020203704,DARR UL ULAM HUSANIYA TAWLI,Primary,Private Unaided (Recognized),TAWALI,Muzaffarnagar,Uttar Pradesh,29.415742,77.621843,712.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021500428,DISENT CHILDERN PUBLIC JHS AKTA VIHAR,Primary with Upper Primary,Private Unaided (Recognized),MUZAFFARNAGAR,Muzaffarnagar,Uttar Pradesh,29.497283,77.697852,481.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021500259,FLORENCE NIGHTINGALE MODERN HIGHE SCHOOL,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),N A MUZAFFAR NAGAR,Muzaffarnagar,Uttar Pradesh,29.489541,77.694362,709.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021500328,G M PUBLIC SCHOOL RAMPURI,Primary,Private Unaided (Recognized),MUZAFFARNAGAR,Muzaffarnagar,Uttar Pradesh,29.49294,77.695745,559.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020203708,G.S.PUBLIC SCHOOL TAWLI,Primary with Upper Primary,Private Unaided (Recognized),TAWALI,Muzaffarnagar,Uttar Pradesh,29.42366,77.62851,168.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020200606,GYAN JOUTI VIDHA MANDIR MOHD.PUR MADAN,Primary,Private Unaided (Recognized),MOHD.PURMODAN,Muzaffarnagar,Uttar Pradesh,29.44214,77.467237,784.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020203707,J.D.MEMORIAL PUBLIC SCHOOL TAWLI,Primary,Private Unaided (Recognized),TAWALI,Muzaffarnagar,Uttar Pradesh,29.415698,77.621878,709.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020103902,J.H.S SIKHREDA,Primary with Upper Primary,Department of Education,SIKRERA,Muzaffarnagar,Uttar Pradesh,29.246503,77.765287,680.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020101202,J.H.S. BAJHERI,Primary with Upper Primary,Department of Education,BAJHERI,Muzaffarnagar,Uttar Pradesh,29.506192,77.713801,313.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020100802,J.H.S. KHAMPUR,Primary with Upper Primary,Department of Education,KHAMPUR,Muzaffarnagar,Uttar Pradesh,29.580429,77.722009,360.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020101602,J.H.S. MIMLANA,Upper Primary only,Department of Education,MIMLANA,Muzaffarnagar,Uttar Pradesh,29.502265,77.669482,758.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020105002,J.H.S. SANDHOWALI,Primary with Upper Primary,Department of Education,SANDHAVALI,Muzaffarnagar,Uttar Pradesh,29.424273,77.711492,510.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021404701,JANDHERI JATAAN,Primary,Department of Education,JANDHERI JATAAN,Muzaffarnagar,Uttar Pradesh,29.237263,77.78943,582.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021406803,JHS ANTWADA,Upper Primary only,Department of Education,ANTWADA,Muzaffarnagar,Uttar Pradesh,29.320331,77.805908,778.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020100105,JHS BADHERI,Primary with Upper Primary,Department of Education,BADHERI,Muzaffarnagar,Uttar Pradesh,29.538348,77.75103,379.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020104202,JHS BIBIPUR,Primary with Upper Primary,Department of Education,BIBIPUR,Muzaffarnagar,Uttar Pradesh,29.428001,77.712347,113.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021403303,JHS DAHAUR,Upper Primary only,Department of Education,DAHAUR,Muzaffarnagar,Uttar Pradesh,29.263176,77.761837,80.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020103802,JHS DHANDHERA,Upper Primary only,Department of Education,DHANDHERA,Muzaffarnagar,Uttar Pradesh,29.451571,77.768173,787.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021404003,JHS GALIB PUR,Primary with Upper Primary,Department of Education,GALIBPUR,Muzaffarnagar,Uttar Pradesh,29.244962,77.79508,436.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020105603,JHS MIRAPUR,Primary with Upper Primary,Department of Education,MIRAPUR,Muzaffarnagar,Uttar Pradesh,29.442494,77.658229,494.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021207402,JHS NAYA GANW FAIZABAD,Primary with Upper Primary,Department of Education,NAYAGAWN FAIZABAD,Muzaffarnagar,Uttar Pradesh,29.287897,77.846523,754.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020200306,LAKHI SINGH MEM. PUBLIC SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),BUDINAKALAN,Muzaffarnagar,Uttar Pradesh,29.475247,77.50282,143.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020203603,NATIONAL PUBLIC SCHOOL SANJHAK,Primary,Private Unaided (Recognized),SANJHAK,Muzaffarnagar,Uttar Pradesh,29.431255,77.637882,623.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020203705,NATIONAL PUBLIC SCHOOL TAWLI,Primary,Private Unaided (Recognized),TAWALI,Muzaffarnagar,Uttar Pradesh,29.418513,77.623477,584.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020203709,NEW DEEN BANDHU PUBLIC SCHOOL TAWALI,Primary,Private Unaided (Recognized),TAWALI,Muzaffarnagar,Uttar Pradesh,29.41662,77.62147,780.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021500424,NEW GOLDEN FUTURE JHS JANAKPURI,Primary with Upper Primary,Private Unaided (Recognized),MUZAFFARNAGAR,Muzaffarnagar,Uttar Pradesh,29.491523,77.692321,420.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021405001,PAMNAVLI,Primary,Department of Education,PAMNAVLI,Muzaffarnagar,Uttar Pradesh,29.247299,77.795089,661.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020200901,PRIMARY SCHOOL   DHAULARA,Primary,Department of Education,DHAULARA,Muzaffarnagar,Uttar Pradesh,29.48272,77.501709,453.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020202501,PRIMARY SCHOOL  MURADPURA,Primary,Department of Education,MURADPURA,Muzaffarnagar,Uttar Pradesh,29.471991,77.589434,581.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020200602,PRIMARY SCHOOL MOHD.PUR MADAN-2,Primary,Department of Education,MOHD.PURMODAN,Muzaffarnagar,Uttar Pradesh,29.44282,77.465484,599.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020200601,PRIMARY SCHOOL MOHD.PUR MODAN-1,Primary,Department of Education,MOHD.PURMODAN,Muzaffarnagar,Uttar Pradesh,29.445042,77.466483,682.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020204301,PRIMARY SCHOOL NUNA KHERA,Primary,Department of Education,NUNAKHERA,Muzaffarnagar,Uttar Pradesh,29.421838,77.524222,688.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021406102,PS ADAMPUR,Primary,Department of Education,MOUCHDI,Muzaffarnagar,Uttar Pradesh,29.231621,77.767969,776.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021403502,PS BAHPUR,Primary,Department of Education,MOHIUDDINPUR,Muzaffarnagar,Uttar Pradesh,29.25995,77.767677,674.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021402201,PS KAILASH NAGAR,Primary,Department of Education,KAILASH NAGAR,Muzaffarnagar,Uttar Pradesh,29.26779,77.657161,559.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020200402,PUJA PUBLIC SCHOOL CHARAULI,Primary,Private Unaided (Recognized),CHARAULI,Muzaffarnagar,Uttar Pradesh,29.435043,77.496566,739.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020200902,RAMA PUBLIC SCHOOL DHAULARA,Primary,Private Unaided (Recognized),DHAULARA,Muzaffarnagar,Uttar Pradesh,29.479616,77.502026,151.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021401701,RATAN PURI,Primary,Department of Education,RATAN PURI,Muzaffarnagar,Uttar Pradesh,29.27016,77.606533,513.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021500464,SARASWATI SHISHA BHARTI JHS RAMPURI,Primary with Upper Primary,Private Unaided (Recognized),MUZAFFARNAGAR,Muzaffarnagar,Uttar Pradesh,29.489541,77.69436,709.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021500419,SAROJINI DEVI  INTER COOLEGE RAMPURI,Secondary with Higher Secondary,Private Unaided (Recognized),MUZAFFARNAGAR,Muzaffarnagar,Uttar Pradesh,29.489845,77.694365,681.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020203604,SATGURU SAMANDAS VIDHYA MANDIR JR.HIGH SCHOOL  SANJHAK,Primary with Upper Primary,Private Unaided (Recognized),SANJHAK,Muzaffarnagar,Uttar Pradesh,29.434517,77.638363,680.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020201307,SHIV SHANKAR PUBLIC SCHOOL NAGALA PITHORA,Primary,Private Unaided (Recognized),NANGLAPITHAORA,Muzaffarnagar,Uttar Pradesh,29.516322,77.502395,700.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021401601,SIKENDERPUR KALAN-1,Primary,Department of Education,SIKANDERPUR KALAN,Muzaffarnagar,Uttar Pradesh,29.266771,77.657901,618.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9021401602,SIKENDERPUR KALAN-2,Primary,Department of Education,SIKANDERPUR KALAN,Muzaffarnagar,Uttar Pradesh,29.267001,77.6576,589.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020200303,SWAMI VIVAKANAND BAL VIDHYA MA BUDINA KALAN,Primary,Private Unaided (Recognized),BUDINAKALAN,Muzaffarnagar,Uttar Pradesh,29.456278,77.498878,740.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9020204207,VAIDIK SHISHU NIKETAN DHINDHAWALI,Primary,Private Unaided (Recognized),DHINDHAWALI,Muzaffarnagar,Uttar Pradesh,29.424436,77.524648,540.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6200508426,DAV POLICE PUBLIC SCHOOL NUH,Primary with Upper Primary,Private Unaided (Recognized),NUH,Nuh,Haryana,28.12,77.037,753.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6200108204,GGMS INDANA,Upper Primary only,Department of Education,INDANA,Nuh,Haryana,27.87725,77.289717,682.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6200108202,GGPS INDANA,Primary,Department of Education,INDANA,Nuh,Haryana,27.875183,77.28965,489.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6200108203,GMS INDANA,Upper Primary only,Department of Education,INDANA,Nuh,Haryana,27.877117,77.28965,666.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6200108205,GPS INDANA,Primary,Department of Education,INDANA,Nuh,Haryana,27.877267,77.289833,690.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6200507001,GPS KIRA,Primary,Department of Education,KIRA,Nuh,Haryana,28.126667,77.118517,677.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6200106801,GPS RAHIDA,Primary,Department of Education,RAHIDA,Nuh,Haryana,27.902217,77.186333,528.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6200507002,St Stephens International School,Primary,Unrecognized,KIRA,Nuh,Haryana,28.127,77.119,617.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210302203,A.D. PUBLIC SCHOOL PAHARI,Primary with Upper Primary,Private Unaided (Recognized),PAHARI,Palwal,Haryana,27.972208,77.248907,782.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211009006,ADARSH VIDYA NIKETAN PELAK,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),PELAK,Palwal,Haryana,28.127113,77.400558,691.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211800605,DEEP SR. SEC. SCHOOL ASOATI,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),ASOATI,Palwal,Haryana,28.25301,77.326062,589.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211800607,FRIENDS PUBLIC SCHOOL ASOATI,Primary with Upper Primary,Private Unaided (Recognized),ASOATI,Palwal,Haryana,28.257151,77.322989,561.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211803403,GGHS PIRTHLA,Upper Pri. and Secondary,Department of Education,PIRTHLA,Palwal,Haryana,28.234405,77.291549,732.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210301701,GHS ROOPRAKA,Upper Pri. and Secondary,Department of Education,ROOPRAKA,Palwal,Haryana,28.013083,77.212517,756.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210306102,GMS GOHPUR,Upper Primary only,Department of Education,GOHPUR,Palwal,Haryana,28.013163,77.212935,722.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210309202,GMS MOHDAMKA,Upper Primary only,Department of Education,MOHDAMKA,Palwal,Haryana,28.004673,77.244363,767.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210309303,GMS PONDRI,Upper Primary only,Department of Education,PONDRI,Palwal,Haryana,28.121343,77.133678,695.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210203702,GPS AMROLI,Primary,Department of Education,AMROLI,Palwal,Haryana,28.045323,77.439626,786.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211800601,GPS ASOATI,Primary,Department of Education,ASOATI,Palwal,Haryana,28.25281,77.326057,601.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211801301,GPS DADOTA,Primary,Department of Education,DADOTA,Palwal,Haryana,28.180767,77.426242,795.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211704801,GPS DHANI MAJRA,Primary,Department of Education,DHANI MAJRA,Palwal,Haryana,28.046094,77.331467,588.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210306101,GPS GOHPUR,Primary,Department of Education,GOHPUR,Palwal,Haryana,28.013163,77.212935,722.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210309201,GPS MOHDAMKA,Primary,Department of Education,MOHDAMKA,Palwal,Haryana,28.004673,77.244363,767.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210202401,GPS NANGLA SURJAN,Primary,Department of Education,NANGLA SURJAN,Palwal,Haryana,28.019888,77.477285,645.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210301702,GPS ROOPRAKA,Primary,Department of Education,ROOPRAKA,Palwal,Haryana,27.971616,77.208293,456.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211800602,GSSS ASOATI,Upper Pri. Secondary and Higher Sec,Department of Education,ASOATI,Palwal,Haryana,28.25281,77.326057,601.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210301603,GSSS KOT,Upper Pri. Secondary and Higher Sec,Department of Education,KOT,Palwal,Haryana,27.94285,77.240533,641.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211011602,J.D. PUBLIC SCHOOL LALPUR QADIM,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),LALPUR QADIM,Palwal,Haryana,28.167426,77.387245,647.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210302305,JASWANT PUBLIC MIDDLE SCHOOL ANDHOP,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),ANDHOP,Palwal,Haryana,27.898572,77.273231,708.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210307302,K.C.M. WORLD SCHOOL BHAMROLA JOGI,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),BHAMROLA JOGI,Palwal,Haryana,28.080849,77.292599,307.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211010004,K.R. PUBLIC SCHOOL TIKRI BRAHMAN,Primary with Upper Primary,Private Unaided (Recognized),TIKRI BRAHMAN,Palwal,Haryana,28.084395,77.302186,739.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210201009,KGBV LIKHI,Upper Primary only,Department of Education,LIKHI,Palwal,Haryana,27.976479,77.461287,322.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210303103,"KHUDA BAKSHYA MODERN PUBLIC SCHOOL, DHIRANKI",Primary with Upper Primary,Private Unaided (Recognized),DHIRANKI,Palwal,Haryana,28.013524,77.213033,732.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210306203,MADARSA ASARFIA PACHANKA,Primary,Madarsa unrecognized,PACHANKA,Palwal,Haryana,28.00871,77.2274,792.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210303104,"MADERSA KHUDA BAKSHYA, DHIRANKI",Primary with Upper Primary,Madarsa recognized (by Wakf board/Madarsa Board),DHIRANKI,Palwal,Haryana,28.014324,77.213564,736.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211700217,MODERN PUBLIC HIGH SCHOOL AURANGABAD,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),AURANGABAD,Palwal,Haryana,28.032367,77.331114,739.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211704010,MODISH PUBLIC PRY SCHOOL SONDHAD,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),SUNDHAD,Palwal,Haryana,27.906237,77.327311,356.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211007706,O.D. MEMORIAL SR. SEC. SCHOOL DURGAPUR,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),DURGAPUR,Palwal,Haryana,28.099392,77.275152,590.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211703206,R.D.S. MEMORIAL HIGH SCHOOL PENGALTU,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),PINGALTU,Palwal,Haryana,27.939144,77.413227,740.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210203104,S.D. PUBLIC SCHOOL TIKRI GUJAR,Primary with Upper Primary,Private Unaided (Recognized),TIKRI GUJAR,Palwal,Haryana,28.05867,77.436965,718.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6210309302,S.V.N. PUBLIC HIGH SCHOOL PONDRI,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),PONDRI,Palwal,Haryana,28.120505,77.133207,743.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211700311,SANSKAR VALLEY CONVENT MIDDLE SCHOOL BAMNIKHERA,Primary with Upper Primary,Private Unaided (Recognized),BAMANI KHERA,Palwal,Haryana,28.040119,77.338498,575.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211800606,SARVODAYA PUBLIC SCHOOL ASOATI,Primary with Upper Primary,Private Unaided (Recognized),ASOATI,Palwal,Haryana,28.25331,77.326055,574.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6211700610,SVN MIDDLE SCHOOL BHIDUKI,Primary with Upper Primary,Private Unaided (Recognized),BHIDUKI,Palwal,Haryana,27.925181,77.452484,661.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070303506,B.R.M. PUBLIC SCHOOL BURSHAM,Primary with Upper Primary,Private Unaided (Recognized),BURSHAM,Panipat,Haryana,29.305448,76.946931,691.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070400606,DELHI PUBLIC SCHOOL KARHANS,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),KARHANS,Panipat,Haryana,29.274477,77.001997,763.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070300206,GEETA BHARTI SR SEC SCHOOL ISRANA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),ISRANA,Panipat,Haryana,29.266283,76.866283,724.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070104002,GHS BARANA,Upper Pri. and Secondary,Department of Education,BARANA,Panipat,Haryana,29.459253,77.05559,102.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070700102,GMS ADHMI,Upper Primary only,Department of Education,ADHMI,Panipat,Haryana,29.345373,77.111514,429.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070600202,GMS BEHRAMPUR,Upper Primary only,Department of Education,BAHRAMPUR,Panipat,Haryana,29.355217,77.080833,517.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070600402,GMS BHALOR,Upper Primary only,Department of Education,BHALOR,Panipat,Haryana,29.314183,77.101967,754.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070600201,GPS  BEHRAMPUR,Primary,Department of Education,BAHRAMPUR,Panipat,Haryana,29.355317,77.08095,532.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070700101,GPS ADHMI,Primary,Department of Education,ADHMI,Panipat,Haryana,29.345392,77.112329,485.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070600401,GPS BHALLOR,Primary,Department of Education,BHALOR,Panipat,Haryana,29.313983,77.101667,723.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070403401,GPS CHHADIYA,Primary,Department of Education,CHHADIYA,Panipat,Haryana,29.196701,76.98365,710.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070105701,GPS PALHERI,Primary,Department of Education,PALHERI,Panipat,Haryana,29.456864,77.04487,527.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070108704,GYAN KUNJ PUBLIC SCHOOL,Primary with Upper Primary,Unrecognized,WARD NO 23,Panipat,Haryana,29.430417,76.936944,734.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070600203,"JANTA SR. SEC. SCHOOL, ATTALAPUR",Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),BAHRAMPUR,Panipat,Haryana,29.354067,77.08345,724.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070302006,LITTLE ANGELS PROGRESSIVE SCHOOL MANDI,Primary,Private Unaided (Recognized),MANDI,Panipat,Haryana,29.262496,76.871797,428.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070104004,LORD KRISHNA PUBLIC SCHOOL BARANA,Primary with Upper Primary,Unrecognized,BARANA,Panipat,Haryana,29.455347,77.045832,529.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070401405,SARASWATI PUBLIC SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),DEHARA,Panipat,Haryana,29.203747,77.069338,513.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6070400705,ST. XAVIER HIGH SCHOOL,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),MACCHROULI,Panipat,Haryana,29.290417,76.998972,231.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170109806,ARAVALI HILLS PUBLIC SCHOOL,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),TANKRI,Rewari,Haryana,28.073517,76.509367,405.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170402004,BABA LAXMINARAIN H/S JHARODHA,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),JHARODHA,Rewari,Haryana,28.364433,76.406067,741.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170201005,BHARTI INTERNATIONAL SCHOOL B.K.PUR,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),BORIA KAMALPUR,Rewari,Haryana,28.248017,76.560567,646.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170402003,GAYATRI H/S JHARODHA,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),JHARODHA,Rewari,Haryana,28.36405,76.4059,786.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170404602,GHS SUDHRANA,Upper Pri. and Secondary,Department of Education,SUDHRANA,Rewari,Haryana,28.4565,76.424233,684.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170106102,GMS MOHAMMADPUR,Upper Primary only,Department of Education,MOHAMAD PUR,Rewari,Haryana,28.099917,76.548967,782.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170500501,GPS BALAWAS AHIR,Primary,Department of Education,BALAWAS AHIR,Rewari,Haryana,28.22194,76.560485,781.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170302801,GPS GUMINA,Primary,Department of Education,GUMINA,Rewari,Haryana,28.177833,76.511333,640.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170505301,GPS JADRA,Primary,Department of Education,JADRA,Rewari,Haryana,28.232567,76.539133,656.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170104101,GPS KALRAWAS,Primary,Department of Education,KALRAWAS,Rewari,Haryana,28.090767,76.556933,628.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170507801,GPS LADHUWAS AHIR,Primary,Department of Education,LADHUWAS AHIR,Rewari,Haryana,28.206233,76.558317,756.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170106101,GPS MOHAMMADPUR,Primary,Department of Education,MOHAMAD PUR,Rewari,Haryana,28.099917,76.548967,782.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170106401,GPS NANGAL SHAHBAJ PUR,Primary,Department of Education,NANGAL SHAHBAJPUR,Rewari,Haryana,28.197933,76.5224,615.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170501502,GSSS BUDHPUR,Upper Pri. Secondary and Higher Sec,Department of Education,BUDHPUR,Rewari,Haryana,28.217783,76.581483,479.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170505302,GSSS JADRA,Upper Pri. Secondary and Higher Sec,Department of Education,JADRA,Rewari,Haryana,28.211482,76.560417,466.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170510843,HARI SINGH PUBLIC SCH. REWARI,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),REWARI,Rewari,Haryana,28.205283,76.522233,657.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170502003,J. P MODREN SCHOOL,Primary with Upper Primary,Private Unaided (Recognized),BUDANA,Rewari,Haryana,28.223183,76.69295,640.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170401603,NEW ERA PUBLIC SCHOOL GUJARWAS,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),GUJARWAS,Rewari,Haryana,28.398483,76.380367,447.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170500602,"RAO PAHLAD SINGH PUBLIC SCHOOL, BALIAR KALAN",Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),BALIAR KALAN,Rewari,Haryana,28.204252,76.689158,360.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6170202404,SWAMI VIVEKANAND SENIOR SECONDARY SCHOOL GURAWARA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),GURAWARA,Rewari,Haryana,28.392367,76.637817,371.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6140101319,BABA BHAGAT SINGH HIGH SCHOOL,Upper Pri. and Secondary,Private Unaided (Recognized),KALANAUR KALAN,Rohtak,Haryana,28.833909,76.409484,723.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6140101318,BHAGAT SINGH PRIMARY PATHSHALA,Primary,Private Unaided (Recognized),KALANAUR KALAN,Rohtak,Haryana,28.833909,76.409484,723.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6140401302,GPS DOBH,Primary,Department of Education,DOBH,Rohtak,Haryana,28.8729,76.525033,677.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6140402002,GPS HUMAYUNPUR,Primary,Department of Education,HUMAYUNPUR,Rohtak,Haryana,28.89775,76.816667,637.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6140100501,GSSS BHALI ANANDPUR,Upper Pri. Secondary and Higher Sec,Department of Education,BHALI ANANDPUR,Rohtak,Haryana,28.877901,76.511862,767.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6140401301,GSSS DOBH,Upper Pri. Secondary and Higher Sec,Department of Education,DOBH,Rohtak,Haryana,28.8729,76.525033,677.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6140402001,GSSS HUMAYUNPUR,Upper Pri. Secondary and Higher Sec,Department of Education,HUMAYUNPUR,Rohtak,Haryana,28.89775,76.816667,637.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6140301009,NEW GEHLU GIAN BHARTI H/S FARMANA,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),FARMANA KHAS,Rohtak,Haryana,29.07878,76.33922,652.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6140200404,RAMANUJ HIGH SCHOOL GHARAWATHI,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),GHARAWATHI,Rohtak,Haryana,29.022157,76.539478,751.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6140100105,S.G.N.M.HIGH SCH.ANWAL,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),ANWAL,Rohtak,Haryana,28.826271,76.444264,601.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6140101905,"SHY. SUNDER SHIKSHA SADAN, NIG",Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),NIGANA,Rohtak,Haryana,28.782305,76.434093,779.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6140402006,UPKAR PRY SCHOOL,Primary,Private Unaided (Recognized),HUMAYUNPUR,Rohtak,Haryana,28.89988,76.818053,379.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741000901,BHIKKA MAZRA,Primary,Department of Education,BHIKKA MJRA,Shamli,Uttar Pradesh,29.396129,77.401239,351.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741000712,BRAIN JOHN SCHOOL LANK,Primary with Upper Primary,Private Unaided (Recognized),LANK,Shamli,Uttar Pradesh,29.383056,77.361667,661.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741101601,DABHERI,Primary,Department of Education,DABHERI,Shamli,Uttar Pradesh,29.639078,77.43942,560.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740900101,DULLA KHEREE-1,Primary,Department of Education,DULLA KHEREE,Shamli,Uttar Pradesh,29.589685,77.318339,513.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741700180,GOLDEN RISE JUNIOR HIGH SCHOOL,Upper Primary only,Private Unaided (Recognized),KAIRANA,Shamli,Uttar Pradesh,29.400433,77.213339,779.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741700132,HIMLAYALA PR SCHOOL,Primary,Private Unaided (Recognized),KAIRANA,Shamli,Uttar Pradesh,29.400433,77.213389,783.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740908303,HOSHANGPUR 2,Primary,Department of Education,HONSHAGPUR,Shamli,Uttar Pradesh,29.56,77.237821,387.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740909202,J.H.S. BAJHERI,Primary with Upper Primary,Department of Education,BAJHEREE,Shamli,Uttar Pradesh,29.598774,77.230229,713.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740909903,J.HS. TANA,Primary with Upper Primary,Department of Education,TANA,Shamli,Uttar Pradesh,29.507222,77.286585,564.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741001803,JHS ADAMPUR,Primary with Upper Primary,Department of Education,ADMPUR,Shamli,Uttar Pradesh,29.418608,77.390951,684.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740802602,JHS AKBERPUR SUNHTI,Primary with Upper Primary,Department of Education,AKBERPUR SUNHTI,Shamli,Uttar Pradesh,29.479795,77.154474,285.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741101702,JHS AMBEHTA YAKOOBPUR,Primary with Upper Primary,Department of Education,AMBHEHTA YAKUBPURA,Shamli,Uttar Pradesh,29.580893,77.480734,727.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740803702,JHS ARYA PURI,Primary with Upper Primary,Department of Education,KAIRANA DHEHAT,Shamli,Uttar Pradesh,29.407027,77.215187,354.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740704403,JHS GADIDAULAT,Upper Primary only,Department of Education,GHRHI DAULIT,Shamli,Uttar Pradesh,29.325322,77.228084,602.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740909302,JHS GAGOR,Primary with Upper Primary,Department of Education,GAGOR,Shamli,Uttar Pradesh,29.588729,77.24752,634.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740803002,JHS GANDRAW,Primary with Upper Primary,Department of Education,GANDRAW,Shamli,Uttar Pradesh,29.476567,77.241054,773.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740700112,JHS HAJIPUR,Upper Primary only,Department of Education,BHABISHA,Shamli,Uttar Pradesh,29.341035,77.248651,619.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740702003,JHS HASANPUR,Primary with Upper Primary,Department of Education,HASANPUR,Shamli,Uttar Pradesh,29.448499,77.319053,768.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741105402,JHS HEEND,Primary with Upper Primary,Department of Education,HEEND,Shamli,Uttar Pradesh,29.531917,77.372943,704.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741000902,JHS KANYA,Upper Primary only,Private Unaided (Recognized),BHIKKA MJRA,Shamli,Uttar Pradesh,29.399163,77.408472,578.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741002303,JHS KARAUDA HATHI,Upper Primary only,Department of Education,KRAUDA HATHI,Shamli,Uttar Pradesh,29.465493,77.401728,581.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741001002,JHS KHERI PATTI,Upper Primary only,Department of Education,KHERI PATTI,Shamli,Uttar Pradesh,29.396137,77.401222,351.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741000104,JHS LILEON,Upper Primary only,Department of Education,LILEON,Shamli,Uttar Pradesh,29.429357,77.293771,555.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741102002,JHS SAUHAJANI UMARPURA,Primary with Upper Primary,Department of Education,SAUHANJANI UMARPURA,Shamli,Uttar Pradesh,29.638943,77.391116,737.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740903302,JHS UDPUR,Primary with Upper Primary,Department of Education,UDPUR,Shamli,Uttar Pradesh,29.59622,77.120921,708.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740802702,JUNIOR BASARIA,Primary with Upper Primary,Department of Education,BASAIRA NEW,Shamli,Uttar Pradesh,29.445372,77.318182,759.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741002103,KANYA JHS KUDANA,Upper Primary only,Department of Education,KUDANA,Shamli,Uttar Pradesh,29.425017,77.3721,283.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740801602,KANYA JHS SAHPAT,Upper Primary only,Department of Education,SAHPAT,Shamli,Uttar Pradesh,29.341816,77.171881,479.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741000101,LILEON-1,Primary,Department of Education,LILEON,Shamli,Uttar Pradesh,29.421803,77.291977,756.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740909905,MAHARISHI D. P.S,Primary,Private Unaided (Recognized),TANA,Shamli,Uttar Pradesh,29.512194,77.291167,760.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740702301,MATNAWLI,Primary,Department of Education,MATNAWLI,Shamli,Uttar Pradesh,29.359643,77.325221,305.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741700126,MOTHER INDIA JHS,Upper Primary only,Private Unaided (Recognized),KAIRANA,Shamli,Uttar Pradesh,29.402664,77.203389,350.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740903308,P.S HARI NAGAR,Primary,Department of Education,UDPUR,Shamli,Uttar Pradesh,29.596335,77.120519,721.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740910522,P.S. MALTI STORY JHINJHANA,Primary with Upper Primary,Department of Education,JHINJHANA,Shamli,Uttar Pradesh,29.553308,77.234947,465.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741700103,P.S.ALLKHURAD,Primary,Department of Education,KAIRANA,Shamli,Uttar Pradesh,29.4001,77.20261,593.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741700109,P.S.SHASTARI,Primary,Department of Education,KAIRANA,Shamli,Uttar Pradesh,29.398678,77.206768,611.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740700111,PS HAJIPUR,Primary,Department of Education,BHABISHA,Shamli,Uttar Pradesh,29.336621,77.246983,191.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740701206,PS NALA-1,Primary,Department of Education,NALA,Shamli,Uttar Pradesh,29.282447,77.270925,522.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740701207,PS NALA-2,Primary,Department of Education,NALA,Shamli,Uttar Pradesh,29.280849,77.275535,577.0,4,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740700109,PS RAM PUR NUT,Primary,Department of Education,BHABISHA,Shamli,Uttar Pradesh,29.33599,77.299594,18.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741700136,R R PR SCHOOL,Primary,Private Unaided (Recognized),KAIRANA,Shamli,Uttar Pradesh,29.398631,77.205842,619.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741700134,RAHAM TULLA PR SCHOOL,Primary,Private Unaided (Recognized),KAIRANA,Shamli,Uttar Pradesh,29.399144,77.207697,570.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740700901,RAMPUR KHERI,Primary,Department of Education,RAMPURKHERI,Shamli,Uttar Pradesh,29.335106,77.311376,577.0,5,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741700130,S NATIONAL SCHOOL,Primary,Private Unaided (Recognized),KAIRANA,Shamli,Uttar Pradesh,29.413239,77.242489,764.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741700151,S.S.M.P.S. KAIRANA,Primary,Private Unaided (Recognized),KAIRANA,Shamli,Uttar Pradesh,29.400433,77.213339,779.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741700119,SARVODYA JHS,Upper Primary only,Private Unaided (Recognized),KAIRANA,Shamli,Uttar Pradesh,29.399144,77.207697,570.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741700135,SARVODYA PR SCHOOL,Primary,Private Unaided (Recognized),KAIRANA,Shamli,Uttar Pradesh,29.399144,77.207697,570.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740910506,SENT R.C.JHS JIJHAN,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),JHINJHANA,Shamli,Uttar Pradesh,29.509167,77.225,466.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9741700118,SUHAIV NATIONAL INTER COLLEGE,Secondary with Higher Secondary,Private Unaided (Recognized),KAIRANA,Shamli,Uttar Pradesh,29.399144,77.207697,570.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+9740701104,UPS BHANEDA,Primary with Upper Primary,Department of Education,BHANEDA,Shamli,Uttar Pradesh,29.282467,77.2709,523.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080404104,ADRASH PUBLIC SCHOOL SOHTI,Primary,Private Unaided (Recognized),SOHTI,Sonipat,Haryana,28.806775,76.937959,518.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080401708,ARYAVART   SR.SEC.SCHOOL,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),KHANDA,Sonipat,Haryana,28.927723,76.890319,478.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080404005,AUTHENTIC PUBLIC SCHOOL,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),SISANA,Sonipat,Haryana,28.911092,76.84537,528.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080106903,BHARTI SHIKSHA SADAN,Primary with Upper Primary,Private Unaided (Recognized),SHAHZADPUR,Sonipat,Haryana,29.042005,76.980969,647.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080401819,BIRLA CHILDREN ACADEMY ROHTAK ROAD KHARKHODA,Primary with Upper Primary,Private Unaided (Recognized),KHARKHODA,Sonipat,Haryana,28.88912,76.88234,345.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080701403,DBM PUBLIC SCHOOL,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),MADINA,Sonipat,Haryana,29.11086,76.63342,515.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080306009,GEETA VIDYA MANDIR PURKASH,Primary with Upper Primary,Private Unaided (Recognized),PURKHAS DHIRAN,Sonipat,Haryana,29.110538,76.952525,714.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080306004,GGHS PURKASH,Upper Pri. and Secondary,Department of Education,PURKHAS DHIRAN,Sonipat,Haryana,29.03922,76.981437,768.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080402102,GGPS KUNDAL,Primary,Department of Education,KUNDAL,Sonipat,Haryana,28.832068,76.959674,759.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080203701,GGPS LADPUR,Primary,Department of Education,LADPUR,Sonipat,Haryana,28.897783,77.029277,724.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080402103,GHS KUNDAL,Upper Pri. and Secondary,Department of Education,KUNDAL,Sonipat,Haryana,28.831874,76.958711,747.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080404103,GHS SOHTI,Upper Pri. and Secondary,Department of Education,SOHTI,Sonipat,Haryana,28.804372,76.937282,784.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080502210,GLOBAL PUBLIC SCHOOL,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),KHANPUR KALAN,Sonipat,Haryana,29.1532,76.7754,252.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080203103,GMS KHATKAR,Upper Primary only,Department of Education,KHATKAR,Sonipat,Haryana,28.876215,77.165762,710.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080203202,GMS KHERI MANAJAT,Upper Primary only,Department of Education,KHERI MANAJAT,Sonipat,Haryana,28.888525,77.050076,572.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080101701,GPS DERA PURBIYA,Primary,Department of Education,DERA PURBIYA,Sonipat,Haryana,28.989218,76.840604,662.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080303301,GPS GUMAR,Primary,Department of Education,GUMAR,Sonipat,Haryana,29.131083,76.9949,174.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080203201,GPS KHERI MANAJAT,Primary,Department of Education,KHERI MANAJAT,Sonipat,Haryana,28.888274,77.049869,591.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080204001,GPS MALHA MAJRA,Primary,Department of Education,MALHA MAJRA,Sonipat,Haryana,28.8977,77.0292,712.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080402701,GPS NIRTHAN,Primary,Department of Education,NIRTHAN,Sonipat,Haryana,28.957482,76.889446,789.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080305601,GPS PANCHI JATAN,Primary,Department of Education,PANCHI JATAN,Sonipat,Haryana,29.0878,76.973901,754.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080503301,GPS SAINIPURA,Primary,Department of Education,SAINIPURA,Sonipat,Haryana,29.1759,76.7343,678.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080106901,GPS SHAHZADPUR,Primary,Department of Education,SHAHZADPUR,Sonipat,Haryana,29.040555,76.982128,782.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080503601,GPS TIHAR MALIK,Primary,Department of Education,TIHAR MALIK,Sonipat,Haryana,29.0393,76.8323,443.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080202302,GSSS JANTI KALAN,Upper Pri. Secondary and Higher Sec,Department of Education,JANTI KALAN,Sonipat,Haryana,28.860098,77.165853,534.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080305602,GSSS PANCHI JATAN,Upper Pri. Secondary and Higher Sec,Department of Education,PANCHI JATAN,Sonipat,Haryana,29.088111,76.974111,742.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080106902,GSSS SHAHZADPUR,Upper Pri. Secondary and Higher Sec,Department of Education,SHAHZADPUR,Sonipat,Haryana,29.042005,76.980969,647.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080503602,GSSS TIHAR MALIK,Upper Pri. Secondary and Higher Sec,Department of Education,TIHAR MALIK,Sonipat,Haryana,29.0392,76.8328,398.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080800919,H K HIGH SCHOOL MURTHAL,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),MURTHAL,Sonipat,Haryana,29.042978,77.085303,569.0,2,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080401820,K.D. INTERNATIONAL,Primary,Private Unaided (Recognized),KHARKHODA,Sonipat,Haryana,28.89034,76.87975,208.0,3,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080401705,KARAN SINGH MEM.SR. SEC. SCHOOL,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),KHANDA,Sonipat,Haryana,28.92232,76.89307,788.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080203104,"LITTLE KIDS PLAY SCHOOL, KHATKAR",Primary,Unrecognized,KHATKAR,Sonipat,Haryana,28.865486,77.166374,575.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080201303,"MAA SARASWATI PUBLIC SCHOOL, DAHISARA",Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),DAHISARA,Sonipat,Haryana,28.86189,77.172222,597.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080202306,"RAJINDER LAKRA MODEL SCHOOL, JANTI KALAN",Primary,Unrecognized,JANTI KALAN,Sonipat,Haryana,28.861317,77.164873,696.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080503302,SAINT OXFORD HIGH SCHOOL,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),SAINIPURA,Sonipat,Haryana,29.17564,76.7368,616.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080402802,SH. ANOOP NIKETAN HIGH SCHOOL,Pri. Upper Pri. and Secondary Only,Private Unaided (Recognized),NIZAMPUR KHURD,Sonipat,Haryana,28.83084,76.95871,634.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080401707,SHAMBHU DAYAL SHIKSHA SADAN,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),KHANDA,Sonipat,Haryana,28.924953,76.894678,728.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080600903,SHANTI SR.SEC.SCHOOL CHIRANA,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),CHIRANA,Sonipat,Haryana,29.220617,76.802617,700.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
+6080204605,UMED SINGH MEMORIAL SR.SEC.SCHOOL,Pri. with Upper Pri. Sec. and H.Sec.,Private Unaided (Recognized),NAHRI,Sonipat,Haryana,28.856715,77.049988,179.0,1,used,UDISE / NIC SchoolGIS via datameet/udise_schools
