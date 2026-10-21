@@ -88,13 +88,13 @@ with the 182 doubtful ones decided independently by the analyst. 208 non-kilns
 were removed in all, and every kiln in the final layer has been checked by eye.
 150 of the removals rest on Claude's judgement alone, so the headline is also
 given as a range. The result was
-joined to 29{,}172 location-checked UDISE schools and WorldPop counts of children
+joined to 29{,}170 location-checked UDISE schools and WorldPop counts of children
 aged 5--14. Delhi NCT is excluded because kilns are not permitted there.
 
 \textbf{Main findings} (2023--24 season, NCR excluding Delhi):
 \begin{enumerate}[leftmargin=*]
 \item \textbf{About 528{,}000 children aged 5--14 (6.4\%; range 528{,}000--586{,}000) live within 800~m of
-a firing brick kiln}, and \textbf{836 schools} whose recorded position is reliable stand inside that distance (1{,}194 counting register points that fall in fields; see Section~\ref{sec:accuracy}).
+a firing brick kiln}, and \textbf{835 schools} whose recorded position is reliable stand inside that distance (1{,}194 counting register points that fall in fields; see Section~\ref{sec:accuracy}).
 \item \textbf{Baghpat is the worst-affected district: one child in three
 (32.3\%)} lives within 800~m of a kiln. It also has the most kiln smoke near
 schools (about 180~t PM$_{2.5}$ a season, low case).
@@ -235,7 +235,7 @@ SentinelKilnDB & IIT Gandhinagar Sustainability Lab, Hugging Face & CC BY-NC 4.0
 Authors' code & GitHub \texttt{rishabh-mondal/ NeurIPS\_2025} & Not stated & Read to match image processing & Read \\
 Sentinel-2 L2A (harmonised) & Copernicus / ESA, via Google Earth Engine & Copernicus free licence & Median composites for detection; per-scene SWIR for firing & Used \\
 ESA WorldCover 2021 (10 m) & ESA, via Google Earth Engine & CC BY 4.0 & Land-cover filter; school built-up check & Used \\
-School locations & NIC SchoolGIS, via \texttt{datameet/ udise\_schools} & Not stated & School points (29{,}172 after location, shared-point and near-building checks) & Used, checked \\
+School locations & NIC SchoolGIS, via \texttt{datameet/ udise\_schools} & Not stated & School points (29{,}170 after location, shared-point and near-building checks) & Used, checked \\
 School enrolment & UDISE+ (Ministry of Education) & GODL-India (open tables) & Children per school & Not used: access refused (HTTP 403) \\
 WorldPop 2020 age--sex (100 m) & WorldPop, University of Southampton, via Earth Engine & CC BY 4.0 & Children aged 5--14 & Used (modelled) \\
 OpenStreetMap features & OSM contributors, via Overpass API & ODbL & Non-kiln heat sources (airports, power plants, works) & Used \\
@@ -510,7 +510,7 @@ cleaned layer; the values before cleaning are kept in
 
 \subsection{Schools and children within 800 m of a kiln}
 800~m zones (the CPCB minimum siting distance) were drawn round 2023--24 kilns.
-Schools are those passing the location checks, the shared-point check and the near-building check (29{,}172; Sections~\ref{sec:fullcheck} and~\ref{sec:accuracy}). Children are WorldPop
+Schools are those passing the location checks, the shared-point check and the near-building check (29{,}170; Sections~\ref{sec:fullcheck} and~\ref{sec:accuracy}). Children are WorldPop
 2020 ages 5--14, summed inside the union of zones so overlapping zones count
 people once.
 
@@ -530,7 +530,7 @@ NCR excluding Delhi NCT & Lower: firing-verified & Upper: all filtered \\
 \midrule
 Kilns                                  & 3{,}057   & 5{,}715 \\
 Kilns with a school within 800~m       & 22.8\%    & 33.2\% \\
-Schools within 800~m of a kiln         & 836       & 3{,}059 \\
+Schools within 800~m of a kiln         & 835       & 3{,}058 \\
 Children aged 5--14 within 800~m       & 528{,}161 & 1{,}213{,}026 \\
 Share in Uttar Pradesh districts       & 70.9\%    & 60.0\% \\
 Share in Haryana districts             & 24.2\%    & 27.4\% \\
@@ -551,7 +551,7 @@ headline; every kiln in it that lies within 800~m of a school was checked by eye
 
 \textbf{Headline.} About 528{,}000 children aged 5--14 --- 6.4\% of the
 NCR's children outside Delhi --- live within 800~m of a firing brick kiln, and
-836 schools with reliably placed points stand within that distance (1{,}194 including register points that fall in fields; range for unreviewed kiln removals 528{,}000--586{,}000 children and 837--1{,}025 schools, see Section~\ref{sec:fullcheck}).
+835 schools with reliably placed points stand within that distance (1{,}194 including register points that fall in fields; range for unreviewed kiln removals 528{,}000--586{,}000 children and 837--1{,}025 schools, see Section~\ref{sec:fullcheck}).
 Two-thirds of the exposed children are in the eight Uttar Pradesh districts of
 the NCR; the top three by number are Muzaffarnagar, Baghpat and Bulandshahr.
 \textbf{By share, Baghpat stands out: 32.3\% of its children --- one in three
@@ -1050,14 +1050,14 @@ field (GHS Dang Kalan, Bhiwani, 160~m from any building). The check above was us
 as an answer key for a rule: a register point more than 50~m from WorldCover
 built-up land flags 48 of the 59 field points (81\%) and only 11 of the 233 points on
 or near buildings (5\%). All such points (4{,}476 of 33{,}648) were removed from the
-school set and the map. Schools within 800~m of a kiln fall from 1{,}194 to 837 (836 after the analyst's own reports below) and
+school set and the map. Schools within 800~m of a kiln fall from 1{,}194 to 837 (835 after the analyst's own reports below) and
 the share of kilns with a school nearby from 32.9\% to 22.8\%: kilns stand in
 farmland, where village schools are most often recorded out in the fields. Both
-figures are reported; 836 is the count that rests on reliably placed points.
+figures are reported; 835 is the count that rests on reliably placed points.
 
 	extbf{Points the analyst reported as wrong.} The 50~m rule still lets through about one field point in
 five (WorldCover marks single farm buildings as built-up). Points the analyst found on imagery with no
-school present --- so far GHS Dang Kalan and GPS Sabili --- are listed in
+school present --- so far GHS Dang Kalan (Bhiwani), GPS Sabili and GPS Bhadana (Jhajjar) --- are listed in
 	exttt{outputs/tables/school\_points\_reported\_wrong.csv} and removed automatically
 (	exttt{analysis/apply\_visual\_check.py}). Residual errors of this kind are expected among the kept points.
 
@@ -1151,7 +1151,7 @@ points worth looking at.
 NCR excl.\ Delhi & Before & Near-school check & + school fix & + GEE pass & + full check \\
 \midrule
 Kilns                         & 3{,}256   & 3{,}161   & 3{,}161   & 3{,}096   & 3{,}057 \\
-Schools within 800~m          & 1{,}708   & 1{,}371   & 1{,}191   & 1{,}191   & 836$^{*}$ \\
+Schools within 800~m          & 1{,}708   & 1{,}371   & 1{,}191   & 1{,}191   & 835$^{*}$ \\
 Children 5--14 within 800~m   & 605{,}292 & 553{,}574 & 553{,}574 & 539{,}458 & 528{,}161 \\
 Kilns near a school           & 34.6\%    & ---       & 31.8\%    & 32.4\%    & 22.8\%$^{*}$ \\
 H3 difference (near $-$ far)   & +1.3      & ---       & $-2.5$    & $-0.1$    & $-0.5^{*}$ \\
@@ -1215,7 +1215,7 @@ budget), their possible effect is reported as a range
 \toprule
 NCR excl.\ Delhi & Kilns & Schools within 800~m & Children within 800~m \\
 \midrule
-Final layer (headline)                     & 3{,}057 & 836     & 528{,}161 \\
+Final layer (headline)                     & 3{,}057 & 835     & 528{,}161 \\
 150 unreviewed removals restored (upper)   & 3{,}201 & 1{,}025 & 585{,}549 \\
 Expected at Claude's measured error (15\%) & 3{,}079 & 865     & 536{,}769 \\
 \bottomrule
