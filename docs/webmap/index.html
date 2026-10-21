@@ -825,8 +825,8 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
         <div class="row"><span class="dot" style="background:var(--kiln);border:1px solid #5a0f0b"></span>Brick kiln, still firing in 2025&ndash;26 (click for details)</div>
         <div class="row"><span class="dot" style="background:transparent;border:2px solid var(--stopped)"></span>Fired in 2023&ndash;24, stopped by 2025&ndash;26</div>
         <div class="row"><span class="sw" style="background:color-mix(in srgb,var(--zone) 35%,transparent);border-color:var(--zone)"></span>800 m zone around a kiln</div>
-        <div class="row"><span class="dot" style="background:var(--sch-hot);border:1px solid #333"></span>School within 800 m of a kiln</div>
-        <div class="row"><span class="dot" style="background:var(--sch)"></span>Other school</div>
+        <div class="row"><span class="dot" style="background:var(--sch-hot);border:1px solid #333"></span>School within 800 m of a kiln (official register location)</div>
+        <div class="row"><span class="dot" style="background:var(--sch)"></span>Other school (official register location)</div>
       </div>
     </section>
     <footer class="foot">
@@ -971,7 +971,7 @@ h2 { font: 700 12px/1 var(--mono); letter-spacing: .07em; text-transform: upperc
       <dt>Kilns ≤ 800 m</dt><dd><b>${nk}</b>${nk ? ' <span class="pill on">inside siting distance</span>' : ""}</dd>
       <dt>Nearest firing kiln</dt><dd>${fmt(near)} m</dd></dl>
       <a class="satbtn" href="${sat}" target="_blank" rel="noopener">See this school in satellite view ↗</a>
-      <p class="popnote">School details: UDISE register. The register's point often sits beside the building rather than on it.</p></div>`;
+      <p class="popnote">Location and details: official UDISE+ school register (Ministry of Education / NIC), not field-verified. The point can sit beside the building rather than on it; points in fields were removed.</p></div>`;
   }
   map.on("zoomend moveend", drawDetail);
   drawDetail();
