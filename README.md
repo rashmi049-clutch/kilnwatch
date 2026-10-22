@@ -10,6 +10,9 @@ every kiln by eye (the doubtful ones by the author), and joined the result to sc
 
 ![Share of children aged 5–14 within 800 m of a firing brick kiln, by district](outputs/maps/kiln_exposure_map_A3_web.png)
 
+**[▶ Open the dashboard](https://rashmi049-clutch.github.io/kilnwatch/dashboard/)** — overview, map with satellite years,
+find any school, district cards, the list of kilns with a school inside 800 m (CSV), and method & accuracy.
+
 **[▶ Open the interactive map](https://rashmi049-clutch.github.io/kilnwatch/webmap/)** — search a district,
 click any kiln or school, switch on satellite imagery and slide through the years (2017–2026) · **Full report (PDF):** [`report/build/ncr_kilns_report.pdf`](report/build/ncr_kilns_report.pdf)
 
@@ -130,6 +133,8 @@ Each is kept in the code and documented in the report.
 ```
 analysis/        all processing scripts (one per step, each with a docstring)
 docs/webmap/     interactive Leaflet map (build_webmap.py → index.html)
+dashboard/       Next.js dashboard (static export; data from analysis/export_dashboard_data.py;
+                 `npm run deploy` builds it into docs/dashboard/; edits via Supabase, see dashboard/supabase/schema.sql)
 docs/plan.html   project plan with status of every step
 outputs/maps/    finished A3 maps (PNG, PDF) and their GeoPackage layers
 outputs/tables/  every number in the report, as CSV

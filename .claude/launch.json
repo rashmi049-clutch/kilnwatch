@@ -6,6 +6,12 @@
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "8765", "--directory", "docs/webmap"],
       "port": 8765
+    },
+    {
+      "name": "dashboard",
+      "runtimeExecutable": "C:\\Program Files\\nodejs\\npm.cmd",
+      "runtimeArgs": ["--prefix", "dashboard", "run", "dev", "--", "-p", "3007"],
+      "port": 3007
     }
   ]
 }
