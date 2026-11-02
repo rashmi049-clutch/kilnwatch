@@ -1,0 +1,139 @@
+no,schcd,schname,village,district,kilns_800m,lat,lon,verdict,evidence,note,audited_by,audited_at
+1,9090201901,P.S. Matiyala,Matiyala,Ghaziabad,10,28.761111,77.447778,unverified,,,Rashmi Sinha,2026-10-21T11:34:15.844Z
+2,9100307001,P S Samaspur,Samaspur,Gautam Buddha Nagar,8,28.366329,77.581335,unverified,,,Rashmi Sinha,2026-10-21T11:34:48.111Z
+3,9750601803,N.K. Memorial Pub. School,Dahapa,Hapur,8,28.684732,77.692874,unverified,,,Rashmi Sinha,2026-10-21T11:35:00.993Z
+4,9750602002,U.P.S. Himmat Nagar,Himmat Nagar,Hapur,7,28.6788,77.6864,unverified,,,Rashmi Sinha,2026-10-21T11:35:42.420Z
+5,6060101203,Shiv Shakti Public Sr Sec School Beejna,Bizna,Karnal,6,29.602867,76.921667,wrong_point,,,Rashmi Sinha,2026-10-21T11:35:51.625Z
+6,9090101802,U.P.S. Sharifabad Rajpur,Loni,Ghaziabad,6,28.739853,77.355158,confirmed_label,"Google label “Govt school class 6 to 8” ~35 m SW on Rajpur Rd; matches UPS (upper primary, govt) in register",,Rashmi Sinha,2026-10-21T11:40:54.492Z
+7,9750601902,P.S. Azampur,Ajampur,Hapur,6,28.679042,77.684742,unverified,,,Rashmi Sinha,2026-10-21T11:46:05.603Z
+8,9090204803,Dr. Ambedkar Model Primary School,Indra Garhi,Ghaziabad,6,28.750833,77.454722,unverified,"Google label here is “Happy Model Public School, Bhikanpur”, a different school; no label for Dr. Ambedkar Model PS found.",,Rashmi Sinha,2026-10-21T11:49:18.018Z
+9,9080101413,Aryan Public Jhs,Saroorpur Kala,Baghpat,6,29.03296,77.22923,confirmed_label,,,Rashmi Sinha,2026-10-21T11:50:23.694Z
+10,9080600113,"Narayan Savitri Public School, Katha",Katha,Baghpat,5,28.895859,77.24765,confirmed_label,,,Rashmi Sinha,2026-10-21T11:50:23.730Z
+11,9090201701,P.S. Goojar Garhi,Goojar Garhi,Ghaziabad,5,28.752778,77.434167,wrong_point,"60 m W of VPV Public School (different, private); no label for PS Goojar Garh",,Rashmi Sinha,2026-10-21T11:54:23.944Z
+12,8070706301,Govt. Up S Beri,Beri,Bharatpur,5,27.124324,77.198443,unverified,,,Rashmi Sinha,2026-10-21T11:56:24.122Z
+13,9100204601,P S Anandpur,Anandpur,Gautam Buddha Nagar,5,28.527223,77.607034,confirmed_label,"Google label “Primary School / प्राथमिक विद्यालय” ~70 m SE; type matches PS Anandpur (govt primary); nearest other govt school is Composite School Kailashpur, ~180 m.",,Rashmi Sinha,2026-10-21T11:58:15.300Z
+14,8060203502,Om Shri Krishan Public School Vijaysinghpura,Vijay Singh Pura,Alwar,5,27.995069,76.342394,confirmed_label,"Google label “Om Shri Krishan Public School” ~120 m NE; pin on road by a field, school compound adjacent.",,Rashmi Sinha,2026-10-21T12:00:11.317Z
+15,9740700901,Rampur Kheri,Rampurkheri,Shamli,5,29.335106,77.311376,unverified,,,Rashmi Sinha,2026-10-21T12:00:28.869Z
+16,9090205107,Happy Model Public School Bhikkanpur,Bhikanpur,Ghaziabad,5,28.75103,77.456504,confirmed_label,"Google label “Happy Model Public School, Bhikanpur” ~170 m W; same label sits next to point 8 (Dr. Ambedkar Model PS).",,Rashmi Sinha,2026-10-21T12:34:17.396Z
+17,9090203903,Columbia Convent Institute Morta Ghaziabad,Morta (Ta),Ghaziabad,4,28.725278,77.411389,unverified,,,Rashmi Sinha,2026-10-21T12:48:30.681Z
+18,9090105270,J.D. Sashtri Public Jr.H. School,Loni,Ghaziabad,4,28.838889,77.523611,unverified,,,Rashmi Sinha,2026-10-21T12:48:44.087Z
+19,9080604143,Konark Vidyapeeth,Khekra,Baghpat,4,28.8694,77.2979,unverified,,,Rashmi Sinha,2026-10-21T12:49:07.139Z
+20,9090400504,"Lal Bahadur Shastri,J.H.",Tibada,Ghaziabad,4,28.836389,77.525,unverified,,,Rashmi Sinha,2026-10-21T12:49:27.280Z
+21,8070706303,Mahesh Edu.Co.Pri.Sch. Beri,Beri,Bharatpur,4,27.123775,77.200601,unverified,,,Rashmi Sinha,2026-10-21T12:49:46.690Z
+22,9110206301,P.S. Dhaturee,Dhaturee,Bulandshahr,4,28.369485,77.905183,unverified,,,Rashmi Sinha,2026-10-21T12:49:46.749Z
+23,9750600906,.P.S. Koler Basti Samana,Samana,Hapur,4,28.59478,77.694265,unverified,,,Rashmi Sinha,2026-10-21T12:50:06.662Z
+24,9750601201,P.S. Sukhdevpur,Sukhdevpur,Hapur,4,28.59463,77.69436,unverified,,,Rashmi Sinha,2026-10-21T12:50:38.858Z
+25,9740701207,Ps Nala-2,Nala,Shamli,4,29.280849,77.275535,unverified,,,Rashmi Sinha,2026-10-21T12:50:57.590Z
+26,9750601801,P.S. Dahapa,Dahapa,Hapur,4,28.6804,77.6836,unverified,,,Rashmi Sinha,2026-10-21T12:51:55.928Z
+27,9090205108,Wisdom International School,Bhikanpur,Ghaziabad,4,28.7514,77.4566,unverified,,,Rashmi Sinha,2026-10-21T12:52:17.501Z
+28,9100204604,Jai Singh Public Anandpur,Anandpur,Gautam Buddha Nagar,3,28.52857,77.61062,wrong_point,,,Rashmi Sinha,2026-10-21T12:52:39.161Z
+29,9020104202,Jhs Bibipur,Bibipur,Muzaffarnagar,3,29.428001,77.712347,unverified,,,Rashmi Sinha,2026-10-21T12:53:38.246Z
+30,8060709507,Rajasthan Public Ss School Bahala,Bahala,Alwar,3,27.528916,76.716779,confirmed_label,,,Rashmi Sinha,2026-10-21T12:54:00.389Z
+31,6150201603,Ranbir Singh Model School Dariyapur,Dariyapur,Jhajjar,3,28.563788,76.840287,confirmed_label,,,Rashmi Sinha,2026-10-21T12:54:19.599Z
+32,9750803705,Imdadul Uloom Jh School,Dautai,Hapur,3,28.798991,78.061092,confirmed_label,,,Rashmi Sinha,2026-10-21T12:54:19.673Z
+33,9750803703,Madarsa Imdadul Uloom,Dautai,Hapur,3,28.798991,78.061092,wrong_point,,,Rashmi Sinha,2026-10-21T12:54:47.103Z
+34,9750803706,Madrsa Smd Islamic Jhs,Dautai,Hapur,3,28.798991,78.061092,wrong_point,,,Rashmi Sinha,2026-10-21T12:55:04.246Z
+35,6190100504,"Vrindavan Valley Public School, Deeg",Deeg,Faridabad,3,28.26015,77.324529,confirmed_label,,,Rashmi Sinha,2026-10-21T12:55:21.651Z
+36,6080401820,K.D. International,Kharkhoda,Sonipat,3,28.89034,76.87975,confirmed_label,,,Rashmi Sinha,2026-10-21T12:56:05.279Z
+37,6160500102,Gsss Akbarpur,Akberpur,Mahendragarh,3,27.93778,76.12917,wrong_point,,,Rashmi Sinha,2026-10-21T12:56:21.191Z
+38,9740702301,Matnawli,Matnawli,Shamli,3,29.359643,77.325221,unverified,,,Rashmi Sinha,2026-10-21T12:56:36.121Z
+39,9100203616,R.S. Public School,Dhoom Manikpur,Gautam Buddha Nagar,3,28.589265,77.53415,unverified,,,Rashmi Sinha,2026-10-21T12:59:43.824Z
+40,9740803702,Jhs Arya Puri,Kairana Dhehat,Shamli,3,29.407027,77.215187,wrong_point,,,Rashmi Sinha,2026-10-21T13:00:16.466Z
+41,9750503301,P.S. Gondi,Gondi,Hapur,3,28.69548,77.8033,wrong_point,,,Rashmi Sinha,2026-10-21T13:00:45.454Z
+42,9080101503,Kundan Jain J.H.S. Faijullapur,Faizullapur,Baghpat,3,29.02043,77.20468,unverified,"“Primary school Faizullapur”, about 70 m south: a village primary (classes 1–5), almost certainly the government one",,Rashmi Sinha,2026-10-21T13:01:53.682Z
+43,9080101412,Aadivya Public Schook,Saroorpur Kala,Baghpat,3,29.03489,77.2356,wrong_point,"it exists, but not at the register’s location. Since we can’t use Google’s coordinates, it comes out of the 835 count. The report will list it as “school confirmed elsewhere; register point wrong”, a different category from schools that weren’t found at all.",,Rashmi Sinha,2026-10-21T13:05:05.865Z
+44,9100203609,J H S Deri Skunner,Dhoom Manikpur,Gautam Buddha Nagar,3,28.590892,77.535811,wrong_point,,,Rashmi Sinha,2026-10-21T13:06:00.753Z
+45,9080104207,G.H.S Ahera,Ahaida,Baghpat,3,28.9317,77.2667,unverified,,,Rashmi Sinha,2026-10-21T13:06:38.831Z
+46,6190105904,Gps Dayalpur,Dayalpur,Faridabad,3,28.292467,77.387417,wrong_point,,,Rashmi Sinha,2026-10-21T13:06:53.572Z
+47,9750601906,Arzoo Islamik  Public  School,Ajampur,Hapur,3,28.679438,77.682777,unverified,,,Rashmi Sinha,2026-10-21T13:07:25.378Z
+48,9750602104,Madrasa T.Quran Medium Primary,Sikhera,Hapur,3,28.679433,77.682565,wrong_point,,,Rashmi Sinha,2026-10-21T13:07:33.680Z
+49,9020105002,J.H.S. Sandhowali,Sandhavali,Muzaffarnagar,3,29.424273,77.711492,unverified,,,Rashmi Sinha,2026-10-21T13:07:47.860Z
+50,9113105804,P S  Pavara Ki Madhia,Pavsara,Bulandshahr,3,28.4541,77.6536,confirmed_label,"Primary School Andhel, about 30 m away (the scale bar here is 10 m)",,Rashmi Sinha,2026-10-21T13:11:27.027Z
+51,9080101701,P.S. Kherkee,Kherkee,Baghpat,3,29.03571,77.237417,unverified,,,Rashmi Sinha,2026-10-21T13:11:58.843Z
+52,9080100403,J.H.S Gauripur Jawaharnagar,Gauripur Jawahar Ngr,Baghpat,3,29.022189,77.204926,unverified,,,Rashmi Sinha,2026-10-21T13:12:20.904Z
+53,8070603604,Chaudhary Sr.Sec.Sch. Hantra,Hantra,Bharatpur,3,27.133388,77.233641,confirmed_label,,,Rashmi Sinha,2026-10-21T13:17:03.518Z
+54,9020204209,Arya Vaidik Kanya Inter College Dhidhawali,Dhindhawali,Muzaffarnagar,3,29.424436,77.524648,confirmed_label,,,Rashmi Sinha,2026-10-21T13:17:24.553Z
+55,9020204207,Vaidik Shishu Niketan Dhindhawali,Dhindhawali,Muzaffarnagar,3,29.424436,77.524648,wrong_point,,,Rashmi Sinha,2026-10-21T13:17:37.405Z
+56,9080101408,S.C Bose Public School Sarurpur Kalan,Saroorpur Kala,Baghpat,3,29.02759,77.23115,confirmed_label,,,Rashmi Sinha,2026-10-21T13:18:02.345Z
+57,9080202607,Swami Vivekanand P. School,Sinoli,Baghpat,3,29.144646,77.211356,unverified,,,Rashmi Sinha,2026-10-21T13:19:25.659Z
+58,9080104205,Shree Gopichand Bhartri Inter College Ahera,Ahaida,Baghpat,3,28.9307,77.2667,unverified,,,Rashmi Sinha,2026-10-21T13:19:50.856Z
+59,9020204213,Balbeer  Singh  Memorial Jhs  School Dhindhawali,Dhindhawali,Muzaffarnagar,3,29.424976,77.524207,confirmed_label,,,Rashmi Sinha,2026-10-21T13:20:11.502Z
+60,9020204215,Balbeer  Singh  Memorial Public School Dhindhawali,Dhindhawali,Muzaffarnagar,3,29.424976,77.524207,confirmed_label,,same campus as 59,Rashmi Sinha,2026-10-21T13:26:52.744Z
+61,8070603001,Govt. Ups User,User,Bharatpur,3,27.309558,77.204821,unverified,,,Rashmi Sinha,2026-10-21T13:27:29.637Z
+62,9080201402,P.S. Jiwana-2,Jiwana,Baghpat,3,29.16523,77.28884,unverified,,,Rashmi Sinha,2026-10-21T13:29:46.156Z
+63,9080100104,Janta Vaidic I.College N. Gurjar,Norojpur Gurjer,Baghpat,3,28.991021,77.251058,wrong_point,,,Rashmi Sinha,2026-10-21T13:30:04.893Z
+64,9090204802,Mahanand Mission Primay School,Indra Garhi,Ghaziabad,3,28.751667,77.457778,unverified,,,Rashmi Sinha,2026-10-21T13:30:33.603Z
+65,9740700109,Ps Ram Pur Nut,Bhabisha,Shamli,2,29.33599,77.299594,wrong_point,,,Rashmi Sinha,2026-10-21T13:30:55.978Z
+66,9071105601,"P.P, Rampur Sadho Nagli",Rampur Sadho Nagli,Meerut,2,29.045358,77.865252,unverified,,,Rashmi Sinha,2026-10-21T13:33:48.129Z
+67,6190101007,"Mahavir Public Sr Sec School, Fatehpur Billoch",Fatehpur Billoch,Faridabad,2,28.296773,77.372326,wrong_point,,,Rashmi Sinha,2026-10-21T13:33:57.950Z
+68,9070502005,Bajaj Public School,Kinauni.,Meerut,2,29.052845,77.473962,wrong_point,,,Rashmi Sinha,2026-10-21T13:34:16.980Z
+69,9110110105,Uday Shiv Public School Naya Gaon,Nayagaon,Bulandshahr,2,28.39177,77.883306,unverified,,,Rashmi Sinha,2026-10-21T13:36:12.538Z
+70,6070104002,Ghs Barana,Barana,Panipat,2,29.459253,77.05559,wrong_point,,,Rashmi Sinha,2026-10-21T13:36:32.477Z
+71,9080306221,Sansakar Vidya Deep Titari,Teekri,Baghpat,2,29.23971,77.35356,confirmed_label,street view available ,,Rashmi Sinha,2026-10-21T13:38:20.318Z
+72,6130500906,B.S. International School,Sanga,Bhiwani,2,28.772627,76.219544,wrong_point,,,Rashmi Sinha,2026-10-21T13:46:08.534Z
+73,9020200306,Lakhi Singh Mem. Public School,Budinakalan,Muzaffarnagar,2,29.475247,77.50282,confirmed_label,,,Rashmi Sinha,2026-10-21T13:47:07.112Z
+74,9020200902,Rama Public School Dhaulara,Dhaulara,Muzaffarnagar,2,29.479616,77.502026,unverified,,,Rashmi Sinha,2026-10-21T13:47:37.581Z
+75,9740700111,Ps Hajipur,Bhabisha,Shamli,2,29.336621,77.246983,unverified,,,Rashmi Sinha,2026-10-21T13:47:59.051Z
+76,6080502210,Global Public School,Khanpur Kalan,Sonipat,2,29.1532,76.7754,confirmed_label,,,Rashmi Sinha,2026-10-21T13:48:15.273Z
+77,8070705422,Bharti Bal Vidhya Niketan Samiti Sarsena Road Halena,Halena,Bharatpur,2,27.118828,77.137046,confirmed_label,,,Rashmi Sinha,2026-10-21T13:48:31.541Z
+78,8060814801,Govt. Ss Dadar,Dadar,Alwar,2,27.487357,76.603774,confirmed_label,,,Rashmi Sinha,2026-10-21T13:48:45.078Z
+79,9080201105,J.H.S Kandera,Kandera,Baghpat,2,29.15654,77.323648,unverified,,,Rashmi Sinha,2026-10-21T13:51:55.671Z
+80,9750504701,P.S. Khar Khari,Khar-Khari,Hapur,2,28.68623,77.81458,unverified,,,Rashmi Sinha,2026-10-21T13:52:10.334Z
+81,9741002103,Kanya Jhs Kudana,Kudana,Shamli,2,29.425017,77.3721,wrong_point,,,Rashmi Sinha,2026-10-21T13:52:26.372Z
+82,9080600111,Ashok Smarak H.S Khata (Pali),Katha,Baghpat,2,28.89623,77.24449,wrong_point,,,Rashmi Sinha,2026-10-21T13:53:00.588Z
+83,9080306601,P.S. Ramgadh,Ramgadh,Baghpat,2,29.13511,77.33971,confirmed_label,,,Rashmi Sinha,2026-10-21T14:08:54.345Z
+84,9080600102,Ps Katha (Composite),Katha,Baghpat,2,28.89623,77.24449,wrong_point,,,Rashmi Sinha,2026-10-21T14:09:10.928Z
+85,9071200106,New Blooms Public School,Ganeshpur,Meerut,2,29.148457,77.973267,confirmed_label,,,Rashmi Sinha,2026-10-21T14:09:33.625Z
+86,9080101409,Shiv Ganga Kishan Model Jhs Sarurpur Kalan,Saroorpur Kala,Baghpat,2,29.034838,77.232317,wrong_point,,,Rashmi Sinha,2026-10-21T14:10:11.269Z
+87,9750604203,P.S. Mubarikpur Badarkha,Kandaula,Hapur,2,28.68214,77.654865,unverified,,,Rashmi Sinha,2026-10-21T14:10:41.143Z
+88,9080101802,Vidya Mandir Jhs Tyodhi,Tayodi,Baghpat,2,29.059535,77.244955,unverified,,,Rashmi Sinha,2026-10-21T14:11:05.298Z
+89,9080302503,M.D. Bal Vidyalya Mavikala,Mavikala,Baghpat,2,29.021346,77.440145,unverified,,,Rashmi Sinha,2026-10-21T14:11:05.362Z
+90,6210201009,Kgbv Likhi,Likhi,Palwal,2,27.976479,77.461287,unverified,,,Rashmi Sinha,2026-10-21T14:11:20.522Z
+91,9110200705,Jhs Paroli,Surajawali,Bulandshahr,2,28.410443,77.909452,wrong_point,,,Rashmi Sinha,2026-10-21T14:11:43.186Z
+92,9080701808,L.K.I Amipur Balani P Jhs,Balaini,Baghpat,2,28.955,77.4483,wrong_point,,,Rashmi Sinha,2026-10-21T14:11:57.768Z
+93,9080701807,P.S Balani-3,Balaini,Baghpat,2,28.955,77.4483,unverified,,,Rashmi Sinha,2026-10-21T14:12:09.765Z
+94,6150100804,Cambridge Inter Sch Bhadhana,Bhadana,Jhajjar,2,28.620717,76.724983,confirmed_label,,,Rashmi Sinha,2026-10-21T14:12:19.868Z
+95,6080401819,Birla Children Academy Rohtak Road Kharkhoda,Kharkhoda,Sonipat,2,28.88912,76.88234,confirmed_label,,,Rashmi Sinha,2026-10-21T14:12:29.099Z
+96,9100204504,Siddh Baba Public School,Phoolpur,Gautam Buddha Nagar,2,28.541441,77.606636,unverified,,,Rashmi Sinha,2026-10-21T14:12:48.471Z
+97,9741700126,Mother India Jhs,Kairana,Shamli,2,29.402664,77.203389,wrong_point,,,Rashmi Sinha,2026-10-21T14:12:59.793Z
+98,9080600109,Kasturba Kanya Inter College,Katha,Baghpat,2,28.89638,77.24389,unverified,,,Rashmi Sinha,2026-10-21T14:13:10.208Z
+99,9741000901,Bhikka Mazra,Bhikka Mjra,Shamli,2,29.396129,77.401239,wrong_point,,,Rashmi Sinha,2026-10-21T14:18:05.783Z
+100,9741001002,Jhs Kheri Patti,Kheri Patti,Shamli,2,29.396137,77.401222,wrong_point,,,Rashmi Sinha,2026-10-21T14:18:17.773Z
+101,6211704010,Modish Public Pry School Sondhad,Sundhad,Palwal,2,27.906237,77.327311,unverified,,,Rashmi Sinha,2026-10-21T14:20:12.612Z
+102,6150201005,Ggps Bupania,Bhupania,Jhajjar,2,28.63768,76.81281,wrong_point,,,Rashmi Sinha,2026-10-21T14:20:29.096Z
+103,6150201002,Ggsss Bupania,Bhupania,Jhajjar,2,28.63768,76.81281,wrong_point,,,Rashmi Sinha,2026-10-21T14:22:27.650Z
+104,9110102002,Ups Bhaipur,Bhaipur,Bulandshahr,2,28.411787,77.910307,unverified,,,Rashmi Sinha,2026-10-21T14:22:37.733Z
+105,9100204503,Laxmi Chand Sharma Phoolpur,Phoolpur,Gautam Buddha Nagar,2,28.541144,77.607255,unverified,,,Rashmi Sinha,2026-10-21T14:23:48.157Z
+106,9100405801,P S Begmabad,Bemabad,Gautam Buddha Nagar,2,28.1825,77.5523,unverified,,,Rashmi Sinha,2026-10-21T14:24:35.907Z
+107,6150102005,"Deep Chand Public School, Gudha",Gudha,Jhajjar,2,28.632811,76.636108,confirmed_label,,,Rashmi Sinha,2026-10-21T14:24:46.181Z
+108,6190107505,"Jcm International School, Panhera Khurd",Penhda Khurd,Faridabad,2,28.271938,77.398154,confirmed_label,,,Rashmi Sinha,2026-10-21T14:25:08.826Z
+109,6130301004,Adarsh Gramin Sss  Milakpur,Milakpur,Bhiwani,2,29.04506,75.985784,confirmed_label,,,Rashmi Sinha,2026-10-21T14:25:22.770Z
+110,9071201705,Maa Sarswati Gyan Mandir More Khurd,Mode Khurd,Meerut,2,29.22527,77.9837,unverified,,,Rashmi Sinha,2026-10-21T14:26:53.816Z
+111,9071201704,Swami Vivekanand Hidh School Sadarpur,Mode Khurd,Meerut,2,29.225277,77.983708,unverified,,,Rashmi Sinha,2026-10-21T14:27:01.569Z
+112,9021500403,Arpit Public School Janakpuri,Muzaffarnagar,Muzaffarnagar,2,29.491523,77.692321,unverified,,,Rashmi Sinha,2026-10-21T14:27:16.990Z
+113,9021500424,New Golden Future Jhs Janakpuri,Muzaffarnagar,Muzaffarnagar,2,29.491523,77.692321,unverified,,,Rashmi Sinha,2026-10-21T14:27:48.464Z
+114,6070302006,Little Angels Progressive School Mandi,Mandi,Panipat,2,29.262496,76.871797,confirmed_label,,,Rashmi Sinha,2026-10-21T14:27:59.847Z
+115,8060709508,Madrasa Hajrat Molana Abdul Qadir Acedemy Bahala,Bahala,Alwar,2,27.538748,76.718005,unverified,,,Rashmi Sinha,2026-10-21T14:38:10.616Z
+116,6170401603,New Era Public School Gujarwas,Gujarwas,Rewari,2,28.398483,76.380367,confirmed_label,,,Rashmi Sinha,2026-10-21T14:38:23.174Z
+117,9020200404,Baljor Singh Memorial Public School Charoli Niwada,Charauli,Muzaffarnagar,2,29.435424,77.493342,unverified,,,Rashmi Sinha,2026-10-21T14:39:41.866Z
+118,6210301702,Gps Roopraka,Roopraka,Palwal,2,27.971616,77.208293,wrong_point,,,Rashmi Sinha,2026-10-21T14:40:02.682Z
+119,8060709505,Satya Pub Sch. Bahala,Bahala,Alwar,2,27.533598,76.727168,unverified,,,Rashmi Sinha,2026-10-21T14:53:51.869Z
+120,8060709501,Govt. Adarsh Shss Bahala,Bahala,Alwar,2,27.533374,76.724856,unverified,,,Rashmi Sinha,2026-10-21T14:54:07.408Z
+121,6170505302,Gsss Jadra,Jadra,Rewari,2,28.211482,76.560417,wrong_point,,,Rashmi Sinha,2026-10-21T14:54:21.701Z
+122,8060709506,Koshik Pub. Bahala,Bahala,Alwar,2,27.533409,76.727115,unverified,,,Rashmi Sinha,2026-10-21T14:54:33.227Z
+123,6080401708,Aryavart   Sr.Sec.School,Khanda,Sonipat,2,28.927723,76.890319,confirmed_label,,,Rashmi Sinha,2026-10-21T14:54:43.047Z
+124,9100203607,Composite School Dhoom Manikpur,Dhoom Manikpur,Gautam Buddha Nagar,2,28.587892,77.534644,wrong_point,,,Rashmi Sinha,2026-10-21T14:54:59.069Z
+125,9021500330,Bhartiya Sanskar Acadmy Ekta Vihar,Muzaffarnagar,Muzaffarnagar,2,29.497283,77.697852,unverified,,,Rashmi Sinha,2026-10-21T14:55:14.287Z
+126,9021500428,Disent Childern Public Jhs Akta Vihar,Muzaffarnagar,Muzaffarnagar,2,29.497283,77.697852,wrong_point,,,Rashmi Sinha,2026-10-21T14:55:22.177Z
+127,6150206361,Saraswati Vidya Mandir H/S B.Garh,Bahadurgarh,Jhajjar,2,28.78615,76.932067,wrong_point,,,Rashmi Sinha,2026-10-21T14:55:30.384Z
+128,9080305308,Ch. Bsm Public Jhs,Nirpura,Baghpat,2,29.22645,77.4298,unverified,,,Rashmi Sinha,2026-10-21T14:55:43.716Z
+129,9080302507,Mother Public School,Mavikala,Baghpat,2,29.02295,77.44014,wrong_point,,,Rashmi Sinha,2026-10-21T14:55:52.465Z
+130,9100317001,P S Munh Phad,Munh Phad,Gautam Buddha Nagar,2,28.352022,77.575191,wrong_point,,,Rashmi Sinha,2026-10-21T14:56:00.576Z
+131,9100307501,S.H.D. Public School,Bagpur,Gautam Buddha Nagar,2,28.3959,77.5898,unverified,,,Rashmi Sinha,2026-10-21T14:56:11.077Z
+132,6150108801,Gms Raiya,Raiya,Jhajjar,2,28.55815,76.615883,unverified,,,Rashmi Sinha,2026-10-21T14:56:21.466Z
+133,6150108803,Gps Raiya,Raiya,Jhajjar,2,28.558183,76.615883,unverified,,,Rashmi Sinha,2026-10-21T14:56:28.519Z
+134,9100316301,P S Bagpur,Bagpur,Gautam Buddha Nagar,2,28.39658,77.59425,unverified,,,Rashmi Sinha,2026-10-21T14:56:45.213Z
+135,9100309404,Madarasa Flahe Aam Education Village Mandapa,Mandapa,Gautam Buddha Nagar,2,28.4553,77.6371,unverified,,,Rashmi Sinha,2026-10-21T14:56:55.822Z
+136,9100306702,P S Mohammadpur Derin,Chachula,Gautam Buddha Nagar,2,28.346436,77.575194,wrong_point,,,Rashmi Sinha,2026-10-21T14:57:03.895Z
+137,6070105701,Gps Palheri,Palheri,Panipat,2,29.456864,77.04487,unverified,,,Rashmi Sinha,2026-10-21T14:57:19.536Z
+138,6070104004,Lord Krishna Public School Barana,Barana,Panipat,2,29.455347,77.045832,unverified,,,Rashmi Sinha,2026-10-21T14:57:30.216Z

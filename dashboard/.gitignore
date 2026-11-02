@@ -40,3 +40,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local-only data (e.g. Google Maps scrape): never committed, never published
+/public/local/

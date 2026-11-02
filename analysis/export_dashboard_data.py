@@ -94,7 +94,7 @@ summary = {
     "audit": {"random_kilns": 30, "active": 29, "unclear": 1, "by": "Rashmi Sinha"},
     "sources": [
         {"layer": "Kilns", "source": "Sentinel-2 L2A (ESA Copernicus), YOLO11-OBB detector + SWIR firing test, every kiln checked by eye", "licence": "Copernicus open"},
-        {"layer": "Schools", "source": "UDISE+ register (Ministry of Education / NIC SchoolGIS), via DataMeet", "licence": "ODbL (DataMeet)"},
+        {"layer": "Schools", "source": "UDISE+ school geotags from NIC SchoolGIS (Govt of India), as scraped by DataMeet (github.com/datameet/udise_schools), file of June 2021", "licence": "Not stated by DataMeet; underlying data from a Government of India portal"},
         {"layer": "Children 5-14", "source": "WorldPop 2020 age/sex structures, 100 m", "licence": "CC BY 4.0"},
         {"layer": "Imagery", "source": "Esri World Imagery and Wayback", "licence": "Esri terms, attribution required"},
     ],

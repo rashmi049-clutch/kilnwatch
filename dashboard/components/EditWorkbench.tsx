@@ -133,7 +133,15 @@ export default function EditWorkbench() {
           <MapView kilns={kilns} schools={schools} districts={districts} wayback={wayback} basemap={basemap}
                    layers={LAYERS} extra={extra} onPick={onPick} />
         </div>
-        <div className="p-3"><BasemapPicker value={basemap} onChange={setBasemap} wayback={wayback} /></div>
+        <div className="p-3 flex flex-col gap-2">
+          <BasemapPicker value={basemap} onChange={setBasemap} wayback={wayback} />
+          <div className="flex flex-wrap gap-x-4 gap-y-1 text-[13px] muted">
+            {[["#7c3aed", "Saved edit (click for name)"], ["#16a34a", "Position being placed, not saved"],
+              ["var(--kiln)", "Kiln"], ["var(--school-near)", "School within 800 m of a kiln"]].map(([c, l]) => (
+              <span key={l}><span style={{ display: "inline-block", width: 10, height: 10, borderRadius: 99, background: c, marginRight: 6 }} />{l}</span>
+            ))}
+          </div>
+        </div>
       </div>
 
       <div className="flex flex-col gap-4">

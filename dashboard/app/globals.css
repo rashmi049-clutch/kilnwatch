@@ -1,39 +1,26 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #f6f4f1;
+  --bg: #EEF0EE;
   --panel: #ffffff;
-  --fg: #22201d;
-  --muted: #6c665f;
-  --line: #e2ddd6;
-  --kiln: #a2462b;
-  --kiln-stopped: #8c8680;
-  --school: #2563a6;
-  --school-near: #c2410c;
-  --ok: #2f7d4f;
-  --accent: #a2462b;
+  --fg: #15191E;
+  --muted: #4B535B;
+  --line: #DDE1DC;
+  --soft: #F4F5F2;
+  --kiln: #B23A12;
+  --kiln-stopped: #9AA0A6;
+  --school: #1F5FAD;
+  --school-near: #1F5FAD;
+  --ok: #1F5E3A;
+  --accent: #B23A12;
+  --ink: #15191E;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #181715;
-    --panel: #22201d;
-    --fg: #ece8e2;
-    --muted: #a39d95;
-    --line: #38342f;
-    --kiln: #e07c5b;
-    --kiln-stopped: #a39d95;
-    --school: #6aa5e6;
-    --school-near: #f59e5b;
-    --ok: #6cc08f;
-    --accent: #e07c5b;
-    color-scheme: dark;
-  }
-}
-
 body {
   background: var(--bg);
   color: var(--fg);
   font-family: var(--font-sans), system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.mono { font-family: var(--font-mono), ui-monospace, Consolas, monospace; font-variant-numeric: tabular-nums;
 }
 
 @layer components {
@@ -63,3 +50,17 @@ body {
 .maplibregl-popup-content { background: var(--panel); color: var(--fg); border-radius: 8px; font-size: 13px; line-height: 1.45; max-width: 300px; }
 .maplibregl-popup-tip { border-top-color: var(--panel) !important; border-bottom-color: var(--panel) !important; }
 .maplibregl-popup-content a { color: var(--accent); text-decoration: underline; }
+
+/* ---- single-page dashboard: header on top, map full-height in the centre, panels left and right ---- */
+.kw-app { display: grid; grid-template-columns: 320px minmax(0, 1fr) 360px; grid-template-rows: auto minmax(0, 1fr);
+          grid-template-areas: "head head head" "left map right"; height: 100dvh; background: var(--bg); }
+.kw-header { grid-area: head; background: var(--ink); color: #fff; display: flex; flex-wrap: wrap; align-items: center; gap: 16px; padding: 10px 18px; }
+.kw-left { grid-area: left; overflow-y: auto; padding: 12px; display: flex; flex-direction: column; gap: 12px; }
+.kw-map { grid-area: map; position: relative; min-height: 0; margin: 12px 0; border-radius: 12px; overflow: hidden; background: #DDE1DC; }
+.kw-right { grid-area: right; overflow-y: auto; margin: 12px; background: #fff; border-radius: 12px; padding: 16px 18px; display: flex; flex-direction: column; gap: 14px; }
+@media (max-width: 1100px) {
+  .kw-app { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto 62vh auto auto; grid-template-areas: "head" "map" "right" "left"; height: auto; }
+  .kw-map { margin: 12px; }
+  .kw-right { margin: 0 12px; overflow: visible; }
+  .kw-left { overflow: visible; }
+}

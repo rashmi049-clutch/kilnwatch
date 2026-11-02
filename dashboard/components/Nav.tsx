@@ -15,6 +15,7 @@ const ITEMS = [
 export default function Nav() {
   const path = usePathname() || "/";
   const norm = path.endsWith("/") ? path : path + "/";
+  if (norm === "/") return null; // the single-page dashboard has its own header
   return (
     <header style={{ borderBottom: "1px solid var(--line)", background: "var(--panel)" }}>
       <nav className="mx-auto flex max-w-[1120px] flex-wrap items-center gap-x-5 gap-y-2 px-4 py-3 text-sm">

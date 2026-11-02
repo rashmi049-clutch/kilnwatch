@@ -25,6 +25,11 @@ create table if not exists public.edits (
   status text not null default 'pending' check (status in ('pending', 'applied', 'rejected'))
 );
 
+-- The project was created with "automatically expose new tables" OFF, so grant only what the
+-- dashboard needs, and only to signed-in users. Row-level security below narrows it further.
+grant select on public.editors to authenticated;
+grant select, insert, delete on public.edits to authenticated;
+
 alter table public.editors enable row level security;
 alter table public.edits enable row level security;
 
