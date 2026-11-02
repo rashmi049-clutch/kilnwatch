@@ -1,5 +1,8 @@
 # Raw and intermediate data: large, and re-creatable with the scripts
 data/
+# ...except the dashboard's small published data files (the live site needs them)
+!dashboard/public/data/
+!docs/dashboard/data/
 runs/
 *.log
 __pycache__/
