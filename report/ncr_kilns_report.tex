@@ -94,18 +94,18 @@ aged 5--14. Delhi NCT is excluded because kilns are not permitted there.
 \textbf{Main findings} (2023--24 season, NCR excluding Delhi):
 \begin{enumerate}[leftmargin=*]
 \item \textbf{About 528{,}000 children aged 5--14 (6.4\%; range 528{,}000--586{,}000) live within 800~m of
-a firing brick kiln}, and \textbf{835 schools} whose recorded position is reliable stand inside that distance (1{,}194 counting register points that fall in fields; see Section~\ref{sec:accuracy}).
+a firing brick kiln}, and \textbf{797 schools} whose recorded position is reliable stand inside that distance (1{,}194 counting register points that fall in fields; see Section~\ref{sec:accuracy}). The analyst audited 138 of these school points on imagery; 38 were not at a school and were removed.
 \item \textbf{Baghpat is the worst-affected district: one child in three
 (32.3\%)} lives within 800~m of a kiln. It also has the most kiln smoke near
 schools (about 180~t PM$_{2.5}$ a season, low case).
-\item \textbf{Between a fifth and a third of kilns (22.8\% counting only reliably
+\item \textbf{Between a fifth and a third of kilns (21.4\% counting only reliably
 placed schools, 32.9\% counting all register points) have a school within 800~m}:
 siting violations near schools are common, though the strict figure falls just
 short of the 25\% predicted in H1 (not rejected; the rejection line was 10\%).
 \item \textbf{Enforcement does not target schools.} 10.6\% of kilns stopped
-firing by 2025--26, and kilns near schools stopped as often (10.2\%) as kilns
-elsewhere (10.7\%; difference $-0.5$ points, 95\% CI $-3.1$ to $+2.0$;
-H3 confirmed). 626 kilns near schools were still firing in 2025--26.
+firing by 2025--26, and kilns near schools stopped as often (10.1\%) as kilns
+elsewhere (10.7\%; difference $-0.6$ points, 95\% CI $-3.2$ to $+2.0$;
+H3 confirmed). 587 kilns near schools were still firing in 2025--26.
 \item \textbf{Kilns keep firing on air-quality emergency days}, because the GRAP
 emergency schedules do not order them to close. Whether they cut back on those
 days could not be measured with Sentinel-2.
@@ -132,7 +132,7 @@ come from the government register and can be off by up to a few hundred metres.
 Children are counted where they \emph{live} (modelled population); school
 enrolment was not available.
 
-\textbf{What should happen next.} (1) Check the 626 kilns still firing within
+\textbf{What should happen next.} (1) Check the 587 kilns still firing within
 800~m of a school against their consent-to-operate records, starting with
 Baghpat, Shamli and Muzaffarnagar. (2) Consider adding brick kilns to the GRAP
 Stage III/IV closure list, as stone crushers and mines already are. (3) Put
@@ -510,7 +510,7 @@ cleaned layer; the values before cleaning are kept in
 
 \subsection{Schools and children within 800 m of a kiln}
 800~m zones (the CPCB minimum siting distance) were drawn round 2023--24 kilns.
-Schools are those passing the location checks, the shared-point check and the near-building check (29{,}170; Sections~\ref{sec:fullcheck} and~\ref{sec:accuracy}). Children are WorldPop
+Schools are those passing the location checks, the shared-point check and the near-building check, less the points the analyst found wrong (29{,}132; Sections~\ref{sec:fullcheck} and~\ref{sec:accuracy}). Children are WorldPop
 2020 ages 5--14, summed inside the union of zones so overlapping zones count
 people once.
 
@@ -529,8 +529,8 @@ children and 27 schools to the lower estimate.
 NCR excluding Delhi NCT & Lower: firing-verified & Upper: all filtered \\
 \midrule
 Kilns                                  & 3{,}057   & 5{,}715 \\
-Kilns with a school within 800~m       & 22.8\%    & 33.2\% \\
-Schools within 800~m of a kiln         & 835       & 3{,}058 \\
+Kilns with a school within 800~m       & 21.4\%    & 32.4\% \\
+Schools within 800~m of a kiln         & 797       & 3{,}020 \\
 Children aged 5--14 within 800~m       & 528{,}161 & 1{,}213{,}026 \\
 Share in Uttar Pradesh districts       & 70.9\%    & 60.0\% \\
 Share in Haryana districts             & 24.2\%    & 27.4\% \\
@@ -551,7 +551,7 @@ headline; every kiln in it that lies within 800~m of a school was checked by eye
 
 \textbf{Headline.} About 528{,}000 children aged 5--14 --- 6.4\% of the
 NCR's children outside Delhi --- live within 800~m of a firing brick kiln, and
-835 schools with reliably placed points stand within that distance (1{,}194 including register points that fall in fields; range for unreviewed kiln removals 528{,}000--586{,}000 children and 837--1{,}025 schools, see Section~\ref{sec:fullcheck}).
+797 schools with reliably placed points stand within that distance (1{,}194 including register points that fall in fields; range for unreviewed kiln removals 528{,}000--586{,}000 children and 797--985 schools, see Section~\ref{sec:fullcheck}).
 Two-thirds of the exposed children are in the eight Uttar Pradesh districts of
 the NCR; the top three by number are Muzaffarnagar, Baghpat and Bulandshahr.
 \textbf{By share, Baghpat stands out: 32.3\% of its children --- one in three
@@ -579,8 +579,8 @@ plus a decade of rapid growth.
 
 \textbf{H1 --- not rejected, prediction narrowly missed on the strict count.}
 Predicted $\geq$ 25\% of kilns with a school within 800~m, rejected below 10\%.
-Measured 22.8\% counting only schools whose point lies within 50~m of buildings,
-32.9\% counting all register points (upper layer 33.2\%). The answer depends on how
+Measured 21.4\% counting only schools whose point lies within 50~m of buildings
+(and not reported wrong by the analyst), 32.9\% counting all register points (upper layer 32.4\%). The answer depends on how
 much the school register is trusted: siting violations near schools are common
 either way, but the confident figure is a fifth of kilns rather than a third.
 
@@ -622,10 +622,10 @@ would stop more often than other kilns. Delhi NCT excluded
 \toprule
 2023--24 firing kilns & Kilns & Stopped by 2025--26 & Stop rate \\
 \midrule
-School within 800~m    & 697     & 71  & 10.2\% \\
-No school within 800~m & 2{,}360 & 253 & 10.7\% \\
+School within 800~m    & 653     & 66  & 10.1\% \\
+No school within 800~m & 2{,}404 & 258 & 10.7\% \\
 \midrule
-Difference & \multicolumn{3}{r}{$-$0.5 points (95\% CI $-$3.1 to +2.0), $\chi^2$ $p$ = 0.74} \\
+Difference & \multicolumn{3}{r}{$-$0.6 points (95\% CI $-$3.2 to +2.0), $\chi^2$ $p$ = 0.70} \\
 \bottomrule
 \end{tabular}
 \caption{Stop rates by proximity to a school, after both visual checks. With
@@ -637,7 +637,7 @@ difference.}
 \end{table}
 
 \textbf{H3 --- confirmed.} Kilns near schools stop as often as kilns elsewhere
-(10.7\% vs 10.5\%; 95\% CI $-2.1$ to $+2.5$ points, so any real difference is
+(10.1\% vs 10.7\%; 95\% CI $-3.2$ to $+2.0$ points, so any real difference is
 small). The estimate moved twice while the layer was being cleaned, and the moves
 are instructive. Before any visual check, near-school kilns looked slightly
 \emph{more} likely to stop (+1.3): 60 of the 101 near-school non-kilns were
@@ -645,9 +645,9 @@ recorded as ``stopped'' (a stadium does not fire steadily). With only the
 near-school group cleaned, they looked \emph{less} likely to stop ($-2.5$,
 $p = 0.06$) --- but the far group still held its own false kilns, which also look
 like closures. Once the weak-firing kilns away from schools were checked too (65
-non-kilns removed), the difference vanished. By state: Haryana 12.7\% near vs
-13.1\% far, Uttar Pradesh 10.4\% vs 7.7\%, Rajasthan 6.9\% vs 14.3\% (small
-numbers). Two seasons after the baseline, 896 kilns near schools are still firing.
+non-kilns removed), the difference vanished. By state: Haryana 11.7\% near vs
+12.8\% far, Uttar Pradesh 10.0\% vs 8.2\%, Rajasthan 7.4\% vs 12.6\% (small
+numbers). Two seasons after the baseline, 587 kilns near schools are still firing.
 
 \textbf{Lesson recorded.} Errors in the kiln layer were not random with respect to
 the question: false kilns look like closures, and they cluster in towns, near
@@ -866,8 +866,8 @@ correct.
 Bricks fired, season & 12.2 bn & 18.3 bn \\
 PM$_{2.5}$, all kilns & 4,400 t & 11,600 t \\
 Black carbon, all kilns & 1,300 t & 9,400 t \\
-PM$_{2.5}$ from kilns with a school within 800 m & 940 t & 2,460 t \\
-\quad share of total & \multicolumn{2}{c}{21.3\% (22.8\% of kilns)} \\
+PM$_{2.5}$ from kilns with a school within 800 m & 870 t & 2,290 t \\
+\quad share of total & \multicolumn{2}{c}{19.8\% (21.4\% of kilns)} \\
 \bottomrule
 \end{tabular}
 \caption{Kiln emissions, 2023--24 season, NCR excluding Delhi. Rounded;
@@ -881,12 +881,12 @@ the range reflects assumptions, not a statistical interval.}
 \toprule
 District & Kilns & Near a school & PM$_{2.5}$ (t, low--high) & of which near schools (low) \\
 \midrule
-Baghpat & 404 & 108 & 700--1,840 & 176 \\
+Baghpat & 404 & 105 & 700--1,840 & 169 \\
 Muzaffarnagar & 284 & 45 & 440--1,150 & 63 \\
-Jhajjar & 286 & 32 & 420--1,090 & 44 \\
+Jhajjar & 286 & 28 & 420--1,090 & 39 \\
 Sonipat & 191 & 27 & 360--930 & 53 \\
-Ghaziabad & 209 & 50 & 250--660 & 59 \\
-Shamli & 141 & 43 & 220--590 & 71 \\
+Ghaziabad & 209 & 45 & 250--660 & 53 \\
+Shamli & 141 & 35 & 220--590 & 58 \\
 \bottomrule
 \end{tabular}
 \caption{Top six districts by kiln PM$_{2.5}$
@@ -896,11 +896,11 @@ Shamli & 141 & 43 & 220--590 & 71 \\
 \textbf{What it shows.}
 \begin{itemize}[leftmargin=*]
 \item The NCR's kilns emit roughly \textbf{4,400--11,600~t of PM$_{2.5}$} in
-a season. About \textbf{30\%} comes from kilns within 800~m of a school.
-\item Kilns near schools fire slightly \emph{less} often than average: 22.8\% of
-kilns produce 21.3\% of emissions.
+a season. About \textbf{20\%} comes from kilns within 800~m of a school.
+\item Kilns near schools fire slightly \emph{less} often than average: 21.4\% of
+kilns produce 19.8\% of emissions.
 \item \textbf{Baghpat} again stands out. It emits the most of any district,
-and 25\% of its kiln emissions (176 of 700~t, low case) come from kilns near
+and 24\% of its kiln emissions (169 of 700~t, low case) come from kilns near
 schools.
 \item Most exposed schools have \textbf{one} kiln within 800~m. Among schools with
 reliably placed points the worst case is P.S. Matiyala (Ghaziabad), with
@@ -1015,11 +1015,11 @@ and the schools within 800~m of a kiln recounted, 500 times per scenario
 \toprule
 Typical (median) position error & Mean count & 95\% of runs \\
 \midrule
-none (as recorded)  & 837 & --- \\
-50~m                & 834 & 819--848 \\
-100~m               & 836 & 816--856 \\
-200~m               & 860 & 832--890 \\
-300~m (pessimistic) & 904 & 867--938 \\
+none (as recorded)  & 797 & --- \\
+50~m                & 795 & 780--808 \\
+100~m               & 796 & 776--816 \\
+200~m               & 822 & 794--851 \\
+300~m (pessimistic) & 867 & 833--904 \\
 \bottomrule
 \end{tabular}
 \caption{Schools within 800~m of a kiln under simulated position error, NCR
@@ -1027,9 +1027,9 @@ excluding Delhi. The realistic range, from the 30-point check and the built-up
 distances above, is 100--200~m.}
 \end{table}
 
-At realistic errors the count stays within about 4\% of 837 (816--890).
+At realistic errors the count stays within about 4\% of 797 (776--851).
 Larger errors \emph{raise} it, because more schools sit just outside the 800~m
-line than just inside it (1{,}038 schools lie 600--1{,}000~m from a kiln), so
+line than just inside it (1{,}036 schools lie 600--1{,}000~m from a kiln), so
 position error is unlikely to have inflated the headline. The children figure does
 not depend on school points at all (WorldPop residents).
 
@@ -1050,16 +1050,28 @@ field (GHS Dang Kalan, Bhiwani, 160~m from any building). The check above was us
 as an answer key for a rule: a register point more than 50~m from WorldCover
 built-up land flags 48 of the 59 field points (81\%) and only 11 of the 233 points on
 or near buildings (5\%). All such points (4{,}476 of 33{,}648) were removed from the
-school set and the map. Schools within 800~m of a kiln fall from 1{,}194 to 837 (835 after the analyst's own reports below) and
-the share of kilns with a school nearby from 32.9\% to 22.8\%: kilns stand in
+school set and the map. Schools within 800~m of a kiln fall from 1{,}194 to 837 (797 after the analyst's audit below) and
+the share of kilns with a school nearby from 32.9\% to 22.8\% (21.4\% after the audit): kilns stand in
 farmland, where village schools are most often recorded out in the fields. Both
-figures are reported; 835 is the count that rests on reliably placed points.
+figures are reported; 797 is the count that rests on reliably placed points.
 
-	extbf{Points the analyst reported as wrong.} The 50~m rule still lets through about one field point in
-five (WorldCover marks single farm buildings as built-up). Points the analyst found on imagery with no
-school present --- so far GHS Dang Kalan (Bhiwani), GPS Sabili and GPS Bhadana (Jhajjar) --- are listed in
-	exttt{outputs/tables/school\_points\_reported\_wrong.csv} and removed automatically
-(	exttt{analysis/apply\_visual\_check.py}). Residual errors of this kind are expected among the kept points.
+\textbf{Analyst audit of school points near kilns.} The 50~m rule still lets through about one field
+point in five (WorldCover marks single farm buildings as built-up). The analyst (Rashmi Sinha) therefore
+audited 138 of the schools within 800~m of a kiln on 21 October 2026, on Esri World Imagery with Google
+Maps listings as a cross-check, using a fixed evidence rule: a school label or matching school type within
+200~m confirms the point; an open field, road or pond with no school within 200~m makes it a wrong point;
+anything else stays unverified. Result: \textbf{32 confirmed (23\%), 68 unverified (49\%), 38 wrong
+points (28\%)}. Google positions were used only as evidence, never as replacement coordinates. The 38 wrong
+points, with three found earlier (GHS Dang Kalan, Bhiwani; GPS Sabili and GPS Bhadana, Jhajjar), are listed
+with the analyst's name, date and evidence in \texttt{outputs/tables/school\_points\_reported\_wrong.csv}
+and removed by \texttt{analysis/apply\_visual\_check.py}; verdicts are in
+\texttt{outputs/tables/school\_check\_verdicts\_138.csv} and carried in the school lists
+(\texttt{analysis/export\_school\_lists.py}). Schools within 800~m fall from 835 to 797; children do not
+change (they come from WorldPop, not school points). Unverified points are kept: no evidence against them
+is not evidence for them, but removing one needs a reason. If the audited points are typical, roughly a
+quarter of the unaudited near-kiln school points may also be misplaced, so 797 is best read as an upper
+figure for correctly placed schools --- though a misplaced point is often a real school a short distance
+away.
 
 \textbf{Rejected: correcting school positions from OpenStreetMap.} The analyst asked
 for an accurate school list, so register schools were matched by name and distance
@@ -1151,10 +1163,10 @@ points worth looking at.
 NCR excl.\ Delhi & Before & Near-school check & + school fix & + GEE pass & + full check \\
 \midrule
 Kilns                         & 3{,}256   & 3{,}161   & 3{,}161   & 3{,}096   & 3{,}057 \\
-Schools within 800~m          & 1{,}708   & 1{,}371   & 1{,}191   & 1{,}191   & 835$^{*}$ \\
+Schools within 800~m          & 1{,}708   & 1{,}371   & 1{,}191   & 1{,}191   & 797$^{*}$ \\
 Children 5--14 within 800~m   & 605{,}292 & 553{,}574 & 553{,}574 & 539{,}458 & 528{,}161 \\
-Kilns near a school           & 34.6\%    & ---       & 31.8\%    & 32.4\%    & 22.8\%$^{*}$ \\
-H3 difference (near $-$ far)   & +1.3      & ---       & $-2.5$    & $-0.1$    & $-0.5^{*}$ \\
+Kilns near a school           & 34.6\%    & ---       & 31.8\%    & 32.4\%    & 21.4\%$^{*}$ \\
+H3 difference (near $-$ far)   & +1.3      & ---       & $-2.5$    & $-0.1$    & $-0.6^{*}$ \\
 \bottomrule
 \end{tabular}
 \caption{Effect of each correction. $^{*}$ also with the near-building school filter (Section~\ref{sec:accuracy}); with all register points: 1{,}194 schools, 32.9\%, +0.2. Children depend only on the kiln layer
@@ -1215,9 +1227,9 @@ budget), their possible effect is reported as a range
 \toprule
 NCR excl.\ Delhi & Kilns & Schools within 800~m & Children within 800~m \\
 \midrule
-Final layer (headline)                     & 3{,}057 & 835     & 528{,}161 \\
-150 unreviewed removals restored (upper)   & 3{,}201 & 1{,}025 & 585{,}549 \\
-Expected at Claude's measured error (15\%) & 3{,}079 & 865     & 536{,}769 \\
+Final layer (headline)                     & 3{,}057 & 797     & 528{,}161 \\
+150 unreviewed removals restored (upper)   & 3{,}201 & 985     & 585{,}549 \\
+Expected at Claude's measured error (15\%) & 3{,}079 & 825     & 536{,}769 \\
 \bottomrule
 \end{tabular}
 \caption{Sensitivity of the headline to removals not reviewed by the analyst.

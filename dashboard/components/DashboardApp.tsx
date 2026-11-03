@@ -391,6 +391,25 @@ export default function DashboardApp({ summary }: { summary: Summary }) {
         </Card>
 
         <Card>
+          <div style={{ fontSize: 14, fontWeight: 600 }}>PM<sub>2.5</sub> limits in the air we breathe</div>
+          <div style={{ fontSize: 12, color: "var(--muted)", marginBottom: 8 }}>24-hour average, micrograms of fine dust per cubic metre of air</div>
+          {([["WHO guideline", 15, "var(--school)"], ["India limit (NAAQS)", 60, "var(--ink)"], ["Delhi-NCR winter days", 200, "var(--kiln)"]] as const).map(([l, v, c]) => (
+            <div key={l} style={{ marginBottom: 6 }}>
+              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 13 }}><span>{l}</span><span className="mono">{v === 200 ? "often > 200" : v} µg/m³</span></div>
+              <div style={{ height: 6, background: "var(--soft)", borderRadius: 3 }}><div style={{ width: `${(v / 200) * 100}%`, height: 6, background: c, borderRadius: 3 }} /></div>
+            </div>
+          ))}
+          <dl style={{ fontSize: 12, color: "var(--muted)", margin: "8px 0 0", display: "grid", gridTemplateColumns: "auto 1fr", columnGap: 8, rowGap: 2 }}>
+            <dt className="mono">PM<sub>2.5</sub></dt><dd style={{ margin: 0 }}>Particulate matter: dust particles smaller than 2.5 micrometres</dd>
+            <dt className="mono">µg/m³</dt><dd style={{ margin: 0 }}>Micrograms (millionths of a gram) per cubic metre of air</dd>
+            <dt className="mono">NAAQS</dt><dd style={{ margin: 0 }}>National Ambient Air Quality Standards (India)</dd>
+            <dt className="mono">CPCB</dt><dd style={{ margin: 0 }}>Central Pollution Control Board</dd>
+            <dt className="mono">WHO</dt><dd style={{ margin: 0 }}>World Health Organization</dd>
+          </dl>
+          <p className="note" style={{ marginTop: 8 }}>Limits: CPCB National Ambient Air Quality Standards (2009); WHO Air Quality Guidelines (2021). The winter level is a typical monitor reading, not measured by this project. Our kiln figure ({fmt(Math.round(summary.emissions[0].pm25_t / 100) * 100)}–{fmt(Math.round(summary.emissions[1].pm25_t / 100) * 100)} t a season) is how much dust is <i>released</i>, not how much is in the air at a school, so it cannot be compared with these limits directly.</p>
+        </Card>
+
+        <Card>
           <div style={{ fontSize: 14, fontWeight: 600, marginBottom: 8 }}>Map layers</div>
           <div style={{ display: "flex", flexDirection: "column", gap: 6, fontSize: 14 }}>
             {([["kilns", "Firing kilns", <Dot key="k" c="var(--kiln)" />], ["stopped", "Include stopped kilns", <Dot key="s" c="var(--kiln-stopped)" />],
