@@ -1,0 +1,76 @@
+,kilns,kilns_with_school_800m,schools_within_800m,children_5_14_within_800m,layer
+Muzaffarnagar,284,45,56,90401,as detected
+Baghpat,404,105,126,74331,as detected
+Bulandshahr,150,54,77,51273,as detected
+Meerut,143,34,59,42810,as detected
+Shamli,141,35,44,41115,as detected
+Ghaziabad,209,45,25,38732,as detected
+Hapur,80,40,47,26611,as detected
+Palwal,142,23,35,20658,as detected
+Nuh,89,6,8,20217,as detected
+Alwar,105,49,66,16671,as detected
+Sonipat,191,27,39,13869,as detected
+Jhajjar,286,28,27,13225,as detected
+Karnal,77,12,21,9310,as detected
+Panipat,83,14,17,9105,as detected
+Gautam Buddha Nagar,66,43,42,9021,as detected
+Bharatpur,79,32,30,8952,as detected
+Faridabad,98,18,25,8451,as detected
+Bhiwani,114,9,9,8318,as detected
+Jind,97,4,5,7171,as detected
+Rohtak,82,7,12,6113,as detected
+Rewari,70,17,19,5521,as detected
+Mahendragarh,42,4,6,3585,as detected
+Charkhi Dadri,21,2,1,1803,as detected
+Delhi NCT,0,0,0,1140,as detected
+Gurugram,4,0,0,898,as detected
+Muzaffarnagar,339,52,59,97344,+ missed firing reference kilns
+Baghpat,458,123,135,77681,+ missed firing reference kilns
+Bulandshahr,173,63,86,58080,+ missed firing reference kilns
+Meerut,160,37,61,48816,+ missed firing reference kilns
+Shamli,150,36,44,41775,+ missed firing reference kilns
+Ghaziabad,243,49,25,39197,+ missed firing reference kilns
+Hapur,89,46,60,28999,+ missed firing reference kilns
+Palwal,164,26,39,21907,+ missed firing reference kilns
+Nuh,98,7,9,20728,+ missed firing reference kilns
+Alwar,134,63,82,19408,+ missed firing reference kilns
+Sonipat,241,34,42,14939,+ missed firing reference kilns
+Jhajjar,370,34,30,14276,+ missed firing reference kilns
+Gautam Buddha Nagar,75,50,50,11660,+ missed firing reference kilns
+Karnal,91,20,26,10379,+ missed firing reference kilns
+Bharatpur,99,44,34,10281,+ missed firing reference kilns
+Panipat,92,14,17,9449,+ missed firing reference kilns
+Faridabad,119,20,26,9296,+ missed firing reference kilns
+Bhiwani,133,9,9,8686,+ missed firing reference kilns
+Jind,124,6,7,8319,+ missed firing reference kilns
+Rohtak,108,8,17,7563,+ missed firing reference kilns
+Rewari,93,24,22,6516,+ missed firing reference kilns
+Mahendragarh,58,5,8,4205,+ missed firing reference kilns
+Charkhi Dadri,29,2,1,1896,+ missed firing reference kilns
+Gurugram,9,0,0,1581,+ missed firing reference kilns
+Delhi NCT,0,0,0,1270,+ missed firing reference kilns
+Bulandshahr,434,178,212,115760,outer: + all missed reference kilns
+Muzaffarnagar,389,63,79,109830,outer: + all missed reference kilns
+Baghpat,504,142,144,81084,outer: + all missed reference kilns
+Meerut,234,63,86,63479,outer: + all missed reference kilns
+Shamli,176,44,46,44650,outer: + all missed reference kilns
+Ghaziabad,271,51,26,43441,outer: + all missed reference kilns
+Hapur,142,76,84,41551,outer: + all missed reference kilns
+Palwal,181,29,42,23557,outer: + all missed reference kilns
+Nuh,111,11,16,22042,outer: + all missed reference kilns
+Alwar,158,80,93,21798,outer: + all missed reference kilns
+Sonipat,261,41,45,15815,outer: + all missed reference kilns
+Jhajjar,401,38,31,15154,outer: + all missed reference kilns
+Gautam Buddha Nagar,104,70,68,14787,outer: + all missed reference kilns
+Karnal,113,22,30,12460,outer: + all missed reference kilns
+Bharatpur,121,50,38,12350,outer: + all missed reference kilns
+Panipat,102,16,17,10601,outer: + all missed reference kilns
+Faridabad,129,25,30,10192,outer: + all missed reference kilns
+Jind,155,7,8,9695,outer: + all missed reference kilns
+Bhiwani,148,10,10,9371,outer: + all missed reference kilns
+Rohtak,130,10,19,9005,outer: + all missed reference kilns
+Rewari,113,32,26,7575,outer: + all missed reference kilns
+Mahendragarh,80,9,12,5432,outer: + all missed reference kilns
+Charkhi Dadri,40,3,3,2454,outer: + all missed reference kilns
+Gurugram,11,0,0,2035,outer: + all missed reference kilns
+Delhi NCT,0,0,0,1270,outer: + all missed reference kilns

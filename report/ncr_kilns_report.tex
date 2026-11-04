@@ -94,7 +94,8 @@ aged 5--14. Delhi NCT is excluded because kilns are not permitted there.
 \textbf{Main findings} (2023--24 season, NCR excluding Delhi):
 \begin{enumerate}[leftmargin=*]
 \item \textbf{About 528{,}000 children aged 5--14 (6.4\%; range 528{,}000--586{,}000) live within 800~m of
-a firing brick kiln}, and \textbf{796 schools} whose recorded position is reliable stand inside that distance (1{,}194 counting register points that fall in fields; see Section~\ref{sec:accuracy}). The analyst audited 138 of these school points on imagery; 38 were not at a school and were removed, and four duplicate register entries were merged.
+a firing brick kiln} (about 573{,}000--583{,}000 once kilns the map missed are
+corrected for, Section~\ref{sec:completeness}), and \textbf{796 schools} whose recorded position is reliable stand inside that distance (1{,}194 counting register points that fall in fields; see Section~\ref{sec:accuracy}). The analyst audited 138 of these school points on imagery; 38 were not at a school and were removed, and four duplicate register entries were merged.
 \item \textbf{Baghpat is the worst-affected district: one child in three
 (32.3\%)} lives within 800~m of a kiln. It also has the most kiln smoke near
 schools (about 180~t PM$_{2.5}$ a season, low case).
@@ -126,8 +127,12 @@ schools). About one register school point in five falls in a field; those are
 excluded from the school count, which therefore undercounts real schools.
 An independent re-count in QGIS reproduced the exposure code's numbers exactly.
 The firing calendar matches the known season (relighting in Oct--Nov, a peak in
-Feb--May, shutdown in the monsoon). Counts are \emph{at least} figures: the
-detector misses some kilns (recall about 0.62 on this imagery). School positions
+Feb--May, shutdown in the monsoon). Counts are \emph{at least} figures: the map
+finds 81\% of the firing kilns in an independent hand-labelled inventory
+(SentinelKilnDB). Correcting for the kilns it missed gives about 3{,}440--3{,}780
+firing kilns and 573{,}000--583{,}000 children (Section~\ref{sec:completeness});
+missed kilns sit mostly in belts already mapped, so children rise far less than
+kilns. School positions
 come from the government register and can be off by up to a few hundred metres.
 Children are counted where they \emph{live} (modelled population); school
 enrolment was not available.
@@ -1435,6 +1440,83 @@ pure test area. The fine-tune failed; see the rejected-method section.
 Accuracy of the final kiln layer is therefore measured on the finished product,
 by the visual audit (precision 0.91, Section~\ref{sec:audit}).
 
+\subsection{Completeness: how many firing kilns did the map miss?}\label{sec:completeness}
+\textbf{Question.} The final layer is a floor. How far below the true number of
+firing kilns is it, and how much does that move the exposure figures?
+
+\textbf{Rejected first answer.} Dividing by detector recall (0.62) and
+firing-test sensitivity (0.76) gives $3{,}057 \times 0.91 / 0.47 \approx 5{,}900$
+firing kilns --- more than SentinelKilnDB holds in the NCR in total, firing or
+not. Both rates are measured against SentinelKilnDB, which includes idle and
+relict kilns: the detector misses many of them \emph{and} the firing test rejects
+them, so the division corrects twice for the same kilns. Kept in the code as a
+documented negative result.
+
+\textbf{Method adopted} (\texttt{completeness\_capture\_recapture.py}).
+SentinelKilnDB is a second list of the same kilns, made independently by hand.
+Every one of its 4{,}114 NCR kilns was given the same 2023--24 firing test as the
+map; 3{,}111 (75.6\%, reproducing Section~\ref{sec:accuracy}) pass. The two
+lists were matched one-to-one (nearest first, $\leq$ 100~m) inside the
+4{,}700~km$^2$ its patches cover, which contains 2{,}920 of the 3{,}057 map kilns.
+The Chapman capture--recapture estimator then gives the number of firing kilns
+including those on neither list.
+
+\begin{table}[H]
+\centering\small
+\begin{tabular}{@{}lr@{}}
+\toprule
+Measure (2023--24, inside SentinelKilnDB coverage) & Value \\
+\midrule
+Firing reference kilns found by the map (recall)             & 2{,}519 / 3{,}111 = \textbf{0.81} \\
+Map kilns confirmed by any reference kiln                     & 0.91 (= audited precision) \\
+Recall against all reference kilns, firing or not            & 0.65 \\
+Chapman estimate, map taken as all true / precision 0.91     & 3{,}606 / 3{,}282 \\
+\bottomrule
+\end{tabular}
+\caption{Two-list comparison. Recall against \emph{firing} kilns (0.81) is far
+above the $0.62 \times 0.76 = 0.47$ implied by the rejected correction.}
+\end{table}
+
+Scaling the 137 map kilns outside coverage by the same ratio gives
+\textbf{3{,}440--3{,}780 firing kilns} in the NCR, 12--24\% above the map.
+
+\textbf{Exposure.} The 592 firing reference kilns the map missed are real,
+located kilns, so they were added and the exposure re-run with the same schools
+and WorldPop grid. The few kilns still unaccounted for were given the marginal
+children per added kiln measured in that step.
+
+\begin{table}[H]
+\centering\small
+\begin{tabular}{@{}lrrr@{}}
+\toprule
+Kiln layer & Kilns & Schools & Children 5--14 \\
+\midrule
+As detected (headline)                              & 3{,}057 & 796     & 528{,}161 \\
++ 592 missed firing reference kilns (located)       & 3{,}649 & 889     & 573{,}111 \\
+Completeness-corrected estimate                     & 3{,}440--3{,}780 & --- & 573{,}000--583{,}000 \\
+Outer bound: every reference kiln, firing or not    & 4{,}508 & 1{,}165 & 704{,}248 \\
+\bottomrule
+\end{tabular}
+\caption{Children excluding Delhi NCT. The outer bound assumes every kiln that
+failed the firing test was a test miss, which the 10--13\% closure rate makes
+implausible; it is a ceiling, not an estimate.}
+\end{table}
+
+A missed kiln adds about 76 children against an average of 173 per mapped kiln:
+missed kilns lie mostly in belts already mapped, where their 800~m zones overlap
+existing ones. A 19\% rise in kilns moves children by 8.5\%.
+
+\textbf{Status.} The matching, the firing reproduction and the exposure re-runs
+are \emph{verified}. The 3{,}440--3{,}780 range is \emph{plausible but
+unconfirmed}: capture--recapture assumes the two lists miss kilns independently,
+and they cannot fully, since the detector learned from SentinelKilnDB-style
+labels and both miss faint kilns --- this biases the estimate low. SentinelKilnDB
+labels come from scenes as late as February 2025, so a few kilns built after
+the composite count as ``missed'' --- this biases it high. The Chapman interval
+($\pm$23) reflects sampling only and is not used as the uncertainty. Taking
+SentinelKilnDB kilns as all real, and the 137 kilns outside its coverage as like
+the rest, are \emph{assumed}.
+
 % ------------------------------------------------------------ 8
 \section{Limitations}
 \begin{itemize}[leftmargin=*]
@@ -1454,9 +1536,11 @@ some real schools are missing from the counts. Simulated position errors of
 \item \emph{Relict kilns.} Abandoned kiln outlines with marginal heat readings
 pass both the detector and the firing test; no automatic filter yet removes
 them.
-\item \emph{Recall.} At 10~m a kiln spans roughly 10--15 pixels; the detector's
-recall on this study's imagery is about 0.65--0.78, and the firing test keeps
-76\% of active kilns, so some working kilns are missing from the lower layer.
+\item \emph{Recall.} At 10~m a kiln spans roughly 10--15 pixels. Against an
+independent inventory the map finds 81\% of firing kilns; the corrected range is
+3{,}440--3{,}780 kilns and 573{,}000--583{,}000 children
+(Section~\ref{sec:completeness}). The correction rests on two lists that are not
+fully independent, so it is itself probably still low.
 \item \emph{Children, not pupils.} Exposure counts resident children (WorldPop
 2020, modelled) within 800~m, not enrolment at the affected schools, which
 needs registered UDISE+ microdata.
@@ -1538,6 +1622,7 @@ Children & WorldPop 2020, M\_5 + M\_10 + F\_5 + F\_10, 100 m, inside the union o
 Change test & 2025--26 season (1 Nov 2025 -- 1 Jun 2026), same location and threshold \\
 Emissions & 3 kg per brick; 4 / 6 million bricks per kiln; PM$_{2.5}$ 0.12 / 0.21 g/kg; BC 0.035 / 0.17 g/kg \\
 Map classes & Jenks natural breaks, 5 classes \\
+Completeness & Map vs SentinelKilnDB firing kilns, one-to-one match $\leq$ 100 m, Chapman estimator; precision 0.91 for the low case \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -1608,6 +1693,7 @@ Date & Decision & Reason \\
 27 Sep 2026 & Hypotheses H1--H3 recorded & Before any data analysed \\
 27 Sep 2026 & Same detector for both seasons & Comparing model output with hand labels would confound method with change \\
 27 Sep 2026 & Match authors' per-patch stretch & Read from their code; mismatch would reduce accuracy \\
+4 Nov 2026 & Completeness range by capture--recapture against SentinelKilnDB, not recall $\times$ sensitivity & The two rates both penalise idle kilns, so dividing by both double-counts (5{,}900 kilns, more than exist in the inventory) \\
 \bottomrule
 \end{longtable}
 

@@ -43,6 +43,10 @@ export default function MethodPage() {
               <tr><td>Random audit of kilns in Google Earth history (analyst: {summary.audit.by})</td>
                 <td className="num"><b>{summary.audit.active}/{summary.audit.random_kilns - summary.audit.unclear}</b> working{summary.audit.unclear ? `, ${summary.audit.unclear} unclear` : ""}</td></tr>
               <tr><td>Kilns checked by eye</td><td className="num"><b>all {fmt(summary.kilns)}</b></td></tr>
+              {summary.completeness && (
+                <tr><td>Firing kilns in an independent hand-labelled inventory (SentinelKilnDB) that the map found</td>
+                  <td className="num"><b>{Math.round(100 * summary.completeness.recall)}%</b> of {fmt(summary.completeness.ref_firing)}</td></tr>
+              )}
               <tr><td>Closures near vs away from schools (difference)</td>
                 <td className="num">{summary.stop_test.diff_pp} pts (95% CI {summary.stop_test.ci[0]} to {summary.stop_test.ci[1]})</td></tr>
             </tbody>
@@ -57,9 +61,23 @@ export default function MethodPage() {
                 <tr key={String(r.layer)}><td>{String(r.layer)}</td><td className="num">{fmt(Number(r.kilns))}</td>
                   <td className="num">{fmt(Number(r.schools))}</td><td className="num">{fmtRound(Number(r.children))}</td></tr>
               ))}
+              {summary.completeness && (<>
+                <tr><td>corrected for kilns the map missed</td>
+                  <td className="num">{fmt(summary.completeness.kilns[0])}–{fmt(summary.completeness.kilns[1])}</td><td className="num">–</td>
+                  <td className="num">{fmtRound(summary.completeness.children[0])}–{fmtRound(summary.completeness.children[1])}</td></tr>
+                <tr><td>ceiling: every inventory kiln, firing or not</td>
+                  <td className="num">{fmt(summary.completeness.outer.kilns)}</td><td className="num">{fmt(summary.completeness.outer.schools)}</td>
+                  <td className="num">{fmtRound(summary.completeness.outer.children)}</td></tr>
+              </>)}
             </tbody>
           </table>
           <p className="text-[12px] muted mt-2">“Unreviewed removals restored” puts back every site removed without an analyst decision: the upper bound if those removals were wrong.</p>
+          {summary.completeness && (
+            <p className="text-[12px] muted mt-2">“Corrected for kilns the map missed” compares the map with SentinelKilnDB, a hand-labelled kiln inventory, after giving both the same heat test.
+              The {fmt(summary.completeness.missed_added)} firing inventory kilns the map missed were added and exposure recounted; capture–recapture estimates the rest.
+              Missed kilns sit mostly where kilns are already mapped, so children rise much less than kilns. The two lists are not fully independent, so even this range is probably low.
+              The ceiling assumes every kiln that failed the heat test was really firing, which is unlikely.</p>
+          )}
         </div>
       </section>
 
@@ -83,6 +101,7 @@ export default function MethodPage() {
           <li>School register locations can be tens to hundreds of metres off; some real schools near kilns are missing from the register, so school counts are a minimum.</li>
           <li>WorldPop is a modelled population surface (2020), not a census count.</li>
           <li>800 m is a siting distance, not a health threshold; living inside it does not measure dose.</li>
+          <li>The map misses about one firing kiln in five, so the headline counts are minimums (corrected range above).</li>
           <li>Firing status comes from heat detected in clear Sentinel-2 scenes; small or intermittent firing can be missed.</li>
         </ul>
       </section>

@@ -468,7 +468,13 @@ export default function DashboardApp({ summary }: { summary: Summary }) {
         <Card>
           <div style={{ fontSize: 12, color: "var(--muted)" }}>Children 5–14 within 800 m of a firing kiln</div>
           <div className="mono" style={{ fontSize: 32, fontWeight: 500, letterSpacing: "-0.02em", color: "var(--kiln)" }}>{fmtRound(summary.children_800m)}</div>
-          <div style={{ fontSize: 12, color: "var(--muted)" }}>NCR outside Delhi{restored ? ` · range ${fmtRound(summary.children_800m)}–${fmtRound(Number(restored.children))}` : ""}</div>
+          <div style={{ fontSize: 12, color: "var(--muted)" }}>NCR outside Delhi · as detected, an “at least” figure{restored ? ` · range ${fmtRound(summary.children_800m)}–${fmtRound(Number(restored.children))}` : ""}</div>
+          {summary.completeness && (
+            <div style={{ fontSize: 12, color: "var(--ink, inherit)", marginTop: 4 }}>
+              About <b>{fmtRound(summary.completeness.children[0])}–{fmtRound(summary.completeness.children[1])}</b> correcting for kilns the map missed
+              (it finds {Math.round(100 * summary.completeness.recall)}% of an independent inventory’s firing kilns). <Link href="/method/" style={{ textDecoration: "underline" }}>How</Link>
+            </div>
+          )}
           <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0,1fr))", gap: 8, marginTop: 12 }}>
             <Stat n={fmt(summary.schools_800m)} label="schools within 800 m" />
             <Stat n={fmt(summary.kilns)} label="firing kilns" />

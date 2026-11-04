@@ -27,6 +27,11 @@ export type Summary = {
   stop_rates: { near_school: string; kilns: number; stopped: number; stop_rate_pct: number }[];
   stop_test: { diff_pp: number; ci: [number, number]; p: number };
   emissions: { case: string; pm25_t: number; bc_t: number }[];
+  completeness?: {
+    recall: number; ref_firing: number; missed_added: number;
+    kilns: [number, number]; children: [number, number];
+    outer: { kilns: number; schools: number; children: number };
+  };
   audit: { random_kilns: number; active: number; unclear: number; by: string };
   sources: { layer: string; source: string; licence: string }[];
 };

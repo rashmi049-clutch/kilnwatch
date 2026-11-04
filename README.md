@@ -22,7 +22,8 @@ click any kiln or school, switch on satellite imagery and slide through the year
 
 | | Result |
 |---|---|
-| Children aged 5–14 within 800 m of a firing kiln | **≈ 528,000 (6.4%)**; range 528,000–586,000 |
+| Children aged 5–14 within 800 m of a firing kiln | **≈ 528,000 (6.4%)** as detected; range 528,000–586,000 for unreviewed removals; **≈ 573,000–583,000** corrected for kilns the map missed |
+| Firing kilns, corrected for kilns the map missed | **≈ 3,440–3,780** (3,057 mapped; the map finds 81% of an independent inventory's firing kilns) |
 | Worst district | **Baghpat, 32.3%** of its children |
 | Schools within 800 m of a kiln | **796** with reliably placed points (1,194 counting register points in fields); 138 audited by the analyst, 38 wrong points removed, 4 duplicate register entries merged |
 | Kilns with a school within 800 m | **21.4%** of 3,057 (32.9% counting all register points) |
@@ -98,13 +99,16 @@ flowchart LR
 | 166 earlier removals were Claude's alone: 16 reviewed by Rashmi Sinha (2 restored), 150 unreviewed | Reported as a range: 528,000–586,000 children, best estimate ≈ 537,000 |
 | Audit 1 by Rashmi Sinha: 25 random kilns, whole layer before cleaning, Google Earth history | **Precision 0.91** (95% CI 0.73–0.98) |
 | Audit 2 by Rashmi Sinha: 30 random kilns from the 1,904 not checked by eye, Google Earth history | **29 / 29 working kilns** (95% CI 0.88–1.00) |
+| Completeness: map vs SentinelKilnDB (4,114 hand-labelled NCR kilns, same firing test) | Map finds **81%** of firing kilns; 91% of map kilns confirmed by the inventory. Capture–recapture: 3,440–3,780 firing kilns |
 | Independent re-count of exposure in QGIS | Identical to the code (415 / 174 / 263) |
 | Firing calendar | Matches the known season: relight Oct–Nov, peak Feb–May, monsoon shutdown |
 | Sentinel-2C replaced 2A in Jan 2025 | Background heat at control points flat across the switch |
 | Boundary areas vs official figures | NCR −0.12%, Alwar −0.30%, Bharatpur −0.14% |
 
 **Limitations.**
-- Counts are *at least* figures: the detector misses some kilns (recall about 0.62).
+- Counts are *at least* figures: the map misses about 1 firing kiln in 5. The
+  corrected range (≈ 573,000–583,000 children) assumes the two kiln lists miss
+  kilns independently; they share label style, so even that is probably low.
 - Children are counted where they *live* (a modelled estimate); school enrolment
   wasn't available.
 - The emissions figure rests on an *assumed* production per kiln. It measures
@@ -121,6 +125,10 @@ Each is kept in the code and documented in the report.
   that day's haze, so the real sample was about 23 days, not 3,290 kilns. The first
   confidence interval was 25 times too narrow. Redone with days as the unit, the
   test is inconclusive.
+- **Correcting the kiln count by dividing by recall × firing-test sensitivity
+  (0.62 × 0.76).** It gave ≈ 5,900 firing kilns, more than the reference inventory
+  holds in total. Both rates penalise the same idle kilns, so it corrected twice.
+  Replaced by a direct two-list comparison (`completeness_capture_recapture`).
 - **Correcting the closure rate for the firing test's miss rate.** It gave a
   negative rate, which showed the correction was wrong.
 - **Trusting automated checks alone near schools.** A full eye check found 9% of
@@ -155,7 +163,7 @@ Main pipeline, in order: `fetch_ncr_boundary` → `prepare_ncr_boundary` →
 → `fetch_s2_tiles` → `scan_ncr` → `landcover_filter` → `firing_verify` →
 `monsoon_heat` → `heat_source_check` → `nonkiln_flag` → `dedupe_kilns` →
 `apply_visual_check` → `export_school_lists` → `exposure` → `exposure_excl_delhi` → `kiln_change` → `h3_stop_near_schools` → `monthly_firing` →
-`grap_firing_daily` → `emissions` → `map_exposure_data`. The report is built
+`grap_firing_daily` → `emissions` → `map_exposure_data` → `completeness_capture_recapture`. The report is built
 with `python report/build_report.py`.
 
 Raw data (imagery tiles, SentinelKilnDB, school points) is not in the repository.

@@ -81,6 +81,7 @@ lo, hi = ex.iloc[0], ex.iloc[1]
 rng = pd.read_csv(ROOT / "outputs/tables/exposure_sensitivity_removals.csv")
 h3 = pd.read_csv(ROOT / "outputs/tables/h3_stop_rates.csv")
 em = pd.read_csv(ROOT / "outputs/tables/emissions_summary.csv")
+cp = pd.read_csv(ROOT / "outputs/tables/completeness_summary.csv", index_col=0)["value"]   # completeness_capture_recapture.py
 summary = {
     "built": date.today().isoformat(),
     "study_area": "Delhi-NCR excluding Delhi (no kilns in Delhi); UP, Haryana and Rajasthan NCR districts",
@@ -91,6 +92,12 @@ summary = {
     "stop_rates": h3[["near_school", "kilns", "stopped", "stop_rate_pct"]].to_dict(orient="records"),
     "stop_test": {"diff_pp": float(h3.diff_pp[0]), "ci": [float(h3.ci_low[0]), float(h3.ci_high[0])], "p": float(h3.chi2_p[0])},
     "emissions": [{"case": r.case, "pm25_t": round(r.pm25_t), "bc_t": round(r.bc_t)} for r in em.itertuples()],
+    "completeness": {"recall": float(cp.recall_vs_firing_ref), "ref_firing": int(cp.ref_kilns_firing),
+                     "missed_added": int(cp.missed_firing_ref_kilns_added),
+                     "kilns": [int(cp.firing_kilns_est_low), int(cp.firing_kilns_est_high)],
+                     "children": [int(cp.children_excl_delhi_est_low), int(cp.children_excl_delhi_est_high)],
+                     "outer": {"kilns": int(cp.outer_kilns), "schools": int(cp.outer_schools),
+                               "children": int(cp.outer_children_excl_delhi)}},
     "audit": {"random_kilns": 30, "active": 29, "unclear": 1, "by": "Rashmi Sinha"},
     "sources": [
         {"layer": "Kilns", "source": "Sentinel-2 L2A (ESA Copernicus), YOLO11-OBB detector + SWIR firing test, every kiln checked by eye", "licence": "Copernicus open"},
