@@ -47,21 +47,50 @@ function Stat({ n, label, accent }: { n: string; label: string; accent?: boolean
     </div>
   );
 }
-// an abbreviation with an (i) button: hover or tap shows the full form
-function Abbr({ t, full, children }: { t: string; full: string; children?: React.ReactNode }) {
+// an abbreviation with a clickable (i): opens a small card with the full form and details
+function Abbr({ t, full, more, children }: { t: string; full: string; more?: React.ReactNode; children?: React.ReactNode }) {
   const [open, setOpen] = useState(false);
+  const ref = useRef<HTMLSpanElement>(null);
+  useEffect(() => {
+    if (!open) return;
+    const close = (e: MouseEvent) => { if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false); };
+    const esc = (e: KeyboardEvent) => { if (e.key === "Escape") setOpen(false); };
+    document.addEventListener("mousedown", close); document.addEventListener("keydown", esc);
+    return () => { document.removeEventListener("mousedown", close); document.removeEventListener("keydown", esc); };
+  }, [open]);
   return (
-    <span style={{ position: "relative", whiteSpace: "nowrap" }}>
+    <span ref={ref} style={{ position: "relative", whiteSpace: "nowrap" }}>
       {children ?? t}
-      <button onClick={() => setOpen(!open)} onBlur={() => setOpen(false)} title={full} aria-label={`${t}: ${full}`} aria-expanded={open}
-              style={{ marginLeft: 3, width: 15, height: 15, borderRadius: 15, border: "1px solid var(--muted)", color: "var(--muted)",
-                       fontSize: 10, lineHeight: "13px", fontWeight: 700, fontStyle: "italic", fontFamily: "Georgia, serif", verticalAlign: "1px", padding: 0 }}>i</button>
-      {open && <span role="tooltip" style={{ position: "absolute", zIndex: 30, left: 0, top: "calc(100% + 4px)", width: 220, whiteSpace: "normal",
-                                             background: "var(--ink)", color: "#fff", fontSize: 12, fontWeight: 400, padding: "6px 8px", borderRadius: 6 }}>
-        <b>{t}</b>: {full}</span>}
+      <button onClick={() => setOpen(!open)} title={`${full} (click for details)`} aria-label={`About ${t}`} aria-expanded={open}
+              style={{ marginLeft: 4, width: 17, height: 17, borderRadius: 17, cursor: "pointer", verticalAlign: "1px", padding: 0,
+                       border: `1.5px solid ${open ? "var(--kiln)" : "var(--muted)"}`, color: open ? "#fff" : "var(--muted)", background: open ? "var(--kiln)" : "transparent",
+                       fontSize: 11, lineHeight: "14px", fontWeight: 700, fontStyle: "italic", fontFamily: "Georgia, serif" }}>i</button>
+      {open && <span role="dialog" aria-label={full} style={{ position: "absolute", zIndex: 30, left: 0, top: "calc(100% + 6px)", width: 270, whiteSpace: "normal",
+                                             background: "#fff", color: "var(--fg)", fontSize: 12, fontWeight: 400, lineHeight: 1.45, padding: "10px 12px", borderRadius: 10,
+                                             border: "1px solid var(--line)", boxShadow: "0 8px 24px rgba(0,0,0,.18)", display: "block" }}>
+        <span style={{ display: "flex", justifyContent: "space-between", gap: 8 }}>
+          <b style={{ fontSize: 13 }}>{t}</b>
+          <button onClick={() => setOpen(false)} aria-label="Close" style={{ fontSize: 16, lineHeight: 1, color: "var(--muted)" }}>×</button>
+        </span>
+        <span style={{ display: "block", color: "var(--muted)", marginBottom: more ? 6 : 0 }}>{full}</span>
+        {more}
+      </span>}
     </span>
   );
 }
+// the details shown when the (i) next to WHO / NAAQS is clicked
+const WHO_MORE = <>
+  <span style={{ display: "block" }}><b>Air Quality Guidelines (2021)</b> for PM<sub>2.5</sub>:</span>
+  <span style={{ display: "block" }}>• <b>15 µg/m³</b> 24-hour average (not to be exceeded more than 3–4 days a year)</span>
+  <span style={{ display: "block" }}>• <b>5 µg/m³</b> annual average</span>
+  <span style={{ display: "block", marginTop: 4 }}>Based on health evidence: the level below which harm is least likely. <b>Advice, not law.</b> Interim steps for polluted countries: 75 → 50 → 37.5 → 25 µg/m³ (24-hour).</span>
+</>;
+const NAAQS_MORE = <>
+  <span style={{ display: "block" }}>India&rsquo;s legal limits, notified by the <b>CPCB</b> (Central Pollution Control Board) in <b>November 2009</b> under the Air (Prevention and Control of Pollution) Act, 1981. PM<sub>2.5</sub>:</span>
+  <span style={{ display: "block" }}>• <b>60 µg/m³</b> 24-hour average</span>
+  <span style={{ display: "block" }}>• <b>40 µg/m³</b> annual average</span>
+  <span style={{ display: "block", marginTop: 4 }}><b>Binding law</b>, but 4× looser than WHO on a daily basis and 8× looser on the annual figure.</span>
+</>;
 function Card({ children, style }: { children: React.ReactNode; style?: React.CSSProperties }) {
   return <section style={{ background: "#fff", borderRadius: 12, padding: "14px 16px", ...style }}>{children}</section>;
 }
@@ -450,9 +479,9 @@ export default function DashboardApp({ summary }: { summary: Summary }) {
         <Card>
           <div style={{ fontSize: 14, fontWeight: 600 }}><Abbr t="PM2.5" full="Particulate matter: dust particles smaller than 2.5 micrometres, fine enough to reach deep into the lungs">PM<sub>2.5</sub></Abbr> limits in the air we breathe</div>
           <div style={{ fontSize: 12, color: "var(--muted)", marginBottom: 8 }}>24-hour average, in <Abbr t="µg/m³" full="Micrograms (millionths of a gram) per cubic metre of air" /></div>
-          {([["WHO", "World Health Organization", " guideline", 15, "var(--school)"], ["NAAQS", "National Ambient Air Quality Standards, set by the CPCB (Central Pollution Control Board)", " India limit", 60, "var(--ink)"], ["", "", "Delhi-NCR winter days", 200, "var(--kiln)"]] as const).map(([a, full, l, v, c]) => (
+          {([["WHO", "World Health Organization", WHO_MORE, " guideline", 15, "var(--school)"], ["NAAQS", "National Ambient Air Quality Standards (India)", NAAQS_MORE, " India limit", 60, "var(--ink)"], ["", "", null, "Delhi-NCR winter days", 200, "var(--kiln)"]] as const).map(([a, full, more, l, v, c]) => (
             <div key={l} style={{ marginBottom: 6 }}>
-              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 13 }}><span>{a && <Abbr t={a} full={full} />}{l}</span><span className="mono">{v === 200 ? "often > 200" : v} µg/m³</span></div>
+              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 13 }}><span>{a && <Abbr t={a} full={full} more={more} />}{l}</span><span className="mono">{v === 200 ? "often > 200" : v} µg/m³</span></div>
               <div style={{ height: 6, background: "var(--soft)", borderRadius: 3 }}><div style={{ width: `${(v / 200) * 100}%`, height: 6, background: c, borderRadius: 3 }} /></div>
             </div>
           ))}
