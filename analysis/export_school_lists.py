@@ -28,11 +28,13 @@ sch["kilns_800m"] = [len(i) for i in cKDTree(kxy).query_ball_point(sxy, 800)]
 
 # first reason that applies, in the order the filters were built
 sch["status"] = np.select(
-    [~sch.use_strict_v1, sch.far_from_buildings, sch.stacked_multivillage, sch.reported_wrong],
+    [~sch.use_strict_v1, sch.far_from_buildings, sch.stacked_multivillage, sch.reported_wrong,
+     sch.duplicate_of.ne("")],
     ["removed: failed location check (wrong district or >300 m from built-up)",
      "removed: >50 m from buildings",
      "removed: point shared with other villages",
-     "removed: reported wrong by analyst"],
+     "removed: reported wrong by analyst",
+     "removed: duplicate of another UDISE code"],
     default="used")
 assert (sch.status == "used").eq(sch.use_strict).all()
 

@@ -24,7 +24,7 @@ click any kiln or school, switch on satellite imagery and slide through the year
 |---|---|
 | Children aged 5–14 within 800 m of a firing kiln | **≈ 528,000 (6.4%)**; range 528,000–586,000 |
 | Worst district | **Baghpat, 32.3%** of its children |
-| Schools within 800 m of a kiln | **797** with reliably placed points (1,194 counting register points in fields); 138 audited by the analyst, 38 wrong points removed |
+| Schools within 800 m of a kiln | **796** with reliably placed points (1,194 counting register points in fields); 138 audited by the analyst, 38 wrong points removed, 4 duplicate register entries merged |
 | Kilns with a school within 800 m | **21.4%** of 3,057 (32.9% counting all register points) |
 | Kilns that stopped firing by 2025–26 | 10.6%; **no more often near schools** (10.1% vs 10.7%) |
 | Kilns near schools still firing in 2025–26 | **587** |

@@ -21,6 +21,9 @@ Apply the full visual check of near-school kilns, and remove misplaced school po
    Points more than 50 m from built-up land (far_from_buildings) are also dropped:
    threshold read from the borderline-school visual check (see section 3 below).
 
+   True duplicates (two UDISE codes for one school, analyst-approved list in
+   outputs/tables/school_duplicates.csv) are dropped too: see section 5 below.
+
 Also rewrites the map layers that QGIS styles (kilns_final, schools_map, 800 m zones).
 """
 from pathlib import Path
@@ -65,7 +68,16 @@ sch["far_from_buildings"] = sch.dist_built_m > 50
 # 4. Points the analyst found to be wrong on imagery (outputs/tables/school_points_reported_wrong.csv)
 bad_sch = pd.read_csv(ROOT / "outputs/tables/school_points_reported_wrong.csv", dtype={"schcd": str})
 sch["reported_wrong"] = sch.schcd.astype(str).isin(bad_sch.schcd)
-sch["use_strict"] = sch.use_strict_v1 & ~sch.stacked_multivillage & ~sch.far_from_buildings & ~sch.reported_wrong
+# 5. True duplicates (outputs/tables/school_duplicates.csv): two UDISE codes for one school. Candidates were
+#    pairs <= 50 m apart with the same category, management and boys/girls/co-ed type, no number difference
+#    and name similarity >= 0.85 (31 pairs); each was read by name and the analyst approved 4 on 4 Nov 2026.
+#    Hindi/Urdu-medium pairs, Old/New, different blocks and Delhi same-name pairs (possible morning/evening
+#    shifts, separate codes) were kept as separate schools.
+dup = pd.read_csv(ROOT / "outputs/tables/school_duplicates.csv", dtype={"schcd": str, "duplicate_of": str})
+assert dup.duplicate_of.isin(sch.schcd.astype(str)).all(), "every kept school must exist"
+sch["duplicate_of"] = sch.schcd.astype(str).map(dup.set_index("schcd").duplicate_of).fillna("")
+sch["use_strict"] = (sch.use_strict_v1 & ~sch.stacked_multivillage & ~sch.far_from_buildings & ~sch.reported_wrong
+                     & sch.duplicate_of.eq(""))
 sch.to_file(SCH, driver="GPKG")
 print(f"schools: dropped {int(sch.stacked_multivillage.sum())} stacked multi-village points; "
       f"use_strict now {int(sch.use_strict.sum())} (was {int(sch.use_strict_v1.sum())})")
