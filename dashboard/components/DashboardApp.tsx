@@ -177,6 +177,7 @@ export default function DashboardApp({ summary }: { summary: Summary }) {
   const [districtFilter, setDistrictFilter] = useState("");
   const [showAllDistricts, setShowAllDistricts] = useState(false);
   const [guideOpen, setGuideOpen] = useState(false);
+  const [limitsOpen, setLimitsOpen] = useState(false); // PM2.5 limits card starts folded
 
   const selectDistrict = useCallback((name: string, fly = true) => {
     setSel({ kind: "district", name }); setDistrictFilter(name);
@@ -476,9 +477,17 @@ export default function DashboardApp({ summary }: { summary: Summary }) {
           </div>
         </Card>
 
-        <Card>
-          <div style={{ fontSize: 14, fontWeight: 600 }}><Abbr t="PM2.5" full="Particulate matter: dust particles smaller than 2.5 micrometres, fine enough to reach deep into the lungs">PM<sub>2.5</sub></Abbr> limits in the air we breathe</div>
-          <div style={{ fontSize: 12, color: "var(--muted)", marginBottom: 8 }}>24-hour average, in <Abbr t="µg/m³" full="Micrograms (millionths of a gram) per cubic metre of air" /></div>
+        <Card style={{ padding: limitsOpen ? "14px 16px" : "10px 16px" }}>
+          <button onClick={() => setLimitsOpen(!limitsOpen)} aria-expanded={limitsOpen}
+                  style={{ display: "flex", alignItems: "center", gap: 8, width: "100%", textAlign: "left", fontSize: 14, fontWeight: 600 }}>
+            <span aria-hidden="true" style={{ width: 20, height: 20, borderRadius: 20, flex: "none", display: "grid", placeItems: "center",
+                         background: limitsOpen ? "var(--kiln)" : "transparent", color: limitsOpen ? "#fff" : "var(--kiln)", border: "1.5px solid var(--kiln)",
+                         fontSize: 12, fontWeight: 700, fontStyle: "italic", fontFamily: "Georgia, serif" }}>i</span>
+            <span style={{ flex: 1 }}>PM<sub>2.5</sub> limits: WHO vs India (NAAQS)</span>
+            <span aria-hidden="true" style={{ color: "var(--muted)", fontSize: 12 }}>{limitsOpen ? "▲" : "▼"}</span>
+          </button>
+          {limitsOpen && <div style={{ marginTop: 10 }}>
+          <div style={{ fontSize: 12, color: "var(--muted)", marginBottom: 8 }}>24-hour average of <Abbr t="PM2.5" full="Particulate matter: dust particles smaller than 2.5 micrometres, fine enough to reach deep into the lungs">PM<sub>2.5</sub></Abbr>, in <Abbr t="µg/m³" full="Micrograms (millionths of a gram) per cubic metre of air" /></div>
           {([["WHO", "World Health Organization", WHO_MORE, " guideline", 15, "var(--school)"], ["NAAQS", "National Ambient Air Quality Standards (India)", NAAQS_MORE, " India limit", 60, "var(--ink)"], ["", "", null, "Delhi-NCR winter days", 200, "var(--kiln)"]] as const).map(([a, full, more, l, v, c]) => (
             <div key={l} style={{ marginBottom: 6 }}>
               <div style={{ display: "flex", justifyContent: "space-between", fontSize: 13 }}><span>{a && <Abbr t={a} full={full} more={more} />}{l}</span><span className="mono">{v === 200 ? "often > 200" : v} µg/m³</span></div>
@@ -486,6 +495,7 @@ export default function DashboardApp({ summary }: { summary: Summary }) {
             </div>
           ))}
           <p className="note" style={{ marginTop: 8 }}>Limits: CPCB National Ambient Air Quality Standards (2009); WHO Air Quality Guidelines (2021). The winter level is a typical monitor reading, not measured by this project. Our kiln figure ({fmt(Math.round(summary.emissions[0].pm25_t / 100) * 100)}–{fmt(Math.round(summary.emissions[1].pm25_t / 100) * 100)} t a season) is how much dust is <i>released</i>, not how much is in the air at a school, so it cannot be compared with these limits directly.</p>
+          </div>}
         </Card>
 
         <Card>
