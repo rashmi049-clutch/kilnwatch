@@ -9,11 +9,13 @@ import type { DistrictProps, KilnRow, School, SchoolsCompact, Summary, Wayback }
 import { BASE, STATUS_LABEL, expandSchools, fmt, fmtRound, loadJSON } from "@/lib/data";
 import { distM, googleSat, waybackLink } from "@/lib/geo";
 import { supabase } from "@/lib/supabase";
+import Guide from "./Guide";
 import type { Basemap, GoogleRow, Layers, Pick } from "./MapView";
 
 const MapView = dynamic(() => import("./MapView"), { ssr: false });
 
-type Sel = { kind: "district"; name: string } | { kind: "school"; school: School } | { kind: "kiln"; kiln: KilnRow } | { kind: "google"; row: GoogleRow } | null;
+type Sel = { kind: "district"; name: string } | { kind: "school"; school: School } | { kind: "kiln"; kiln: KilnRow } | { kind: "google"; row: GoogleRow }
+  | { kind: "spot"; lat: number; lon: number; district?: string } | null;
 type Focus = { lat: number; lon: number; zoom?: number; bounds?: [[number, number], [number, number]] } | null;
 type DistrictFeature = { properties: DistrictProps; geometry: GeoJSON.Polygon | GeoJSON.MultiPolygon };
 
@@ -43,6 +45,21 @@ function Stat({ n, label, accent }: { n: string; label: string; accent?: boolean
       <div className="mono" style={{ fontSize: 20, fontWeight: 500, color: accent ? "var(--kiln)" : undefined }}>{n}</div>
       <div style={{ fontSize: 12, color: "var(--muted)" }}>{label}</div>
     </div>
+  );
+}
+// an abbreviation with an (i) button: hover or tap shows the full form
+function Abbr({ t, full, children }: { t: string; full: string; children?: React.ReactNode }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <span style={{ position: "relative", whiteSpace: "nowrap" }}>
+      {children ?? t}
+      <button onClick={() => setOpen(!open)} onBlur={() => setOpen(false)} title={full} aria-label={`${t}: ${full}`} aria-expanded={open}
+              style={{ marginLeft: 3, width: 15, height: 15, borderRadius: 15, border: "1px solid var(--muted)", color: "var(--muted)",
+                       fontSize: 10, lineHeight: "13px", fontWeight: 700, fontStyle: "italic", fontFamily: "Georgia, serif", verticalAlign: "1px", padding: 0 }}>i</button>
+      {open && <span role="tooltip" style={{ position: "absolute", zIndex: 30, left: 0, top: "calc(100% + 4px)", width: 220, whiteSpace: "normal",
+                                             background: "var(--ink)", color: "#fff", fontSize: 12, fontWeight: 400, padding: "6px 8px", borderRadius: 6 }}>
+        <b>{t}</b>: {full}</span>}
+    </span>
   );
 }
 function Card({ children, style }: { children: React.ReactNode; style?: React.CSSProperties }) {
@@ -130,6 +147,7 @@ export default function DashboardApp({ summary }: { summary: Summary }) {
   const [listTab, setListTab] = useState<"schools" | "kilns">("schools");
   const [districtFilter, setDistrictFilter] = useState("");
   const [showAllDistricts, setShowAllDistricts] = useState(false);
+  const [guideOpen, setGuideOpen] = useState(false);
 
   const selectDistrict = useCallback((name: string, fly = true) => {
     setSel({ kind: "district", name }); setDistrictFilter(name);
@@ -142,14 +160,15 @@ export default function DashboardApp({ summary }: { summary: Summary }) {
     if (p.google && !p.kiln && !p.school) { setSel({ kind: "google", row: p.google }); return; }
     if (p.kiln) selectKiln(p.kiln, false);
     else if (p.school) selectSchool(p.school, false);
-    else if (p.district) selectDistrict(p.district, false);
-  }, [selectKiln, selectSchool, selectDistrict]);
+    else { setSel({ kind: "spot", lat: p.lat, lon: p.lon, district: p.district }); loadAll(); } // empty spot: 800 m check
+  }, [selectKiln, selectSchool, loadAll]);
   const clearSel = () => { setSel(null); setDistrictFilter(""); setFocus({ lat: 28.75, lon: 77.25, zoom: 7.6 }); };
 
   const extra = useMemo(() => {
     if (sel?.kind === "school") return [{ lat: sel.school.lat, lon: sel.school.lon, label: sel.school.name, color: "#7c3aed" }];
     if (sel?.kind === "kiln") return [{ lat: sel.kiln[1], lon: sel.kiln[2], label: `Kiln #${sel.kiln[0]}`, color: "#7c3aed" }];
     if (sel?.kind === "google") return [{ lat: sel.row[0], lon: sel.row[1], label: sel.row[2], color: "#7c3aed" }];
+    if (sel?.kind === "spot") return [{ lat: sel.lat, lon: sel.lon, label: "800 m check", color: "#7c3aed" }];
     return [];
   }, [sel]);
 
@@ -283,6 +302,43 @@ export default function DashboardApp({ summary }: { summary: Summary }) {
         </>
       );
     }
+    if (sel?.kind === "spot") {
+      // a buffer query run in the browser: everything within 800 m of the clicked point
+      const ks = kilns.map((k) => ({ k, d: distM(sel.lat, sel.lon, k[1], k[2]) })).sort((a, b) => a.d - b.d);
+      const kIn = ks.filter((x) => x.d <= 800), firing = kIn.filter((x) => x.k[4] === 1).length;
+      const ss = (allSchools ?? schools).map((s) => ({ s, d: distM(sel.lat, sel.lon, s.lat, s.lon) })).sort((a, b) => a.d - b.d);
+      const sIn = ss.filter((x) => x.d <= 800);
+      const d = sel.district ? dFeats.find((f) => f.properties.name === sel.district)?.properties : undefined;
+      return (
+        <>
+          <div>
+            <div className="mono" style={{ fontSize: 12, color: "var(--muted)" }}>SPOT CHECK · 800 m AROUND THIS POINT</div>
+            <h2 style={{ margin: "2px 0 0", fontSize: 22, fontWeight: 700, lineHeight: 1.2 }}>
+              {kIn.length ? `${kIn.length} kiln${kIn.length > 1 ? "s" : ""} within 800 m` : "No kiln within 800 m"}</h2>
+            <div className="mono" style={{ fontSize: 12, color: "var(--muted)", marginTop: 2 }}>{sel.lat.toFixed(4)}, {sel.lon.toFixed(4)}</div>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0,1fr))", gap: 8 }}>
+            <Stat n={String(firing)} label="still firing in 2025–26" accent={firing > 0} />
+            <Stat n={allSchools ? String(sIn.length) : "…"} label="schools within 800 m" />
+            <Stat n={ks[0] ? `${fmt(Math.round(ks[0].d))} m` : "-"} label="to the nearest kiln" />
+            <Stat n={ss[0] ? `${fmt(Math.round(ss[0].d))} m` : "-"} label="to the nearest school" />
+          </div>
+          {d && d.pct !== null && <div style={{ background: "var(--soft)", borderRadius: 10, padding: 12, fontSize: 14 }}>
+            In <b>{d.name}</b>, <b style={{ color: "var(--kiln)" }}>{d.pct}%</b> of children aged 5–14 live within 800 m of a firing kiln.{" "}
+            <button className="link" onClick={() => selectDistrict(d.name)}>Open district</button>
+          </div>}
+          {kIn.length > 0 && <div>
+            <div style={{ fontSize: 14, fontWeight: 600, marginBottom: 2 }}>Kilns within 800 m</div>
+            <ul>{kIn.slice(0, 15).map(({ k, d }) => <Row key={k[0]} onClick={() => selectKiln(k)} left={`Kiln #${k[0]}`} sub={STATUS_LABEL[String(k[4])]} right={`${fmt(Math.round(d))} m`} rightAccent />)}</ul>
+          </div>}
+          {sIn.length > 0 && <div>
+            <div style={{ fontSize: 14, fontWeight: 600, marginBottom: 2 }}>Schools within 800 m</div>
+            <ul>{sIn.slice(0, 15).map(({ s, d }) => <Row key={s.id} onClick={() => selectSchool(s)} left={s.name} sub={`${s.village} · ${s.kilns_800m} kiln${s.kilns_800m === 1 ? "" : "s"} ≤ 800 m`} right={`${fmt(Math.round(d))} m`} />)}</ul>
+          </div>}
+          <p className="note">Counted live in your browser from the kiln and school points. Children are not counted per spot: that figure comes from a population grid (WorldPop) processed in the analysis, so it is shown by district.</p>
+        </>
+      );
+    }
     if (sel?.kind === "google") {
       const [lat, lon, title, category, cls, reviews] = sel.row;
       const regNear = (allSchools ?? schools).map((s) => ({ s, d: distM(lat, lon, s.lat, s.lon) })).sort((a, b) => a.d - b.d)[0];
@@ -313,7 +369,7 @@ export default function DashboardApp({ summary }: { summary: Summary }) {
       <>
         <div>
           <h2 style={{ margin: 0, fontSize: 18, fontWeight: 700 }}>{districtFilter || "All NCR (outside Delhi)"}</h2>
-          <p style={{ margin: "2px 0 0", fontSize: 13, color: "var(--muted)" }}>Click anything on the map, or pick from the lists.</p>
+          <p style={{ margin: "2px 0 0", fontSize: 13, color: "var(--muted)" }}>Click a kiln, a school or <b>any spot</b> on the map to see what is within 800 m, or pick from the lists.</p>
         </div>
         <div role="tablist" style={{ display: "grid", gridTemplateColumns: "repeat(2, minmax(0,1fr))", background: "var(--soft)", borderRadius: 10, padding: 3 }}>
           {([["schools", `Schools · ${listSchools.length}`], ["kilns", `Kilns near schools · ${listKilns.length}`]] as const).map(([id, label]) => (
@@ -373,6 +429,7 @@ export default function DashboardApp({ summary }: { summary: Summary }) {
           </select>
         </label>
         <span style={{ flex: "1 1 0" }} />
+        <button onClick={() => setGuideOpen(true)} style={{ fontSize: 13, fontWeight: 600, color: "#fff", background: "var(--kiln)", borderRadius: 8, padding: "9px 12px" }}>ⓘ Why this matters</button>
         <Link href="/method/" style={{ fontSize: 13, color: "#C4CAD0" }}>Method</Link>
         <Link href="/edit/" style={{ fontSize: 13, color: "#fff", border: "1px solid #39424B", borderRadius: 8, padding: "9px 12px" }}>{editorName ? `${editorName} · editor` : "Analyst sign-in"}</Link>
       </header>
@@ -391,21 +448,14 @@ export default function DashboardApp({ summary }: { summary: Summary }) {
         </Card>
 
         <Card>
-          <div style={{ fontSize: 14, fontWeight: 600 }}>PM<sub>2.5</sub> limits in the air we breathe</div>
-          <div style={{ fontSize: 12, color: "var(--muted)", marginBottom: 8 }}>24-hour average, micrograms of fine dust per cubic metre of air</div>
-          {([["WHO guideline", 15, "var(--school)"], ["India limit (NAAQS)", 60, "var(--ink)"], ["Delhi-NCR winter days", 200, "var(--kiln)"]] as const).map(([l, v, c]) => (
+          <div style={{ fontSize: 14, fontWeight: 600 }}><Abbr t="PM2.5" full="Particulate matter: dust particles smaller than 2.5 micrometres, fine enough to reach deep into the lungs">PM<sub>2.5</sub></Abbr> limits in the air we breathe</div>
+          <div style={{ fontSize: 12, color: "var(--muted)", marginBottom: 8 }}>24-hour average, in <Abbr t="µg/m³" full="Micrograms (millionths of a gram) per cubic metre of air" /></div>
+          {([["WHO", "World Health Organization", " guideline", 15, "var(--school)"], ["NAAQS", "National Ambient Air Quality Standards, set by the CPCB (Central Pollution Control Board)", " India limit", 60, "var(--ink)"], ["", "", "Delhi-NCR winter days", 200, "var(--kiln)"]] as const).map(([a, full, l, v, c]) => (
             <div key={l} style={{ marginBottom: 6 }}>
-              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 13 }}><span>{l}</span><span className="mono">{v === 200 ? "often > 200" : v} µg/m³</span></div>
+              <div style={{ display: "flex", justifyContent: "space-between", fontSize: 13 }}><span>{a && <Abbr t={a} full={full} />}{l}</span><span className="mono">{v === 200 ? "often > 200" : v} µg/m³</span></div>
               <div style={{ height: 6, background: "var(--soft)", borderRadius: 3 }}><div style={{ width: `${(v / 200) * 100}%`, height: 6, background: c, borderRadius: 3 }} /></div>
             </div>
           ))}
-          <dl style={{ fontSize: 12, color: "var(--muted)", margin: "8px 0 0", display: "grid", gridTemplateColumns: "auto 1fr", columnGap: 8, rowGap: 2 }}>
-            <dt className="mono">PM<sub>2.5</sub></dt><dd style={{ margin: 0 }}>Particulate matter: dust particles smaller than 2.5 micrometres</dd>
-            <dt className="mono">µg/m³</dt><dd style={{ margin: 0 }}>Micrograms (millionths of a gram) per cubic metre of air</dd>
-            <dt className="mono">NAAQS</dt><dd style={{ margin: 0 }}>National Ambient Air Quality Standards (India)</dd>
-            <dt className="mono">CPCB</dt><dd style={{ margin: 0 }}>Central Pollution Control Board</dd>
-            <dt className="mono">WHO</dt><dd style={{ margin: 0 }}>World Health Organization</dd>
-          </dl>
           <p className="note" style={{ marginTop: 8 }}>Limits: CPCB National Ambient Air Quality Standards (2009); WHO Air Quality Guidelines (2021). The winter level is a typical monitor reading, not measured by this project. Our kiln figure ({fmt(Math.round(summary.emissions[0].pm25_t / 100) * 100)}–{fmt(Math.round(summary.emissions[1].pm25_t / 100) * 100)} t a season) is how much dust is <i>released</i>, not how much is in the air at a school, so it cannot be compared with these limits directly.</p>
         </Card>
 
@@ -495,6 +545,9 @@ export default function DashboardApp({ summary }: { summary: Summary }) {
         {!kilns.length && !error && <div style={{ position: "absolute", inset: 0, display: "grid", placeItems: "center", color: "var(--muted)" }}>Loading map data…</div>}
       </main>
 
+      {guideOpen && <Guide summary={summary} dRank={dRank} topSchools={[...schools].sort((a, b) => b.kilns_800m - a.kilns_800m || a.kiln_m - b.kiln_m)}
+                           onDistrict={(n) => { setGuideOpen(false); selectDistrict(n); }} onSchool={(s) => { setGuideOpen(false); selectSchool(s); }}
+                           onClose={() => setGuideOpen(false)} />}
       <aside className="kw-right" aria-label="Details">
         {sel && <button onClick={clearSel} style={{ alignSelf: "flex-start", fontSize: 13, color: "var(--muted)" }}>← All of NCR</button>}
         {renderRight()}
