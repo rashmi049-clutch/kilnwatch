@@ -12,38 +12,35 @@ function H({ n, children }: { n: number; children: React.ReactNode }) {
 const P = ({ children }: { children: React.ReactNode }) => <p style={{ margin: "0 0 8px", fontSize: 14, lineHeight: 1.5 }}>{children}</p>;
 const Src = ({ children }: { children: React.ReactNode }) => <p style={{ margin: "4px 0 0", fontSize: 11, color: "var(--muted)" }}>{children}</p>;
 
-// 24-hour strip: the kiln fire never stops; the school day sits inside it
-function DayStrip() {
-  const pct = (h: number) => `${(h / 24) * 100}%`;
+// the daily fact needs no chart: two plain lines
+function DayFacts() {
+  const row = (icon: string, label: string, text: React.ReactNode, bg: string) => (
+    <div style={{ display: "flex", gap: 10, alignItems: "baseline", background: bg, borderRadius: 8, padding: "8px 10px", fontSize: 14 }}>
+      <span aria-hidden="true">{icon}</span><b style={{ minWidth: 92 }}>{label}</b><span>{text}</span>
+    </div>
+  );
   return (
-    <div style={{ margin: "6px 0 10px" }}>
-      <div style={{ position: "relative", height: 18, background: "var(--kiln)", borderRadius: 4 }}>
-        <span style={{ position: "absolute", left: 6, top: 1, fontSize: 11, color: "#fff", fontWeight: 600 }}>kiln fire: day and night</span>
-      </div>
-      <div style={{ position: "relative", height: 18, marginTop: 3 }}>
-        <span style={{ position: "absolute", left: pct(8), width: pct(6), height: 18, background: "var(--school)", borderRadius: 4 }} />
-        <span style={{ position: "absolute", left: pct(14.3), top: 1, fontSize: 11, color: "var(--muted)" }}>school day (typical 8 am–2 pm)</span>
-      </div>
-      <div className="mono" style={{ display: "flex", justifyContent: "space-between", fontSize: 10, color: "var(--muted)", marginTop: 2 }}>
-        <span>0:00</span><span>6:00</span><span>12:00</span><span>18:00</span><span>24:00</span>
-      </div>
+    <div style={{ display: "flex", flexDirection: "column", gap: 4, margin: "6px 0 12px" }}>
+      {row("🔥", "Kiln fire", <>burns <b>24 hours a day</b>, never switched off</>, "#FBEDE6")}
+      {row("🏫", "School day", <>about 8 am – 2 pm, so <b>always while the kiln is burning</b></>, "#E8F0FB")}
     </div>
   );
 }
 
 // 12-month strip: firing season vs monsoon shutdown
 function YearStrip() {
-  const m = ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"];
+  const m = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
   const fire = [1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1];
   return (
     <div style={{ margin: "6px 0 10px" }}>
+      <div style={{ fontSize: 13, fontWeight: 600, marginBottom: 4 }}>Firing season: when kilns burn</div>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(12, 1fr)", gap: 2 }}>
         {m.map((x, i) => <div key={i} style={{ textAlign: "center" }}>
           <div style={{ height: 14, borderRadius: 3, background: fire[i] ? "var(--kiln)" : "#DDE1DC" }} />
           <div className="mono" style={{ fontSize: 10, color: "var(--muted)" }}>{x}</div>
         </div>)}
       </div>
-      <div style={{ fontSize: 11, color: "var(--muted)" }}>Red: firing season (relit Oct–Nov, peak Feb–May). Grey: monsoon shutdown.</div>
+      <div style={{ fontSize: 11, color: "var(--muted)" }}>Red = burning (relit Oct–Nov, busiest Feb–May) · grey = monsoon shutdown</div>
     </div>
   );
 }
@@ -87,7 +84,7 @@ export default function Guide({ summary, dRank, topSchools, onDistrict, onSchool
 
         <H n={3}>Do kilns run during school hours?</H>
         <P><b>Yes, always.</b> The common NCR kilns (fixed-chimney and zigzag) are <i>continuous</i> kilns. The fire travels slowly round an oval track of stacked bricks and is kept burning <b>day and night</b> for the whole season. There is no “off” time in the school day.</P>
-        <DayStrip />
+        <DayFacts />
         <YearStrip />
         <P>The firing season covers most of the school year. Only the summer vacation (roughly mid-May to June in north India) gives children a break, and even then they live nearby.</P>
         <Src>CSE (2017) <i>Overview of brick manufacturing technologies</i>; firing months measured from Sentinel-2 heat detections in this project.</Src>
